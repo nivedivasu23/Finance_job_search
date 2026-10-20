@@ -1,132 +1,136 @@
 #!/usr/bin/env python3
-"""Bengaluru fresher-first finance vacancies, daily multi-source aggregation.
-No invented jobs, no phantom timestamps, and no browser-side API credentials.
-"""
+"""Key-free collector for public employer job boards. Standard library only."""
 import datetime as dt
 import html
 import json
 import os
 from pathlib import Path
 import re
-import urllib.parse
-import urllib.request
+import sys
+import time
+from urllib.request import Request, urlopen
+from urllib.error import HTTPError, URLError
 
 ROOT = Path(__file__).resolve().parent
-UTC = dt.timezone.utc
-NOW = dt.datetime.now(UTC)
-KEYWORDS = [
-    'finance fresher', 'accounts fresher', 'accounting trainee',
-    'finance internship', 'finance graduate trainee', 'junior accountant',
-    'accounts assistant', 'finance associate', 'financial analyst entry level',
-    'accounts payable associate', 'accounts receivable associate',
-    'audit associate fresher', 'tax associate fresher',
-    'reconciliation analyst', 'finance operations analyst', 'fp&a analyst junior',
-]
-FINANCE = re.compile(r'financ|account|audit|taxation|\btax\b|payable|receivable|bookkeep|reconcil|billing|invoic|treasury|payroll|fp&a|financial|costing|credit analyst', re.I)
-NOT_FINANCE = re.compile(r'\bsoftware engineer\b|\bdeveloper\b|\bsales executive\b|\btelecaller\b|\brecruiter\b|\bnurse\b|\bteacher\b|\bfront.?end\b', re.I)
-BENGALURU = re.compile(r'bangalore|bengaluru', re.I)
-FRESHER = re.compile(r'\bfresher[s]?\b|\bentry.level\b|\bgraduate trainee\b|\bmanagement trainee\b|\bintern(ship)?\b|\bno experience\b|\b0\s*(?:-|to|–)\s*[012]\s*(?:years?|yrs?)\b|\b0\s*(?:years?|yrs?)\b', re.I)
-SENIOR = re.compile(r'\bsenior\b|\bmanager\b|\blead\b|\bprincipal\b|\bdirector\b|\bhead of\b', re.I)
-YEARS = re.compile(r'\b(\d{1,2})\s*(?:-|–|to)\s*(\d{1,2})\s*(?:years?|yrs?)\b|\b(\d{1,2})\s*\+\s*(?:years?|yrs?)\b', re.I)
-SKILLS = ['Excel', 'Tally', 'SAP', 'Power BI', 'SQL', 'GST', 'TDS', 'Accounts payable', 'Accounts receivable', 'Bookkeeping', 'Financial reporting', 'Financial modelling', 'Budgeting', 'Forecasting', 'Reconciliation', 'Journal entries', 'Financial statements', 'Taxation', 'Auditing', 'MS Office', 'Accounting', 'IFRS', 'Communication']
+NOW = dt.datetime.now(dt.timezone.utc)
+BOARDS_FILE = ROOT / 'job_sources.json'
+OUT = ROOT / 'jobs.json'
 
+# Example company board identifiers. Only successful public feeds are used;
+# an identifier being present does NOT establish that company is hiring.
+DEFAULT_BOARDS = {
+    'greenhouse': ['razorpay', 'meesho', 'browserstack', 'freshworks', 'chargebee', 'cred', 'groww', 'swiggy', 'phonepe', 'stripe', 'rippling', 'plum', 'slice', 'apna', 'clear', 'urbancompany'],
+    'lever': ['postman', 'atlassian', 'canva', 'thoughtspot', 'browserstack', 'freshworks', 'razorpay'],
+    'ashby': ['linear', 'deel', 'supabase', 'remote', 'n8n', 'retool']
+}
+GEO = re.compile(r'\bbengaluru\b|\bbangalore\b', re.I)
+FIN = re.compile(r'financ|account|audit|taxation|\btax\b|payable|receivable|bookkeep|reconcil|billing|invoic|treasury|payroll|fp&a|financial|costing|credit|general ledger|bookkeeping',re.I)
+SENIOR = re.compile(r'\bsenior\b|\bstaff\b|\blead\b|\bprincipal\b|\bdirector\b|\bhead of\b|\bmanager\b|\bvp\b|\bchief\b',re.I)
+ENTRY = re.compile(r'\bfresher\b|\bentry[ -]?level\b|\bgraduate\b|\btrainee\b|\bintern(?:ship)?\b|\bapprentice\b|\bjunior\b|\bassociate\b|\b0\s*(?:-|to|–)\s*[012]\s*(?:years?|yrs?)\b|\bno experience\b',re.I)
+YEARS = re.compile(r'\b(\d{1,2})\s*(?:-|to|–)\s*(\d{1,2})\s*(?:years?|yrs?)\b|\b(\d{1,2})\s*\+\s*(?:years?|yrs?)\b|\b(?:minimum|at least)\s*(\d{1,2})\s*(?:years?|yrs?)\b',re.I)
+SKILLS = ['Excel','Tally','SAP','Power BI','SQL','GST','TDS','Accounts payable','Accounts receivable','Bookkeeping','Financial reporting','Financial modelling','Budgeting','Forecasting','Reconciliation','Journal entries','Financial statements','Taxation','Auditing','MS Office','Accounting','IFRS','Communication']
+
+def clean(value):
+    return re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]*>', ' ', str(value or '')))).strip()
 
 def request_json(url):
-    req = urllib.request.Request(url, headers={'User-Agent': 'FinPath-Job-Aggregator/2.0 (public career listing monitor)', 'Accept':'application/json'})
-    with urllib.request.urlopen(req, timeout=23) as response:
-        return json.load(response)
+    req = Request(url, headers={'User-Agent':'FinPath-Fresher-Finance-Collector/1.0', 'Accept':'application/json'})
+    with urlopen(req,timeout=18) as res:
+        return json.load(res)
 
-
-def plain(s):
-    return re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', ' ', str(s or '')))).strip()
-
-
-def category(title):
-    if re.search('intern|trainee|apprentice',title,re.I): return 'Internship / Trainee'
-    if re.search('audit|tax',title,re.I): return 'Audit / Tax'
-    if re.search('account|payable|receivable|bookkeep|billing',title,re.I): return 'Accounting / AP-AR'
-    if re.search('fp&a|plan|forecast|analyst',title,re.I): return 'Finance Analyst / FP&A'
+def cat(title):
+    if re.search(r'intern|trainee|apprentice',title,re.I): return 'Internship / Trainee'
+    if re.search(r'audit|tax',title,re.I): return 'Audit / Tax'
+    if re.search(r'account|payable|receivable|bookkeep|billing',title,re.I): return 'Accounting / AP-AR'
+    if re.search(r'fp&a|analyst|forecast',title,re.I): return 'Finance Analyst / FP&A'
     return 'Finance Operations'
 
+def iso_date(value):
+    if value is None: return ''
+    if isinstance(value,(int,float)):
+        try: return dt.datetime.fromtimestamp(value/1000 if value>10**11 else value,dt.timezone.utc).date().isoformat()
+        except (ValueError,OverflowError,OSError): return ''
+    found=re.match(r'\d{4}-\d{2}-\d{2}',str(value))
+    return found.group(0) if found else ''
 
-def normalize(title, company, place, desc, url, source, posted, identifier):
-    title, company, place, desc = map(plain, (title,company,place,desc))
-    if not title or not FINANCE.search(title) or NOT_FINANCE.search(title) or not BENGALURU.search(place): return None
-    if not url or not url.startswith('https://'): return None
-    yr=YEARS.search(desc[:5500]+' '+title)
-    minimum = int(yr.group(1) or yr.group(3)) if yr else None
-    maximum = int(yr.group(2)) if yr and yr.group(2) else None
-    if minimum is not None and minimum >= 3: return None
-    if SENIOR.search(title) and not FRESHER.search(title): return None
-    # 'Unspecified' is distinct from confirmed fresher eligibility.
-    is_fresher = bool(FRESHER.search(title+' '+desc[:1200])) or minimum == 0
-    if minimum == 2: level='1–2 years'
-    elif minimum == 1: level='0–2 years'
-    elif is_fresher: level='Fresher / Intern'
-    else: level='Experience unconfirmed'
-    exp = (yr.group(0) if yr else ('Fresher / entry-level mentioned' if is_fresher else 'Not stated — verify before applying'))
-    vocab = [s for s in SKILLS if re.search(r'(?<!\w)'+re.escape(s)+r'(?!\w)',desc,re.I)]
-    score = (75 if is_fresher else 30) + (10 if category(title)=='Internship / Trainee' else 0) + (4 if minimum == 0 else 0)
-    if posted:
+def normalize(title,company,location,description,url,source,posted,identifier):
+    title,company,location,description=map(clean,(title,company,location,description))
+    if not title or not FIN.search(title) or SENIOR.search(title) or not GEO.search(location): return None
+    if not str(url or '').startswith('https://'): return None
+    hits=list(YEARS.finditer(description[:6000]+' '+title))
+    minimums=[int(m.group(1) or m.group(3) or m.group(4)) for m in hits]
+    if minimums and max(minimums)>=3: return None
+    explicit=bool(re.search(r'\bfresher\b|\bentry[ -]?level\b|\bgraduate trainee\b|\bintern(?:ship)?\b|\b0\s*(?:-|to|–)\s*[012]\s*(?:years?|yrs?)\b|\bno experience\b',title+' '+description[:2500],re.I))
+    beginner=bool(ENTRY.search(title)) or explicit
+    if not beginner and not minimums: return None  # avoid filling fresher view with unknown mid-level roles
+    if minimums and min(minimums)>2: return None
+    level='Fresher / Intern' if re.search(r'intern|trainee|apprentice',title,re.I) else ('0–2 years' if minimums or explicit else 'Experience unconfirmed')
+    exp=hits[0].group(0) if hits else ('Fresher / entry-level wording' if explicit else 'Not stated; check original listing')
+    skills=[s for s in SKILLS if re.search(r'(?<!\w)'+re.escape(s)+r'(?!\w)',description,re.I)]
+    date=iso_date(posted)
+    score=65 if explicit else 40
+    if minimums and min(minimums)==0: score+=8
+    if date:
         try:
-            age=(NOW.date()-dt.date.fromisoformat(posted[:10])).days
-            if 0 <= age <= 2: score += 15
-            elif 0 <= age <= 7: score += 8
-        except ValueError: pass
-    return {'id':str(identifier),'company':company or 'Employer not listed','title':title,'location':place,
-        'date':posted[:10] if posted else '', 'type':category(title),'level':level,'experience':exp,
-        'fresher_confirmed':bool(is_fresher),'fit_score':score,'url':url,'skills':vocab,
-        'summary':desc[:420] if desc else 'Open the original listing for role details.',
-        'source':source,'source_note':'Employer board' if source=='Greenhouse' else 'Job aggregator — verify on application page'}
+            age=(NOW.date()-dt.date.fromisoformat(date)).days
+            if 0<=age<=3:score+=15
+            elif 0<=age<=14:score+=7
+        except ValueError:pass
+    return {'id':str(identifier),'title':title,'company':company,'location':location,'date':date,
+            'type':cat(title),'level':level,'experience':exp,'fresher_confirmed':explicit,
+            'fit_score':score,'url':url,'skills':skills,'summary':description[:420] or 'Check the original job description.',
+            'source':source,'source_note':'Public employer careers feed; verify eligibility before applying'}
 
+def load_sources():
+    if not BOARDS_FILE.exists(): return DEFAULT_BOARDS
+    config=json.loads(BOARDS_FILE.read_text(encoding='utf-8'))
+    return {k:[x for x in config.get(k,[]) if isinstance(x,str) and re.fullmatch(r'[a-zA-Z0-9_-]{2,90}',x)] for k in ('greenhouse','lever','ashby')}
 
-results=[]; errors=[]; sources=[]
-app_id, app_key = os.getenv('ADZUNA_APP_ID'), os.getenv('ADZUNA_APP_KEY')
-if app_id and app_key:
-    got=0
-    for term in KEYWORDS:
-        try:
-            params=urllib.parse.urlencode({'app_id':app_id,'app_key':app_key,'results_per_page':50,
-                'what':term,'where':'Bangalore','distance':20,'sort_by':'date','max_days_old':21,'content-type':'application/json'})
-            data=request_json('https://api.adzuna.com/v1/api/jobs/in/search/1?'+params)
-            for row in data.get('results',[]):
-                job=normalize(row.get('title'),(row.get('company') or {}).get('display_name'),
-                    (row.get('location') or {}).get('display_name'),row.get('description'),
-                    row.get('redirect_url'),'Adzuna',row.get('created',''),row.get('id') or row.get('redirect_url'))
-                if job: results.append(job);got+=1
-        except Exception as e: errors.append(f'Adzuna query {term}: {type(e).__name__}: {e}')
-    sources.append({'name':'Adzuna','matched':got})
-else: errors.append('Adzuna disabled: configure ADZUNA_APP_ID and ADZUNA_APP_KEY')
+def collect():
+    boards=load_sources()
+    jobs=[];sources=[];errors=[];success=0
+    for provider,slugs in boards.items():
+        for slug in dict.fromkeys(slugs):
+            try:
+                if provider=='greenhouse':
+                    payload=request_json(f'https://boards-api.greenhouse.io/v1/boards/{slug}/jobs?content=true')
+                    data=payload.get('jobs',[])
+                    parsed=((x.get('title'),slug,(x.get('location') or {}).get('name'),x.get('content'),x.get('absolute_url'),x.get('first_published') or x.get('updated_at'),f'gh:{slug}:{x.get("id")}') for x in data)
+                elif provider=='lever':
+                    data=request_json(f'https://api.lever.co/v0/postings/{slug}?mode=json')
+                    parsed=((x.get('text'),slug,(x.get('categories') or {}).get('location') or (x.get('categories') or {}).get('allLocations'),x.get('descriptionPlain') or x.get('description'),x.get('hostedUrl') or x.get('applyUrl'),x.get('createdAt'),f'lever:{slug}:{x.get("id")}') for x in data)
+                else:
+                    payload=request_json(f'https://api.ashbyhq.com/posting-api/job-board/{slug}')
+                    data=payload.get('jobs',[])
+                    parsed=((x.get('title'),slug,x.get('location'),x.get('descriptionPlain') or x.get('descriptionHtml'),x.get('jobUrl') or x.get('applyUrl'),x.get('publishedAt'),f'ashby:{slug}:{x.get("id") or x.get("jobUrl")}') for x in data)
+                count=0
+                for record in parsed:
+                    item=normalize(*record[:5],provider.title(),*record[5:])
+                    if item:jobs.append(item);count+=1
+                success+=1
+                sources.append({'provider':provider,'board':slug,'matches':count})
+            except (HTTPError,URLError,TimeoutError,ValueError,TypeError,KeyError,OSError) as e:
+                errors.append(f'{provider}/{slug}: {type(e).__name__}: {str(e)[:120]}')
+            time.sleep(.15)
+    unique={}
+    for j in jobs:
+        key=(re.sub(r'\W+','',j['company'].lower()),re.sub(r'\W+','',j['title'].lower()),j['location'].lower())
+        if key not in unique or j['fit_score']>unique[key]['fit_score']:unique[key]=j
+    result=sorted(unique.values(),key=lambda j:(-j['fit_score'],j['date']),reverse=False)
+    return result,sources,errors,success
 
-# Optional curated company Greenhouse board tokens (comma-separated); no authentication for public GET.
-boards=[b.strip() for b in os.getenv('GREENHOUSE_BOARDS','').split(',') if re.fullmatch(r'[a-zA-Z0-9_-]+',b.strip())]
-for board in boards:
-    try:
-        data=request_json(f'https://boards-api.greenhouse.io/v1/boards/{board}/jobs?content=true')
-        got=0
-        for row in data.get('jobs',[]):
-            place=(row.get('location') or {}).get('name','')
-            job=normalize(row.get('title'),board,place,row.get('content'),row.get('absolute_url'),
-                'Greenhouse',row.get('first_published') or '',f'greenhouse:{board}:{row.get("id")}')
-            if job: results.append(job);got+=1
-        sources.append({'name':f'Greenhouse: {board}','matched':got})
-    except Exception as e: errors.append(f'Greenhouse {board}: {type(e).__name__}: {e}')
+def main():
+    jobs,sources,errors,success=collect()
+    print(f'Career boards read: {success}; fresher finance matches: {len(jobs)}')
+    for error in errors[:15]:print('Source warning:',error)
+    if success==0:
+        print('No employer feeds could be read; keeping previously published jobs.json.',file=sys.stderr)
+        return 1
+    # Successful fetch, even if zero matches: publish an honest empty feed.
+    feed={'updated_at':NOW.isoformat(),'source':'Greenhouse, Lever and Ashby employer career feeds',
+          'total':len(jobs),'jobs':jobs,'sources_checked':success,'sources':sources,'source_errors':errors[:40]}
+    OUT.write_text(json.dumps(feed,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    print(f'Published {len(jobs)} jobs to {OUT}')
+    return 0
 
-# Deduplicate across aggregator searches and boards using normalized title + employer.
-def unique_key(job):
-    norm=lambda s: re.sub(r'[^a-z0-9]+','',s.lower())
-    return norm(job['company'])+'|'+norm(job['title'])
-unique={}
-for job in results:
-    key=unique_key(job)
-    old=unique.get(key)
-    if old is None or (job['source']=='Greenhouse' and old['source']!='Greenhouse') or job['fit_score']>old['fit_score']:
-        unique[key]=job
-jobs=sorted(unique.values(),key=lambda j:(j['fit_score'],j['date']),reverse=True)
-feed={'updated_at':NOW.isoformat(timespec='seconds'),'location':'Bengaluru, Karnataka, India',
-      'focus':'Fresher and early-career finance jobs (0–2 years)','source':'Multiple supported sources',
-      'sources':sources,'errors':errors,'jobs':jobs}
-if not sources or (not jobs and errors):
-    raise SystemExit('No reliable successful fresh source data; keeping previous published jobs.json. '+' | '.join(errors[:3]))
-(ROOT/'jobs.json').write_text(json.dumps(feed,indent=2,ensure_ascii=False),encoding='utf-8')
-print(f'Published {len(jobs)} deduplicated jobs from {len(sources)} source(s). Errors: {len(errors)}')
+if __name__=='__main__':sys.exit(main())
