@@ -1,0 +1,99 @@
+{
+  "updated_at": "2026-10-20T06:40:15.243305+00:00",
+  "source": "Greenhouse, Lever and Ashby employer career feeds",
+  "total": 1,
+  "jobs": [
+    {
+      "id": "gh:stripe:8104748",
+      "title": "Credit Risk Operations Associate",
+      "company": "stripe",
+      "location": "Bangalore",
+      "date": "2026-08-07",
+      "type": "Finance Operations",
+      "level": "0–2 years",
+      "experience": "2+ years",
+      "fresher_confirmed": false,
+      "fit_score": 40,
+      "url": "https://stripe.com/jobs/search?gh_jid=8104748",
+      "skills": [
+        "Excel",
+        "Forecasting",
+        "Financial statements",
+        "Accounting"
+      ],
+      "summary": "<h2>Who we are</h2> <h3>About Stripe</h3> <p><span style=\"font-weight: 400;\">Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead",
+      "source": "Greenhouse",
+      "source_note": "Public employer careers feed; verify eligibility before applying"
+    }
+  ],
+  "sources_checked": 9,
+  "sources": [
+    {
+      "provider": "greenhouse",
+      "board": "groww",
+      "matches": 0
+    },
+    {
+      "provider": "greenhouse",
+      "board": "stripe",
+      "matches": 1
+    },
+    {
+      "provider": "greenhouse",
+      "board": "slice",
+      "matches": 0
+    },
+    {
+      "provider": "greenhouse",
+      "board": "clear",
+      "matches": 0
+    },
+    {
+      "provider": "lever",
+      "board": "freshworks",
+      "matches": 0
+    },
+    {
+      "provider": "ashby",
+      "board": "linear",
+      "matches": 0
+    },
+    {
+      "provider": "ashby",
+      "board": "deel",
+      "matches": 0
+    },
+    {
+      "provider": "ashby",
+      "board": "supabase",
+      "matches": 0
+    },
+    {
+      "provider": "ashby",
+      "board": "n8n",
+      "matches": 0
+    }
+  ],
+  "source_errors": [
+    "greenhouse/razorpay: HTTPError: HTTP Error 404: Not Found",
+    "greenhouse/meesho: HTTPError: HTTP Error 404: Not Found",
+    "greenhouse/browserstack: HTTPError: HTTP Error 404: Not Found",
+    "greenhouse/freshworks: HTTPError: HTTP Error 404: Not Found",
+    "greenhouse/chargebee: HTTPError: HTTP Error 404: Not Found",
+    "greenhouse/cred: HTTPError: HTTP Error 404: Not Found",
+    "greenhouse/swiggy: HTTPError: HTTP Error 404: Not Found",
+    "greenhouse/phonepe: HTTPError: HTTP Error 404: Not Found",
+    "greenhouse/rippling: HTTPError: HTTP Error 404: Not Found",
+    "greenhouse/plum: HTTPError: HTTP Error 404: Not Found",
+    "greenhouse/apna: HTTPError: HTTP Error 404: Not Found",
+    "greenhouse/urbancompany: HTTPError: HTTP Error 404: Not Found",
+    "lever/postman: HTTPError: HTTP Error 404: Not Found",
+    "lever/atlassian: HTTPError: HTTP Error 404: Not Found",
+    "lever/canva: HTTPError: HTTP Error 404: Not Found",
+    "lever/thoughtspot: HTTPError: HTTP Error 404: Not Found",
+    "lever/browserstack: HTTPError: HTTP Error 404: Not Found",
+    "lever/razorpay: HTTPError: HTTP Error 404: Not Found",
+    "ashby/remote: HTTPError: HTTP Error 404: Not Found",
+    "ashby/retool: HTTPError: HTTP Error 404: Not Found"
+  ]
+}
