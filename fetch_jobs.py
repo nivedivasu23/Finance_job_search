@@ -1,88 +1,582 @@
-#!/usr/bin/env python3
-"""Public, key-free job board collector. Python standard library only."""
-import datetime as dt, html, json, re, time, sys
-from pathlib import Path
-from urllib.request import Request, urlopen
-from urllib.error import HTTPError, URLError
 
-ROOT=Path(__file__).resolve().parent
-NOW=dt.datetime.now(dt.timezone.utc)
-GEO=re.compile(r'\bbengaluru\b|\bbangalore\b|\bkarnataka\b',re.I)
-FIN=re.compile(r'financ|account|audit|tax|payable|receivable|bookkeep|reconcil|billing|invoic|treasury|payroll|fp&a|financial|costing|credit|general ledger|controller|record.to.report|order.to.cash|procure.to.pay|\bmis\b',re.I)
-SENIOR=re.compile(r'\bsenior\b|\bstaff\b|\blead\b|\bprincipal\b|\bdirector\b|\bhead\b|\bmanager\b|\bvp\b|\bchief\b',re.I)
-ENTRY=re.compile(r'\bfresher\b|\bentry[ -]?level\b|\bgraduate\b|\btrainee\b|\bintern\b|\binternship\b|\bapprentice\b|\bjunior\b|\bassociate\b|\b0\s*(?:-|to|–)\s*[012]\s*(?:years?|yrs?)\b|\bno experience\b',re.I)
-YEARS=re.compile(r'\b(\d{1,2})\s*(?:-|to|–)\s*(\d{1,2})\s*(?:years?|yrs?)\b|\b(\d{1,2})\s*\+\s*(?:years?|yrs?)\b|\b(?:minimum|at least)\s*(\d{1,2})\s*(?:years?|yrs?)\b',re.I)
-SKILLS=['Excel','Tally','SAP','Power BI','SQL','GST','TDS','Accounts payable','Accounts receivable','Financial reporting','Financial modelling','Budgeting','Forecasting','Reconciliation','Journal entries','Financial statements','Taxation','Auditing','Accounting','IFRS','ERP','MIS','QuickBooks']
-DEFAULT={'greenhouse':['stripe','groww','slice','clear','razorpay','meesho','browserstack','freshworks','chargebee','cred','swiggy','phonepe','rippling','plum','apna','urbancompany','zomato','zerodha','instamojo','cashfree','jupiter','smallcase','porter','cultfit','acko','fi','credavenue','yubi','navi','indmoney','upstox','setu','simpl','open','jar','niyo','razorpayx','airwallex','wise','plaid','brex','ramp','deel','remote','stripeindia'], 'lever':['freshworks','postman','canva','atlassian','thoughtspot','browserstack','razorpay','groww','slice','swiggy','cred','meesho','chargebee','cashfree','yubi','smallcase','porter','acko','navi','airwallex','wise','ramp','brex','rippling'], 'ashby':['deel','linear','supabase','n8n','retool','remote','ramp','mercury','brex','airwallex','wise','plaid','clerk','vercel','linearapp','posthog','zapier','notion','openai','anthropic','cursor','pylon','calcom','tella']}
-def clean(x):return re.sub(r'\s+',' ',html.unescape(re.sub(r'<[^>]+>',' ',str(x or '')))).strip()
-def get(url):
- req=Request(url,headers={'User-Agent':'Mozilla/5.0 FinPathJobs/2.0 (public listings)','Accept':'application/json'})
- with urlopen(req,timeout=12) as f:return json.load(f)
-def category(t):
- if re.search('intern|trainee|apprentice',t,re.I):return 'Internship / Trainee'
- if re.search('audit|tax',t,re.I):return 'Audit / Tax'
- if re.search('account|payable|receivable|bookkeep|billing|invoice',t,re.I):return 'Accounting / AP-AR'
- if re.search('analyst|fp&a|forecast|mis',t,re.I):return 'Finance Analyst / FP&A'
- return 'Finance Operations'
-def norm(title,company,location,desc,url,source,posted,identifier):
- title,company,location,desc=map(clean,(title,company,location,desc))
- if not title or not GEO.search(location) or SENIOR.search(title) or not str(url).startswith('https://'):return None
- if not FIN.search(title):
-  # Only allow broadly titled associate/trainee roles when the description is finance-heavy.
-  if not ENTRY.search(title) or len(FIN.findall(desc[:3500]))<3:return None
-  if re.search(r'engineer|software|product|sales|marketing|customer support|designer',title,re.I):return None
- hits=list(YEARS.finditer(desc[:5500]+' '+title)); minimums=[int(m.group(1) or m.group(3) or m.group(4)) for m in hits]
- if any(n>=3 for n in minimums):return None
- explicit=bool(re.search(r'\bfresher\b|\bentry[ -]?level\b|\bgraduate trainee\b|\bintern(?:ship)?\b|\b0\s*(?:-|to|–)\s*[012]\s*(?:years?|yrs?)\b|\bno experience\b',title+' '+desc[:2500],re.I))
- if not (ENTRY.search(title) or explicit or minimums):return None
- date=str(posted or '')[:10] if re.match(r'\d{4}-\d{2}-\d{2}',str(posted or '')) else ''
- age=None
- if date:
-  try:age=(NOW.date()-dt.date.fromisoformat(date)).days
-  except ValueError:pass
- # Older listings may remain open; include only if still published on live employer feed.
- if age is not None and age>90:return None
- level='Fresher / Intern' if re.search(r'intern|trainee|apprentice',title,re.I) else ('0–2 years' if minimums or explicit else 'Experience unconfirmed')
- score=65 if explicit else (50 if ENTRY.search(title) else 38)
- if age is not None and 0<=age<=7:score+=18
- elif age is not None and age<=30:score+=8
- skills=[s for s in SKILLS if re.search(r'(?<!\w)'+re.escape(s)+r'(?!\w)',desc,re.I)]
- return dict(id=str(identifier),title=title,company=company,location=location,date=date,type=category(title),level=level,experience=hits[0].group(0) if hits else 'Not specified; verify employer listing',fresher_confirmed=explicit,fit_score=score,url=url,skills=skills,summary=desc[:450],source=source,source_note='Live public employer feed; verify eligibility and closing date')
-def boards():
- p=ROOT/'job_sources.json'
- if not p.exists():return DEFAULT
- obj=json.loads(p.read_text(encoding='utf-8'))
- return {k:[v for v in obj.get(k,[]) if isinstance(v,str) and re.fullmatch(r'[\w-]{2,90}',v)] for k in DEFAULT}
-def main():
- result=[]; successes=[];errors=[]
- for provider,slugs in boards().items():
-  for slug in dict.fromkeys(slugs):
-   try:
-    if provider=='greenhouse':
-     payload=get(f'https://boards-api.greenhouse.io/v1/boards/{slug}/jobs?content=true')['jobs']
-     rows=((x.get('title'),slug,(x.get('location') or {}).get('name'),x.get('content'),x.get('absolute_url'),x.get('first_published') or x.get('updated_at'),f'gh:{slug}:{x.get("id")}') for x in payload)
-    elif provider=='lever':
-     payload=get(f'https://api.lever.co/v0/postings/{slug}?mode=json')
-     rows=((x.get('text'),slug,(x.get('categories') or {}).get('location') or ', '.join((x.get('categories') or {}).get('allLocations') or []),x.get('descriptionPlain') or x.get('description'),x.get('hostedUrl') or x.get('applyUrl'),x.get('createdAt'),f'lever:{slug}:{x.get("id")}') for x in payload)
+#!/usr/bin/env python3
+"""FinPath V3: public employer and India-eligible remote job feeds."""
+import datetime as dt
+import html
+import json
+import re
+import sys
+import time
+from pathlib import Path
+from urllib.parse import urlencode
+from urllib.request import Request, urlopen
+
+ROOT = Path(__file__).resolve().parent
+NOW = dt.datetime.now(dt.timezone.utc)
+MAX_AGE_DAYS = 90
+
+BOARDS = {
+    "greenhouse": [
+        "stripe", "groww", "slice", "clear",
+        "porter", "wise", "brex", "remote",
+        "ramp", "plaid", "deel", "airwallex"
+    ],
+    "lever": [
+        "freshworks", "cred", "meesho",
+        "porter", "wise", "brex", "airwallex"
+    ],
+    "ashby": [
+        "deel", "linear", "supabase", "n8n",
+        "retool", "remote", "ramp", "mercury",
+        "brex", "airwallex", "posthog", "notion"
+    ]
+}
+
+LOCAL = re.compile(r"\bbengaluru\b|\bbangalore\b", re.I)
+
+POSITIVE = [
+    (
+        r"\b(?:finance|financial|fp&a|budget(?:ing)?|treasury|cash management|working capital)\b",
+        "Finance Analyst / FP&A"
+    ),
+    (
+        r"\b(?:account(?:s|ing|ant)?|accounts payable|accounts receivable|payable|receivable|billing|invoice|invoicing|bookkeep|general ledger|reconciliation|record.to.report|procure.to.pay|order.to.cash)\b",
+        "Accounting / AP-AR"
+    ),
+    (
+        r"\b(?:audit|auditor|tax|taxation|gst|tds)\b",
+        "Audit / Tax"
+    ),
+    (
+        r"\b(?:payroll|credit risk|financial reporting|finance operations|finance associate)\b",
+        "Finance Operations"
+    )
+]
+
+EXCLUDE_TITLE = re.compile(
+    r"\b(?:video|editor|graphic|design|software|engineer|developer|sales|marketing|recruiter|human resources|hr|customer success|customer support|product|fraud|sanctions|verification|kyc|aml|compliance|legal|security|data scientist|machine learning|research scientist)\b",
+    re.I
+)
+
+SENIOR = re.compile(
+    r"\b(?:senior|sr\.?|staff|principal|lead|director|manager|head|vice president|vp|chief|architect|level [3-9]|iii|iv)\b",
+    re.I
+)
+
+FRESH = re.compile(
+    r"\b(?:fresher|entry.level|graduate|trainee|apprentice|intern(?:ship)?|junior|new grad|early career|0\s*(?:-|–|to)\s*[012]\s*(?:years?|yrs?)|no experience)\b",
+    re.I
+)
+
+YEARS_RANGE = re.compile(
+    r"\b(\d{1,2})\s*(?:-|–|to)\s*(\d{1,2})\s*(?:years?|yrs?)\b",
+    re.I
+)
+
+YEARS_PLUS = re.compile(
+    r"\b(?:at least|minimum|min\.?|over)?\s*(\d{1,2})\s*\+?\s*(?:years?|yrs?)\s*(?:of\s+)?(?:experience)?",
+    re.I
+)
+
+SKILLS = [
+    "Excel", "Power BI", "Tally", "SAP", "GST",
+    "TDS", "SQL", "Python", "Accounting",
+    "Reconciliation", "Financial reporting",
+    "Forecasting", "Budgeting",
+    "Financial modelling", "Accounts payable",
+    "Accounts receivable", "Audit", "IFRS",
+    "ERP", "MIS", "Payroll", "QuickBooks",
+    "Financial statements"
+]
+
+
+def plain(x):
+    return re.sub(
+        r"\s+", " ",
+        html.unescape(re.sub(r"<[^>]+>", " ", str(x or "")))
+    ).strip()
+
+
+def fetch(url):
+    req = Request(
+        url,
+        headers={
+            "User-Agent": "FinPath/3.0 public-feed-reader",
+            "Accept": "application/json"
+        }
+    )
+    with urlopen(req, timeout=16) as response:
+        return json.load(response)
+
+
+def date_only(value):
+    if isinstance(value, (int, float)):
+        try:
+            timestamp = value / 1000 if value > 1e11 else value
+            return dt.datetime.fromtimestamp(
+                timestamp, dt.timezone.utc
+            ).date().isoformat()
+        except (ValueError, OSError, OverflowError):
+            return ""
+
+    match = re.match(
+        r"\d{4}-\d{2}-\d{2}", str(value or "")
+    )
+    return match.group(0) if match else ""
+
+
+def min_required(text):
+    candidate = text[:5200]
+    values = []
+
+    for match in YEARS_RANGE.finditer(candidate):
+        context = candidate[
+            max(0, match.start() - 70):match.end() + 50
+        ].lower()
+
+        if re.search(
+            r"experience|require|qualification|background|minimum|year",
+            context
+        ):
+            values.append(int(match.group(1)))
+
+    for match in YEARS_PLUS.finditer(candidate):
+        context = candidate[
+            max(0, match.start() - 65):match.end() + 40
+        ].lower()
+
+        if re.search(
+            r"experience|require|qualification|background|minimum",
+            context
+        ):
+            values.append(int(match.group(1)))
+
+    return max(values) if values else None
+
+
+def classify(title):
+    title = plain(title)
+
+    if EXCLUDE_TITLE.search(title) or SENIOR.search(title):
+        return None
+
+    for pattern, category in POSITIVE:
+        if re.search(pattern, title, re.I):
+            if re.search(
+                r"\b(?:intern|trainee|apprentice)\b",
+                title, re.I
+            ):
+                return "Internship / Trainee"
+            return category
+
+    return None
+
+
+def normalize(
+    title, company, location, description,
+    url, source, posted, identifier,
+    remote=False, eligible_india=False
+):
+    title, company, location, description = map(
+        plain,
+        (title, company, location, description)
+    )
+
+    kind = classify(title)
+
+    if not kind or not str(url).startswith("https://"):
+        return None
+
+    is_local = bool(LOCAL.search(location)) and not remote
+
+    if not is_local and not (remote and eligible_india):
+        return None
+
+    required = min_required(description)
+
+    if required is not None and required > 2:
+        return None
+
+    fresh = bool(
+        FRESH.search(title + " " + description[:1900])
+    )
+
+    if not fresh and required is None:
+        if not re.search(
+            r"\b(?:associate|analyst|assistant|executive|coordinator|specialist)\b",
+            title, re.I
+        ):
+            return None
+
+    if re.search(
+        r"\b(?:intern|trainee|apprentice)\b",
+        title, re.I
+    ):
+        level = "Fresher / Intern"
+    elif required is not None:
+        level = "0–2 years"
+    elif fresh:
+        level = "Fresher / Intern"
     else:
-     payload=get(f'https://api.ashbyhq.com/posting-api/job-board/{slug}')['jobs']
-     rows=((x.get('title'),slug,x.get('location'),x.get('descriptionPlain') or x.get('descriptionHtml'),x.get('jobUrl') or x.get('applyUrl'),x.get('publishedAt'),f'ashby:{slug}:{x.get("id") or x.get("jobUrl")}') for x in payload)
-    n=0
-    for row in rows:
-     job=norm(*row[:5],provider.title(),*row[5:])
-     if job:result.append(job);n+=1
-    successes.append(dict(provider=provider,board=slug,matches=n))
-   except (HTTPError,URLError,TimeoutError,ValueError,TypeError,KeyError,OSError) as e:errors.append(f'{provider}/{slug}: {type(e).__name__}: {str(e)[:90]}')
-   time.sleep(.07)
- if not successes:
-  print('No career sources could be read. Existing jobs.json preserved.',file=sys.stderr);return 1
- unique={}
- for j in result:
-  k=(j['company'].lower(),re.sub(r'\W','',j['title'].lower()),j['location'].lower())
-  if k not in unique or unique[k]['fit_score']<j['fit_score']:unique[k]=j
- jobs=sorted(unique.values(),key=lambda x:(-x['fit_score'],x['date']))
- feed=dict(updated_at=NOW.isoformat(),source='Public Greenhouse, Lever and Ashby career feeds',total=len(jobs),jobs=jobs,sources_checked=len(successes),sources=successes,source_errors=errors,source_summary=dict(configured=sum(map(len,boards().values())),successful=len(successes),failed=len(errors)))
- (ROOT/'jobs.json').write_text(json.dumps(feed,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
- print(f'Successful boards: {len(successes)}; failures: {len(errors)}; matching jobs: {len(jobs)}')
- return 0
-if __name__=='__main__':sys.exit(main())
+        level = "Experience unconfirmed"
+
+    posted = date_only(posted)
+    age = None
+
+    if posted:
+        try:
+            age = (
+                NOW.date() -
+                dt.date.fromisoformat(posted)
+            ).days
+        except ValueError:
+            pass
+
+    if age is not None:
+        if age > MAX_AGE_DAYS or age < -2:
+            return None
+
+    if fresh and (required is None or required <= 1):
+        score = 76
+    elif required is not None:
+        score = 65
+    else:
+        score = 48
+
+    if is_local:
+        score += 10
+
+    if age is not None:
+        if age <= 7:
+            score += 12
+        elif age <= 30:
+            score += 5
+
+    skills = [
+        skill for skill in SKILLS
+        if re.search(
+            r"(?<!\w)" + re.escape(skill) + r"(?!\w)",
+            description, re.I
+        )
+    ]
+
+    return {
+        "id": str(identifier),
+        "title": title,
+        "company": company,
+        "location": location or "India eligible · Remote",
+        "date": posted,
+        "type": kind,
+        "level": level,
+        "experience": (
+            f"{required}+ years mentioned; verify"
+            if required is not None
+            else "Not specified; verify employer listing"
+        ),
+        "fresher_confirmed": fresh and (
+            required is None or required <= 2
+        ),
+        "fit_score": score,
+        "url": url,
+        "skills": skills,
+        "summary": description[:480] or (
+            "See original listing for requirements"
+        ),
+        "source": source,
+        "source_note": "Verify details with employer",
+        "work_mode": (
+            "Bengaluru"
+            if is_local else "Remote · India eligible"
+        ),
+        "match_group": (
+            "Best matches"
+            if fresh and (
+                required is None or required <= 1
+            )
+            else "Possible matches"
+        )
+    }
+
+
+def read_ats():
+    items = []
+    health = []
+
+    for provider, slugs in BOARDS.items():
+        for slug in slugs:
+            try:
+                if provider == "greenhouse":
+                    data = fetch(
+                        "https://boards-api.greenhouse.io"
+                        f"/v1/boards/{slug}/jobs?content=true"
+                    )["jobs"]
+
+                    rows = (
+                        (
+                            job.get("title"),
+                            slug,
+                            (job.get("location") or {}).get("name"),
+                            job.get("content"),
+                            job.get("absolute_url"),
+                            job.get("first_published")
+                            or job.get("updated_at"),
+                            f'gh:{slug}:{job.get("id")}'
+                        )
+                        for job in data
+                    )
+
+                elif provider == "lever":
+                    data = fetch(
+                        "https://api.lever.co/v0/postings/"
+                        f"{slug}?mode=json"
+                    )
+
+                    rows = (
+                        (
+                            job.get("text"),
+                            slug,
+                            (job.get("categories") or {}).get(
+                                "location"
+                            ) or ", ".join(
+                                (job.get("categories") or {}).get(
+                                    "allLocations"
+                                ) or []
+                            ),
+                            job.get("descriptionPlain")
+                            or job.get("description"),
+                            job.get("hostedUrl")
+                            or job.get("applyUrl"),
+                            job.get("createdAt"),
+                            f'lever:{slug}:{job.get("id")}'
+                        )
+                        for job in data
+                    )
+
+                else:
+                    data = fetch(
+                        "https://api.ashbyhq.com/posting-api"
+                        f"/job-board/{slug}"
+                    )["jobs"]
+
+                    rows = (
+                        (
+                            job.get("title"),
+                            slug,
+                            job.get("location"),
+                            job.get("descriptionPlain")
+                            or job.get("descriptionHtml"),
+                            job.get("jobUrl")
+                            or job.get("applyUrl"),
+                            job.get("publishedAt"),
+                            f'ashby:{slug}:{job.get("id") or job.get("jobUrl")}'
+                        )
+                        for job in data
+                    )
+
+                count = 0
+
+                for row in rows:
+                    item = normalize(
+                        *row[:5],
+                        provider.title(),
+                        *row[5:]
+                    )
+
+                    if item:
+                        items.append(item)
+                        count += 1
+
+                health.append({
+                    "source": f"{provider}/{slug}",
+                    "status": "ok",
+                    "matches": count
+                })
+
+            except Exception as exc:
+                health.append({
+                    "source": f"{provider}/{slug}",
+                    "status": "failed",
+                    "error": str(exc)[:110]
+                })
+
+            time.sleep(0.08)
+
+    return items, health
+
+
+def read_himalayas():
+    items = []
+    health = []
+
+    terms = [
+        "finance",
+        "accounting",
+        "accounts payable",
+        "financial analyst",
+        "audit"
+    ]
+
+    for term in terms:
+        try:
+            url = (
+                "https://himalayas.app/jobs/api/search?"
+                + urlencode({
+                    "q": term,
+                    "country": "IN",
+                    "sort": "recent",
+                    "page": 1
+                })
+            )
+
+            payload = fetch(url)
+            found = 0
+
+            for job in payload.get("jobs", []):
+                regions = (
+                    job.get("locationRestrictions")
+                    or job.get("location")
+                    or []
+                )
+
+                region_text = json.dumps(
+                    regions,
+                    ensure_ascii=False
+                ).lower()
+
+                if regions and not any(
+                    value in region_text
+                    for value in [
+                        "india", '"in"',
+                        '"alpha2": "in"',
+                        "worldwide", "anywhere"
+                    ]
+                ):
+                    continue
+
+                item = normalize(
+                    job.get("title"),
+                    job.get("companyName") or "Employer",
+                    "Remote · India eligible",
+                    job.get("description")
+                    or job.get("excerpt"),
+                    job.get("applicationLink")
+                    or job.get("url")
+                    or job.get("applicationUrl"),
+                    "Himalayas",
+                    job.get("pubDate")
+                    or job.get("publishedAt"),
+                    f'himalayas:{job.get("guid") or job.get("id")}',
+                    remote=True,
+                    eligible_india=True
+                )
+
+                if item:
+                    items.append(item)
+                    found += 1
+
+            health.append({
+                "source": "Himalayas/" + term,
+                "status": "ok",
+                "matches": found
+            })
+
+        except Exception as exc:
+            health.append({
+                "source": "Himalayas/" + term,
+                "status": "failed",
+                "error": str(exc)[:110]
+            })
+
+    return items, health
+
+
+def main():
+    ats, health = read_ats()
+    remote, remote_health = read_himalayas()
+
+    health += remote_health
+
+    successful = sum(
+        entry["status"] == "ok"
+        for entry in health
+    )
+
+    if successful == 0:
+        print(
+            "All sources unavailable. "
+            "Preserving existing jobs.json",
+            file=sys.stderr
+        )
+        return 1
+
+    unique = {}
+
+    for job in ats + remote:
+        key = (
+            re.sub(r"\W", "", job["company"].lower()),
+            re.sub(r"\W", "", job["title"].lower()),
+            job["work_mode"]
+        )
+
+        if (
+            key not in unique
+            or job["fit_score"] > unique[key]["fit_score"]
+        ):
+            unique[key] = job
+
+    jobs = sorted(
+        unique.values(),
+        key=lambda job: (
+            -job["fit_score"],
+            job["date"]
+        )
+    )
+
+    feed = {
+        "updated_at": NOW.isoformat(),
+        "source": (
+            "Public employer ATS feeds + "
+            "Himalayas remote jobs (with attribution)"
+        ),
+        "total": len(jobs),
+        "jobs": jobs,
+        "sources_checked": successful,
+        "source_summary": {
+            "configured": len(health),
+            "successful": successful,
+            "failed": len(health) - successful
+        },
+        "sources": health,
+        "source_errors": [
+            f"{entry['source']}: {entry.get('error', '')}"
+            for entry in health
+            if entry["status"] == "failed"
+        ][:50],
+        "disclaimer": (
+            "Public source coverage is partial. "
+            "Remote roles must allow India. "
+            "Verify each listing before applying."
+        )
+    }
+
+    output = ROOT / "jobs.json"
+
+    output.write_text(
+        json.dumps(feed, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8"
+    )
+
+    print(
+        f"Feeds working {successful}/{len(health)} | "
+        f"Bangalore "
+        f"{sum(job['work_mode'] == 'Bengaluru' for job in jobs)} | "
+        f"India-eligible remote "
+        f"{sum(job['work_mode'] != 'Bengaluru' for job in jobs)} | "
+        f"Total {len(jobs)}"
+    )
+
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
