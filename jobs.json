@@ -1,60 +1,76 @@
 {
-  "updated_at": "2026-10-20T07:30:22.589222+00:00",
-  "source": "Public Greenhouse, Lever and Ashby career feeds",
-  "total": 5,
+  "updated_at": "2026-10-20T07:54:02.657261+00:00",
+  "source": "Public employer ATS feeds + Himalayas remote jobs (with attribution)",
+  "total": 4,
   "jobs": [
     {
-      "id": "gh:groww:4956817101",
-      "title": "Video Editor Intern",
-      "company": "groww",
-      "location": "Bengaluru-VTP, India",
-      "date": "2026-09-04",
-      "type": "Internship / Trainee",
-      "level": "Fresher / Intern",
-      "experience": "Not specified; verify employer listing",
-      "fresher_confirmed": true,
-      "fit_score": 65,
-      "url": "https://job-boards.eu.greenhouse.io/groww/jobs/4956817101",
-      "skills": [],
-      "summary": "<div><strong>About Groww:</strong></div> <div>We are a passionate group of people focused on making financial services accessible to every Indian through a multi-product platform. Each day, we help millions of customers take charge of their financial journey. Customer obsession is in our DNA. Every product, every design, every algorithm down to the tiniest detail is executed keeping the customers’ needs and convenience in mind. Our people are our",
-      "source": "Greenhouse",
-      "source_note": "Live public employer feed; verify eligibility and closing date"
-    },
-    {
-      "id": "gh:stripe:8076652",
-      "title": "Fraud Operations Associate (Mandarin Speaking)",
-      "company": "stripe",
-      "location": "Bengaluru",
-      "date": "2026-07-30",
-      "type": "Finance Operations",
-      "level": "Experience unconfirmed",
-      "experience": "Not specified; verify employer listing",
+      "id": "himalayas:https://himalayas.app/companies/anywhere-real-estate-inc/jobs/analyst-i-accounts-payable",
+      "title": "Analyst I Accounts Payable",
+      "company": "Anywhere Real Estate Inc.",
+      "location": "Remote · India eligible",
+      "date": "2026-10-16",
+      "type": "Accounting / AP-AR",
+      "level": "0–2 years",
+      "experience": "2+ years mentioned; verify",
       "fresher_confirmed": false,
-      "fit_score": 50,
-      "url": "https://stripe.com/jobs/search?gh_jid=8076652",
-      "skills": [],
-      "summary": "<h2>Who we are</h2> <h3>About Stripe</h3> <p><span style=\"font-weight: 400;\">Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unpre",
-      "source": "Greenhouse",
-      "source_note": "Live public employer feed; verify eligibility and closing date"
+      "fit_score": 77,
+      "url": "https://himalayas.app/companies/anywhere-real-estate-inc/jobs/analyst-i-accounts-payable?utm_source=api",
+      "skills": [
+        "Excel",
+        "Accounting",
+        "Accounts payable",
+        "Audit"
+      ],
+      "summary": "Purpose: The primary function of the Accounts Payable Analyst is to accurately audit supplier invoices in order to make timely payment to the supplier and timely billing to the client. This position may also include work related to reconciling account ageing’s with suppliers, coordinating activities with other accounting teams, and ad hoc project work. Your Role & Accountabilities: Audit invoices to client policy, supplier contracts, tax authority requirements and supporting ",
+      "source": "Himalayas",
+      "source_note": "Verify details with employer",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
     },
     {
-      "id": "gh:stripe:8098394",
-      "title": "Operations Associate, Sanctions",
-      "company": "stripe",
-      "location": "Bengaluru",
-      "date": "2026-08-03",
+      "id": "himalayas:https://himalayas.app/companies/growe/jobs/payroll-specialist",
+      "title": "Payroll Specialist",
+      "company": "Growe",
+      "location": "Remote · India eligible",
+      "date": "2026-10-17",
       "type": "Finance Operations",
       "level": "0–2 years",
-      "experience": "2+ years",
+      "experience": "2+ years mentioned; verify",
       "fresher_confirmed": false,
-      "fit_score": 50,
-      "url": "https://stripe.com/jobs/search?gh_jid=8098394",
+      "fit_score": 77,
+      "url": "https://himalayas.app/companies/growe/jobs/payroll-specialist?utm_source=api",
       "skills": [
-        "SQL"
+        "Excel",
+        "Payroll"
       ],
-      "summary": "<p><strong>About Stripe</strong></p> <p><span style=\"font-weight: 400;\">Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unpreceden",
-      "source": "Greenhouse",
-      "source_note": "Live public employer feed; verify eligibility and closing date"
+      "summary": "Growe is a leading business advisory and services group in iGaming and Entertainment. We are creators of strategies that work and solutions that scale. Combining strategic vision with hands-on expertise, we help businesses navigate the fast-evolving industry, seize new opportunities, enter new markets, and achieve sustainable growth. Our expertise spans across key areas: from business and brand strategy development to market research, marketing solutions, IT customization, or",
+      "source": "Himalayas",
+      "source_note": "Verify details with employer",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "himalayas:https://himalayas.app/companies/marriott-international/jobs/finance-executive-work-from-home-opportunity-for-mothers",
+      "title": "Finance Executive - Work from home opportunity for Mothers",
+      "company": "Marriott International",
+      "location": "Remote · India eligible",
+      "date": "2026-10-18",
+      "type": "Finance Analyst / FP&A",
+      "level": "0–2 years",
+      "experience": "1+ years mentioned; verify",
+      "fresher_confirmed": false,
+      "fit_score": 77,
+      "url": "https://himalayas.app/companies/marriott-international/jobs/finance-executive-work-from-home-opportunity-for-mothers?utm_source=api",
+      "skills": [
+        "Accounting",
+        "Audit",
+        "Payroll"
+      ],
+      "summary": "POSITION SUMMARY Check figures, postings, and documents for accuracy. Organize, secure, and maintain all files, records, cash and cash equivalents in accordance with policies and procedures. Record, store, access, and/or analyze computerized financial information. Classify, code, and summarize numerical and financial data to compile and keep financial records, using journals, ledgers, and/or computers. Prepare, maintain, audit, and distribute statistical, financial, accountin",
+      "source": "Himalayas",
+      "source_note": "Verify details with employer",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
     },
     {
       "id": "gh:stripe:8104748",
@@ -64,253 +80,222 @@
       "date": "2026-08-07",
       "type": "Finance Operations",
       "level": "0–2 years",
-      "experience": "2+ years",
+      "experience": "2+ years mentioned; verify",
       "fresher_confirmed": false,
-      "fit_score": 50,
+      "fit_score": 75,
       "url": "https://stripe.com/jobs/search?gh_jid=8104748",
       "skills": [
         "Excel",
+        "Accounting",
         "Forecasting",
-        "Financial statements",
-        "Accounting"
+        "Financial statements"
       ],
-      "summary": "<h2>Who we are</h2> <h3>About Stripe</h3> <p><span style=\"font-weight: 400;\">Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unpre",
+      "summary": "<h2>Who we are</h2> <h3>About Stripe</h3> <p><span style=\"font-weight: 400;\">Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put th",
       "source": "Greenhouse",
-      "source_note": "Live public employer feed; verify eligibility and closing date"
-    },
-    {
-      "id": "gh:stripe:8022703",
-      "title": "Verifications Operations Associate",
-      "company": "stripe",
-      "location": "Bengaluru",
-      "date": "2026-09-02",
-      "type": "Finance Operations",
-      "level": "Experience unconfirmed",
-      "experience": "Not specified; verify employer listing",
-      "fresher_confirmed": false,
-      "fit_score": 50,
-      "url": "https://stripe.com/jobs/search?gh_jid=8022703",
-      "skills": [
-        "SQL"
-      ],
-      "summary": "<h2><strong>Who we are </strong></h2> <h3><strong>About Stripe</strong></h3> <p><span style=\"font-weight: 400;\">Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of w",
-      "source": "Greenhouse",
-      "source_note": "Live public employer feed; verify eligibility and closing date"
+      "source_note": "Verify details with employer",
+      "work_mode": "Bengaluru",
+      "match_group": "Possible matches"
     }
   ],
-  "sources_checked": 28,
+  "sources_checked": 26,
+  "source_summary": {
+    "configured": 36,
+    "successful": 26,
+    "failed": 10
+  },
   "sources": [
     {
-      "provider": "greenhouse",
-      "board": "stripe",
-      "matches": 4
-    },
-    {
-      "provider": "greenhouse",
-      "board": "groww",
+      "source": "greenhouse/stripe",
+      "status": "ok",
       "matches": 1
     },
     {
-      "provider": "greenhouse",
-      "board": "slice",
+      "source": "greenhouse/groww",
+      "status": "ok",
       "matches": 0
     },
     {
-      "provider": "greenhouse",
-      "board": "clear",
+      "source": "greenhouse/slice",
+      "status": "ok",
       "matches": 0
     },
     {
-      "provider": "greenhouse",
-      "board": "porter",
+      "source": "greenhouse/clear",
+      "status": "ok",
       "matches": 0
     },
     {
-      "provider": "greenhouse",
-      "board": "wise",
+      "source": "greenhouse/porter",
+      "status": "ok",
       "matches": 0
     },
     {
-      "provider": "greenhouse",
-      "board": "brex",
+      "source": "greenhouse/wise",
+      "status": "ok",
       "matches": 0
     },
     {
-      "provider": "greenhouse",
-      "board": "remote",
+      "source": "greenhouse/brex",
+      "status": "ok",
       "matches": 0
     },
     {
-      "provider": "lever",
-      "board": "freshworks",
+      "source": "greenhouse/remote",
+      "status": "ok",
       "matches": 0
     },
     {
-      "provider": "lever",
-      "board": "cred",
+      "source": "greenhouse/ramp",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "source": "greenhouse/plaid",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "source": "greenhouse/deel",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "source": "greenhouse/airwallex",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "source": "lever/freshworks",
+      "status": "ok",
       "matches": 0
     },
     {
-      "provider": "lever",
-      "board": "meesho",
+      "source": "lever/cred",
+      "status": "ok",
       "matches": 0
     },
     {
-      "provider": "lever",
-      "board": "porter",
+      "source": "lever/meesho",
+      "status": "ok",
       "matches": 0
     },
     {
-      "provider": "ashby",
-      "board": "deel",
+      "source": "lever/porter",
+      "status": "ok",
       "matches": 0
     },
     {
-      "provider": "ashby",
-      "board": "linear",
+      "source": "lever/wise",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "source": "lever/brex",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "source": "lever/airwallex",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "source": "ashby/deel",
+      "status": "ok",
       "matches": 0
     },
     {
-      "provider": "ashby",
-      "board": "supabase",
+      "source": "ashby/linear",
+      "status": "ok",
       "matches": 0
     },
     {
-      "provider": "ashby",
-      "board": "n8n",
+      "source": "ashby/supabase",
+      "status": "ok",
       "matches": 0
     },
     {
-      "provider": "ashby",
-      "board": "ramp",
+      "source": "ashby/n8n",
+      "status": "ok",
       "matches": 0
     },
     {
-      "provider": "ashby",
-      "board": "mercury",
+      "source": "ashby/retool",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "source": "ashby/remote",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "source": "ashby/ramp",
+      "status": "ok",
       "matches": 0
     },
     {
-      "provider": "ashby",
-      "board": "airwallex",
+      "source": "ashby/mercury",
+      "status": "ok",
       "matches": 0
     },
     {
-      "provider": "ashby",
-      "board": "plaid",
+      "source": "ashby/brex",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "source": "ashby/airwallex",
+      "status": "ok",
       "matches": 0
     },
     {
-      "provider": "ashby",
-      "board": "clerk",
+      "source": "ashby/posthog",
+      "status": "ok",
       "matches": 0
     },
     {
-      "provider": "ashby",
-      "board": "vercel",
+      "source": "ashby/notion",
+      "status": "ok",
       "matches": 0
     },
     {
-      "provider": "ashby",
-      "board": "posthog",
-      "matches": 0
+      "source": "Himalayas/finance",
+      "status": "ok",
+      "matches": 2
     },
     {
-      "provider": "ashby",
-      "board": "zapier",
-      "matches": 0
+      "source": "Himalayas/accounting",
+      "status": "ok",
+      "matches": 3
     },
     {
-      "provider": "ashby",
-      "board": "notion",
-      "matches": 0
+      "source": "Himalayas/accounts payable",
+      "status": "ok",
+      "matches": 2
     },
     {
-      "provider": "ashby",
-      "board": "openai",
-      "matches": 0
+      "source": "Himalayas/financial analyst",
+      "status": "ok",
+      "matches": 1
     },
     {
-      "provider": "ashby",
-      "board": "cursor",
-      "matches": 0
-    },
-    {
-      "provider": "ashby",
-      "board": "pylon",
-      "matches": 0
+      "source": "Himalayas/audit",
+      "status": "ok",
+      "matches": 2
     }
   ],
   "source_errors": [
-    "greenhouse/razorpay: HTTPError: HTTP Error 404: Not Found",
-    "greenhouse/meesho: HTTPError: HTTP Error 404: Not Found",
-    "greenhouse/browserstack: HTTPError: HTTP Error 404: Not Found",
-    "greenhouse/freshworks: HTTPError: HTTP Error 404: Not Found",
-    "greenhouse/chargebee: HTTPError: HTTP Error 404: Not Found",
-    "greenhouse/cred: HTTPError: HTTP Error 404: Not Found",
-    "greenhouse/swiggy: HTTPError: HTTP Error 404: Not Found",
-    "greenhouse/phonepe: HTTPError: HTTP Error 404: Not Found",
-    "greenhouse/rippling: HTTPError: HTTP Error 404: Not Found",
-    "greenhouse/plum: HTTPError: HTTP Error 404: Not Found",
-    "greenhouse/apna: HTTPError: HTTP Error 404: Not Found",
-    "greenhouse/urbancompany: HTTPError: HTTP Error 404: Not Found",
-    "greenhouse/zomato: HTTPError: HTTP Error 404: Not Found",
-    "greenhouse/zerodha: HTTPError: HTTP Error 404: Not Found",
-    "greenhouse/instamojo: HTTPError: HTTP Error 404: Not Found",
-    "greenhouse/cashfree: HTTPError: HTTP Error 404: Not Found",
-    "greenhouse/jupiter: HTTPError: HTTP Error 404: Not Found",
-    "greenhouse/smallcase: HTTPError: HTTP Error 404: Not Found",
-    "greenhouse/cultfit: HTTPError: HTTP Error 404: Not Found",
-    "greenhouse/acko: HTTPError: HTTP Error 404: Not Found",
-    "greenhouse/fi: HTTPError: HTTP Error 404: Not Found",
-    "greenhouse/credavenue: HTTPError: HTTP Error 404: Not Found",
-    "greenhouse/yubi: HTTPError: HTTP Error 404: Not Found",
-    "greenhouse/navi: HTTPError: HTTP Error 404: Not Found",
-    "greenhouse/indmoney: HTTPError: HTTP Error 404: Not Found",
-    "greenhouse/upstox: HTTPError: HTTP Error 404: Not Found",
-    "greenhouse/setu: HTTPError: HTTP Error 404: Not Found",
-    "greenhouse/simpl: HTTPError: HTTP Error 404: Not Found",
-    "greenhouse/open: HTTPError: HTTP Error 404: Not Found",
-    "greenhouse/jar: HTTPError: HTTP Error 404: Not Found",
-    "greenhouse/niyo: HTTPError: HTTP Error 404: Not Found",
-    "greenhouse/razorpayx: HTTPError: HTTP Error 404: Not Found",
-    "greenhouse/airwallex: HTTPError: HTTP Error 404: Not Found",
-    "greenhouse/plaid: HTTPError: HTTP Error 404: Not Found",
-    "greenhouse/ramp: HTTPError: HTTP Error 404: Not Found",
-    "greenhouse/deel: HTTPError: HTTP Error 404: Not Found",
-    "greenhouse/stripeindia: HTTPError: HTTP Error 404: Not Found",
-    "lever/postman: HTTPError: HTTP Error 404: Not Found",
-    "lever/canva: HTTPError: HTTP Error 404: Not Found",
-    "lever/atlassian: HTTPError: HTTP Error 404: Not Found",
-    "lever/thoughtspot: HTTPError: HTTP Error 404: Not Found",
-    "lever/browserstack: HTTPError: HTTP Error 404: Not Found",
-    "lever/razorpay: HTTPError: HTTP Error 404: Not Found",
-    "lever/groww: HTTPError: HTTP Error 404: Not Found",
-    "lever/slice: HTTPError: HTTP Error 404: Not Found",
-    "lever/swiggy: HTTPError: HTTP Error 404: Not Found",
-    "lever/chargebee: HTTPError: HTTP Error 404: Not Found",
-    "lever/cashfree: HTTPError: HTTP Error 404: Not Found",
-    "lever/yubi: HTTPError: HTTP Error 404: Not Found",
-    "lever/smallcase: HTTPError: HTTP Error 404: Not Found",
-    "lever/acko: HTTPError: HTTP Error 404: Not Found",
-    "lever/navi: HTTPError: HTTP Error 404: Not Found",
-    "lever/airwallex: HTTPError: HTTP Error 404: Not Found",
-    "lever/wise: HTTPError: HTTP Error 404: Not Found",
-    "lever/ramp: HTTPError: HTTP Error 404: Not Found",
-    "lever/brex: HTTPError: HTTP Error 404: Not Found",
-    "lever/rippling: HTTPError: HTTP Error 404: Not Found",
-    "ashby/retool: HTTPError: HTTP Error 404: Not Found",
-    "ashby/remote: HTTPError: HTTP Error 404: Not Found",
-    "ashby/brex: HTTPError: HTTP Error 404: Not Found",
-    "ashby/wise: HTTPError: HTTP Error 404: Not Found",
-    "ashby/linearapp: HTTPError: HTTP Error 404: Not Found",
-    "ashby/anthropic: HTTPError: HTTP Error 404: Not Found",
-    "ashby/calcom: HTTPError: HTTP Error 404: Not Found",
-    "ashby/tella: HTTPError: HTTP Error 404: Not Found"
+    "greenhouse/ramp: HTTP Error 404: Not Found",
+    "greenhouse/plaid: HTTP Error 404: Not Found",
+    "greenhouse/deel: HTTP Error 404: Not Found",
+    "greenhouse/airwallex: HTTP Error 404: Not Found",
+    "lever/wise: HTTP Error 404: Not Found",
+    "lever/brex: HTTP Error 404: Not Found",
+    "lever/airwallex: HTTP Error 404: Not Found",
+    "ashby/retool: HTTP Error 404: Not Found",
+    "ashby/remote: HTTP Error 404: Not Found",
+    "ashby/brex: HTTP Error 404: Not Found"
   ],
-  "source_summary": {
-    "configured": 93,
-    "successful": 28,
-    "failed": 65
-  }
+  "disclaimer": "Public source coverage is partial. Remote roles must allow India. Verify each listing before applying."
 }
