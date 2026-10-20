@@ -16,26 +16,24 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 18
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: Collect finance vacancies
+      - name: Collect verified public openings
         run: python fetch_jobs.py
 
-      - name: Publish job feed
+      - name: Publish JSON feed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add jobs.json
           if ! git diff --cached --quiet; then
-            git commit -m "Refresh Bengaluru finance jobs"
+            git commit -m "Refresh finance jobs"
             git push
           fi
