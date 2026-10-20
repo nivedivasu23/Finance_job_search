@@ -1,7 +1,746 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FinPath · Bengaluru Finance Jobs</title><style>
-:root{--bg:#f6f8fc;--navy:#142342;--blue:#395fd4;--line:#e4eaf3;--ink:#1b2a43;--muted:#6e7d92;--green:#147d68}*{box-sizing:border-box}body{margin:0;font:14px system-ui,-apple-system,Segoe UI,Arial;color:var(--ink);background:var(--bg)}button,input,select{font:inherit}button{cursor:pointer}.app{display:grid;grid-template-columns:240px minmax(0,1fr);min-height:100vh}.sidebar{background:var(--navy);color:#edf3ff;padding:28px 18px}.logo{font-weight:850;font-size:24px;letter-spacing:-.7px;margin-bottom:8px}.logo span{color:#80b5ff}.sidecap{color:#96a9c5;line-height:1.6;margin-bottom:38px}.nav{padding:13px 15px;border-radius:12px;background:#263b62;margin:9px 0;font-weight:650}.note{margin-top:35px;font-size:12px;color:#a1b1ca;line-height:1.6}.main{min-width:0;padding:33px max(25px,4vw) 50px}.eyebrow{color:var(--blue);text-transform:uppercase;letter-spacing:1.2px;font-size:11px;font-weight:800}.head{display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap}.head h1{font-size:30px;letter-spacing:-1px;margin:7px 0}.sub{color:var(--muted);margin:5px 0 20px}.btn{border:none;border-radius:10px;background:var(--blue);color:#fff;padding:11px 16px;font-weight:700;display:inline-block;text-decoration:none}.btn.light{background:#edf2ff;color:#365cca}.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin:23px 0}.stat,.panel{background:white;border:1px solid var(--line);border-radius:17px;box-shadow:0 4px 20px #20365d06}.stat{padding:20px}.stat b{display:block;font-size:27px;margin:9px 0 2px}.stat small{color:var(--muted)}.sectionhead{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:30px 0 13px}.sectionhead h2{font-size:18px;margin:0}.filters{display:grid;grid-template-columns:2fr repeat(2,minmax(130px,1fr));gap:10px;padding:14px}.filters input,.filters select{width:100%;border:1px solid var(--line);border-radius:10px;padding:12px;background:#fff;color:var(--ink)}.layout{display:grid;grid-template-columns:minmax(0,1.75fr) minmax(260px,.9fr);gap:20px}.job{border-bottom:1px solid var(--line);padding:19px 20px}.job:last-child{border-bottom:0}.jobtop{display:flex;gap:13px;align-items:start}.avatar{width:44px;height:44px;border-radius:13px;background:#eaf0ff;display:grid;place-items:center;color:#365cca;font-weight:850;flex:none}.jobmain{flex:1;min-width:0}.title{font-size:16px;font-weight:750}.co{margin-top:5px;color:#596b84}.description{color:#5e6d82;line-height:1.55;margin:12px 0}.chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}.chip{background:#f0f4fa;border-radius:7px;padding:5px 8px;color:#526482;font-size:11px}.actions{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:13px}.link{display:inline-block;text-decoration:none;background:#eaf0ff;color:#365cca;border-radius:9px;padding:9px 13px;font-weight:750}.save{border:1px solid #d8e2f0;background:white;border-radius:9px;padding:9px 12px;color:#42618d}.saved{color:var(--green);background:#e9f8f3}.panel .ptitle{padding:20px 20px 12px;font-size:16px;font-weight:800}.skill{padding:9px 20px}.skillline{display:flex;justify-content:space-between;font-size:12px;margin-bottom:8px}.bar{background:#edf1f8;height:8px;border-radius:10px;overflow:hidden}.bar>div{height:100%;background:#5277df;border-radius:10px}.footnote{padding:15px 20px;color:var(--muted);font-size:12px;line-height:1.55}.status{font-size:12px;background:#e8f7f2;color:#087660;padding:8px 12px;border-radius:20px}.empty{padding:40px;text-align:center;color:var(--muted)}.warning{background:#fff9e8;border:1px solid #f3e6be;padding:14px 17px;border-radius:12px;color:#756127;margin-top:18px;line-height:1.6}.date{font-size:12px;color:#7b8ca2}@media(max-width:960px){.layout{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,1fr)}}@media(max-width:650px){.app{display:block}.sidebar{padding:17px 20px}.sidecap,.nav,.note{display:none}.logo{margin:0}.main{padding:22px 15px}.filters{grid-template-columns:1fr}.head h1{font-size:24px}.stats{gap:8px}.stat{padding:14px}.stat b{font-size:23px}}
-</style></head><body><div class="app"><aside class="sidebar"><div class="logo">Fin<span>Path</span> ✦</div><div class="sidecap">Your Bengaluru finance career dashboard</div><div class="nav">▦ &nbsp; Job opportunities</div><div class="nav" style="background:transparent">◫ &nbsp; Required skills</div><div class="nav" style="background:transparent">♡ &nbsp; Saved jobs</div><div class="note">Designed for everyone.<br>No account or technical setup needed to browse these saved listings.</div></aside><main class="main"><div class="eyebrow">Fresher careers · Bengaluru</div><div class="head"><div><h1>Discover fresher finance jobs</h1><div class="sub">Bengaluru, Karnataka · Internships, trainees & entry-level finance roles · Daily updates</div></div><button class="btn" id="refresh">↻ Refresh job feed</button></div><div id="status" class="status" style="display:inline-block">Connecting to today’s published jobs feed…</div><div class="stats"><div class="stat"><small>Vacancies loaded</small><b id="count">0</b><small>Bengaluru</small></div><div class="stat"><small>Filtered matches</small><b id="matches">0</b><small>Based on your filters</small></div><div class="stat"><small>Saved jobs</small><b id="saved">0</b><small>On this device</small></div><div class="stat"><small>Employers</small><b id="employers">0</b><small>In current feed</small></div></div><div class="sectionhead"><h2>Available roles</h2><span class="date" id="update">Awaiting first live collection</span></div><div class="panel filters"><input id="search" aria-label="Filter displayed jobs" placeholder="Filter loaded jobs by title, company or skill"><select id="level" aria-label="Experience"><option value="">All levels</option><option>Fresher / Intern</option><option>0–2 years</option><option>1–2 years</option><option>Experience unconfirmed</option></select><select id="specialty" aria-label="Specialization"><option value="">All finance roles</option><option>Internship / Trainee</option><option>Accounting / AP-AR</option><option>Audit / Tax</option><option>Finance Analyst / FP&A</option><option>Finance Operations</option></select></div><div class="layout" style="margin-top:18px"><section><div class="panel" id="jobs"></div></section><aside><div class="panel"><div class="ptitle">Most requested skills</div><div id="skills"></div><div class="footnote">Counts are based on the role descriptions available in this feed, not estimates of the entire job market. Use these insights to prioritize learning.</div></div><div class="warning"><strong>How updates work</strong><p style="margin:7px 0 0">This site checks for new jobs automatically when opened, and its published feed is refreshed daily by the site owner’s scheduled workflow. If no feed is published yet, the dashboard shows no vacancies rather than fictional jobs. Always verify on the employer page before applying.</p></div></aside></div><div class="sectionhead"><h2>Your saved jobs</h2></div><div class="panel" id="savedjobs" style="padding:18px 20px;color:#6e7d92"></div></main></div><script>
-const initialJobs=[];let jobs=[...initialJobs];let saved=new Set(JSON.parse(localStorage.getItem('finpathSavedBengaluru')||'[]'));const $=id=>document.getElementById(id);const safe=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));function render(){const q=$('search').value.toLowerCase().trim(),lvl=$('level').value,spec=$('specialty').value;const shown=jobs.filter(j=>(!q||[j.title,j.company,j.summary,...j.skills].join(' ').toLowerCase().includes(q))&&(!lvl||j.level===lvl)&&(!spec||j.type===spec));$('count').textContent=jobs.length;$('matches').textContent=shown.length;$('saved').textContent=saved.size;$('employers').textContent=new Set(jobs.map(j=>j.company)).size;$('jobs').innerHTML=shown.length?shown.map(j=>`<article class="job"><div class="jobtop"><div class="avatar">${safe(j.company.slice(0,2).toUpperCase())}</div><div class="jobmain"><div class="title">${safe(j.title)}</div><div class="co">${safe(j.company)} · ${safe(j.location)} · ${safe(j.level)}</div><div class="date">${j.fresher_confirmed?"✓ Fresher-friendly wording found":"Eligibility must be checked"} · ${safe(j.source||"Source not specified")}</div><div class="date" style="margin-top:6px">${j.date?'Published '+safe(j.date):'Posting date not listed'} · ${safe(j.experience)}</div></div></div><p class="description">${safe(j.summary)}</p><div class="chips">${j.skills.map(s=>`<span class="chip">${safe(s)}</span>`).join('')}</div><div class="actions"><button class="save ${saved.has(j.id)?'saved':''}" data-save="${safe(j.id)}">${saved.has(j.id)?'♥ Saved':'♡ Save'}</button><a class="link" target="_blank" rel="noopener noreferrer" href="${safe(j.url)}">View job / Apply ↗</a></div></article>`).join(''):'<div class="empty">No matching vacancies loaded. If this website has not been deployed, the daily data feed is not connected yet.</div>';const counts={};shown.forEach(j=>j.skills.forEach(s=>counts[s]=(counts[s]||0)+1));$('skills').innerHTML=Object.entries(counts).sort((a,b)=>b[1]-a[1]).slice(0,9).map(([name,n])=>`<div class="skill"><div class="skillline"><span>${safe(name)}</span><b>${n} role${n===1?'':'s'}</b></div><div class="bar"><div style="width:${100*n/Math.max(1,shown.length)}%"></div></div></div>`).join('')||'<div class="footnote">Change filters to see skill requirements.</div>';$('savedjobs').innerHTML= saved.size? jobs.filter(j=>saved.has(j.id)).map(j=>`<div style="padding:8px 0"><b>${safe(j.title)}</b> — ${safe(j.company)} · <a target="_blank" rel="noopener" href="${safe(j.url)}">Open</a></div>`).join(''):'No jobs saved yet. Click ♡ Save on any opening.'}
-document.addEventListener('click',e=>{const b=e.target.closest('[data-save]');if(!b)return;const id=b.dataset.save;if(saved.has(id))saved.delete(id);else saved.add(id);localStorage.setItem('finpathSavedBengaluru',JSON.stringify([...saved]));render()});['search','level','specialty'].forEach(id=>$(id).addEventListener(id==='search'?'input':'change',render));async function refreshJobs(){const status=$('status');status.textContent='Checking today’s job listings…';try{const r=await fetch('./jobs.json?cb='+Date.now(),{cache:'no-store',signal:AbortSignal.timeout(12000)});if(!r.ok)throw Error('Feed unavailable');const feed=await r.json();if(!Array.isArray(feed.jobs)||feed.jobs.length===0||!feed.updated_at)throw Error('Feed not ready');jobs=feed.jobs;const updated=new Date(feed.updated_at);const hours=(Date.now()-updated.getTime())/3600000;const label=updated.toLocaleString('en-IN',{dateStyle:'medium',timeStyle:'short',timeZone:'Asia/Kolkata'});$('update').textContent='Feed updated: '+label+' IST';status.textContent=(hours>36?'⚠ Latest published feed may be outdated':'✓ Published job feed loaded')+' · '+jobs.length+' vacancies · '+(feed.source||'Job feed');render()}catch(err){status.textContent='⚠ Job feed unavailable. No vacancies are displayed until the daily collector publishes verified results.';render()}}
-$('refresh').addEventListener('click',refreshJobs);render();refreshJobs();setInterval(refreshJobs,60*60*1000);
-</script></body></html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FinPath | Divya's Finance Career Hub</title>
+<style>
+:root {
+  color-scheme: dark;
+  --bg: #101319;
+  --panel: #1b2028;
+  --border: #323945;
+  --navy: #071a44;
+  --blue: #8fb0ff;
+  --text: #f2f5fb;
+  --muted: #a2aebb;
+  --good: #82d9b8;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 15px system-ui, Segoe UI, Arial, sans-serif;
+}
+button, input, select { font: inherit; }
+button { cursor: pointer; }
+a { color: var(--blue); }
+header {
+  background: var(--navy);
+  padding: 25px max(18px, calc((100vw - 1180px)/2));
+}
+header strong { font-size: 26px; }
+header span { color: #84afff; }
+main {
+  max-width: 1160px;
+  padding: 25px 18px 70px;
+  margin: auto;
+}
+h1 {
+  font-size: clamp(26px, 4vw, 37px);
+  letter-spacing: -.8px;
+  margin: 6px 0;
+}
+h2 { font-size: 20px; margin: 0 0 12px; }
+.muted { color: var(--muted); }
+.eyebrow {
+  color: #9dbbff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+}
+.toolbar {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.btn {
+  background: #2459ce;
+  color: white;
+  border: 0;
+  border-radius: 12px;
+  padding: 13px 16px;
+  font-weight: 700;
+}
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin: 24px 0;
+}
+.stat, .panel, .job {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 17px;
+}
+.stat { padding: 17px; }
+.stat b {
+  font-size: 30px;
+  display: block;
+  margin: 8px 0 2px;
+}
+.stat small { color: var(--muted); }
+.panel { padding: 18px; margin: 17px 0; }
+.filters {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 9px;
+}
+input, select {
+  width: 100%;
+  background: #252c36;
+  color: var(--text);
+  border: 1px solid #414b5a;
+  border-radius: 9px;
+  padding: 12px;
+}
+.tabbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 14px 0;
+}
+.tab {
+  background: #252c36;
+  border: 1px solid #424d60;
+  color: #e2eafa;
+  padding: 10px 12px;
+  border-radius: 22px;
+}
+.tab.active {
+  background: #355ead;
+  border-color: #567cce;
+}
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0,1.8fr) minmax(260px,1fr);
+  gap: 17px;
+}
+.job {
+  padding: 18px;
+  margin-bottom: 11px;
+}
+.job h3 { margin: 0 0 5px; font-size: 17px; }
+.tags {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin: 11px 0;
+}
+.tag {
+  border-radius: 8px;
+  padding: 5px 9px;
+  background: #29374d;
+  color: #d0e2ff;
+  font-size: 12px;
+}
+.actions {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+.apply {
+  background: #2d5cca;
+  color: white;
+  text-decoration: none;
+  border-radius: 9px;
+  padding: 9px 12px;
+  font-weight: 700;
+}
+.save {
+  border: 1px solid #54627c;
+  background: transparent;
+  color: #e7f0ff;
+  border-radius: 9px;
+  padding: 9px 12px;
+}
+.status {
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: #183b35;
+  color: #b6f2dc;
+  margin-top: 19px;
+  line-height: 1.5;
+}
+.warning { background: #48381f; color: #ffe4ae; }
+.bar {
+  height: 8px;
+  border-radius: 9px;
+  overflow: hidden;
+  background: #323b4b;
+  margin: 7px 0 13px;
+}
+.fill { height: 100%; background: #7b9fff; }
+.sr {
+  border-top: 1px solid var(--border);
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 9px;
+}
+.small { font-size: 12px; }
+.empty {
+  padding: 25px;
+  color: var(--muted);
+  text-align: center;
+}
+footer {
+  color: var(--muted);
+  font-size: 12px;
+  margin-top: 40px;
+  line-height: 1.6;
+}
+@media (max-width: 820px) {
+  .layout { grid-template-columns: 1fr; }
+  .filters { grid-template-columns: 1fr 1fr; }
+  .stats { grid-template-columns: repeat(2,1fr); }
+}
+@media (max-width: 500px) {
+  .filters { grid-template-columns: 1fr; }
+  .stat { padding: 12px; }
+  .stat b { font-size: 25px; }
+}
+</style>
+</head>
+<body>
+<header>
+  <strong>Fin<span>Path</span> ✦</strong>
+  <div class="small" style="color:#c5d5ff">
+    Divya's Finance Career Hub
+  </div>
+</header>
+
+<main>
+  <div class="eyebrow">
+    BENGALURU · FINANCE CAREERS · ENTRY LEVEL
+  </div>
+
+  <div class="toolbar">
+    <div>
+      <h1>Discover your next opportunity</h1>
+      <div class="muted">
+        Finance jobs, clearer eligibility, daily updates
+        and skills insights.
+      </div>
+    </div>
+    <button id="refresh" class="btn">
+      ↻ Refresh jobs
+    </button>
+  </div>
+
+  <div id="status" class="status">
+    Loading the latest public job feed…
+  </div>
+
+  <div class="stats">
+    <div class="stat">
+      <small>Openings collected</small>
+      <b id="total">0</b>
+      <small>Current feed</small>
+    </div>
+    <div class="stat">
+      <small>Matching filters</small>
+      <b id="matching">0</b>
+      <small>Displayed below</small>
+    </div>
+    <div class="stat">
+      <small>Saved jobs</small>
+      <b id="savedcount">0</b>
+      <small>This browser</small>
+    </div>
+    <div class="stat">
+      <small>Feeds working</small>
+      <b id="feeds">—</b>
+      <small>Source health</small>
+    </div>
+  </div>
+
+  <h2>Find roles that suit you</h2>
+
+  <div class="panel filters">
+    <input
+      id="query"
+      placeholder="Search role, employer or skill"
+      aria-label="Search jobs">
+
+    <select id="place">
+      <option value="local">Bengaluru</option>
+      <option value="all">Bengaluru + India remote</option>
+      <option value="remote">India remote only</option>
+    </select>
+
+    <select id="level">
+      <option value="all">All eligibility</option>
+      <option value="best">Best matches</option>
+      <option value="possible">Possible matches</option>
+    </select>
+
+    <select id="age">
+      <option value="all">All recent dates</option>
+      <option value="7">Last 7 days</option>
+      <option value="30">Last 30 days</option>
+    </select>
+  </div>
+
+  <div id="tabs" class="tabbar">
+    <button class="tab active" data-tab="all">
+      All finance
+    </button>
+    <button class="tab" data-tab="Finance Analyst / FP&A">
+      Analyst / FP&A
+    </button>
+    <button class="tab" data-tab="Accounting / AP-AR">
+      Accounting
+    </button>
+    <button class="tab" data-tab="Audit / Tax">
+      Audit / Tax
+    </button>
+    <button class="tab" data-tab="Finance Operations">
+      Finance operations
+    </button>
+    <button class="tab" data-tab="Internship / Trainee">
+      Internships
+    </button>
+  </div>
+
+  <div class="layout">
+    <section>
+      <div class="toolbar">
+        <h2 id="jobheading">Available openings</h2>
+        <span id="updated" class="muted small"></span>
+      </div>
+
+      <div id="jobs"></div>
+
+      <div class="panel">
+        <h2>Saved jobs</h2>
+        <div class="small muted">
+          Saved to this device. Export a backup.
+        </div>
+        <div id="savedjobs"></div>
+        <button id="export" class="save">
+          Export saved jobs (CSV)
+        </button>
+      </div>
+    </section>
+
+    <aside>
+      <div class="panel">
+        <h2>Skills employers mention</h2>
+        <div id="skills" class="small muted">
+          Waiting for job descriptions…
+        </div>
+        <p class="small muted">
+          Counts reflect loaded vacancies only.
+        </p>
+      </div>
+
+      <div class="panel">
+        <h2>Collection coverage</h2>
+        <div id="coverage" class="small muted">
+          Waiting for feed…
+        </div>
+        <p class="small muted">
+          Not all job boards are covered.
+        </p>
+      </div>
+
+      <div class="panel">
+        <h2>How to use this portal</h2>
+        <p class="muted small">
+          Choose Bengaluru or India-eligible remote,
+          check eligibility, save promising jobs,
+          then apply on the original job website.
+        </p>
+        <p class="small muted">
+          Remote listings attribution:
+          <a href="https://himalayas.app" target="_blank"
+             rel="noopener noreferrer">Himalayas</a>
+        </p>
+      </div>
+    </aside>
+  </div>
+
+  <footer>
+    FinPath is an independent job discovery tool.
+    Saved jobs stay in this browser.
+    Verify every vacancy before applying.
+  </footer>
+</main>
+
+<script>
+const $ = id => document.getElementById(id);
+
+const esc = value => String(value ?? "").replace(
+  /[&<>"']/g,
+  c => ({
+    "&":"&amp;",
+    "<":"&lt;",
+    ">":"&gt;",
+    '"':"&quot;",
+    "'":"&#39;"
+  }[c])
+);
+
+let feed = { jobs: [] };
+let tab = "all";
+let saved = {};
+
+try {
+  saved = JSON.parse(
+    localStorage.getItem("finpath_v3_saved") || "{}"
+  );
+} catch (error) {
+  saved = {};
+}
+
+function persist() {
+  localStorage.setItem(
+    "finpath_v3_saved",
+    JSON.stringify(saved)
+  );
+}
+
+function filtered() {
+  const q = $("query").value.trim().toLowerCase();
+  const place = $("place").value;
+  const level = $("level").value;
+  const age = $("age").value;
+
+  return feed.jobs.filter(job => {
+    if (tab !== "all" && job.type !== tab) return false;
+
+    if (place === "local" &&
+        job.work_mode !== "Bengaluru") return false;
+
+    if (place === "remote" &&
+        job.work_mode !== "Remote · India eligible") {
+      return false;
+    }
+
+    if (level === "best" &&
+        job.match_group !== "Best matches") {
+      return false;
+    }
+
+    if (level === "possible" &&
+        job.match_group !== "Possible matches") {
+      return false;
+    }
+
+    const searchable = [
+      job.title,
+      job.company,
+      job.location,
+      job.summary,
+      ...(job.skills || [])
+    ].join(" ").toLowerCase();
+
+    if (q && !searchable.includes(q)) return false;
+
+    if (age !== "all") {
+      if (!job.date) return false;
+
+      const days = (
+        Date.now() -
+        Date.parse(job.date + "T00:00:00Z")
+      ) / 86400000;
+
+      if (days > Number(age) || days < 0) {
+        return false;
+      }
+    }
+
+    return true;
+  });
+}
+
+function render() {
+  const jobs = filtered();
+
+  $("total").textContent = feed.jobs.length;
+  $("matching").textContent = jobs.length;
+  $("savedcount").textContent = Object.keys(saved).length;
+  $("jobheading").textContent =
+    `Available openings (${jobs.length})`;
+
+  $("jobs").innerHTML = jobs.length
+    ? jobs.map(job => `
+      <article class="job">
+        <h3>${esc(job.title)}</h3>
+
+        <div class="muted small">
+          ${esc(job.company)} ·
+          ${esc(job.location)} ·
+          ${esc(job.work_mode || "Bengaluru")}
+        </div>
+
+        <div class="tags">
+          <span class="tag">${esc(job.type)}</span>
+          <span class="tag">
+            ${esc(job.match_group || "Eligibility unconfirmed")}
+          </span>
+          <span class="tag">${esc(job.level)}</span>
+        </div>
+
+        <div class="small muted">
+          ${job.date
+            ? "Posted " + esc(job.date)
+            : "Posting date unconfirmed"}
+          · ${esc(job.experience)}
+        </div>
+
+        <p>${esc(job.summary || "Check employer listing.")}</p>
+
+        <div class="tags">
+          ${(job.skills || []).slice(0,9).map(
+            skill => `<span class="tag">${esc(skill)}</span>`
+          ).join("")}
+        </div>
+
+        <div class="actions">
+          <button class="save" data-save="${esc(job.id)}">
+            ${saved[job.id] ? "♥ Saved" : "♡ Save"}
+          </button>
+
+          <a class="apply"
+             href="${esc(job.url)}"
+             target="_blank"
+             rel="noopener noreferrer">
+             View & apply ↗
+          </a>
+
+          <span class="small muted">
+            Source: ${esc(job.source)}
+          </span>
+        </div>
+      </article>
+    `).join("")
+    : `<div class="panel empty">
+         No matches found for these filters.
+         Try including India-eligible remote roles.
+       </div>`;
+
+  const counts = {};
+
+  jobs.forEach(job => {
+    (job.skills || []).forEach(skill => {
+      counts[skill] = (counts[skill] || 0) + 1;
+    });
+  });
+
+  $("skills").innerHTML = Object.entries(counts)
+    .sort((a,b) => b[1] - a[1])
+    .slice(0,12)
+    .map(([skill,count]) => `
+      <div>
+        <div class="toolbar">
+          <span>${esc(skill)}</span>
+          <strong>${count}</strong>
+        </div>
+        <div class="bar">
+          <div class="fill"
+               style="width:${Math.min(
+                 100,
+                 100 * count / Math.max(1,jobs.length)
+               )}%">
+          </div>
+        </div>
+      </div>
+    `).join("") || "No skill mentions in selected jobs.";
+
+  $("savedjobs").innerHTML = Object.values(saved)
+    .map(job => `
+      <div class="sr">
+        <div>
+          <strong>${esc(job.title)}</strong>
+          <div class="muted small">${esc(job.company)}</div>
+        </div>
+        <a href="${esc(job.url)}"
+           target="_blank"
+           rel="noopener noreferrer">
+           Open ↗
+        </a>
+      </div>
+    `).join("") || `<p class="muted small">
+      Nothing saved yet.
+    </p>`;
+}
+
+async function refresh() {
+  const status = $("status");
+  status.textContent = "Checking published job data…";
+
+  try {
+    const response = await fetch(
+      "./jobs.json?fresh=" + Date.now(),
+      { cache: "no-store" }
+    );
+
+    if (!response.ok) {
+      throw new Error("HTTP " + response.status);
+    }
+
+    const data = await response.json();
+
+    if (!Array.isArray(data.jobs) || !data.updated_at) {
+      throw new Error("Invalid feed");
+    }
+
+    feed = data;
+
+    const hours = (
+      Date.now() - Date.parse(data.updated_at)
+    ) / 3600000;
+
+    status.textContent =
+      (hours > 36
+        ? "⚠ Feed is older than 36 hours. "
+        : "✓ Job feed loaded. ") +
+      data.jobs.length +
+      " jobs collected. Bengaluru results shown by default.";
+
+    status.className =
+      "status" + (hours > 36 ? " warning" : "");
+
+    $("updated").textContent = "Updated " +
+      new Date(data.updated_at).toLocaleString(
+        "en-IN",
+        {
+          dateStyle: "medium",
+          timeStyle: "short",
+          timeZone: "Asia/Kolkata"
+        }
+      ) + " IST";
+
+    const health = data.source_summary || {};
+
+    $("feeds").textContent =
+      health.successful === undefined
+        ? "—"
+        : `${health.successful}/${health.configured}`;
+
+    const localCount = data.jobs.filter(
+      job => job.work_mode === "Bengaluru"
+    ).length;
+
+    const remoteCount = data.jobs.filter(
+      job => job.work_mode === "Remote · India eligible"
+    ).length;
+
+    $("coverage").innerHTML = `
+      <div class="sr">
+        <span>Responding feeds</span>
+        <b>${health.successful ?? "—"}</b>
+      </div>
+      <div class="sr">
+        <span>Failed feeds</span>
+        <b>${health.failed ?? "—"}</b>
+      </div>
+      <div class="sr">
+        <span>Bengaluru jobs</span>
+        <b>${localCount}</b>
+      </div>
+      <div class="sr">
+        <span>India remote</span>
+        <b>${remoteCount}</b>
+      </div>
+    `;
+
+    render();
+  } catch (error) {
+    status.textContent =
+      "⚠ Job feed unavailable. Check GitHub Actions.";
+    status.className = "status warning";
+    render();
+  }
+}
+
+document.addEventListener("click", event => {
+  const button = event.target.closest("[data-save]");
+
+  if (button) {
+    const job = feed.jobs.find(
+      item => item.id === button.dataset.save
+    );
+
+    if (job) {
+      if (saved[job.id]) {
+        delete saved[job.id];
+      } else {
+        saved[job.id] = {
+          id: job.id,
+          title: job.title,
+          company: job.company,
+          url: job.url
+        };
+      }
+
+      persist();
+      render();
+    }
+  }
+
+  const tabButton = event.target.closest("[data-tab]");
+
+  if (tabButton) {
+    tab = tabButton.dataset.tab;
+
+    document.querySelectorAll("[data-tab]").forEach(
+      item => {
+        item.classList.toggle(
+          "active",
+          item === tabButton
+        );
+      }
+    );
+
+    render();
+  }
+});
+
+["query","place","level","age"].forEach(id => {
+  $(id).addEventListener(
+    id === "query" ? "input" : "change",
+    render
+  );
+});
+
+$("refresh").onclick = refresh;
+
+$("export").onclick = () => {
+  const data = [
+    ["Title","Company","URL"],
+    ...Object.values(saved).map(job => [
+      job.title, job.company, job.url
+    ])
+  ];
+
+  const csv = data.map(row =>
+    row.map(value =>
+      '"' + String(value).replace(/"/g,'""') + '"'
+    ).join(",")
+  ).join("\r\n");
+
+  const url = URL.createObjectURL(
+    new Blob([csv], { type:"text/csv" })
+  );
+
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = "divya-saved-finance-jobs.csv";
+  link.click();
+
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+};
+
+refresh();
+</script>
+</body>
+</html>
