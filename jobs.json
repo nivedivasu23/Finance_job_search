@@ -1,8 +1,61 @@
 {
-  "updated_at": "2026-10-20T06:41:02.905432+00:00",
-  "source": "Greenhouse, Lever and Ashby employer career feeds",
-  "total": 1,
+  "updated_at": "2026-10-20T07:30:22.589222+00:00",
+  "source": "Public Greenhouse, Lever and Ashby career feeds",
+  "total": 5,
   "jobs": [
+    {
+      "id": "gh:groww:4956817101",
+      "title": "Video Editor Intern",
+      "company": "groww",
+      "location": "Bengaluru-VTP, India",
+      "date": "2026-09-04",
+      "type": "Internship / Trainee",
+      "level": "Fresher / Intern",
+      "experience": "Not specified; verify employer listing",
+      "fresher_confirmed": true,
+      "fit_score": 65,
+      "url": "https://job-boards.eu.greenhouse.io/groww/jobs/4956817101",
+      "skills": [],
+      "summary": "<div><strong>About Groww:</strong></div> <div>We are a passionate group of people focused on making financial services accessible to every Indian through a multi-product platform. Each day, we help millions of customers take charge of their financial journey. Customer obsession is in our DNA. Every product, every design, every algorithm down to the tiniest detail is executed keeping the customers’ needs and convenience in mind. Our people are our",
+      "source": "Greenhouse",
+      "source_note": "Live public employer feed; verify eligibility and closing date"
+    },
+    {
+      "id": "gh:stripe:8076652",
+      "title": "Fraud Operations Associate (Mandarin Speaking)",
+      "company": "stripe",
+      "location": "Bengaluru",
+      "date": "2026-07-30",
+      "type": "Finance Operations",
+      "level": "Experience unconfirmed",
+      "experience": "Not specified; verify employer listing",
+      "fresher_confirmed": false,
+      "fit_score": 50,
+      "url": "https://stripe.com/jobs/search?gh_jid=8076652",
+      "skills": [],
+      "summary": "<h2>Who we are</h2> <h3>About Stripe</h3> <p><span style=\"font-weight: 400;\">Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unpre",
+      "source": "Greenhouse",
+      "source_note": "Live public employer feed; verify eligibility and closing date"
+    },
+    {
+      "id": "gh:stripe:8098394",
+      "title": "Operations Associate, Sanctions",
+      "company": "stripe",
+      "location": "Bengaluru",
+      "date": "2026-08-03",
+      "type": "Finance Operations",
+      "level": "0–2 years",
+      "experience": "2+ years",
+      "fresher_confirmed": false,
+      "fit_score": 50,
+      "url": "https://stripe.com/jobs/search?gh_jid=8098394",
+      "skills": [
+        "SQL"
+      ],
+      "summary": "<p><strong>About Stripe</strong></p> <p><span style=\"font-weight: 400;\">Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unpreceden",
+      "source": "Greenhouse",
+      "source_note": "Live public employer feed; verify eligibility and closing date"
+    },
     {
       "id": "gh:stripe:8104748",
       "title": "Credit Risk Operations Associate",
@@ -13,7 +66,7 @@
       "level": "0–2 years",
       "experience": "2+ years",
       "fresher_confirmed": false,
-      "fit_score": 40,
+      "fit_score": 50,
       "url": "https://stripe.com/jobs/search?gh_jid=8104748",
       "skills": [
         "Excel",
@@ -21,21 +74,40 @@
         "Financial statements",
         "Accounting"
       ],
-      "summary": "<h2>Who we are</h2> <h3>About Stripe</h3> <p><span style=\"font-weight: 400;\">Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead",
+      "summary": "<h2>Who we are</h2> <h3>About Stripe</h3> <p><span style=\"font-weight: 400;\">Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unpre",
       "source": "Greenhouse",
-      "source_note": "Public employer careers feed; verify eligibility before applying"
+      "source_note": "Live public employer feed; verify eligibility and closing date"
+    },
+    {
+      "id": "gh:stripe:8022703",
+      "title": "Verifications Operations Associate",
+      "company": "stripe",
+      "location": "Bengaluru",
+      "date": "2026-09-02",
+      "type": "Finance Operations",
+      "level": "Experience unconfirmed",
+      "experience": "Not specified; verify employer listing",
+      "fresher_confirmed": false,
+      "fit_score": 50,
+      "url": "https://stripe.com/jobs/search?gh_jid=8022703",
+      "skills": [
+        "SQL"
+      ],
+      "summary": "<h2><strong>Who we are </strong></h2> <h3><strong>About Stripe</strong></h3> <p><span style=\"font-weight: 400;\">Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of w",
+      "source": "Greenhouse",
+      "source_note": "Live public employer feed; verify eligibility and closing date"
     }
   ],
-  "sources_checked": 9,
+  "sources_checked": 28,
   "sources": [
     {
       "provider": "greenhouse",
-      "board": "groww",
-      "matches": 0
+      "board": "stripe",
+      "matches": 4
     },
     {
       "provider": "greenhouse",
-      "board": "stripe",
+      "board": "groww",
       "matches": 1
     },
     {
@@ -49,18 +121,53 @@
       "matches": 0
     },
     {
+      "provider": "greenhouse",
+      "board": "porter",
+      "matches": 0
+    },
+    {
+      "provider": "greenhouse",
+      "board": "wise",
+      "matches": 0
+    },
+    {
+      "provider": "greenhouse",
+      "board": "brex",
+      "matches": 0
+    },
+    {
+      "provider": "greenhouse",
+      "board": "remote",
+      "matches": 0
+    },
+    {
       "provider": "lever",
       "board": "freshworks",
       "matches": 0
     },
     {
-      "provider": "ashby",
-      "board": "linear",
+      "provider": "lever",
+      "board": "cred",
+      "matches": 0
+    },
+    {
+      "provider": "lever",
+      "board": "meesho",
+      "matches": 0
+    },
+    {
+      "provider": "lever",
+      "board": "porter",
       "matches": 0
     },
     {
       "provider": "ashby",
       "board": "deel",
+      "matches": 0
+    },
+    {
+      "provider": "ashby",
+      "board": "linear",
       "matches": 0
     },
     {
@@ -71,6 +178,66 @@
     {
       "provider": "ashby",
       "board": "n8n",
+      "matches": 0
+    },
+    {
+      "provider": "ashby",
+      "board": "ramp",
+      "matches": 0
+    },
+    {
+      "provider": "ashby",
+      "board": "mercury",
+      "matches": 0
+    },
+    {
+      "provider": "ashby",
+      "board": "airwallex",
+      "matches": 0
+    },
+    {
+      "provider": "ashby",
+      "board": "plaid",
+      "matches": 0
+    },
+    {
+      "provider": "ashby",
+      "board": "clerk",
+      "matches": 0
+    },
+    {
+      "provider": "ashby",
+      "board": "vercel",
+      "matches": 0
+    },
+    {
+      "provider": "ashby",
+      "board": "posthog",
+      "matches": 0
+    },
+    {
+      "provider": "ashby",
+      "board": "zapier",
+      "matches": 0
+    },
+    {
+      "provider": "ashby",
+      "board": "notion",
+      "matches": 0
+    },
+    {
+      "provider": "ashby",
+      "board": "openai",
+      "matches": 0
+    },
+    {
+      "provider": "ashby",
+      "board": "cursor",
+      "matches": 0
+    },
+    {
+      "provider": "ashby",
+      "board": "pylon",
       "matches": 0
     }
   ],
@@ -87,13 +254,63 @@
     "greenhouse/plum: HTTPError: HTTP Error 404: Not Found",
     "greenhouse/apna: HTTPError: HTTP Error 404: Not Found",
     "greenhouse/urbancompany: HTTPError: HTTP Error 404: Not Found",
+    "greenhouse/zomato: HTTPError: HTTP Error 404: Not Found",
+    "greenhouse/zerodha: HTTPError: HTTP Error 404: Not Found",
+    "greenhouse/instamojo: HTTPError: HTTP Error 404: Not Found",
+    "greenhouse/cashfree: HTTPError: HTTP Error 404: Not Found",
+    "greenhouse/jupiter: HTTPError: HTTP Error 404: Not Found",
+    "greenhouse/smallcase: HTTPError: HTTP Error 404: Not Found",
+    "greenhouse/cultfit: HTTPError: HTTP Error 404: Not Found",
+    "greenhouse/acko: HTTPError: HTTP Error 404: Not Found",
+    "greenhouse/fi: HTTPError: HTTP Error 404: Not Found",
+    "greenhouse/credavenue: HTTPError: HTTP Error 404: Not Found",
+    "greenhouse/yubi: HTTPError: HTTP Error 404: Not Found",
+    "greenhouse/navi: HTTPError: HTTP Error 404: Not Found",
+    "greenhouse/indmoney: HTTPError: HTTP Error 404: Not Found",
+    "greenhouse/upstox: HTTPError: HTTP Error 404: Not Found",
+    "greenhouse/setu: HTTPError: HTTP Error 404: Not Found",
+    "greenhouse/simpl: HTTPError: HTTP Error 404: Not Found",
+    "greenhouse/open: HTTPError: HTTP Error 404: Not Found",
+    "greenhouse/jar: HTTPError: HTTP Error 404: Not Found",
+    "greenhouse/niyo: HTTPError: HTTP Error 404: Not Found",
+    "greenhouse/razorpayx: HTTPError: HTTP Error 404: Not Found",
+    "greenhouse/airwallex: HTTPError: HTTP Error 404: Not Found",
+    "greenhouse/plaid: HTTPError: HTTP Error 404: Not Found",
+    "greenhouse/ramp: HTTPError: HTTP Error 404: Not Found",
+    "greenhouse/deel: HTTPError: HTTP Error 404: Not Found",
+    "greenhouse/stripeindia: HTTPError: HTTP Error 404: Not Found",
     "lever/postman: HTTPError: HTTP Error 404: Not Found",
-    "lever/atlassian: HTTPError: HTTP Error 404: Not Found",
     "lever/canva: HTTPError: HTTP Error 404: Not Found",
+    "lever/atlassian: HTTPError: HTTP Error 404: Not Found",
     "lever/thoughtspot: HTTPError: HTTP Error 404: Not Found",
     "lever/browserstack: HTTPError: HTTP Error 404: Not Found",
     "lever/razorpay: HTTPError: HTTP Error 404: Not Found",
+    "lever/groww: HTTPError: HTTP Error 404: Not Found",
+    "lever/slice: HTTPError: HTTP Error 404: Not Found",
+    "lever/swiggy: HTTPError: HTTP Error 404: Not Found",
+    "lever/chargebee: HTTPError: HTTP Error 404: Not Found",
+    "lever/cashfree: HTTPError: HTTP Error 404: Not Found",
+    "lever/yubi: HTTPError: HTTP Error 404: Not Found",
+    "lever/smallcase: HTTPError: HTTP Error 404: Not Found",
+    "lever/acko: HTTPError: HTTP Error 404: Not Found",
+    "lever/navi: HTTPError: HTTP Error 404: Not Found",
+    "lever/airwallex: HTTPError: HTTP Error 404: Not Found",
+    "lever/wise: HTTPError: HTTP Error 404: Not Found",
+    "lever/ramp: HTTPError: HTTP Error 404: Not Found",
+    "lever/brex: HTTPError: HTTP Error 404: Not Found",
+    "lever/rippling: HTTPError: HTTP Error 404: Not Found",
+    "ashby/retool: HTTPError: HTTP Error 404: Not Found",
     "ashby/remote: HTTPError: HTTP Error 404: Not Found",
-    "ashby/retool: HTTPError: HTTP Error 404: Not Found"
-  ]
+    "ashby/brex: HTTPError: HTTP Error 404: Not Found",
+    "ashby/wise: HTTPError: HTTP Error 404: Not Found",
+    "ashby/linearapp: HTTPError: HTTP Error 404: Not Found",
+    "ashby/anthropic: HTTPError: HTTP Error 404: Not Found",
+    "ashby/calcom: HTTPError: HTTP Error 404: Not Found",
+    "ashby/tella: HTTPError: HTTP Error 404: Not Found"
+  ],
+  "source_summary": {
+    "configured": 93,
+    "successful": 28,
+    "failed": 65
+  }
 }
