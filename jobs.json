@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-21T18:42:52.764479+00:00",
+  "updated_at": "2026-10-21T22:25:18.659917+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 25,
+  "total": 26,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/adm-group/jobs/finance-administrator-entry-level-remote-mumbai",
@@ -123,28 +123,6 @@
       "match_group": "Possible matches"
     },
     {
-      "id": "him:https://himalayas.app/companies/growe/jobs/payroll-specialist",
-      "title": "Payroll Specialist",
-      "company": "Growe",
-      "location": "Remote · India eligible",
-      "date": "2026-10-17",
-      "type": "Finance Operations",
-      "level": "0–2 years",
-      "experience": "Minimum 2 years mentioned",
-      "fresher_confirmed": false,
-      "fit_score": 72,
-      "url": "https://himalayas.app/companies/growe/jobs/payroll-specialist?utm_source=api",
-      "skills": [
-        "Excel",
-        "Payroll"
-      ],
-      "summary": "Growe is a leading business advisory and services group in iGaming and Entertainment. We are creators of strategies that work and solutions that scale. Combining strategic vision with hands-on expertise, we help businesses navigate the fast-evolving industry, seize new opportunities, enter new markets, and achieve sustainable growth. Our expertise spans across key areas: from business and brand strategy development to market research, marketing solutions, IT customization, organizational structuring, and talent management. We partner with our clients to turn challenges into competitive advantages, ensuring successful market entries and long-term global expansion. At Growe , there are no limits to our ambitions ! We boldly break stereotypes ",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
       "id": "him:https://himalayas.app/companies/attesa-coffee/jobs/financial-accounting",
       "title": "Financial Accounting",
       "company": "Attesa Coffee",
@@ -169,6 +147,28 @@
       "match_group": "Possible matches"
     },
     {
+      "id": "him:https://himalayas.app/companies/growe/jobs/payroll-specialist",
+      "title": "Payroll Specialist",
+      "company": "Growe",
+      "location": "Remote · India eligible",
+      "date": "2026-10-17",
+      "type": "Finance Operations",
+      "level": "0–2 years",
+      "experience": "Minimum 2 years mentioned",
+      "fresher_confirmed": false,
+      "fit_score": 72,
+      "url": "https://himalayas.app/companies/growe/jobs/payroll-specialist?utm_source=api",
+      "skills": [
+        "Excel",
+        "Payroll"
+      ],
+      "summary": "Growe is a leading business advisory and services group in iGaming and Entertainment. We are creators of strategies that work and solutions that scale. Combining strategic vision with hands-on expertise, we help businesses navigate the fast-evolving industry, seize new opportunities, enter new markets, and achieve sustainable growth. Our expertise spans across key areas: from business and brand strategy development to market research, marketing solutions, IT customization, organizational structuring, and talent management. We partner with our clients to turn challenges into competitive advantages, ensuring successful market entries and long-term global expansion. At Growe , there are no limits to our ambitions ! We boldly break stereotypes ",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
       "id": "him:https://himalayas.app/companies/marriott-international/jobs/finance-executive-work-from-home-opportunity-for-mothers",
       "title": "Finance Executive - Work from home opportunity for Mothers",
       "company": "Marriott International",
@@ -186,6 +186,33 @@
         "Payroll"
       ],
       "summary": "POSITION SUMMARY Check figures, postings, and documents for accuracy. Organize, secure, and maintain all files, records, cash and cash equivalents in accordance with policies and procedures. Record, store, access, and/or analyze computerized financial information. Classify, code, and summarize numerical and financial data to compile and keep financial records, using journals, ledgers, and/or computers. Prepare, maintain, audit, and distribute statistical, financial, accounting, auditing, or payroll reports and tables. Complete period-end closing procedures and reports as specified. Prepare, review, reconcile, and issue bills, invoices, and account statements according to company procedures. Follow-up and resolve past due accounts and vendor",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/nightowl-consulting/jobs/accounting-assistant-accounts-payable-specialist-loan-vison-bookkeeping-and",
+      "title": "Accounting Assistant / Accounts Payable Specialist (Loan Vison, Bookkeeping, and",
+      "company": "NightOwl Consulting",
+      "location": "Remote · India eligible",
+      "date": "2026-10-21",
+      "type": "Accounting / AP-AR",
+      "level": "0–2 years",
+      "experience": "Minimum 1 years mentioned",
+      "fresher_confirmed": false,
+      "fit_score": 72,
+      "url": "https://himalayas.app/companies/nightowl-consulting/jobs/accounting-assistant-accounts-payable-specialist-loan-vison-bookkeeping-and?utm_source=api",
+      "skills": [
+        "Excel",
+        "Accounting",
+        "Financial reporting",
+        "Accounts payable",
+        "Audit",
+        "Payroll",
+        "QuickBooks"
+      ],
+      "summary": "The Accounting Assistant / Accounts Payable Specialist supports the accounting team by handling day-to-day accounts payable operations and general accounting tasks. This role is responsible for accurate invoice processing, vendor and employee payments, reconciliations, and documentation, while assisting with month-end close, reporting, and payroll support. The position works closely with vendors and internal teams to resolve discrepancies and ensure timely, compliant payments. This role leans toward accounting support while maintaining strong operational ownership of the full accounts payable cycle. Key Responsibilities Accounts Payable & Payment Processing Receive, review, verify, and reconcile vendor invoices for accuracy and proper appro",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -605,12 +632,12 @@
       "match_group": "Possible matches"
     }
   ],
-  "sources_checked": 42,
+  "sources_checked": 46,
   "source_summary": {
-    "configured": 50,
-    "successful": 42,
-    "failed": 8,
-    "with_matches": 16
+    "configured": 52,
+    "successful": 46,
+    "failed": 6,
+    "with_matches": 18
   },
   "sources": [
     {
@@ -665,9 +692,8 @@
     },
     {
       "source": "lever/meesho",
-      "status": "failed",
-      "matches": 0,
-      "error": "The read operation timed out"
+      "status": "ok",
+      "matches": 0
     },
     {
       "source": "lever/porter",
@@ -757,9 +783,18 @@
     },
     {
       "source": "Himalayas/finance/p1",
-      "status": "failed",
-      "matches": 0,
-      "error": "HTTP Error 503: Service Unavailable"
+      "status": "ok",
+      "matches": 3
+    },
+    {
+      "source": "Himalayas/finance/p2",
+      "status": "ok",
+      "matches": 0
+    },
+    {
+      "source": "Himalayas/finance/p3",
+      "status": "ok",
+      "matches": 1
     },
     {
       "source": "Himalayas/accounting/p1",
@@ -784,12 +819,12 @@
     {
       "source": "Himalayas/accounts payable/p2",
       "status": "ok",
-      "matches": 4
+      "matches": 6
     },
     {
       "source": "Himalayas/accounts payable/p3",
       "status": "ok",
-      "matches": 7
+      "matches": 6
     },
     {
       "source": "Himalayas/financial analyst/p1",
@@ -873,14 +908,12 @@
     }
   ],
   "source_errors": [
-    "lever/meesho: The read operation timed out",
     "lever/wise: HTTP Error 404: Not Found",
     "lever/brex: HTTP Error 404: Not Found",
     "lever/airwallex: HTTP Error 404: Not Found",
     "ashby/retool: HTTP Error 404: Not Found",
     "ashby/remote: HTTP Error 404: Not Found",
-    "ashby/brex: HTTP Error 404: Not Found",
-    "Himalayas/finance/p1: HTTP Error 503: Service Unavailable"
+    "ashby/brex: HTTP Error 404: Not Found"
   ],
   "disclaimer": "Coverage is partial. Remote eligibility and fresher requirements must be confirmed with the employer."
 }
