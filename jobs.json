@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-21T07:45:17.570200+00:00",
+  "updated_at": "2026-10-21T13:53:12.484404+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 26,
+  "total": 25,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/adm-group/jobs/finance-administrator-entry-level-remote-mumbai",
@@ -94,33 +94,6 @@
       "source": "Greenhouse",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Bengaluru",
-      "match_group": "Possible matches"
-    },
-    {
-      "id": "him:https://himalayas.app/companies/trt-global-solutions/jobs/assistant-accountant-9371698590",
-      "title": "Assistant Accountant",
-      "company": "TRT Global Solutions",
-      "location": "Remote · India eligible",
-      "date": "2026-10-15",
-      "type": "Accounting / AP-AR",
-      "level": "0–2 years",
-      "experience": "Minimum 1 years mentioned",
-      "fresher_confirmed": false,
-      "fit_score": 72,
-      "url": "https://himalayas.app/companies/trt-global-solutions/jobs/assistant-accountant-9371698590?utm_source=api",
-      "skills": [
-        "Excel",
-        "Accounting",
-        "Reconciliation",
-        "Financial reporting",
-        "Accounts payable",
-        "Accounts receivable",
-        "Audit"
-      ],
-      "summary": "Position: AssistantAccountant Location: REMOTE Professional Requirements: Bachelor’s degree in Accounting/Finance OR at least 1-2 years relevant experience in accounts payable, treasury, financial reporting, general accounting, or billing/revenue/collections This position is suitable also for young professionals with relevant finance experience, or recent graduates with excellent academic record even without previous work experience (though some internship/part-time experience welcome) Able to cooperate in a small team but able to work and deliver results independently Attention to detail Desire to learn and expand knowledge Can-do attitude Passion for high performance, driven by achieving results Basic working knowledge of local or interna",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
       "match_group": "Possible matches"
     },
     {
@@ -319,33 +292,6 @@
       "match_group": "Possible matches"
     },
     {
-      "id": "him:https://himalayas.app/companies/nightowl-consulting/jobs/accounting-assistant-accounts-payable-specialist-loan-vison-bookkeeping-and",
-      "title": "Accounting Assistant / Accounts Payable Specialist (Loan Vison, Bookkeeping, and",
-      "company": "NightOwl Consulting",
-      "location": "Remote · India eligible",
-      "date": "2026-10-02",
-      "type": "Accounting / AP-AR",
-      "level": "0–2 years",
-      "experience": "Minimum 1 years mentioned",
-      "fresher_confirmed": false,
-      "fit_score": 66,
-      "url": "https://himalayas.app/companies/nightowl-consulting/jobs/accounting-assistant-accounts-payable-specialist-loan-vison-bookkeeping-and?utm_source=api",
-      "skills": [
-        "Excel",
-        "Accounting",
-        "Financial reporting",
-        "Accounts payable",
-        "Audit",
-        "Payroll",
-        "QuickBooks"
-      ],
-      "summary": "The Accounting Assistant / Accounts Payable Specialist supports the accounting team by handling day-to-day accounts payable operations and general accounting tasks. This role is responsible for accurate invoice processing, vendor and employee payments, reconciliations, and documentation, while assisting with month-end close, reporting, and payroll support. The position works closely with vendors and internal teams to resolve discrepancies and ensure timely, compliant payments. This role leans toward accounting support while maintaining strong operational ownership of the full accounts payable cycle. Key Responsibilities Accounts Payable & Payment Processing Receive, review, verify, and reconcile vendor invoices for accuracy and proper appro",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
       "id": "him:https://himalayas.app/companies/tabai/jobs/ai-finance-accounting-specialist",
       "title": "AI Finance/Accounting Specialist",
       "company": "TabAI",
@@ -385,6 +331,29 @@
         "Payroll"
       ],
       "summary": "Our client, Growe, is a leading business advisory and services group in iGaming and Entertainment. Сreators of strategies that work and solutions that scale. Combining strategic vision with hands-on expertise, Growe helps businesses navigate the fast-evolving industry, seize new opportunities, enter new markets, and achieve sustainable growth. Perfect for those who aim to: Administer and maintain compensation and benefits programs; Run the monthly payroll cycle for the team: collect and validate inputs, process changes, and ensure accurate, on-time payouts; Act as the main point of contact for pay and benefits questions from team members; Track and reconcile different compensation types (bonuses, allowances, referral payouts, and similar) a",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/zelh/jobs/accounts-payable-associate",
+      "title": "Accounts Payable Associate",
+      "company": "Zelh",
+      "location": "Remote · India eligible",
+      "date": "2026-10-04",
+      "type": "Accounting / AP-AR",
+      "level": "0–2 years",
+      "experience": "Minimum 2 years mentioned",
+      "fresher_confirmed": false,
+      "fit_score": 66,
+      "url": "https://himalayas.app/companies/zelh/jobs/accounts-payable-associate?utm_source=api",
+      "skills": [
+        "Accounting",
+        "Financial reporting",
+        "Accounts payable"
+      ],
+      "summary": "About us: Zelh is a fast-growing, passionate outsourcing company. Our mission is to be the most reliable company by offering and maintaining consistently high-quality services. We achieve our mission by fostering long-term relationships with customers, employees, and vendors. Personal attention, timely communication, and respect for all people are the basis of our business philosophy! We are looking for a detail-oriented and organized Accounts Payable Associate to join our Finance team. In this role, you will be responsible for processing invoices and payments accurately and on time, maintaining vendor records, resolving invoice discrepancies, and supporting accurate month-end reporting. The ideal candidate has experience with accounts paya",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -636,11 +605,11 @@
       "match_group": "Possible matches"
     }
   ],
-  "sources_checked": 46,
+  "sources_checked": 45,
   "source_summary": {
     "configured": 52,
-    "successful": 46,
-    "failed": 6,
+    "successful": 45,
+    "failed": 7,
     "with_matches": 18
   },
   "sources": [
@@ -686,8 +655,9 @@
     },
     {
       "source": "lever/freshworks",
-      "status": "ok",
-      "matches": 0
+      "status": "failed",
+      "matches": 0,
+      "error": "The read operation timed out"
     },
     {
       "source": "lever/cred",
@@ -823,12 +793,12 @@
     {
       "source": "Himalayas/accounts payable/p2",
       "status": "ok",
-      "matches": 6
+      "matches": 4
     },
     {
       "source": "Himalayas/accounts payable/p3",
       "status": "ok",
-      "matches": 6
+      "matches": 7
     },
     {
       "source": "Himalayas/financial analyst/p1",
@@ -863,7 +833,7 @@
     {
       "source": "Himalayas/bookkeeper/p1",
       "status": "ok",
-      "matches": 7
+      "matches": 6
     },
     {
       "source": "Himalayas/bookkeeper/p2",
@@ -912,6 +882,7 @@
     }
   ],
   "source_errors": [
+    "lever/freshworks: The read operation timed out",
     "lever/wise: HTTP Error 404: Not Found",
     "lever/brex: HTTP Error 404: Not Found",
     "lever/airwallex: HTTP Error 404: Not Found",
