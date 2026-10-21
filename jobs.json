@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T13:53:12.484404+00:00",
+  "updated_at": "2026-10-21T18:42:52.764479+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
   "total": 25,
   "jobs": [
@@ -123,6 +123,28 @@
       "match_group": "Possible matches"
     },
     {
+      "id": "him:https://himalayas.app/companies/growe/jobs/payroll-specialist",
+      "title": "Payroll Specialist",
+      "company": "Growe",
+      "location": "Remote · India eligible",
+      "date": "2026-10-17",
+      "type": "Finance Operations",
+      "level": "0–2 years",
+      "experience": "Minimum 2 years mentioned",
+      "fresher_confirmed": false,
+      "fit_score": 72,
+      "url": "https://himalayas.app/companies/growe/jobs/payroll-specialist?utm_source=api",
+      "skills": [
+        "Excel",
+        "Payroll"
+      ],
+      "summary": "Growe is a leading business advisory and services group in iGaming and Entertainment. We are creators of strategies that work and solutions that scale. Combining strategic vision with hands-on expertise, we help businesses navigate the fast-evolving industry, seize new opportunities, enter new markets, and achieve sustainable growth. Our expertise spans across key areas: from business and brand strategy development to market research, marketing solutions, IT customization, organizational structuring, and talent management. We partner with our clients to turn challenges into competitive advantages, ensuring successful market entries and long-term global expansion. At Growe , there are no limits to our ambitions ! We boldly break stereotypes ",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
       "id": "him:https://himalayas.app/companies/attesa-coffee/jobs/financial-accounting",
       "title": "Financial Accounting",
       "company": "Attesa Coffee",
@@ -141,28 +163,6 @@
         "ERP"
       ],
       "summary": "Attesa Coffee is a start-up specialty green coffee sourcing and distribution company headquartered in Amsterdam, Netherlands. We work directly with producers at the origin to bring our customers (specialty coffee roasters) high-quality coffees safely, on time, and consistently using efficient digital frameworks. We believe in traceability through the chain and are highly committed to transparency towards all our stakeholders. We are looking for a Finance Accounting, who would take the lead on managing various activities related to Attesa Coffee ’s financial operations. Note : This is an independent contractor role, offered on a full-time basis to assist within our Finance & Accounting function. Tasks Create purchase / sales related transact",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
-      "id": "him:https://himalayas.app/companies/growe/jobs/payroll-specialist",
-      "title": "Payroll Specialist",
-      "company": "Growe",
-      "location": "Remote · India eligible",
-      "date": "2026-10-17",
-      "type": "Finance Operations",
-      "level": "0–2 years",
-      "experience": "Minimum 2 years mentioned",
-      "fresher_confirmed": false,
-      "fit_score": 72,
-      "url": "https://himalayas.app/companies/growe/jobs/payroll-specialist?utm_source=api",
-      "skills": [
-        "Excel",
-        "Payroll"
-      ],
-      "summary": "Growe is a leading business advisory and services group in iGaming and Entertainment. We are creators of strategies that work and solutions that scale. Combining strategic vision with hands-on expertise, we help businesses navigate the fast-evolving industry, seize new opportunities, enter new markets, and achieve sustainable growth. Our expertise spans across key areas: from business and brand strategy development to market research, marketing solutions, IT customization, organizational structuring, and talent management. We partner with our clients to turn challenges into competitive advantages, ensuring successful market entries and long-term global expansion. At Growe , there are no limits to our ambitions ! We boldly break stereotypes ",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -605,12 +605,12 @@
       "match_group": "Possible matches"
     }
   ],
-  "sources_checked": 45,
+  "sources_checked": 42,
   "source_summary": {
-    "configured": 52,
-    "successful": 45,
-    "failed": 7,
-    "with_matches": 18
+    "configured": 50,
+    "successful": 42,
+    "failed": 8,
+    "with_matches": 16
   },
   "sources": [
     {
@@ -655,9 +655,8 @@
     },
     {
       "source": "lever/freshworks",
-      "status": "failed",
-      "matches": 0,
-      "error": "The read operation timed out"
+      "status": "ok",
+      "matches": 0
     },
     {
       "source": "lever/cred",
@@ -666,8 +665,9 @@
     },
     {
       "source": "lever/meesho",
-      "status": "ok",
-      "matches": 0
+      "status": "failed",
+      "matches": 0,
+      "error": "The read operation timed out"
     },
     {
       "source": "lever/porter",
@@ -757,18 +757,9 @@
     },
     {
       "source": "Himalayas/finance/p1",
-      "status": "ok",
-      "matches": 3
-    },
-    {
-      "source": "Himalayas/finance/p2",
-      "status": "ok",
-      "matches": 0
-    },
-    {
-      "source": "Himalayas/finance/p3",
-      "status": "ok",
-      "matches": 1
+      "status": "failed",
+      "matches": 0,
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "source": "Himalayas/accounting/p1",
@@ -882,13 +873,14 @@
     }
   ],
   "source_errors": [
-    "lever/freshworks: The read operation timed out",
+    "lever/meesho: The read operation timed out",
     "lever/wise: HTTP Error 404: Not Found",
     "lever/brex: HTTP Error 404: Not Found",
     "lever/airwallex: HTTP Error 404: Not Found",
     "ashby/retool: HTTP Error 404: Not Found",
     "ashby/remote: HTTP Error 404: Not Found",
-    "ashby/brex: HTTP Error 404: Not Found"
+    "ashby/brex: HTTP Error 404: Not Found",
+    "Himalayas/finance/p1: HTTP Error 503: Service Unavailable"
   ],
   "disclaimer": "Coverage is partial. Remote eligibility and fresher requirements must be confirmed with the employer."
 }
