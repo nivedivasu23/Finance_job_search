@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-21T22:25:18.659917+00:00",
+  "updated_at": "2026-10-22T01:35:03.648352+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 26,
+  "total": 25,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/adm-group/jobs/finance-administrator-entry-level-remote-mumbai",
@@ -387,31 +387,6 @@
       "match_group": "Possible matches"
     },
     {
-      "id": "him:https://himalayas.app/companies/masalto/jobs/accounts-payable-specialist",
-      "title": "Accounts Payable Specialist",
-      "company": "MasAlto",
-      "location": "Remote · India eligible",
-      "date": "2026-10-08",
-      "type": "Accounting / AP-AR",
-      "level": "0–2 years",
-      "experience": "Minimum 2 years mentioned",
-      "fresher_confirmed": false,
-      "fit_score": 66,
-      "url": "https://himalayas.app/companies/masalto/jobs/accounts-payable-specialist?utm_source=api",
-      "skills": [
-        "Excel",
-        "Accounting",
-        "Reconciliation",
-        "Accounts payable",
-        "QuickBooks"
-      ],
-      "summary": "Location: (Remote) Department: Accounting Freelancer full time Hours: Monday to Friday, 8 am to 5 pm Montreal time Working From Home About Us For over 15 years, Corporate Stays has been a trusted leader in providing exceptional temporary housing solutions in Canada and Panama. We specialize in premium, fully furnished residences designed for professionals, families, and individuals in transition. Our team works closely with each client to identify the ideal property based on location, size, amenities, and budget. Each Corporate Stays property is designed and furnished by our sister company Casa Suarez, following five-star hospitality standards to provide guests with the comfort of a real home. With a network of more than 10,000 apartments a",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
       "id": "him:https://himalayas.app/companies/attesa-coffee/jobs/financial-accounting-fixed-term-contract",
       "title": "Financial Accounting - Fixed Term Contract",
       "company": "Attesa Coffee",
@@ -476,28 +451,6 @@
         "Audit"
       ],
       "summary": "Purpose: The primary function of the Accounts Payable Analyst is to accurately audit supplier invoices in order to make timely payment to the supplier and timely billing to the client. This position may also include work related to reconciling account ageing’s with suppliers, coordinating activities with other accounting teams, and ad hoc project work. Your Role & Accountabilities: Audit invoices to client policy, supplier contracts, tax authority requirements and supporting documents to ensure accurate client invoicing. Assess Value Added Tax, Goods and Services tax and other tax requirements when appropriate Escalate questions and issues as needed for prompt resolution Communicate to suppliers as needed for corrected paperwork and/or fail",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
-      "id": "him:https://himalayas.app/companies/altisource/jobs/analyst-accounts-payable",
-      "title": "Analyst, Accounts Payable",
-      "company": "Altisource",
-      "location": "Remote · India eligible",
-      "date": "2026-09-21",
-      "type": "Accounting / AP-AR",
-      "level": "Experience unconfirmed",
-      "experience": "Not stated; verify with employer",
-      "fresher_confirmed": false,
-      "fit_score": 48,
-      "url": "https://himalayas.app/companies/altisource/jobs/analyst-accounts-payable?utm_source=api",
-      "skills": [
-        "Accounts payable",
-        "Audit"
-      ],
-      "summary": "· Receiving and verifying invoices from vendors and suppliers. · Understand India vendor withholding Tax percentage and deductions. . Processing payments to vendors as per company policies. · Reconciling payable reports each month to confirm that all amounts paid were accurate · Solving payment or invoice discrepancies and documentation. · Experience on preparing monthly/annual schedules to Balance sheet. · Able to manage the Internal/External/Sox Audit. B. Com/MBA- Finance with 2 or more Years of Experience in Accounts Payable. WORKING AT ALTISOURCE ADVANTAGES Prosperity Competitive salary based on your experience and skills – we believe the top talent deserves the top rupee Good Health Comprehensive insurance plans ;- Medical insurance fo",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -626,6 +579,28 @@
         "MIS"
       ],
       "summary": "Who we are VOIS ( Vodafone Intelligent Solutions) is a strategic arm of Vodafone Group Plc, creating value for customers by delivering intelligent solutions through Talent, Technology & Transformation. As the largest shared services organisation in the global telco industry with 30,000 FTE, our portfolio of next-generation solutions and services are designed in partnership with customers across Vodafone Group, local markets, and partner markets to simplify and drive growth. With our strategic partner Accenture, we work alongside our Vodafone customers, other Telco and tech companies to drive transformation, meet the challenges of our industry and ensure we stay relevant and resilient. This partnership is a unique, industry-first model which",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/altisource/jobs/analyst-accounts-payable",
+      "title": "Analyst, Accounts Payable",
+      "company": "Altisource",
+      "location": "Remote · India eligible",
+      "date": "2026-09-21",
+      "type": "Accounting / AP-AR",
+      "level": "Experience unconfirmed",
+      "experience": "Not stated; verify with employer",
+      "fresher_confirmed": false,
+      "fit_score": 42,
+      "url": "https://himalayas.app/companies/altisource/jobs/analyst-accounts-payable?utm_source=api",
+      "skills": [
+        "Accounts payable",
+        "Audit"
+      ],
+      "summary": "· Receiving and verifying invoices from vendors and suppliers. · Understand India vendor withholding Tax percentage and deductions. . Processing payments to vendors as per company policies. · Reconciling payable reports each month to confirm that all amounts paid were accurate · Solving payment or invoice discrepancies and documentation. · Experience on preparing monthly/annual schedules to Balance sheet. · Able to manage the Internal/External/Sox Audit. B. Com/MBA- Finance with 2 or more Years of Experience in Accounts Payable. WORKING AT ALTISOURCE ADVANTAGES Prosperity Competitive salary based on your experience and skills – we believe the top talent deserves the top rupee Good Health Comprehensive insurance plans ;- Medical insurance fo",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -809,12 +784,12 @@
     {
       "source": "Himalayas/accounting/p3",
       "status": "ok",
-      "matches": 2
+      "matches": 1
     },
     {
       "source": "Himalayas/accounts payable/p1",
       "status": "ok",
-      "matches": 3
+      "matches": 2
     },
     {
       "source": "Himalayas/accounts payable/p2",
@@ -834,7 +809,7 @@
     {
       "source": "Himalayas/financial analyst/p2",
       "status": "ok",
-      "matches": 1
+      "matches": 0
     },
     {
       "source": "Himalayas/financial analyst/p3",
@@ -854,12 +829,12 @@
     {
       "source": "Himalayas/audit/p3",
       "status": "ok",
-      "matches": 0
+      "matches": 1
     },
     {
       "source": "Himalayas/bookkeeper/p1",
       "status": "ok",
-      "matches": 6
+      "matches": 5
     },
     {
       "source": "Himalayas/bookkeeper/p2",
