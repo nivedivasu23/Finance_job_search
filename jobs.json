@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-22T07:40:44.665405+00:00",
+  "updated_at": "2026-10-22T13:51:37.745882+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 25,
+  "total": 24,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/adm-group/jobs/finance-administrator-entry-level-remote-mumbai",
@@ -337,29 +337,6 @@
       "match_group": "Possible matches"
     },
     {
-      "id": "him:https://himalayas.app/companies/zelh/jobs/accounts-payable-associate",
-      "title": "Accounts Payable Associate",
-      "company": "Zelh",
-      "location": "Remote · India eligible",
-      "date": "2026-10-04",
-      "type": "Accounting / AP-AR",
-      "level": "0–2 years",
-      "experience": "Minimum 2 years mentioned",
-      "fresher_confirmed": false,
-      "fit_score": 66,
-      "url": "https://himalayas.app/companies/zelh/jobs/accounts-payable-associate?utm_source=api",
-      "skills": [
-        "Accounting",
-        "Financial reporting",
-        "Accounts payable"
-      ],
-      "summary": "About us: Zelh is a fast-growing, passionate outsourcing company. Our mission is to be the most reliable company by offering and maintaining consistently high-quality services. We achieve our mission by fostering long-term relationships with customers, employees, and vendors. Personal attention, timely communication, and respect for all people are the basis of our business philosophy! We are looking for a detail-oriented and organized Accounts Payable Associate to join our Finance team. In this role, you will be responsible for processing invoices and payments accurately and on time, maintaining vendor records, resolving invoice discrepancies, and supporting accurate month-end reporting. The ideal candidate has experience with accounts paya",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
       "id": "him:https://himalayas.app/companies/attesa-coffee/jobs/financial-accounting-fixed-term-contract",
       "title": "Financial Accounting - Fixed Term Contract",
       "company": "Attesa Coffee",
@@ -608,7 +585,7 @@
     "configured": 52,
     "successful": 46,
     "failed": 6,
-    "with_matches": 18
+    "with_matches": 17
   },
   "sources": [
     {
@@ -675,7 +652,7 @@
       "source": "lever/wise",
       "status": "failed",
       "matches": 0,
-      "error": "HTTP Error 404: Not Found"
+      "error": "The read operation timed out"
     },
     {
       "source": "lever/brex",
@@ -775,12 +752,12 @@
     {
       "source": "Himalayas/accounting/p2",
       "status": "ok",
-      "matches": 2
+      "matches": 1
     },
     {
       "source": "Himalayas/accounting/p3",
       "status": "ok",
-      "matches": 1
+      "matches": 2
     },
     {
       "source": "Himalayas/accounts payable/p1",
@@ -790,7 +767,7 @@
     {
       "source": "Himalayas/accounts payable/p2",
       "status": "ok",
-      "matches": 6
+      "matches": 5
     },
     {
       "source": "Himalayas/accounts payable/p3",
@@ -825,7 +802,7 @@
     {
       "source": "Himalayas/audit/p3",
       "status": "ok",
-      "matches": 1
+      "matches": 0
     },
     {
       "source": "Himalayas/bookkeeper/p1",
@@ -879,7 +856,7 @@
     }
   ],
   "source_errors": [
-    "lever/wise: HTTP Error 404: Not Found",
+    "lever/wise: The read operation timed out",
     "lever/brex: HTTP Error 404: Not Found",
     "lever/airwallex: HTTP Error 404: Not Found",
     "ashby/retool: HTTP Error 404: Not Found",
