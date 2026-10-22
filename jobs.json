@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T01:35:03.648352+00:00",
+  "updated_at": "2026-10-22T07:40:44.665405+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
   "total": 25,
   "jobs": [
@@ -20,33 +20,6 @@
         "Accounting"
       ],
       "summary": "We’re looking for a highly skilled, detail-oriented Administrator to join our dynamic team; in this role, you’ll play a key part in ensuring the compliance and accuracy of procurement activities, supporting order and invoice processes end-to-end, and maintaining effective communication with both internal and external stakeholders. You’ll thrive if you enjoy working in a fast-paced environment, take pride in getting the details right, and naturally look for ways to improve processes, with the core purpose of the role being to ensure robust procurement compliance by verifying documentation, resolving discrepancies, supporting invoice processing and order closure, and enabling smooth stakeholder communication through strong process management ",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Best matches"
-    },
-    {
-      "id": "him:https://himalayas.app/companies/sprinto/jobs/finance-intern-remote",
-      "title": "Finance Intern - Remote",
-      "company": "Sprinto",
-      "location": "Remote · India eligible",
-      "date": "2026-08-23",
-      "type": "Internship / Trainee",
-      "level": "Fresher / Intern",
-      "experience": "Not stated; verify with employer",
-      "fresher_confirmed": true,
-      "fit_score": 80,
-      "url": "https://himalayas.app/companies/sprinto/jobs/finance-intern-remote?utm_source=api",
-      "skills": [
-        "Accounting",
-        "Forecasting",
-        "Budgeting",
-        "Accounts payable",
-        "Accounts receivable",
-        "Audit",
-        "QuickBooks"
-      ],
-      "summary": "Sprinto is an Autonomous Trust Platform that centralizes trust requirements across security frameworks, vendors, and customers. Sprinto autonomously executes tasks needed to maintain trust across compliance, audits, risk management, vendor risk, privacy, and AI governance, enabling organizations to maintain a strong, reliable trust posture without draining operational bandwidth and resources on repetitive tasks. Backed by top-tier investors such as Accel, Elevation, and Blume Ventures, we’ve raised $31.8M in funding to fuel our mission. Trusted by over 4,000 organizations across 75 countries , Sprinto helps organizations stay audit-ready, manage real-time risks, and scale fearlessly. With 300+ native integrations and AI-driven automation, S",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -457,6 +430,29 @@
       "match_group": "Possible matches"
     },
     {
+      "id": "him:https://himalayas.app/companies/gusti-leder-gmbh/jobs/accounting-assistant",
+      "title": "Accounting Assistant",
+      "company": "Gusti Leder GmbH",
+      "location": "Remote · India eligible",
+      "date": "2026-10-22",
+      "type": "Accounting / AP-AR",
+      "level": "Experience unconfirmed",
+      "experience": "Not stated; verify with employer",
+      "fresher_confirmed": false,
+      "fit_score": 54,
+      "url": "https://himalayas.app/companies/gusti-leder-gmbh/jobs/accounting-assistant?utm_source=api",
+      "skills": [
+        "Excel",
+        "Accounting",
+        "Reconciliation"
+      ],
+      "summary": "Accounting Assistant (Remote) About Gusti Leather Immerse yourself in the world of Gusti Leder, where every bag tells a story and every product is a statement for transparent production and style. At Gusti Leder GmbH , a company known for its commitment to transparency, quality, and the promotion of slow fashion, we offer you more than just a job. We offer you a chance to be part of a movement that aims to change the leather industry for the better. Our products represent conscious consumption, sustainable elegance, and timeless vintage charm. Your Mission Customer Refunds: Process customer refunds accurately and handle related inquiries in a timely, friendly manner. Invoice Management: Manage, verify, and check invoices for accuracy and co",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
       "id": "him:https://himalayas.app/companies/graphitefinancial/jobs/accounting-associate",
       "title": "Accounting Associate",
       "company": "Graphite",
@@ -764,17 +760,17 @@
     {
       "source": "Himalayas/finance/p2",
       "status": "ok",
-      "matches": 0
+      "matches": 1
     },
     {
       "source": "Himalayas/finance/p3",
       "status": "ok",
-      "matches": 1
+      "matches": 0
     },
     {
       "source": "Himalayas/accounting/p1",
       "status": "ok",
-      "matches": 4
+      "matches": 5
     },
     {
       "source": "Himalayas/accounting/p2",
@@ -789,7 +785,7 @@
     {
       "source": "Himalayas/accounts payable/p1",
       "status": "ok",
-      "matches": 2
+      "matches": 3
     },
     {
       "source": "Himalayas/accounts payable/p2",
@@ -799,7 +795,7 @@
     {
       "source": "Himalayas/accounts payable/p3",
       "status": "ok",
-      "matches": 6
+      "matches": 5
     },
     {
       "source": "Himalayas/financial analyst/p1",
@@ -834,7 +830,7 @@
     {
       "source": "Himalayas/bookkeeper/p1",
       "status": "ok",
-      "matches": 5
+      "matches": 6
     },
     {
       "source": "Himalayas/bookkeeper/p2",
