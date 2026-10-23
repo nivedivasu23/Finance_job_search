@@ -1,8 +1,35 @@
 {
-  "updated_at": "2026-10-23T01:35:32.746107+00:00",
+  "updated_at": "2026-10-23T07:38:06.332072+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 24,
+  "total": 23,
   "jobs": [
+    {
+      "id": "him:https://himalayas.app/companies/sprinto/jobs/finance-intern-remote",
+      "title": "Finance Intern - Remote",
+      "company": "Sprinto",
+      "location": "Remote · India eligible",
+      "date": "2026-10-22",
+      "type": "Internship / Trainee",
+      "level": "Fresher / Intern",
+      "experience": "Not stated; verify with employer",
+      "fresher_confirmed": true,
+      "fit_score": 92,
+      "url": "https://himalayas.app/companies/sprinto/jobs/finance-intern-remote?utm_source=api",
+      "skills": [
+        "Accounting",
+        "Forecasting",
+        "Budgeting",
+        "Accounts payable",
+        "Accounts receivable",
+        "Audit",
+        "QuickBooks"
+      ],
+      "summary": "Sprinto is an Autonomous Trust Platform that centralizes trust requirements across security frameworks, vendors, and customers. Sprinto autonomously executes tasks needed to maintain trust across compliance, audits, risk management, vendor risk, privacy, and AI governance, enabling organizations to maintain a strong, reliable trust posture without draining operational bandwidth and resources on repetitive tasks. Backed by top-tier investors such as Accel, Elevation, and Blume Ventures, we’ve raised $31.8M in funding to fuel our mission. Trusted by over 4,000 organizations across 75 countries , Sprinto helps organizations stay audit-ready, manage real-time risks, and scale fearlessly. With 300+ native integrations and AI-driven automation, S",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Best matches"
+    },
     {
       "id": "him:https://himalayas.app/companies/adm-group/jobs/finance-administrator-entry-level-remote-mumbai",
       "title": "Finance Administrator - Entry level (Remote - Mumbai)",
@@ -430,6 +457,31 @@
       "match_group": "Possible matches"
     },
     {
+      "id": "him:https://himalayas.app/companies/precision-medicine-group/jobs/financial-analyst",
+      "title": "Financial Analyst",
+      "company": "Precision Medicine Group",
+      "location": "Remote · India eligible",
+      "date": "2026-10-22",
+      "type": "Finance Analyst / FP&A",
+      "level": "Experience unconfirmed",
+      "experience": "Not stated; verify with employer",
+      "fresher_confirmed": false,
+      "fit_score": 54,
+      "url": "https://himalayas.app/companies/precision-medicine-group/jobs/financial-analyst?utm_source=api",
+      "skills": [
+        "Excel",
+        "Accounting",
+        "Financial reporting",
+        "Accounts payable",
+        "Accounts receivable"
+      ],
+      "summary": "Global trials for oncology, rare diseases and other complex diseases face unique challenges. Precision partners with our clients to meet them head-on through our extensive footprint across the globe. We succeed by pairing personalized clinical services with translational medicine excellence, making us the first fully integrated clinical research organization created expressly to help advance the promises of precision medicine. Modern biomarker-informed therapeutic and diagnostic development programs involve a complex operational and data ecosystem. Multiple data streams flow from sites, central labs, and specialty labs. At Precision, we understand that data isn't enough. Clients need information, or data with context, to make decisions that",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
       "id": "him:https://himalayas.app/companies/graphitefinancial/jobs/accounting-associate",
       "title": "Accounting Associate",
       "company": "Graphite",
@@ -451,82 +503,6 @@
         "Financial statements"
       ],
       "summary": "Graphite is a growing boutique finance, accounting & strategy firm built to help startups scale efficiently and sustainably. We were born out of a venture capital fund, ffVC, in NYC in 2008, supporting their early-stage portfolio of early-stage companies. In 2016, we began working with the broader startup community. We are a team of seasoned Entrepreneurs, CFOs, Investors, and Accountants with a vast understanding of startup accounting and a passion for growing companies, and we’ve worked with some of the coolest startups around: The Sill, Caraway, Settle, The Muse, and Finmark to name a few. Experience required: - 3 to 7 yearsin US/Global Finance with Good Communication Skills. Shift Timings: Preferably EST Timezone - shift timing from 6:3",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
-      "id": "him:https://himalayas.app/companies/nightowl-consulting/jobs/accounting-assistant",
-      "title": "Accounting Assistant",
-      "company": "NightOwl Consulting",
-      "location": "Remote · India eligible",
-      "date": "2026-10-03",
-      "type": "Accounting / AP-AR",
-      "level": "Experience unconfirmed",
-      "experience": "Not stated; verify with employer",
-      "fresher_confirmed": false,
-      "fit_score": 48,
-      "url": "https://himalayas.app/companies/nightowl-consulting/jobs/accounting-assistant?utm_source=api",
-      "skills": [
-        "Excel",
-        "Accounting",
-        "Accounts payable",
-        "Accounts receivable",
-        "Payroll",
-        "QuickBooks"
-      ],
-      "summary": "We are seeking a reliable and detail-oriented Accounting Assistant to support our client’s day-to-day financial operations. This role will assist with payroll processing, bookkeeping, and general accounting functions using ADP and QuickBooks. The ideal candidate is organized, efficient, and comfortable working in a dynamic environment. Key Responsibilities Assist with payroll processing and related reporting using ADP. Support bookkeeping tasks, including accounts payable, accounts receivable, and general ledger entries in QuickBooks. Help maintain organized financial records and documentation. Generate basic financial reports as requested (e.g., expense reports, payroll summaries). Support the month-end and year-end closing processes. Ensu",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
-      "id": "him:https://himalayas.app/companies/precision-for-medicine/jobs/financial-analyst",
-      "title": "Financial Analyst",
-      "company": "Precision for Medicine",
-      "location": "Remote · India eligible",
-      "date": "2026-08-23",
-      "type": "Finance Analyst / FP&A",
-      "level": "Experience unconfirmed",
-      "experience": "Not stated; verify with employer",
-      "fresher_confirmed": false,
-      "fit_score": 42,
-      "url": "https://himalayas.app/companies/precision-for-medicine/jobs/financial-analyst?utm_source=api",
-      "skills": [
-        "Excel",
-        "Accounting",
-        "Financial reporting",
-        "Accounts payable",
-        "Accounts receivable"
-      ],
-      "summary": "Global trials for oncology, rare diseases and other complex diseases face unique challenges. Precision partners with our clients to meet them head-on through our extensive footprint across the globe. We succeed by pairing personalized clinical services with translational medicine excellence, making us the first fully integrated clinical research organization created expressly to help advance the promises of precision medicine. Modern biomarker-informed therapeutic and diagnostic development programs involve a complex operational and data ecosystem. Multiple data streams flow from sites, central labs, and specialty labs. At Precision, we understand that data isn't enough. Clients need information, or data with context, to make decisions that",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
-      "id": "him:https://himalayas.app/companies/precision-medicine-group/jobs/financial-analyst",
-      "title": "Financial Analyst",
-      "company": "Precision Medicine Group",
-      "location": "Remote · India eligible",
-      "date": "2026-08-23",
-      "type": "Finance Analyst / FP&A",
-      "level": "Experience unconfirmed",
-      "experience": "Not stated; verify with employer",
-      "fresher_confirmed": false,
-      "fit_score": 42,
-      "url": "https://himalayas.app/companies/precision-medicine-group/jobs/financial-analyst?utm_source=api",
-      "skills": [
-        "Excel",
-        "Accounting",
-        "Financial reporting",
-        "Accounts payable",
-        "Accounts receivable"
-      ],
-      "summary": "Global trials for oncology, rare diseases and other complex diseases face unique challenges. Precision partners with our clients to meet them head-on through our extensive footprint across the globe. We succeed by pairing personalized clinical services with translational medicine excellence, making us the first fully integrated clinical research organization created expressly to help advance the promises of precision medicine. Modern biomarker-informed therapeutic and diagnostic development programs involve a complex operational and data ecosystem. Multiple data streams flow from sites, central labs, and specialty labs. At Precision, we understand that data isn't enough. Clients need information, or data with context, to make decisions that",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -732,12 +708,12 @@
     {
       "source": "Himalayas/finance/p1",
       "status": "ok",
-      "matches": 3
+      "matches": 2
     },
     {
       "source": "Himalayas/finance/p2",
       "status": "ok",
-      "matches": 1
+      "matches": 2
     },
     {
       "source": "Himalayas/finance/p3",
@@ -752,12 +728,12 @@
     {
       "source": "Himalayas/accounting/p2",
       "status": "ok",
-      "matches": 1
+      "matches": 2
     },
     {
       "source": "Himalayas/accounting/p3",
       "status": "ok",
-      "matches": 2
+      "matches": 1
     },
     {
       "source": "Himalayas/accounts payable/p1",
@@ -772,7 +748,7 @@
     {
       "source": "Himalayas/accounts payable/p3",
       "status": "ok",
-      "matches": 5
+      "matches": 4
     },
     {
       "source": "Himalayas/financial analyst/p1",
@@ -807,7 +783,7 @@
     {
       "source": "Himalayas/bookkeeper/p1",
       "status": "ok",
-      "matches": 6
+      "matches": 5
     },
     {
       "source": "Himalayas/bookkeeper/p2",
