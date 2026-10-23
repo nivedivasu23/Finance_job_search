@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-23T13:32:01.169826+00:00",
+  "updated_at": "2026-10-23T18:26:04.548333+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 23,
+  "total": 22,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/sprinto/jobs/finance-intern-remote",
@@ -47,6 +47,31 @@
         "Accounting"
       ],
       "summary": "We’re looking for a highly skilled, detail-oriented Administrator to join our dynamic team; in this role, you’ll play a key part in ensuring the compliance and accuracy of procurement activities, supporting order and invoice processes end-to-end, and maintaining effective communication with both internal and external stakeholders. You’ll thrive if you enjoy working in a fast-paced environment, take pride in getting the details right, and naturally look for ways to improve processes, with the core purpose of the role being to ensure robust procurement compliance by verifying documentation, resolving discrepancies, supporting invoice processing and order closure, and enabling smooth stakeholder communication through strong process management ",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Best matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/one-identity/jobs/accounts-payable-analyst",
+      "title": "Accounts Payable Analyst",
+      "company": "One Identity",
+      "location": "Remote · India eligible",
+      "date": "2026-09-16",
+      "type": "Accounting / AP-AR",
+      "level": "Fresher / Intern",
+      "experience": "Minimum 0 years mentioned",
+      "fresher_confirmed": true,
+      "fit_score": 80,
+      "url": "https://himalayas.app/companies/one-identity/jobs/accounts-payable-analyst?utm_source=api",
+      "skills": [
+        "SAP",
+        "Accounting",
+        "Accounts payable",
+        "Audit",
+        "ERP"
+      ],
+      "summary": "Overview One Identity , a leader in identity security, delivers solutions that help customers strengthen operational efficiency, reduce risk surface, control costs and enhance their cybersecurity. One Identity offers the Unified Identity Platform, with leading capabilities for Identity Governance, Identity & Access Management and Privileged Access Management. The Unified Identity Platform brings together these components to enable organizations to shift from a fragmented identity strategy to a holistic approach. We are offering an enhanced career opportunities for candidate that eager to learn and grow in a repidly changing environment.We are currently looking for an Accounts Payable Analyst to join our General Accounting team. As part of o",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -409,29 +434,6 @@
       "match_group": "Possible matches"
     },
     {
-      "id": "him:https://himalayas.app/companies/gusti-leder-gmbh/jobs/accounting-assistant",
-      "title": "Accounting Assistant",
-      "company": "Gusti Leder GmbH",
-      "location": "Remote · India eligible",
-      "date": "2026-10-22",
-      "type": "Accounting / AP-AR",
-      "level": "Experience unconfirmed",
-      "experience": "Not stated; verify with employer",
-      "fresher_confirmed": false,
-      "fit_score": 54,
-      "url": "https://himalayas.app/companies/gusti-leder-gmbh/jobs/accounting-assistant?utm_source=api",
-      "skills": [
-        "Excel",
-        "Accounting",
-        "Reconciliation"
-      ],
-      "summary": "Accounting Assistant (Remote) About Gusti Leather Immerse yourself in the world of Gusti Leder, where every bag tells a story and every product is a statement for transparent production and style. At Gusti Leder GmbH , a company known for its commitment to transparency, quality, and the promotion of slow fashion, we offer you more than just a job. We offer you a chance to be part of a movement that aims to change the leather industry for the better. Our products represent conscious consumption, sustainable elegance, and timeless vintage charm. Your Mission Customer Refunds: Process customer refunds accurately and handle related inquiries in a timely, friendly manner. Invoice Management: Manage, verify, and check invoices for accuracy and co",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
       "id": "him:https://himalayas.app/companies/precision-medicine-group/jobs/financial-analyst",
       "title": "Financial Analyst",
       "company": "Precision Medicine Group",
@@ -478,32 +480,6 @@
         "Financial statements"
       ],
       "summary": "Graphite is a growing boutique finance, accounting & strategy firm built to help startups scale efficiently and sustainably. We were born out of a venture capital fund, ffVC, in NYC in 2008, supporting their early-stage portfolio of early-stage companies. In 2016, we began working with the broader startup community. We are a team of seasoned Entrepreneurs, CFOs, Investors, and Accountants with a vast understanding of startup accounting and a passion for growing companies, and we’ve worked with some of the coolest startups around: The Sill, Caraway, Settle, The Muse, and Finmark to name a few. Experience required: - 3 to 7 yearsin US/Global Finance with Good Communication Skills. Shift Timings: Preferably EST Timezone - shift timing from 6:3",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
-      "id": "him:https://himalayas.app/companies/nightowl-consulting/jobs/accounting-assistant",
-      "title": "Accounting Assistant",
-      "company": "NightOwl Consulting",
-      "location": "Remote · India eligible",
-      "date": "2026-10-03",
-      "type": "Accounting / AP-AR",
-      "level": "Experience unconfirmed",
-      "experience": "Not stated; verify with employer",
-      "fresher_confirmed": false,
-      "fit_score": 48,
-      "url": "https://himalayas.app/companies/nightowl-consulting/jobs/accounting-assistant?utm_source=api",
-      "skills": [
-        "Excel",
-        "Accounting",
-        "Accounts payable",
-        "Accounts receivable",
-        "Payroll",
-        "QuickBooks"
-      ],
-      "summary": "We are seeking a reliable and detail-oriented Accounting Assistant to support our client’s day-to-day financial operations. This role will assist with payroll processing, bookkeeping, and general accounting functions using ADP and QuickBooks. The ideal candidate is organized, efficient, and comfortable working in a dynamic environment. Key Responsibilities Assist with payroll processing and related reporting using ADP. Support bookkeeping tasks, including accounts payable, accounts receivable, and general ledger entries in QuickBooks. Help maintain organized financial records and documentation. Generate basic financial reports as requested (e.g., expense reports, payroll summaries). Support the month-end and year-end closing processes. Ensu",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -557,12 +533,12 @@
       "match_group": "Possible matches"
     }
   ],
-  "sources_checked": 45,
+  "sources_checked": 46,
   "source_summary": {
     "configured": 52,
-    "successful": 45,
-    "failed": 7,
-    "with_matches": 17
+    "successful": 46,
+    "failed": 6,
+    "with_matches": 16
   },
   "sources": [
     {
@@ -617,9 +593,8 @@
     },
     {
       "source": "lever/meesho",
-      "status": "failed",
-      "matches": 0,
-      "error": "The read operation timed out"
+      "status": "ok",
+      "matches": 0
     },
     {
       "source": "lever/porter",
@@ -710,12 +685,12 @@
     {
       "source": "Himalayas/finance/p1",
       "status": "ok",
-      "matches": 3
+      "matches": 1
     },
     {
       "source": "Himalayas/finance/p2",
       "status": "ok",
-      "matches": 1
+      "matches": 2
     },
     {
       "source": "Himalayas/finance/p3",
@@ -735,12 +710,12 @@
     {
       "source": "Himalayas/accounting/p3",
       "status": "ok",
-      "matches": 1
+      "matches": 0
     },
     {
       "source": "Himalayas/accounts payable/p1",
       "status": "ok",
-      "matches": 3
+      "matches": 2
     },
     {
       "source": "Himalayas/accounts payable/p2",
@@ -785,7 +760,7 @@
     {
       "source": "Himalayas/bookkeeper/p1",
       "status": "ok",
-      "matches": 6
+      "matches": 4
     },
     {
       "source": "Himalayas/bookkeeper/p2",
@@ -834,7 +809,6 @@
     }
   ],
   "source_errors": [
-    "lever/meesho: The read operation timed out",
     "lever/wise: HTTP Error 404: Not Found",
     "lever/brex: HTTP Error 404: Not Found",
     "lever/airwallex: HTTP Error 404: Not Found",
