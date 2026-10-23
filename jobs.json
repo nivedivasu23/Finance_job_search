@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T07:38:06.332072+00:00",
+  "updated_at": "2026-10-23T13:32:01.169826+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
   "total": 23,
   "jobs": [
@@ -47,31 +47,6 @@
         "Accounting"
       ],
       "summary": "We’re looking for a highly skilled, detail-oriented Administrator to join our dynamic team; in this role, you’ll play a key part in ensuring the compliance and accuracy of procurement activities, supporting order and invoice processes end-to-end, and maintaining effective communication with both internal and external stakeholders. You’ll thrive if you enjoy working in a fast-paced environment, take pride in getting the details right, and naturally look for ways to improve processes, with the core purpose of the role being to ensure robust procurement compliance by verifying documentation, resolving discrepancies, supporting invoice processing and order closure, and enabling smooth stakeholder communication through strong process management ",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Best matches"
-    },
-    {
-      "id": "him:https://himalayas.app/companies/one-identity/jobs/accounts-payable-analyst",
-      "title": "Accounts Payable Analyst",
-      "company": "One Identity",
-      "location": "Remote · India eligible",
-      "date": "2026-09-16",
-      "type": "Accounting / AP-AR",
-      "level": "Fresher / Intern",
-      "experience": "Minimum 0 years mentioned",
-      "fresher_confirmed": true,
-      "fit_score": 80,
-      "url": "https://himalayas.app/companies/one-identity/jobs/accounts-payable-analyst?utm_source=api",
-      "skills": [
-        "SAP",
-        "Accounting",
-        "Accounts payable",
-        "Audit",
-        "ERP"
-      ],
-      "summary": "Overview One Identity , a leader in identity security, delivers solutions that help customers strengthen operational efficiency, reduce risk surface, control costs and enhance their cybersecurity. One Identity offers the Unified Identity Platform, with leading capabilities for Identity Governance, Identity & Access Management and Privileged Access Management. The Unified Identity Platform brings together these components to enable organizations to shift from a fragmented identity strategy to a holistic approach. We are offering an enhanced career opportunities for candidate that eager to learn and grow in a repidly changing environment.We are currently looking for an Accounts Payable Analyst to join our General Accounting team. As part of o",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -509,6 +484,32 @@
       "match_group": "Possible matches"
     },
     {
+      "id": "him:https://himalayas.app/companies/nightowl-consulting/jobs/accounting-assistant",
+      "title": "Accounting Assistant",
+      "company": "NightOwl Consulting",
+      "location": "Remote · India eligible",
+      "date": "2026-10-03",
+      "type": "Accounting / AP-AR",
+      "level": "Experience unconfirmed",
+      "experience": "Not stated; verify with employer",
+      "fresher_confirmed": false,
+      "fit_score": 48,
+      "url": "https://himalayas.app/companies/nightowl-consulting/jobs/accounting-assistant?utm_source=api",
+      "skills": [
+        "Excel",
+        "Accounting",
+        "Accounts payable",
+        "Accounts receivable",
+        "Payroll",
+        "QuickBooks"
+      ],
+      "summary": "We are seeking a reliable and detail-oriented Accounting Assistant to support our client’s day-to-day financial operations. This role will assist with payroll processing, bookkeeping, and general accounting functions using ADP and QuickBooks. The ideal candidate is organized, efficient, and comfortable working in a dynamic environment. Key Responsibilities Assist with payroll processing and related reporting using ADP. Support bookkeeping tasks, including accounts payable, accounts receivable, and general ledger entries in QuickBooks. Help maintain organized financial records and documentation. Generate basic financial reports as requested (e.g., expense reports, payroll summaries). Support the month-end and year-end closing processes. Ensu",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
       "id": "him:https://himalayas.app/companies/vodafone/jobs/financial-control-3rd-party-settlements-specialist-vois",
       "title": "Financial Control & 3rd Party Settlements Specialist - VOIS",
       "company": "Vodafone",
@@ -556,11 +557,11 @@
       "match_group": "Possible matches"
     }
   ],
-  "sources_checked": 46,
+  "sources_checked": 45,
   "source_summary": {
     "configured": 52,
-    "successful": 46,
-    "failed": 6,
+    "successful": 45,
+    "failed": 7,
     "with_matches": 17
   },
   "sources": [
@@ -616,8 +617,9 @@
     },
     {
       "source": "lever/meesho",
-      "status": "ok",
-      "matches": 0
+      "status": "failed",
+      "matches": 0,
+      "error": "The read operation timed out"
     },
     {
       "source": "lever/porter",
@@ -708,12 +710,12 @@
     {
       "source": "Himalayas/finance/p1",
       "status": "ok",
-      "matches": 2
+      "matches": 3
     },
     {
       "source": "Himalayas/finance/p2",
       "status": "ok",
-      "matches": 2
+      "matches": 1
     },
     {
       "source": "Himalayas/finance/p3",
@@ -723,7 +725,7 @@
     {
       "source": "Himalayas/accounting/p1",
       "status": "ok",
-      "matches": 5
+      "matches": 4
     },
     {
       "source": "Himalayas/accounting/p2",
@@ -783,7 +785,7 @@
     {
       "source": "Himalayas/bookkeeper/p1",
       "status": "ok",
-      "matches": 5
+      "matches": 6
     },
     {
       "source": "Himalayas/bookkeeper/p2",
@@ -832,6 +834,7 @@
     }
   ],
   "source_errors": [
+    "lever/meesho: The read operation timed out",
     "lever/wise: HTTP Error 404: Not Found",
     "lever/brex: HTTP Error 404: Not Found",
     "lever/airwallex: HTTP Error 404: Not Found",
