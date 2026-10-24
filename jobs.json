@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-24T00:49:54.592503+00:00",
+  "updated_at": "2026-10-24T05:58:22.870404+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 23,
+  "total": 24,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/sprinto/jobs/finance-intern-remote",
@@ -187,6 +187,29 @@
         "QuickBooks"
       ],
       "summary": "Location: (Remote) Department: Accounting Freelancer full time Hours: Monday to Friday, 8 am to 5 pm Montreal time Working From Home About Us For over 15 years, Corporate Stays has been a trusted leader in providing exceptional temporary housing solutions in Canada and Panama. We specialize in premium, fully furnished residences designed for professionals, families, and individuals in transition. Our team works closely with each client to identify the ideal property based on location, size, amenities, and budget. Each Corporate Stays property is designed and furnished by our sister company Casa Suarez, following five-star hospitality standards to provide guests with the comfort of a real home. With a network of more than 10,000 apartments a",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/globalization-partners/jobs/payroll-billing-specialist",
+      "title": "Payroll & Billing Specialist",
+      "company": "Globalization Partners",
+      "location": "Remote · India eligible",
+      "date": "2026-10-24",
+      "type": "Accounting / AP-AR",
+      "level": "0–2 years",
+      "experience": "Minimum 2 years mentioned",
+      "fresher_confirmed": false,
+      "fit_score": 72,
+      "url": "https://himalayas.app/companies/globalization-partners/jobs/payroll-billing-specialist?utm_source=api",
+      "skills": [
+        "Accounting",
+        "Audit",
+        "Payroll"
+      ],
+      "summary": "About Us Our leading SaaS-based Global Employment Platform™ enables clients to expand into over 180 countries quickly and efficiently, without the complexities of establishing local entities. At G-P, we’re dedicated to breaking down barriers to global business and creating opportunities for everyone, everywhere. Our diverse, remote-first teams are essential to our success. We empower our Dream Team members with flexibility and resources, fostering an environment where innovation thrives and every contribution is valued and celebrated. The work you do here will positively impact lives around the world. We stand by our promise: Opportunity Made Possible. In addition to competitive compensation and benefits, we invite you to join us in expandi",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -725,7 +748,7 @@
     {
       "source": "Himalayas/accounting/p1",
       "status": "ok",
-      "matches": 6
+      "matches": 7
     },
     {
       "source": "Himalayas/accounting/p2",
@@ -740,17 +763,17 @@
     {
       "source": "Himalayas/accounts payable/p1",
       "status": "ok",
-      "matches": 4
+      "matches": 5
     },
     {
       "source": "Himalayas/accounts payable/p2",
       "status": "ok",
-      "matches": 5
+      "matches": 4
     },
     {
       "source": "Himalayas/accounts payable/p3",
       "status": "ok",
-      "matches": 4
+      "matches": 5
     },
     {
       "source": "Himalayas/financial analyst/p1",
@@ -770,7 +793,7 @@
     {
       "source": "Himalayas/audit/p1",
       "status": "ok",
-      "matches": 2
+      "matches": 3
     },
     {
       "source": "Himalayas/audit/p2",
@@ -800,12 +823,12 @@
     {
       "source": "Himalayas/tax/p2",
       "status": "ok",
-      "matches": 3
+      "matches": 2
     },
     {
       "source": "Himalayas/tax/p3",
       "status": "ok",
-      "matches": 2
+      "matches": 3
     },
     {
       "source": "Remotive/global",
