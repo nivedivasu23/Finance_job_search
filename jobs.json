@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-23T22:17:01.666477+00:00",
+  "updated_at": "2026-10-24T00:49:54.592503+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 22,
+  "total": 23,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/sprinto/jobs/finance-intern-remote",
@@ -47,31 +47,6 @@
         "Accounting"
       ],
       "summary": "We’re looking for a highly skilled, detail-oriented Administrator to join our dynamic team; in this role, you’ll play a key part in ensuring the compliance and accuracy of procurement activities, supporting order and invoice processes end-to-end, and maintaining effective communication with both internal and external stakeholders. You’ll thrive if you enjoy working in a fast-paced environment, take pride in getting the details right, and naturally look for ways to improve processes, with the core purpose of the role being to ensure robust procurement compliance by verifying documentation, resolving discrepancies, supporting invoice processing and order closure, and enabling smooth stakeholder communication through strong process management ",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Best matches"
-    },
-    {
-      "id": "him:https://himalayas.app/companies/one-identity/jobs/accounts-payable-analyst",
-      "title": "Accounts Payable Analyst",
-      "company": "One Identity",
-      "location": "Remote · India eligible",
-      "date": "2026-09-16",
-      "type": "Accounting / AP-AR",
-      "level": "Fresher / Intern",
-      "experience": "Minimum 0 years mentioned",
-      "fresher_confirmed": true,
-      "fit_score": 80,
-      "url": "https://himalayas.app/companies/one-identity/jobs/accounts-payable-analyst?utm_source=api",
-      "skills": [
-        "SAP",
-        "Accounting",
-        "Accounts payable",
-        "Audit",
-        "ERP"
-      ],
-      "summary": "Overview One Identity , a leader in identity security, delivers solutions that help customers strengthen operational efficiency, reduce risk surface, control costs and enhance their cybersecurity. One Identity offers the Unified Identity Platform, with leading capabilities for Identity Governance, Identity & Access Management and Privileged Access Management. The Unified Identity Platform brings together these components to enable organizations to shift from a fragmented identity strategy to a holistic approach. We are offering an enhanced career opportunities for candidate that eager to learn and grow in a repidly changing environment.We are currently looking for an Accounts Payable Analyst to join our General Accounting team. As part of o",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -193,6 +168,31 @@
       "match_group": "Possible matches"
     },
     {
+      "id": "him:https://himalayas.app/companies/masalto/jobs/accounts-payable-specialist-36802949",
+      "title": "Accounts Payable Specialist",
+      "company": "MasAlto",
+      "location": "Remote · India eligible",
+      "date": "2026-10-23",
+      "type": "Accounting / AP-AR",
+      "level": "0–2 years",
+      "experience": "Minimum 2 years mentioned",
+      "fresher_confirmed": false,
+      "fit_score": 72,
+      "url": "https://himalayas.app/companies/masalto/jobs/accounts-payable-specialist-36802949?utm_source=api",
+      "skills": [
+        "Excel",
+        "Accounting",
+        "Reconciliation",
+        "Accounts payable",
+        "QuickBooks"
+      ],
+      "summary": "Location: (Remote) Department: Accounting Freelancer full time Hours: Monday to Friday, 8 am to 5 pm Montreal time Working From Home About Us For over 15 years, Corporate Stays has been a trusted leader in providing exceptional temporary housing solutions in Canada and Panama. We specialize in premium, fully furnished residences designed for professionals, families, and individuals in transition. Our team works closely with each client to identify the ideal property based on location, size, amenities, and budget. Each Corporate Stays property is designed and furnished by our sister company Casa Suarez, following five-star hospitality standards to provide guests with the comfort of a real home. With a network of more than 10,000 apartments a",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
       "id": "gh:stripe:8104748",
       "title": "Credit Risk Operations Associate",
       "company": "stripe",
@@ -214,31 +214,6 @@
       "source": "Greenhouse",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Bengaluru",
-      "match_group": "Possible matches"
-    },
-    {
-      "id": "him:https://himalayas.app/companies/adm-group/jobs/accounts-and-finance-operations-executive-remote-ahmedabad-4725437999",
-      "title": "Accounts and Finance Operations Executive (Remote - Ahmedabad)",
-      "company": "adm Group",
-      "location": "Remote · India eligible",
-      "date": "2026-09-23",
-      "type": "Finance Analyst / FP&A",
-      "level": "0–2 years",
-      "experience": "Minimum 1 years mentioned",
-      "fresher_confirmed": false,
-      "fit_score": 66,
-      "url": "https://himalayas.app/companies/adm-group/jobs/accounts-and-finance-operations-executive-remote-ahmedabad-4725437999?utm_source=api",
-      "skills": [
-        "Excel",
-        "Accounting",
-        "Accounts payable",
-        "Accounts receivable",
-        "MIS"
-      ],
-      "summary": "As part of our Finance Shared Services team, you’ll support the regional business by delivering high-quality, process-driven finance operations. This role is hands-on and varied, covering key transactional activities across invoicing, reconciliations, accounting support, reporting and MIS, while partnering with internal teams, clients, and suppliers to resolve queries and meet tight deadlines. It’s a great opportunity for a recent graduate or early-career finance professional to build a strong foundation in end-to-end shared services finance. This is a fully remote role, suited to someone with 1+ years’ experience in a similar finance operations role. Key Responsibilities Accounts Payable (AP) processing: check invoices, obtain acceptance, ",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
       "match_group": "Possible matches"
     },
     {
@@ -287,29 +262,6 @@
         "Accounting"
       ],
       "summary": "Graphite Financial is a growing boutique finance, accounting, tax, and strategy firm (www.graphitefinancial.com) built to help startup and high-growth companies scale efficiently and sustainably. Graphite Financial is redefining the “finance department” for early-stage companies and VC-backed startups. We deliver high-caliber accounting and finance leadership and support to entrepreneurs and management teams building scalable, high-growth companies. Our clients are actively managing cash burn, measuring performance, reporting to investors, making capital allocation decisions, and preparing for fundraising. All of that takes expertise and time that founders don’t have and can’t afford to hire for. Graphite bridges the gap with flexible, fixe",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
-      "id": "him:https://himalayas.app/companies/tabai/jobs/ai-finance-accounting-specialist",
-      "title": "AI Finance/Accounting Specialist",
-      "company": "TabAI",
-      "location": "Remote · India eligible",
-      "date": "2026-10-02",
-      "type": "Finance Analyst / FP&A",
-      "level": "0–2 years",
-      "experience": "Minimum 2 years mentioned",
-      "fresher_confirmed": false,
-      "fit_score": 66,
-      "url": "https://himalayas.app/companies/tabai/jobs/ai-finance-accounting-specialist?utm_source=api",
-      "skills": [
-        "Excel",
-        "Accounting",
-        "QuickBooks"
-      ],
-      "summary": "About Us: We’re building TabAI .io, an AI Agent inside Microsoft Excel. We help professionals in accounting, finance, and operations save up to 95% of time on reporting, analysis, and manual tasks. What You’ll Do: Create Excel templates, demo files, and use case scenarios that show practical workflows for accounting, FP&A, finance, operations, or marketing tasks. Help improve our onboarding flow with clear, easy-to-follow demos for new users. Write short guides or simple explanations to go along with your templates. Requirements: At least 2 years of experience in Accounting, Finance or related work. Strong Excel skills (advanced formulas, reporting, modeling). Good English communication (written and spoken). Reliable internet and ability to",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -384,50 +336,25 @@
       "match_group": "Possible matches"
     },
     {
-      "id": "him:https://himalayas.app/companies/transwestern/jobs/client-accountant",
-      "title": "Client Accountant",
-      "company": "Transwestern",
+      "id": "him:https://himalayas.app/companies/adm-group/jobs/accounts-and-finance-operations-executive-remote-ahmedabad-4725437999",
+      "title": "Accounts and Finance Operations Executive (Remote - Ahmedabad)",
+      "company": "adm Group",
       "location": "Remote · India eligible",
-      "date": "2026-10-15",
-      "type": "Accounting / AP-AR",
+      "date": "2026-09-23",
+      "type": "Finance Analyst / FP&A",
       "level": "0–2 years",
-      "experience": "Minimum 2 years mentioned",
+      "experience": "Minimum 1 years mentioned",
       "fresher_confirmed": false,
-      "fit_score": 66,
-      "url": "https://himalayas.app/companies/transwestern/jobs/client-accountant?utm_source=api",
-      "skills": [
-        "Excel",
-        "Accounting",
-        "Financial reporting",
-        "Budgeting",
-        "Accounts payable",
-        "Financial statements"
-      ],
-      "summary": "Transwestern is a vertically integrated commercial real estate firm dedicated to serving investors, partners and clients through expertise in investment, development, brokerage and property management. Our experience spans diverse property types, including logistics, multifamily, retail, mixed-use, healthcare, office, data centers, hotel, and life sciences. Across 35 offices nationwide, our team is united by a culture that cultivates agility, mutual trust and high performance. Transwestern Services turns strategy into reality with consistency and accountability, collaborating to provide dynamic, tailored solutions. Whether representing a tenant, advising an investor or repositioning an asset, we operate with tenacity and own the outcome eve",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
-      "id": "him:https://himalayas.app/companies/anywhere-real-estate-inc/jobs/analyst-i-accounts-payable",
-      "title": "Analyst I Accounts Payable",
-      "company": "Anywhere Real Estate Inc.",
-      "location": "Remote · India eligible",
-      "date": "2026-10-16",
-      "type": "Accounting / AP-AR",
-      "level": "Experience unconfirmed",
-      "experience": "Not stated; verify with employer",
-      "fresher_confirmed": false,
-      "fit_score": 54,
-      "url": "https://himalayas.app/companies/anywhere-real-estate-inc/jobs/analyst-i-accounts-payable?utm_source=api",
+      "fit_score": 60,
+      "url": "https://himalayas.app/companies/adm-group/jobs/accounts-and-finance-operations-executive-remote-ahmedabad-4725437999?utm_source=api",
       "skills": [
         "Excel",
         "Accounting",
         "Accounts payable",
-        "Audit"
+        "Accounts receivable",
+        "MIS"
       ],
-      "summary": "Purpose: The primary function of the Accounts Payable Analyst is to accurately audit supplier invoices in order to make timely payment to the supplier and timely billing to the client. This position may also include work related to reconciling account ageing’s with suppliers, coordinating activities with other accounting teams, and ad hoc project work. Your Role & Accountabilities: Audit invoices to client policy, supplier contracts, tax authority requirements and supporting documents to ensure accurate client invoicing. Assess Value Added Tax, Goods and Services tax and other tax requirements when appropriate Escalate questions and issues as needed for prompt resolution Communicate to suppliers as needed for corrected paperwork and/or fail",
+      "summary": "As part of our Finance Shared Services team, you’ll support the regional business by delivering high-quality, process-driven finance operations. This role is hands-on and varied, covering key transactional activities across invoicing, reconciliations, accounting support, reporting and MIS, while partnering with internal teams, clients, and suppliers to resolve queries and meet tight deadlines. It’s a great opportunity for a recent graduate or early-career finance professional to build a strong foundation in end-to-end shared services finance. This is a fully remote role, suited to someone with 1+ years’ experience in a similar finance operations role. Key Responsibilities Accounts Payable (AP) processing: check invoices, obtain acceptance, ",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -445,6 +372,80 @@
       "fresher_confirmed": false,
       "fit_score": 54,
       "url": "https://himalayas.app/companies/precision-medicine-group/jobs/financial-analyst?utm_source=api",
+      "skills": [
+        "Excel",
+        "Accounting",
+        "Financial reporting",
+        "Accounts payable",
+        "Accounts receivable"
+      ],
+      "summary": "Global trials for oncology, rare diseases and other complex diseases face unique challenges. Precision partners with our clients to meet them head-on through our extensive footprint across the globe. We succeed by pairing personalized clinical services with translational medicine excellence, making us the first fully integrated clinical research organization created expressly to help advance the promises of precision medicine. Modern biomarker-informed therapeutic and diagnostic development programs involve a complex operational and data ecosystem. Multiple data streams flow from sites, central labs, and specialty labs. At Precision, we understand that data isn't enough. Clients need information, or data with context, to make decisions that",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/gusti-leder-gmbh/jobs/accounting-assistant",
+      "title": "Accounting Assistant",
+      "company": "Gusti Leder GmbH",
+      "location": "Remote · India eligible",
+      "date": "2026-10-23",
+      "type": "Accounting / AP-AR",
+      "level": "Experience unconfirmed",
+      "experience": "Not stated; verify with employer",
+      "fresher_confirmed": false,
+      "fit_score": 54,
+      "url": "https://himalayas.app/companies/gusti-leder-gmbh/jobs/accounting-assistant?utm_source=api",
+      "skills": [
+        "Excel",
+        "Accounting",
+        "Reconciliation"
+      ],
+      "summary": "Accounting Assistant (Remote) About Gusti Leather Immerse yourself in the world of Gusti Leder, where every bag tells a story and every product is a statement for transparent production and style. At Gusti Leder GmbH , a company known for its commitment to transparency, quality, and the promotion of slow fashion, we offer you more than just a job. We offer you a chance to be part of a movement that aims to change the leather industry for the better. Our products represent conscious consumption, sustainable elegance, and timeless vintage charm. Your Mission Customer Refunds: Process customer refunds accurately and handle related inquiries in a timely, friendly manner. Invoice Management: Manage, verify, and check invoices for accuracy and co",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/nightowl-consulting/jobs/accounting-assistant",
+      "title": "Accounting Assistant",
+      "company": "NightOwl Consulting",
+      "location": "Remote · India eligible",
+      "date": "2026-10-23",
+      "type": "Accounting / AP-AR",
+      "level": "Experience unconfirmed",
+      "experience": "Not stated; verify with employer",
+      "fresher_confirmed": false,
+      "fit_score": 54,
+      "url": "https://himalayas.app/companies/nightowl-consulting/jobs/accounting-assistant?utm_source=api",
+      "skills": [
+        "Excel",
+        "Accounting",
+        "Accounts payable",
+        "Accounts receivable",
+        "Payroll",
+        "QuickBooks"
+      ],
+      "summary": "We are seeking a reliable and detail-oriented Accounting Assistant to support our client’s day-to-day financial operations. This role will assist with payroll processing, bookkeeping, and general accounting functions using ADP and QuickBooks. The ideal candidate is organized, efficient, and comfortable working in a dynamic environment. Key Responsibilities Assist with payroll processing and related reporting using ADP. Support bookkeeping tasks, including accounts payable, accounts receivable, and general ledger entries in QuickBooks. Help maintain organized financial records and documentation. Generate basic financial reports as requested (e.g., expense reports, payroll summaries). Support the month-end and year-end closing processes. Ensu",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/precision-for-medicine/jobs/financial-analyst",
+      "title": "Financial Analyst",
+      "company": "Precision for Medicine",
+      "location": "Remote · India eligible",
+      "date": "2026-10-23",
+      "type": "Finance Analyst / FP&A",
+      "level": "Experience unconfirmed",
+      "experience": "Not stated; verify with employer",
+      "fresher_confirmed": false,
+      "fit_score": 54,
+      "url": "https://himalayas.app/companies/precision-for-medicine/jobs/financial-analyst?utm_source=api",
       "skills": [
         "Excel",
         "Accounting",
@@ -480,6 +481,30 @@
         "Financial statements"
       ],
       "summary": "Graphite is a growing boutique finance, accounting & strategy firm built to help startups scale efficiently and sustainably. We were born out of a venture capital fund, ffVC, in NYC in 2008, supporting their early-stage portfolio of early-stage companies. In 2016, we began working with the broader startup community. We are a team of seasoned Entrepreneurs, CFOs, Investors, and Accountants with a vast understanding of startup accounting and a passion for growing companies, and we’ve worked with some of the coolest startups around: The Sill, Caraway, Settle, The Muse, and Finmark to name a few. Experience required: - 3 to 7 yearsin US/Global Finance with Good Communication Skills. Shift Timings: Preferably EST Timezone - shift timing from 6:3",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/anywhere-real-estate-inc/jobs/analyst-i-accounts-payable",
+      "title": "Analyst I Accounts Payable",
+      "company": "Anywhere Real Estate Inc.",
+      "location": "Remote · India eligible",
+      "date": "2026-10-16",
+      "type": "Accounting / AP-AR",
+      "level": "Experience unconfirmed",
+      "experience": "Not stated; verify with employer",
+      "fresher_confirmed": false,
+      "fit_score": 48,
+      "url": "https://himalayas.app/companies/anywhere-real-estate-inc/jobs/analyst-i-accounts-payable?utm_source=api",
+      "skills": [
+        "Excel",
+        "Accounting",
+        "Accounts payable",
+        "Audit"
+      ],
+      "summary": "Purpose: The primary function of the Accounts Payable Analyst is to accurately audit supplier invoices in order to make timely payment to the supplier and timely billing to the client. This position may also include work related to reconciling account ageing’s with suppliers, coordinating activities with other accounting teams, and ad hoc project work. Your Role & Accountabilities: Audit invoices to client policy, supplier contracts, tax authority requirements and supporting documents to ensure accurate client invoicing. Assess Value Added Tax, Goods and Services tax and other tax requirements when appropriate Escalate questions and issues as needed for prompt resolution Communicate to suppliers as needed for corrected paperwork and/or fail",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -538,7 +563,7 @@
     "configured": 52,
     "successful": 46,
     "failed": 6,
-    "with_matches": 17
+    "with_matches": 16
   },
   "sources": [
     {
@@ -605,7 +630,7 @@
       "source": "lever/wise",
       "status": "failed",
       "matches": 0,
-      "error": "The read operation timed out"
+      "error": "HTTP Error 404: Not Found"
     },
     {
       "source": "lever/brex",
@@ -685,7 +710,7 @@
     {
       "source": "Himalayas/finance/p1",
       "status": "ok",
-      "matches": 1
+      "matches": 2
     },
     {
       "source": "Himalayas/finance/p2",
@@ -700,22 +725,22 @@
     {
       "source": "Himalayas/accounting/p1",
       "status": "ok",
-      "matches": 4
+      "matches": 6
     },
     {
       "source": "Himalayas/accounting/p2",
       "status": "ok",
-      "matches": 2
+      "matches": 1
     },
     {
       "source": "Himalayas/accounting/p3",
       "status": "ok",
-      "matches": 1
+      "matches": 2
     },
     {
       "source": "Himalayas/accounts payable/p1",
       "status": "ok",
-      "matches": 2
+      "matches": 4
     },
     {
       "source": "Himalayas/accounts payable/p2",
@@ -730,7 +755,7 @@
     {
       "source": "Himalayas/financial analyst/p1",
       "status": "ok",
-      "matches": 1
+      "matches": 2
     },
     {
       "source": "Himalayas/financial analyst/p2",
@@ -740,7 +765,7 @@
     {
       "source": "Himalayas/financial analyst/p3",
       "status": "ok",
-      "matches": 1
+      "matches": 0
     },
     {
       "source": "Himalayas/audit/p1",
@@ -760,7 +785,7 @@
     {
       "source": "Himalayas/bookkeeper/p1",
       "status": "ok",
-      "matches": 4
+      "matches": 7
     },
     {
       "source": "Himalayas/bookkeeper/p2",
@@ -809,7 +834,7 @@
     }
   ],
   "source_errors": [
-    "lever/wise: The read operation timed out",
+    "lever/wise: HTTP Error 404: Not Found",
     "lever/brex: HTTP Error 404: Not Found",
     "lever/airwallex: HTTP Error 404: Not Found",
     "ashby/retool: HTTP Error 404: Not Found",
