@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-25T04:51:19.612262+00:00",
+  "updated_at": "2026-10-25T05:10:10.229520+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 24,
+  "total": 25,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/sprinto/jobs/finance-intern-remote",
@@ -191,6 +191,36 @@
       "source": "Greenhouse",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Bengaluru",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/dynime-llc/jobs/finance-venture-capital-executive",
+      "title": "Finance & Venture Capital Executive",
+      "company": "Dynime LLC",
+      "location": "Remote · India eligible",
+      "date": "2026-09-25",
+      "type": "Finance Analyst / FP&A",
+      "level": "0–2 years",
+      "experience": "Minimum 2 years mentioned",
+      "fresher_confirmed": false,
+      "fit_score": 66,
+      "url": "https://himalayas.app/companies/dynime-llc/jobs/finance-venture-capital-executive?utm_source=api",
+      "skills": [
+        "Excel",
+        "Accounting",
+        "Reconciliation",
+        "Financial reporting",
+        "Forecasting",
+        "Budgeting",
+        "Accounts payable",
+        "Accounts receivable",
+        "Audit",
+        "Financial statements"
+      ],
+      "summary": "About Dynime Dynime is a technology-driven company focused on building and delivering modern digital solutions across software, AI, automation, SaaS, web development, and digital transformation. As Dynime continues to grow, we are looking for a highly capable Finance & Venture Capital Executive to own our core finance and accounting operations while helping the company identify, approach, and secure external investment and fundraising opportunities. This is a hybrid role for someone who understands both financial management and capital raising. You will work closely with management and play an important role in strengthening Dynime's financial foundation and supporting its growth through strategic fundraising. Role Overview The Finance & Ve",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
       "match_group": "Possible matches"
     },
     {
@@ -724,12 +754,12 @@
     {
       "source": "Himalayas/finance/p1",
       "status": "ok",
-      "matches": 1
+      "matches": 2
     },
     {
       "source": "Himalayas/finance/p2",
       "status": "ok",
-      "matches": 2
+      "matches": 3
     },
     {
       "source": "Himalayas/finance/p3",
@@ -759,7 +789,7 @@
     {
       "source": "Himalayas/accounts payable/p2",
       "status": "ok",
-      "matches": 4
+      "matches": 5
     },
     {
       "source": "Himalayas/accounts payable/p3",
