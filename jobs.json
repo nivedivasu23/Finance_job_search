@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-25T14:25:59.949796+00:00",
+  "updated_at": "2026-10-25T18:26:46.717259+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 25,
+  "total": 24,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/sprinto/jobs/finance-intern-remote",
@@ -474,32 +474,6 @@
       "match_group": "Possible matches"
     },
     {
-      "id": "him:https://himalayas.app/companies/nightowl-consulting/jobs/accounting-assistant",
-      "title": "Accounting Assistant",
-      "company": "NightOwl Consulting",
-      "location": "Remote · India eligible",
-      "date": "2026-10-24",
-      "type": "Accounting / AP-AR",
-      "level": "Experience unconfirmed",
-      "experience": "Not stated; verify with employer",
-      "fresher_confirmed": false,
-      "fit_score": 54,
-      "url": "https://himalayas.app/companies/nightowl-consulting/jobs/accounting-assistant?utm_source=api",
-      "skills": [
-        "Excel",
-        "Accounting",
-        "Accounts payable",
-        "Accounts receivable",
-        "Payroll",
-        "QuickBooks"
-      ],
-      "summary": "We are seeking a reliable and detail-oriented Accounting Assistant to support our client’s day-to-day financial operations. This role will assist with payroll processing, bookkeeping, and general accounting functions using ADP and QuickBooks. The ideal candidate is organized, efficient, and comfortable working in a dynamic environment. Key Responsibilities Assist with payroll processing and related reporting using ADP. Support bookkeeping tasks, including accounts payable, accounts receivable, and general ledger entries in QuickBooks. Help maintain organized financial records and documentation. Generate basic financial reports as requested (e.g., expense reports, payroll summaries). Support the month-end and year-end closing processes. Ensu",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
       "id": "jobicy:149530",
       "title": "Enterprise Account Executive",
       "company": "Canonical",
@@ -760,12 +734,12 @@
     {
       "source": "Himalayas/accounting/p1",
       "status": "ok",
-      "matches": 6
+      "matches": 5
     },
     {
       "source": "Himalayas/accounting/p2",
       "status": "ok",
-      "matches": 1
+      "matches": 2
     },
     {
       "source": "Himalayas/accounting/p3",
@@ -780,7 +754,7 @@
     {
       "source": "Himalayas/accounts payable/p2",
       "status": "ok",
-      "matches": 4
+      "matches": 3
     },
     {
       "source": "Himalayas/accounts payable/p3",
@@ -820,7 +794,7 @@
     {
       "source": "Himalayas/bookkeeper/p1",
       "status": "ok",
-      "matches": 7
+      "matches": 6
     },
     {
       "source": "Himalayas/bookkeeper/p2",
