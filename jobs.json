@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T21:52:00.145398+00:00",
+  "updated_at": "2026-10-26T00:26:34.684802+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
   "total": 24,
   "jobs": [
@@ -69,29 +69,6 @@
       "source": "Greenhouse",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Bengaluru",
-      "match_group": "Possible matches"
-    },
-    {
-      "id": "him:https://himalayas.app/companies/marriott-international/jobs/finance-executive-work-from-home-opportunity-for-mothers",
-      "title": "Finance Executive - Work from home opportunity for Mothers",
-      "company": "Marriott International",
-      "location": "Remote · India eligible",
-      "date": "2026-10-18",
-      "type": "Finance Analyst / FP&A",
-      "level": "0–2 years",
-      "experience": "Minimum 1 years mentioned",
-      "fresher_confirmed": false,
-      "fit_score": 72,
-      "url": "https://himalayas.app/companies/marriott-international/jobs/finance-executive-work-from-home-opportunity-for-mothers?utm_source=api",
-      "skills": [
-        "Accounting",
-        "Audit",
-        "Payroll"
-      ],
-      "summary": "POSITION SUMMARY Check figures, postings, and documents for accuracy. Organize, secure, and maintain all files, records, cash and cash equivalents in accordance with policies and procedures. Record, store, access, and/or analyze computerized financial information. Classify, code, and summarize numerical and financial data to compile and keep financial records, using journals, ledgers, and/or computers. Prepare, maintain, audit, and distribute statistical, financial, accounting, auditing, or payroll reports and tables. Complete period-end closing procedures and reports as specified. Prepare, review, reconcile, and issue bills, invoices, and account statements according to company procedures. Follow-up and resolve past due accounts and vendor",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
       "match_group": "Possible matches"
     },
     {
@@ -376,6 +353,29 @@
       "match_group": "Possible matches"
     },
     {
+      "id": "him:https://himalayas.app/companies/marriott-international/jobs/finance-executive-work-from-home-opportunity-for-mothers",
+      "title": "Finance Executive - Work from home opportunity for Mothers",
+      "company": "Marriott International",
+      "location": "Remote · India eligible",
+      "date": "2026-10-18",
+      "type": "Finance Analyst / FP&A",
+      "level": "0–2 years",
+      "experience": "Minimum 1 years mentioned",
+      "fresher_confirmed": false,
+      "fit_score": 66,
+      "url": "https://himalayas.app/companies/marriott-international/jobs/finance-executive-work-from-home-opportunity-for-mothers?utm_source=api",
+      "skills": [
+        "Accounting",
+        "Audit",
+        "Payroll"
+      ],
+      "summary": "POSITION SUMMARY Check figures, postings, and documents for accuracy. Organize, secure, and maintain all files, records, cash and cash equivalents in accordance with policies and procedures. Record, store, access, and/or analyze computerized financial information. Classify, code, and summarize numerical and financial data to compile and keep financial records, using journals, ledgers, and/or computers. Prepare, maintain, audit, and distribute statistical, financial, accounting, auditing, or payroll reports and tables. Complete period-end closing procedures and reports as specified. Prepare, review, reconcile, and issue bills, invoices, and account statements according to company procedures. Follow-up and resolve past due accounts and vendor",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
       "id": "him:https://himalayas.app/companies/adm-group/jobs/accounts-and-finance-operations-executive-remote-ahmedabad-4725437999",
       "title": "Accounts and Finance Operations Executive (Remote - Ahmedabad)",
       "company": "adm Group",
@@ -493,33 +493,6 @@
       "match_group": "Possible matches"
     },
     {
-      "id": "him:https://himalayas.app/companies/graphitefinancial/jobs/accounting-associate",
-      "title": "Accounting Associate",
-      "company": "Graphite",
-      "location": "Remote · India eligible",
-      "date": "2026-09-25",
-      "type": "Accounting / AP-AR",
-      "level": "Experience unconfirmed",
-      "experience": "Not stated; verify with employer",
-      "fresher_confirmed": false,
-      "fit_score": 48,
-      "url": "https://himalayas.app/companies/graphitefinancial/jobs/accounting-associate?utm_source=api",
-      "skills": [
-        "Excel",
-        "Accounting",
-        "Audit",
-        "IFRS",
-        "Payroll",
-        "QuickBooks",
-        "Financial statements"
-      ],
-      "summary": "Graphite is a growing boutique finance, accounting & strategy firm built to help startups scale efficiently and sustainably. We were born out of a venture capital fund, ffVC, in NYC in 2008, supporting their early-stage portfolio of early-stage companies. In 2016, we began working with the broader startup community. We are a team of seasoned Entrepreneurs, CFOs, Investors, and Accountants with a vast understanding of startup accounting and a passion for growing companies, and we’ve worked with some of the coolest startups around: The Sill, Caraway, Settle, The Muse, and Finmark to name a few. Experience required: - 3 to 7 yearsin US/Global Finance with Good Communication Skills. Shift Timings: Preferably EST Timezone - shift timing from 6:3",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
       "id": "him:https://himalayas.app/companies/vodafone/jobs/financial-control-3rd-party-settlements-specialist-vois",
       "title": "Financial Control & 3rd Party Settlements Specialist - VOIS",
       "company": "Vodafone",
@@ -561,6 +534,33 @@
         "Audit"
       ],
       "summary": "· Receiving and verifying invoices from vendors and suppliers. · Understand India vendor withholding Tax percentage and deductions. . Processing payments to vendors as per company policies. · Reconciling payable reports each month to confirm that all amounts paid were accurate · Solving payment or invoice discrepancies and documentation. · Experience on preparing monthly/annual schedules to Balance sheet. · Able to manage the Internal/External/Sox Audit. B. Com/MBA- Finance with 2 or more Years of Experience in Accounts Payable. WORKING AT ALTISOURCE ADVANTAGES Prosperity Competitive salary based on your experience and skills – we believe the top talent deserves the top rupee Good Health Comprehensive insurance plans ;- Medical insurance fo",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/graphitefinancial/jobs/accounting-associate",
+      "title": "Accounting Associate",
+      "company": "Graphite",
+      "location": "Remote · India eligible",
+      "date": "2026-09-25",
+      "type": "Accounting / AP-AR",
+      "level": "Experience unconfirmed",
+      "experience": "Not stated; verify with employer",
+      "fresher_confirmed": false,
+      "fit_score": 42,
+      "url": "https://himalayas.app/companies/graphitefinancial/jobs/accounting-associate?utm_source=api",
+      "skills": [
+        "Excel",
+        "Accounting",
+        "Audit",
+        "IFRS",
+        "Payroll",
+        "QuickBooks",
+        "Financial statements"
+      ],
+      "summary": "Graphite is a growing boutique finance, accounting & strategy firm built to help startups scale efficiently and sustainably. We were born out of a venture capital fund, ffVC, in NYC in 2008, supporting their early-stage portfolio of early-stage companies. In 2016, we began working with the broader startup community. We are a team of seasoned Entrepreneurs, CFOs, Investors, and Accountants with a vast understanding of startup accounting and a passion for growing companies, and we’ve worked with some of the coolest startups around: The Sill, Caraway, Settle, The Muse, and Finmark to name a few. Experience required: - 3 to 7 yearsin US/Global Finance with Good Communication Skills. Shift Timings: Preferably EST Timezone - shift timing from 6:3",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
