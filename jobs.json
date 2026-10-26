@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-26T00:26:34.684802+00:00",
+  "updated_at": "2026-10-26T06:21:16.792394+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 24,
+  "total": 25,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/sprinto/jobs/finance-intern-remote",
@@ -141,6 +141,29 @@
         "Payroll"
       ],
       "summary": "About Us Our leading SaaS-based Global Employment Platform™ enables clients to expand into over 180 countries quickly and efficiently, without the complexities of establishing local entities. At G-P, we’re dedicated to breaking down barriers to global business and creating opportunities for everyone, everywhere. Our diverse, remote-first teams are essential to our success. We empower our Dream Team members with flexibility and resources, fostering an environment where innovation thrives and every contribution is valued and celebrated. The work you do here will positively impact lives around the world. We stand by our promise: Opportunity Made Possible. In addition to competitive compensation and benefits, we invite you to join us in expandi",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/growe-talents/jobs/finance-specialist",
+      "title": "Finance Specialist",
+      "company": "Growe Talents",
+      "location": "Remote · India eligible",
+      "date": "2026-10-25",
+      "type": "Finance Analyst / FP&A",
+      "level": "0–2 years",
+      "experience": "Minimum 1 years mentioned",
+      "fresher_confirmed": false,
+      "fit_score": 72,
+      "url": "https://himalayas.app/companies/growe-talents/jobs/finance-specialist?utm_source=api",
+      "skills": [
+        "Accounting",
+        "Financial reporting",
+        "Audit"
+      ],
+      "summary": "Our client, Jugabet, is a brand and gaming platform accessible to players in Latin America. With a strong regional focus and localized strategies, Jugabet is quickly becoming a key player in the market. Perfect for those who aim to: Review payment requests to ensure alignment with approved budgets and plans; Process requests in 1C; Regularly reconcile actual expenses with approved budgets; Confirm the accuracy and transparency of submitted services for audits; Ensure the correct entry of financial data into the system and glossary; Monitor budget balances across channels and partners; Identify and resolve discrepancies in financial data; Collaborate with departments to address financial issues efficiently. Experience you’ll need to bring: 1",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -567,11 +590,11 @@
       "match_group": "Possible matches"
     }
   ],
-  "sources_checked": 46,
+  "sources_checked": 45,
   "source_summary": {
     "configured": 52,
-    "successful": 46,
-    "failed": 6,
+    "successful": 45,
+    "failed": 7,
     "with_matches": 17
   },
   "sources": [
@@ -622,8 +645,9 @@
     },
     {
       "source": "lever/cred",
-      "status": "ok",
-      "matches": 0
+      "status": "failed",
+      "matches": 0,
+      "error": "The read operation timed out"
     },
     {
       "source": "lever/meesho",
@@ -719,7 +743,7 @@
     {
       "source": "Himalayas/finance/p1",
       "status": "ok",
-      "matches": 1
+      "matches": 2
     },
     {
       "source": "Himalayas/finance/p2",
@@ -739,7 +763,7 @@
     {
       "source": "Himalayas/accounting/p2",
       "status": "ok",
-      "matches": 2
+      "matches": 3
     },
     {
       "source": "Himalayas/accounting/p3",
@@ -764,7 +788,7 @@
     {
       "source": "Himalayas/financial analyst/p1",
       "status": "ok",
-      "matches": 1
+      "matches": 2
     },
     {
       "source": "Himalayas/financial analyst/p2",
@@ -843,6 +867,7 @@
     }
   ],
   "source_errors": [
+    "lever/cred: The read operation timed out",
     "lever/wise: HTTP Error 404: Not Found",
     "lever/brex: HTTP Error 404: Not Found",
     "lever/airwallex: HTTP Error 404: Not Found",
