@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-27T06:22:27.948624+00:00",
+  "updated_at": "2026-10-27T13:18:18.703010+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 26,
+  "total": 24,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/sprinto/jobs/finance-intern-remote",
@@ -259,28 +259,6 @@
       "match_group": "Possible matches"
     },
     {
-      "id": "him:https://himalayas.app/companies/growe-talents/jobs/payroll-specialist",
-      "title": "Payroll Specialist",
-      "company": "Growe Talents",
-      "location": "Remote · India eligible",
-      "date": "2026-10-03",
-      "type": "Finance Operations",
-      "level": "0–2 years",
-      "experience": "Minimum 2 years mentioned",
-      "fresher_confirmed": false,
-      "fit_score": 66,
-      "url": "https://himalayas.app/companies/growe-talents/jobs/payroll-specialist?utm_source=api",
-      "skills": [
-        "Excel",
-        "Payroll"
-      ],
-      "summary": "Our client, Growe, is a leading business advisory and services group in iGaming and Entertainment. Сreators of strategies that work and solutions that scale. Combining strategic vision with hands-on expertise, Growe helps businesses navigate the fast-evolving industry, seize new opportunities, enter new markets, and achieve sustainable growth. Perfect for those who aim to: Administer and maintain compensation and benefits programs; Run the monthly payroll cycle for the team: collect and validate inputs, process changes, and ensure accurate, on-time payouts; Act as the main point of contact for pay and benefits questions from team members; Track and reconcile different compensation types (bonuses, allowances, referral payouts, and similar) a",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
       "id": "him:https://himalayas.app/companies/attesa-coffee/jobs/financial-accounting-fixed-term-contract",
       "title": "Financial Accounting - Fixed Term Contract",
       "company": "Attesa Coffee",
@@ -444,29 +422,6 @@
         "Accounts receivable"
       ],
       "summary": "Global trials for oncology, rare diseases and other complex diseases face unique challenges. Precision partners with our clients to meet them head-on through our extensive footprint across the globe. We succeed by pairing personalized clinical services with translational medicine excellence, making us the first fully integrated clinical research organization created expressly to help advance the promises of precision medicine. Modern biomarker-informed therapeutic and diagnostic development programs involve a complex operational and data ecosystem. Multiple data streams flow from sites, central labs, and specialty labs. At Precision, we understand that data isn't enough. Clients need information, or data with context, to make decisions that",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
-      "id": "him:https://himalayas.app/companies/gusti-leder-gmbh/jobs/accounting-assistant",
-      "title": "Accounting Assistant",
-      "company": "Gusti Leder GmbH",
-      "location": "Remote · India eligible",
-      "date": "2026-10-23",
-      "type": "Accounting / AP-AR",
-      "level": "Experience unconfirmed",
-      "experience": "Not stated; verify with employer",
-      "fresher_confirmed": false,
-      "fit_score": 54,
-      "url": "https://himalayas.app/companies/gusti-leder-gmbh/jobs/accounting-assistant?utm_source=api",
-      "skills": [
-        "Excel",
-        "Accounting",
-        "Reconciliation"
-      ],
-      "summary": "Accounting Assistant (Remote) About Gusti Leather Immerse yourself in the world of Gusti Leder, where every bag tells a story and every product is a statement for transparent production and style. At Gusti Leder GmbH , a company known for its commitment to transparency, quality, and the promotion of slow fashion, we offer you more than just a job. We offer you a chance to be part of a movement that aims to change the leather industry for the better. Our products represent conscious consumption, sustainable elegance, and timeless vintage charm. Your Mission Customer Refunds: Process customer refunds accurately and handle related inquiries in a timely, friendly manner. Invoice Management: Manage, verify, and check invoices for accuracy and co",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -777,12 +732,12 @@
     {
       "source": "Himalayas/finance/p3",
       "status": "ok",
-      "matches": 2
+      "matches": 1
     },
     {
       "source": "Himalayas/accounting/p1",
       "status": "ok",
-      "matches": 6
+      "matches": 5
     },
     {
       "source": "Himalayas/accounting/p2",
@@ -797,17 +752,17 @@
     {
       "source": "Himalayas/accounts payable/p1",
       "status": "ok",
-      "matches": 6
+      "matches": 5
     },
     {
       "source": "Himalayas/accounts payable/p2",
       "status": "ok",
-      "matches": 2
+      "matches": 3
     },
     {
       "source": "Himalayas/accounts payable/p3",
       "status": "ok",
-      "matches": 5
+      "matches": 4
     },
     {
       "source": "Himalayas/financial analyst/p1",
@@ -842,7 +797,7 @@
     {
       "source": "Himalayas/bookkeeper/p1",
       "status": "ok",
-      "matches": 6
+      "matches": 5
     },
     {
       "source": "Himalayas/bookkeeper/p2",
@@ -862,7 +817,7 @@
     {
       "source": "Himalayas/tax/p3",
       "status": "ok",
-      "matches": 3
+      "matches": 2
     },
     {
       "source": "Remotive/global",
