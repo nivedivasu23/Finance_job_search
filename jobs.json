@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-27T19:27:38.798698+00:00",
+  "updated_at": "2026-10-27T23:49:06.149462+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 24,
+  "total": 25,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/sprinto/jobs/finance-intern-remote",
@@ -305,32 +305,6 @@
       "match_group": "Possible matches"
     },
     {
-      "id": "him:https://himalayas.app/companies/transwestern/jobs/client-accountant",
-      "title": "Client Accountant",
-      "company": "Transwestern",
-      "location": "Remote · India eligible",
-      "date": "2026-10-15",
-      "type": "Accounting / AP-AR",
-      "level": "0–2 years",
-      "experience": "Minimum 2 years mentioned",
-      "fresher_confirmed": false,
-      "fit_score": 66,
-      "url": "https://himalayas.app/companies/transwestern/jobs/client-accountant?utm_source=api",
-      "skills": [
-        "Excel",
-        "Accounting",
-        "Financial reporting",
-        "Budgeting",
-        "Accounts payable",
-        "Financial statements"
-      ],
-      "summary": "Transwestern is a vertically integrated commercial real estate firm dedicated to serving investors, partners and clients through expertise in investment, development, brokerage and property management. Our experience spans diverse property types, including logistics, multifamily, retail, mixed-use, healthcare, office, data centers, hotel, and life sciences. Across 35 offices nationwide, our team is united by a culture that cultivates agility, mutual trust and high performance. Transwestern Services turns strategy into reality with consistency and accountability, collaborating to provide dynamic, tailored solutions. Whether representing a tenant, advising an investor or repositioning an asset, we operate with tenacity and own the outcome eve",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
       "id": "him:https://himalayas.app/companies/attesa-coffee/jobs/financial-accounting",
       "title": "Financial Accounting",
       "company": "Attesa Coffee",
@@ -515,6 +489,57 @@
         "Audit"
       ],
       "summary": "A bout Us Shorelight is reinventing the international education experience for students worldwide. Based in Boston, the company works directly with top-ranked, nonprofit American universities to build innovative programs and high-touch, technology-driven services that help talented students thrive and become global citizens. Job Overview The Student Accounts Specialist supports the financial operations and integrity of student accounts across all partnerships, serving as the primary point of contact for student and campus account inquiries. The role combines hands-on account servicing with staff-level accounting responsibility — including month-end close, reconciliation, and receivables analysis — and identifies opportunities to strengthen ",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/nightowl-consulting/jobs/accounting-assistant",
+      "title": "Accounting Assistant",
+      "company": "NightOwl Consulting",
+      "location": "Remote · India eligible",
+      "date": "2026-10-27",
+      "type": "Accounting / AP-AR",
+      "level": "Experience unconfirmed",
+      "experience": "Not stated; verify with employer",
+      "fresher_confirmed": false,
+      "fit_score": 54,
+      "url": "https://himalayas.app/companies/nightowl-consulting/jobs/accounting-assistant?utm_source=api",
+      "skills": [
+        "Excel",
+        "Accounting",
+        "Accounts payable",
+        "Accounts receivable",
+        "Payroll",
+        "QuickBooks"
+      ],
+      "summary": "We are seeking a reliable and detail-oriented Accounting Assistant to support our client’s day-to-day financial operations. This role will assist with payroll processing, bookkeeping, and general accounting functions using ADP and QuickBooks. The ideal candidate is organized, efficient, and comfortable working in a dynamic environment. Key Responsibilities Assist with payroll processing and related reporting using ADP. Support bookkeeping tasks, including accounts payable, accounts receivable, and general ledger entries in QuickBooks. Help maintain organized financial records and documentation. Generate basic financial reports as requested (e.g., expense reports, payroll summaries). Support the month-end and year-end closing processes. Ensu",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/vodafone/jobs/financial-control-3rd-party-settlements-specialist-vois",
+      "title": "Financial Control & 3rd Party Settlements Specialist - VOIS",
+      "company": "Vodafone",
+      "location": "Remote · India eligible",
+      "date": "2026-10-27",
+      "type": "Finance Analyst / FP&A",
+      "level": "Experience unconfirmed",
+      "experience": "Not stated; verify with employer",
+      "fresher_confirmed": false,
+      "fit_score": 54,
+      "url": "https://himalayas.app/companies/vodafone/jobs/financial-control-3rd-party-settlements-specialist-vois?utm_source=api",
+      "skills": [
+        "Accounting",
+        "Reconciliation",
+        "Financial reporting",
+        "Accounts payable",
+        "MIS"
+      ],
+      "summary": "Who we are VOIS ( Vodafone Intelligent Solutions) is a strategic arm of Vodafone Group Plc, creating value for customers by delivering intelligent solutions through Talent, Technology & Transformation. As the largest shared services organisation in the global telco industry with 30,000 FTE, our portfolio of next-generation solutions and services are designed in partnership with customers across Vodafone Group, local markets, and partner markets to simplify and drive growth. With our strategic partner Accenture, we work alongside our Vodafone customers, other Telco and tech companies to drive transformation, meet the challenges of our industry and ensure we stay relevant and resilient. This partnership is a unique, industry-first model which",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -762,7 +787,7 @@
     {
       "source": "Himalayas/accounts payable/p3",
       "status": "ok",
-      "matches": 4
+      "matches": 5
     },
     {
       "source": "Himalayas/financial analyst/p1",
@@ -797,7 +822,7 @@
     {
       "source": "Himalayas/bookkeeper/p1",
       "status": "ok",
-      "matches": 5
+      "matches": 6
     },
     {
       "source": "Himalayas/bookkeeper/p2",
