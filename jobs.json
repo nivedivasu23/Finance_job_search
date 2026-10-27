@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-27T00:31:31.028931+00:00",
+  "updated_at": "2026-10-27T06:22:27.948624+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 25,
+  "total": 26,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/sprinto/jobs/finance-intern-remote",
@@ -191,6 +191,29 @@
       "match_group": "Possible matches"
     },
     {
+      "id": "him:https://himalayas.app/companies/shorelight-llc/jobs/finance-systems-administrator",
+      "title": "Finance Systems Administrator",
+      "company": "Shorelight, LLC",
+      "location": "Remote · India eligible",
+      "date": "2026-10-27",
+      "type": "Finance Analyst / FP&A",
+      "level": "0–2 years",
+      "experience": "Minimum 1 years mentioned",
+      "fresher_confirmed": false,
+      "fit_score": 72,
+      "url": "https://himalayas.app/companies/shorelight-llc/jobs/finance-systems-administrator?utm_source=api",
+      "skills": [
+        "Accounting",
+        "Audit",
+        "ERP"
+      ],
+      "summary": "About Us Shorelight is reinventing the international education experience for students worldwide. Based in Boston, the company works directly with top-ranked, nonprofit American universities to build innovative programs and high-touch, technology-driven services that help talented students thrive and become global citizens. Job Overview The Finance Systems Administrator will help maintain and support our NetSuite ERP environment. This role will report to the Senior Director of FP&A and will sit at the intersection of Finance and IT, ensuring our financial systems run smoothly and support accurate, timely reporting. You'll work closely with FP&A, Accounting, IT, and cross-functional stakeholders to configure, maintain, and support NetSuite a",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
       "id": "gh:stripe:8104748",
       "title": "Credit Risk Operations Associate",
       "company": "stripe",
@@ -354,28 +377,6 @@
       "match_group": "Possible matches"
     },
     {
-      "id": "him:https://himalayas.app/companies/growe/jobs/payroll-specialist",
-      "title": "Payroll Specialist",
-      "company": "Growe",
-      "location": "Remote · India eligible",
-      "date": "2026-10-17",
-      "type": "Finance Operations",
-      "level": "0–2 years",
-      "experience": "Minimum 2 years mentioned",
-      "fresher_confirmed": false,
-      "fit_score": 66,
-      "url": "https://himalayas.app/companies/growe/jobs/payroll-specialist?utm_source=api",
-      "skills": [
-        "Excel",
-        "Payroll"
-      ],
-      "summary": "Growe is a leading business advisory and services group in iGaming and Entertainment. We are creators of strategies that work and solutions that scale. Combining strategic vision with hands-on expertise, we help businesses navigate the fast-evolving industry, seize new opportunities, enter new markets, and achieve sustainable growth. Our expertise spans across key areas: from business and brand strategy development to market research, marketing solutions, IT customization, organizational structuring, and talent management. We partner with our clients to turn challenges into competitive advantages, ensuring successful market entries and long-term global expansion. At Growe , there are no limits to our ambitions ! We boldly break stereotypes ",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
       "id": "him:https://himalayas.app/companies/marriott-international/jobs/finance-executive-work-from-home-opportunity-for-mothers",
       "title": "Finance Executive - Work from home opportunity for Mothers",
       "company": "Marriott International",
@@ -516,25 +517,49 @@
       "match_group": "Possible matches"
     },
     {
-      "id": "him:https://himalayas.app/companies/vodafone/jobs/financial-control-3rd-party-settlements-specialist-vois",
-      "title": "Financial Control & 3rd Party Settlements Specialist - VOIS",
-      "company": "Vodafone",
+      "id": "him:https://himalayas.app/companies/anywhere-real-estate-inc/jobs/analyst-i-accounts-payable",
+      "title": "Analyst I Accounts Payable",
+      "company": "Anywhere Real Estate Inc.",
       "location": "Remote · India eligible",
-      "date": "2026-08-28",
-      "type": "Finance Analyst / FP&A",
+      "date": "2026-10-26",
+      "type": "Accounting / AP-AR",
       "level": "Experience unconfirmed",
       "experience": "Not stated; verify with employer",
       "fresher_confirmed": false,
-      "fit_score": 42,
-      "url": "https://himalayas.app/companies/vodafone/jobs/financial-control-3rd-party-settlements-specialist-vois?utm_source=api",
+      "fit_score": 54,
+      "url": "https://himalayas.app/companies/anywhere-real-estate-inc/jobs/analyst-i-accounts-payable?utm_source=api",
       "skills": [
+        "Excel",
+        "Accounting",
+        "Accounts payable",
+        "Audit"
+      ],
+      "summary": "Purpose: The primary function of the Accounts Payable Analyst is to accurately audit supplier invoices in order to make timely payment to the supplier and timely billing to the client. This position may also include work related to reconciling account ageing’s with suppliers, coordinating activities with other accounting teams, and ad hoc project work. Your Role & Accountabilities: Audit invoices to client policy, supplier contracts, tax authority requirements and supporting documents to ensure accurate client invoicing. Assess Value Added Tax, Goods and Services tax and other tax requirements when appropriate Escalate questions and issues as needed for prompt resolution Communicate to suppliers as needed for corrected paperwork and/or fail",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/shorelight-llc/jobs/student-accounts-specialist",
+      "title": "Student Accounts Specialist",
+      "company": "Shorelight, LLC",
+      "location": "Remote · India eligible",
+      "date": "2026-10-27",
+      "type": "Accounting / AP-AR",
+      "level": "Experience unconfirmed",
+      "experience": "Not stated; verify with employer",
+      "fresher_confirmed": false,
+      "fit_score": 54,
+      "url": "https://himalayas.app/companies/shorelight-llc/jobs/student-accounts-specialist?utm_source=api",
+      "skills": [
+        "Excel",
         "Accounting",
         "Reconciliation",
-        "Financial reporting",
         "Accounts payable",
-        "MIS"
+        "Audit"
       ],
-      "summary": "Who we are VOIS ( Vodafone Intelligent Solutions) is a strategic arm of Vodafone Group Plc, creating value for customers by delivering intelligent solutions through Talent, Technology & Transformation. As the largest shared services organisation in the global telco industry with 30,000 FTE, our portfolio of next-generation solutions and services are designed in partnership with customers across Vodafone Group, local markets, and partner markets to simplify and drive growth. With our strategic partner Accenture, we work alongside our Vodafone customers, other Telco and tech companies to drive transformation, meet the challenges of our industry and ensure we stay relevant and resilient. This partnership is a unique, industry-first model which",
+      "summary": "A bout Us Shorelight is reinventing the international education experience for students worldwide. Based in Boston, the company works directly with top-ranked, nonprofit American universities to build innovative programs and high-touch, technology-driven services that help talented students thrive and become global citizens. Job Overview The Student Accounts Specialist supports the financial operations and integrity of student accounts across all partnerships, serving as the primary point of contact for student and campus account inquiries. The role combines hands-on account servicing with staff-level accounting responsibility — including month-end close, reconciliation, and receivables analysis — and identifies opportunities to strengthen ",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -595,7 +620,7 @@
     "configured": 52,
     "successful": 46,
     "failed": 6,
-    "with_matches": 17
+    "with_matches": 19
   },
   "sources": [
     {
@@ -742,27 +767,27 @@
     {
       "source": "Himalayas/finance/p1",
       "status": "ok",
-      "matches": 2
+      "matches": 3
     },
     {
       "source": "Himalayas/finance/p2",
       "status": "ok",
-      "matches": 3
+      "matches": 2
     },
     {
       "source": "Himalayas/finance/p3",
       "status": "ok",
-      "matches": 0
+      "matches": 2
     },
     {
       "source": "Himalayas/accounting/p1",
       "status": "ok",
-      "matches": 5
+      "matches": 6
     },
     {
       "source": "Himalayas/accounting/p2",
       "status": "ok",
-      "matches": 3
+      "matches": 4
     },
     {
       "source": "Himalayas/accounting/p3",
@@ -772,12 +797,12 @@
     {
       "source": "Himalayas/accounts payable/p1",
       "status": "ok",
-      "matches": 4
+      "matches": 6
     },
     {
       "source": "Himalayas/accounts payable/p2",
       "status": "ok",
-      "matches": 3
+      "matches": 2
     },
     {
       "source": "Himalayas/accounts payable/p3",
@@ -787,12 +812,12 @@
     {
       "source": "Himalayas/financial analyst/p1",
       "status": "ok",
-      "matches": 2
+      "matches": 3
     },
     {
       "source": "Himalayas/financial analyst/p2",
       "status": "ok",
-      "matches": 0
+      "matches": 1
     },
     {
       "source": "Himalayas/financial analyst/p3",
