@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-28T18:53:58.200564+00:00",
+  "updated_at": "2026-10-28T23:16:54.356079+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 24,
+  "total": 22,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/sprinto/jobs/finance-intern-remote",
@@ -69,33 +69,6 @@
       "source": "Greenhouse",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Bengaluru",
-      "match_group": "Possible matches"
-    },
-    {
-      "id": "him:https://himalayas.app/companies/nightowl-consulting/jobs/accounting-assistant-accounts-payable-specialist-loan-vison-bookkeeping-and",
-      "title": "Accounting Assistant / Accounts Payable Specialist (Loan Vison, Bookkeeping, and",
-      "company": "NightOwl Consulting",
-      "location": "Remote · India eligible",
-      "date": "2026-10-21",
-      "type": "Accounting / AP-AR",
-      "level": "0–2 years",
-      "experience": "Minimum 1 years mentioned",
-      "fresher_confirmed": false,
-      "fit_score": 72,
-      "url": "https://himalayas.app/companies/nightowl-consulting/jobs/accounting-assistant-accounts-payable-specialist-loan-vison-bookkeeping-and?utm_source=api",
-      "skills": [
-        "Excel",
-        "Accounting",
-        "Financial reporting",
-        "Accounts payable",
-        "Audit",
-        "Payroll",
-        "QuickBooks"
-      ],
-      "summary": "The Accounting Assistant / Accounts Payable Specialist supports the accounting team by handling day-to-day accounts payable operations and general accounting tasks. This role is responsible for accurate invoice processing, vendor and employee payments, reconciliations, and documentation, while assisting with month-end close, reporting, and payroll support. The position works closely with vendors and internal teams to resolve discrepancies and ensure timely, compliant payments. This role leans toward accounting support while maintaining strong operational ownership of the full accounts payable cycle. Key Responsibilities Accounts Payable & Payment Processing Receive, review, verify, and reconcile vendor invoices for accuracy and proper appro",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
       "match_group": "Possible matches"
     },
     {
@@ -502,32 +475,6 @@
       "match_group": "Possible matches"
     },
     {
-      "id": "him:https://himalayas.app/companies/nightowl-consulting/jobs/accounting-assistant",
-      "title": "Accounting Assistant",
-      "company": "NightOwl Consulting",
-      "location": "Remote · India eligible",
-      "date": "2026-10-27",
-      "type": "Accounting / AP-AR",
-      "level": "Experience unconfirmed",
-      "experience": "Not stated; verify with employer",
-      "fresher_confirmed": false,
-      "fit_score": 54,
-      "url": "https://himalayas.app/companies/nightowl-consulting/jobs/accounting-assistant?utm_source=api",
-      "skills": [
-        "Excel",
-        "Accounting",
-        "Accounts payable",
-        "Accounts receivable",
-        "Payroll",
-        "QuickBooks"
-      ],
-      "summary": "We are seeking a reliable and detail-oriented Accounting Assistant to support our client’s day-to-day financial operations. This role will assist with payroll processing, bookkeeping, and general accounting functions using ADP and QuickBooks. The ideal candidate is organized, efficient, and comfortable working in a dynamic environment. Key Responsibilities Assist with payroll processing and related reporting using ADP. Support bookkeeping tasks, including accounts payable, accounts receivable, and general ledger entries in QuickBooks. Help maintain organized financial records and documentation. Generate basic financial reports as requested (e.g., expense reports, payroll summaries). Support the month-end and year-end closing processes. Ensu",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
       "id": "him:https://himalayas.app/companies/altisource/jobs/analyst-accounts-payable",
       "title": "Analyst, Accounts Payable",
       "company": "Altisource",
@@ -749,12 +696,12 @@
     {
       "source": "Himalayas/accounting/p2",
       "status": "ok",
-      "matches": 4
+      "matches": 3
     },
     {
       "source": "Himalayas/accounting/p3",
       "status": "ok",
-      "matches": 1
+      "matches": 2
     },
     {
       "source": "Himalayas/accounts payable/p1",
@@ -764,12 +711,12 @@
     {
       "source": "Himalayas/accounts payable/p2",
       "status": "ok",
-      "matches": 4
+      "matches": 2
     },
     {
       "source": "Himalayas/accounts payable/p3",
       "status": "ok",
-      "matches": 4
+      "matches": 5
     },
     {
       "source": "Himalayas/financial analyst/p1",
@@ -804,7 +751,7 @@
     {
       "source": "Himalayas/bookkeeper/p1",
       "status": "ok",
-      "matches": 6
+      "matches": 5
     },
     {
       "source": "Himalayas/bookkeeper/p2",
