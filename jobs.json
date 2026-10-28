@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-27T23:49:06.149462+00:00",
+  "updated_at": "2026-10-28T05:51:34.421454+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 25,
+  "total": 26,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/sprinto/jobs/finance-intern-remote",
@@ -299,6 +299,32 @@
         "Payroll"
       ],
       "summary": "We have an urgent hiring requirement for Virtual Assistant (Admin & Client Coordination) (US Accounting Domain) Job Title: Virtual Assistant (Admin & Client Coordination) Company: Safebooks Global Location: Ahmedabad Type: Full-Time (5:30pm to 2:30am IST ) for US About Safebooks Global Safebooks Global is a US-focused accounting outsourcing firm that supports CPAs, EAs, and accounting firms with bookkeeping, payroll, and tax support services. We help clients streamline their operations by providing reliable offshore support. Role Summary We are seeking a detail-oriented and proactive Virtual Assistant to handle day-to-day admin tasks and assist in client communication. This role will be key in supporting our US-based clients by ensuring smo",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/transwestern/jobs/client-accountant",
+      "title": "Client Accountant",
+      "company": "Transwestern",
+      "location": "Remote · India eligible",
+      "date": "2026-10-15",
+      "type": "Accounting / AP-AR",
+      "level": "0–2 years",
+      "experience": "Minimum 2 years mentioned",
+      "fresher_confirmed": false,
+      "fit_score": 66,
+      "url": "https://himalayas.app/companies/transwestern/jobs/client-accountant?utm_source=api",
+      "skills": [
+        "Excel",
+        "Accounting",
+        "Financial reporting",
+        "Budgeting",
+        "Accounts payable",
+        "Financial statements"
+      ],
+      "summary": "Transwestern is a vertically integrated commercial real estate firm dedicated to serving investors, partners and clients through expertise in investment, development, brokerage and property management. Our experience spans diverse property types, including logistics, multifamily, retail, mixed-use, healthcare, office, data centers, hotel, and life sciences. Across 35 offices nationwide, our team is united by a culture that cultivates agility, mutual trust and high performance. Transwestern Services turns strategy into reality with consistency and accountability, collaborating to provide dynamic, tailored solutions. Whether representing a tenant, advising an investor or repositioning an asset, we operate with tenacity and own the outcome eve",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -752,12 +778,12 @@
     {
       "source": "Himalayas/finance/p2",
       "status": "ok",
-      "matches": 2
+      "matches": 1
     },
     {
       "source": "Himalayas/finance/p3",
       "status": "ok",
-      "matches": 1
+      "matches": 2
     },
     {
       "source": "Himalayas/accounting/p1",
@@ -787,7 +813,7 @@
     {
       "source": "Himalayas/accounts payable/p3",
       "status": "ok",
-      "matches": 5
+      "matches": 6
     },
     {
       "source": "Himalayas/financial analyst/p1",
