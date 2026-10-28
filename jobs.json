@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-28T13:05:44.044804+00:00",
+  "updated_at": "2026-10-28T18:53:58.200564+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 26,
+  "total": 24,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/sprinto/jobs/finance-intern-remote",
@@ -453,25 +453,6 @@
       "match_group": "Possible matches"
     },
     {
-      "id": "jobicy:149530",
-      "title": "Enterprise Account Executive",
-      "company": "Canonical",
-      "location": "Anywhere",
-      "date": "2026-10-24",
-      "type": "Accounting / AP-AR",
-      "level": "Experience unconfirmed",
-      "experience": "Not stated; verify with employer",
-      "fresher_confirmed": false,
-      "fit_score": 54,
-      "url": "https://jobicy.com/jobs/149530-enterprise-account-executive",
-      "skills": [],
-      "summary": "This is a general track role, hiring for opportunities across all levels of seniority in our Sales Teams. Apply here if you believe you possess outstanding revenue generating experience from the Technology industry. Open source software is the new default in the enterprise, and Canonical is the new challenger to major enterprise software vendors. We deliver better open source from the data center to cloud and edge. Our Linux distribution Ubuntu is now the leading platform for public cloud compute, and the favorite platform for software engineers, data scientists and AI developers. Our mission is to accelerate the adoption and quality of open source globally, and our goal is to ship the most software on the planet by cores. A tidal wave of o",
-      "source": "Jobicy",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
       "id": "him:https://himalayas.app/companies/anywhere-real-estate-inc/jobs/analyst-i-accounts-payable",
       "title": "Analyst I Accounts Payable",
       "company": "Anywhere Real Estate Inc.",
@@ -547,31 +528,6 @@
       "match_group": "Possible matches"
     },
     {
-      "id": "him:https://himalayas.app/companies/vodafone/jobs/financial-control-3rd-party-settlements-specialist-vois",
-      "title": "Financial Control & 3rd Party Settlements Specialist - VOIS",
-      "company": "Vodafone",
-      "location": "Remote · India eligible",
-      "date": "2026-10-27",
-      "type": "Finance Analyst / FP&A",
-      "level": "Experience unconfirmed",
-      "experience": "Not stated; verify with employer",
-      "fresher_confirmed": false,
-      "fit_score": 54,
-      "url": "https://himalayas.app/companies/vodafone/jobs/financial-control-3rd-party-settlements-specialist-vois?utm_source=api",
-      "skills": [
-        "Accounting",
-        "Reconciliation",
-        "Financial reporting",
-        "Accounts payable",
-        "MIS"
-      ],
-      "summary": "Who we are VOIS ( Vodafone Intelligent Solutions) is a strategic arm of Vodafone Group Plc, creating value for customers by delivering intelligent solutions through Talent, Technology & Transformation. As the largest shared services organisation in the global telco industry with 30,000 FTE, our portfolio of next-generation solutions and services are designed in partnership with customers across Vodafone Group, local markets, and partner markets to simplify and drive growth. With our strategic partner Accenture, we work alongside our Vodafone customers, other Telco and tech companies to drive transformation, meet the challenges of our industry and ensure we stay relevant and resilient. This partnership is a unique, industry-first model which",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
       "id": "him:https://himalayas.app/companies/altisource/jobs/analyst-accounts-payable",
       "title": "Analyst, Accounts Payable",
       "company": "Altisource",
@@ -626,7 +582,7 @@
     "configured": 52,
     "successful": 46,
     "failed": 6,
-    "with_matches": 19
+    "with_matches": 18
   },
   "sources": [
     {
@@ -813,7 +769,7 @@
     {
       "source": "Himalayas/accounts payable/p3",
       "status": "ok",
-      "matches": 5
+      "matches": 4
     },
     {
       "source": "Himalayas/financial analyst/p1",
@@ -878,7 +834,7 @@
     {
       "source": "Jobicy/finance",
       "status": "ok",
-      "matches": 1
+      "matches": 0
     },
     {
       "source": "Jobicy/accounting",
