@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-29T02:32:21.987277+00:00",
+  "updated_at": "2026-10-29T10:07:03.584136+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 22,
+  "total": 21,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/sprinto/jobs/finance-intern-remote",
@@ -328,29 +328,6 @@
       "match_group": "Possible matches"
     },
     {
-      "id": "him:https://himalayas.app/companies/marriott-international/jobs/finance-executive-work-from-home-opportunity-for-mothers",
-      "title": "Finance Executive - Work from home opportunity for Mothers",
-      "company": "Marriott International",
-      "location": "Remote · India eligible",
-      "date": "2026-10-18",
-      "type": "Finance Analyst / FP&A",
-      "level": "0–2 years",
-      "experience": "Minimum 1 years mentioned",
-      "fresher_confirmed": false,
-      "fit_score": 66,
-      "url": "https://himalayas.app/companies/marriott-international/jobs/finance-executive-work-from-home-opportunity-for-mothers?utm_source=api",
-      "skills": [
-        "Accounting",
-        "Audit",
-        "Payroll"
-      ],
-      "summary": "POSITION SUMMARY Check figures, postings, and documents for accuracy. Organize, secure, and maintain all files, records, cash and cash equivalents in accordance with policies and procedures. Record, store, access, and/or analyze computerized financial information. Classify, code, and summarize numerical and financial data to compile and keep financial records, using journals, ledgers, and/or computers. Prepare, maintain, audit, and distribute statistical, financial, accounting, auditing, or payroll reports and tables. Complete period-end closing procedures and reports as specified. Prepare, review, reconcile, and issue bills, invoices, and account statements according to company procedures. Follow-up and resolve past due accounts and vendor",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
       "id": "him:https://himalayas.app/companies/adm-group/jobs/accounts-and-finance-operations-executive-remote-ahmedabad-4725437999",
       "title": "Accounts and Finance Operations Executive (Remote - Ahmedabad)",
       "company": "adm Group",
@@ -529,7 +506,7 @@
     "configured": 52,
     "successful": 46,
     "failed": 6,
-    "with_matches": 19
+    "with_matches": 17
   },
   "sources": [
     {
@@ -681,7 +658,7 @@
     {
       "source": "Himalayas/finance/p2",
       "status": "ok",
-      "matches": 1
+      "matches": 0
     },
     {
       "source": "Himalayas/finance/p3",
@@ -701,22 +678,22 @@
     {
       "source": "Himalayas/accounting/p3",
       "status": "ok",
-      "matches": 2
+      "matches": 1
     },
     {
       "source": "Himalayas/accounts payable/p1",
       "status": "ok",
-      "matches": 5
+      "matches": 4
     },
     {
       "source": "Himalayas/accounts payable/p2",
       "status": "ok",
-      "matches": 2
+      "matches": 3
     },
     {
       "source": "Himalayas/accounts payable/p3",
       "status": "ok",
-      "matches": 5
+      "matches": 4
     },
     {
       "source": "Himalayas/financial analyst/p1",
@@ -741,7 +718,7 @@
     {
       "source": "Himalayas/audit/p2",
       "status": "ok",
-      "matches": 1
+      "matches": 0
     },
     {
       "source": "Himalayas/audit/p3",
