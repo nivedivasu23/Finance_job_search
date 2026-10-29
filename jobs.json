@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-29T16:58:01.747127+00:00",
+  "updated_at": "2026-10-29T21:51:25.177074+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 23,
+  "total": 22,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/sprinto/jobs/finance-intern-remote",
@@ -322,29 +322,6 @@
         "ERP"
       ],
       "summary": "Attesa Coffee is a start-up specialty green coffee sourcing and distribution company headquartered in Amsterdam, Netherlands. We work directly with producers at the origin to bring our customers (specialty coffee roasters) high-quality coffees safely, on time, and consistently using efficient digital frameworks. We believe in traceability through the chain and are highly committed to transparency towards all our stakeholders. We are looking for a Finance Accounting, who would take the lead on managing various activities related to Attesa Coffee ’s financial operations. Note : This is an independent contractor role, offered on a full-time basis to assist within our Finance & Accounting function. Tasks Create purchase / sales related transact",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
-      "id": "him:https://himalayas.app/companies/marriott-international/jobs/finance-executive-work-from-home-opportunity-for-mothers",
-      "title": "Finance Executive - Work from home opportunity for Mothers",
-      "company": "Marriott International",
-      "location": "Remote · India eligible",
-      "date": "2026-10-18",
-      "type": "Finance Analyst / FP&A",
-      "level": "0–2 years",
-      "experience": "Minimum 1 years mentioned",
-      "fresher_confirmed": false,
-      "fit_score": 66,
-      "url": "https://himalayas.app/companies/marriott-international/jobs/finance-executive-work-from-home-opportunity-for-mothers?utm_source=api",
-      "skills": [
-        "Accounting",
-        "Audit",
-        "Payroll"
-      ],
-      "summary": "POSITION SUMMARY Check figures, postings, and documents for accuracy. Organize, secure, and maintain all files, records, cash and cash equivalents in accordance with policies and procedures. Record, store, access, and/or analyze computerized financial information. Classify, code, and summarize numerical and financial data to compile and keep financial records, using journals, ledgers, and/or computers. Prepare, maintain, audit, and distribute statistical, financial, accounting, auditing, or payroll reports and tables. Complete period-end closing procedures and reports as specified. Prepare, review, reconcile, and issue bills, invoices, and account statements according to company procedures. Follow-up and resolve past due accounts and vendor",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -713,7 +690,7 @@
     {
       "source": "Himalayas/finance/p3",
       "status": "ok",
-      "matches": 2
+      "matches": 1
     },
     {
       "source": "Himalayas/accounting/p1",
