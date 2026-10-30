@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-30T15:59:50.165046+00:00",
+  "updated_at": "2026-10-30T20:51:25.996075+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 24,
+  "total": 25,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/adm-group/jobs/finance-administrator-entry-level-remote-mumbai",
@@ -181,6 +181,33 @@
         "ERP"
       ],
       "summary": "About Us Shorelight is reinventing the international education experience for students worldwide. Based in Boston, the company works directly with top-ranked, nonprofit American universities to build innovative programs and high-touch, technology-driven services that help talented students thrive and become global citizens. Job Overview The Finance Systems Administrator will help maintain and support our NetSuite ERP environment. This role will report to the Senior Director of FP&A and will sit at the intersection of Finance and IT, ensuring our financial systems run smoothly and support accurate, timely reporting. You'll work closely with FP&A, Accounting, IT, and cross-functional stakeholders to configure, maintain, and support NetSuite a",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/sage/jobs/accounts-payable-executive-finance",
+      "title": "Accounts Payable Executive – Finance",
+      "company": "Sage",
+      "location": "Remote · India eligible",
+      "date": "2026-10-30",
+      "type": "Finance Analyst / FP&A",
+      "level": "0–2 years",
+      "experience": "Minimum 1 years mentioned",
+      "fresher_confirmed": false,
+      "fit_score": 72,
+      "url": "https://himalayas.app/companies/sage/jobs/accounts-payable-executive-finance?utm_source=api",
+      "skills": [
+        "Excel",
+        "Accounting",
+        "Reconciliation",
+        "Financial reporting",
+        "Accounts payable",
+        "IFRS",
+        "ERP"
+      ],
+      "summary": "The Accounts Payable Executive – Finance role is part of Sage ’s Global Services Finance Accounts Payable Team . The team is responsible for supporting the wider Finance function by ensuring the accurate processing of supplier invoices, timely payments, and effective management of accounts payable activities. The role plays a critical part in maintaining strong supplier relationships, ensuring compliance with internal controls, and supporting the organization’s financial operations through efficient and accurate transaction processing. Key Responsibilities Execute and support established Accounts Payable processes, controls, and procedures to ensure compliance with company policies and financial standards. Accurately process supplier invoic",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -725,22 +752,22 @@
     {
       "source": "Himalayas/finance/p1",
       "status": "ok",
-      "matches": 3
+      "matches": 4
     },
     {
       "source": "Himalayas/finance/p2",
       "status": "ok",
-      "matches": 1
+      "matches": 0
     },
     {
       "source": "Himalayas/finance/p3",
       "status": "ok",
-      "matches": 1
+      "matches": 2
     },
     {
       "source": "Himalayas/accounting/p1",
       "status": "ok",
-      "matches": 5
+      "matches": 6
     },
     {
       "source": "Himalayas/accounting/p2",
@@ -755,12 +782,12 @@
     {
       "source": "Himalayas/accounts payable/p1",
       "status": "ok",
-      "matches": 5
+      "matches": 6
     },
     {
       "source": "Himalayas/accounts payable/p2",
       "status": "ok",
-      "matches": 2
+      "matches": 1
     },
     {
       "source": "Himalayas/accounts payable/p3",
@@ -775,7 +802,7 @@
     {
       "source": "Himalayas/financial analyst/p2",
       "status": "ok",
-      "matches": 1
+      "matches": 2
     },
     {
       "source": "Himalayas/financial analyst/p3",
@@ -785,12 +812,12 @@
     {
       "source": "Himalayas/audit/p1",
       "status": "ok",
-      "matches": 4
+      "matches": 3
     },
     {
       "source": "Himalayas/audit/p2",
       "status": "ok",
-      "matches": 0
+      "matches": 1
     },
     {
       "source": "Himalayas/audit/p3",
