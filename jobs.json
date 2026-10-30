@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-30T01:59:51.689503+00:00",
+  "updated_at": "2026-10-30T08:43:40.341116+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 23,
+  "total": 24,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/adm-group/jobs/finance-administrator-entry-level-remote-mumbai",
@@ -181,6 +181,29 @@
         "ERP"
       ],
       "summary": "About Us Shorelight is reinventing the international education experience for students worldwide. Based in Boston, the company works directly with top-ranked, nonprofit American universities to build innovative programs and high-touch, technology-driven services that help talented students thrive and become global citizens. Job Overview The Finance Systems Administrator will help maintain and support our NetSuite ERP environment. This role will report to the Senior Director of FP&A and will sit at the intersection of Finance and IT, ensuring our financial systems run smoothly and support accurate, timely reporting. You'll work closely with FP&A, Accounting, IT, and cross-functional stakeholders to configure, maintain, and support NetSuite a",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/centene-corporation/jobs/accountant-ii",
+      "title": "Accountant II",
+      "company": "Centene Corporation",
+      "location": "Remote · India eligible",
+      "date": "2026-10-30",
+      "type": "Accounting / AP-AR",
+      "level": "0–2 years",
+      "experience": "Minimum 2 years mentioned",
+      "fresher_confirmed": false,
+      "fit_score": 72,
+      "url": "https://himalayas.app/companies/centene-corporation/jobs/accountant-ii?utm_source=api",
+      "skills": [
+        "Accounting",
+        "Forecasting",
+        "Audit"
+      ],
+      "summary": "Position Purpose: With the Corporate Finance and Accounting team,you will be preparing monthly and quarterly journal entries, stock compensation accounting and forecasting, reconciling General Ledger accounts, supporting SEC reporting; and analyzing financial data. Key Details: Remote role Prepare monthly and quarterly journal entries Stock compensation accounting and forecasting Support SEC reporting team Reconcile general ledger accounts Analyze financial data Provide audit assistance on financial, regulatory, and health plan audits Performs other duties as assigned Complies with all policies and standards Preferred Skills: Experience leveraging AI tools for accounting and reporting processes. Experience with stock compensation accounting",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -727,7 +750,7 @@
     {
       "source": "Himalayas/accounting/p3",
       "status": "ok",
-      "matches": 1
+      "matches": 2
     },
     {
       "source": "Himalayas/accounts payable/p1",
@@ -747,7 +770,7 @@
     {
       "source": "Himalayas/financial analyst/p1",
       "status": "ok",
-      "matches": 4
+      "matches": 5
     },
     {
       "source": "Himalayas/financial analyst/p2",
@@ -762,7 +785,7 @@
     {
       "source": "Himalayas/audit/p1",
       "status": "ok",
-      "matches": 3
+      "matches": 4
     },
     {
       "source": "Himalayas/audit/p2",
