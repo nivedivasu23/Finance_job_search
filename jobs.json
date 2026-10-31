@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-30T20:51:25.996075+00:00",
+  "updated_at": "2026-10-31T00:52:18.668647+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 25,
+  "total": 24,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/adm-group/jobs/finance-administrator-entry-level-remote-mumbai",
@@ -72,31 +72,6 @@
       "match_group": "Possible matches"
     },
     {
-      "id": "him:https://himalayas.app/companies/masalto/jobs/accounts-payable-specialist-36802949",
-      "title": "Accounts Payable Specialist",
-      "company": "MasAlto",
-      "location": "Remote · India eligible",
-      "date": "2026-10-23",
-      "type": "Accounting / AP-AR",
-      "level": "0–2 years",
-      "experience": "Minimum 2 years mentioned",
-      "fresher_confirmed": false,
-      "fit_score": 72,
-      "url": "https://himalayas.app/companies/masalto/jobs/accounts-payable-specialist-36802949?utm_source=api",
-      "skills": [
-        "Excel",
-        "Accounting",
-        "Reconciliation",
-        "Accounts payable",
-        "QuickBooks"
-      ],
-      "summary": "Location: (Remote) Department: Accounting Freelancer full time Hours: Monday to Friday, 8 am to 5 pm Montreal time Working From Home About Us For over 15 years, Corporate Stays has been a trusted leader in providing exceptional temporary housing solutions in Canada and Panama. We specialize in premium, fully furnished residences designed for professionals, families, and individuals in transition. Our team works closely with each client to identify the ideal property based on location, size, amenities, and budget. Each Corporate Stays property is designed and furnished by our sister company Casa Suarez, following five-star hospitality standards to provide guests with the comfort of a real home. With a network of more than 10,000 apartments a",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
       "id": "him:https://himalayas.app/companies/globalization-partners/jobs/payroll-billing-specialist",
       "title": "Payroll & Billing Specialist",
       "company": "Globalization Partners",
@@ -137,27 +112,6 @@
         "Audit"
       ],
       "summary": "Our client, Jugabet, is a brand and gaming platform accessible to players in Latin America. With a strong regional focus and localized strategies, Jugabet is quickly becoming a key player in the market. Perfect for those who aim to: Review payment requests to ensure alignment with approved budgets and plans; Process requests in 1C; Regularly reconcile actual expenses with approved budgets; Confirm the accuracy and transparency of submitted services for audits; Ensure the correct entry of financial data into the system and glossary; Monitor budget balances across channels and partners; Identify and resolve discrepancies in financial data; Collaborate with departments to address financial issues efficiently. Experience you’ll need to bring: 1",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
-      "id": "him:https://himalayas.app/companies/openup/jobs/talent-pool-financial-well-being-expert",
-      "title": "Talent Pool: Financial Well-being Expert",
-      "company": "OpenUp",
-      "location": "Remote · India eligible",
-      "date": "2026-10-25",
-      "type": "Finance Analyst / FP&A",
-      "level": "0–2 years",
-      "experience": "Minimum 2 years mentioned",
-      "fresher_confirmed": false,
-      "fit_score": 72,
-      "url": "https://himalayas.app/companies/openup/jobs/talent-pool-financial-well-being-expert?utm_source=api",
-      "skills": [
-        "Budgeting"
-      ],
-      "summary": "Are you interested in joining us as a Freelance Financial Well-being expert, but don't see a specific role currently listed on our website? We are always looking to connect with talented professionals, so we’ve created a Permanent Talent Pool for future opportunities. Please note, this is a general application for our Permanent Talent Pool and is not tied to a specific active job posting. We will review your application and reach out when a matching assignment becomes available. Apply now to be considered for upcoming opportunities! Who we are At OpenUp , our mission is to make mental well-being accessible to everyone. We support companies, their employees, and their families with proactive and practical mental health services. Through our ",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -378,6 +332,31 @@
       "match_group": "Possible matches"
     },
     {
+      "id": "him:https://himalayas.app/companies/masalto/jobs/accounts-payable-specialist-36802949",
+      "title": "Accounts Payable Specialist",
+      "company": "MasAlto",
+      "location": "Remote · India eligible",
+      "date": "2026-10-23",
+      "type": "Accounting / AP-AR",
+      "level": "0–2 years",
+      "experience": "Minimum 2 years mentioned",
+      "fresher_confirmed": false,
+      "fit_score": 66,
+      "url": "https://himalayas.app/companies/masalto/jobs/accounts-payable-specialist-36802949?utm_source=api",
+      "skills": [
+        "Excel",
+        "Accounting",
+        "Reconciliation",
+        "Accounts payable",
+        "QuickBooks"
+      ],
+      "summary": "Location: (Remote) Department: Accounting Freelancer full time Hours: Monday to Friday, 8 am to 5 pm Montreal time Working From Home About Us For over 15 years, Corporate Stays has been a trusted leader in providing exceptional temporary housing solutions in Canada and Panama. We specialize in premium, fully furnished residences designed for professionals, families, and individuals in transition. Our team works closely with each client to identify the ideal property based on location, size, amenities, and budget. Each Corporate Stays property is designed and furnished by our sister company Casa Suarez, following five-star hospitality standards to provide guests with the comfort of a real home. With a network of more than 10,000 apartments a",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
       "id": "him:https://himalayas.app/companies/adm-group/jobs/accounts-and-finance-operations-executive-remote-ahmedabad-4725437999",
       "title": "Accounts and Finance Operations Executive (Remote - Ahmedabad)",
       "company": "adm Group",
@@ -397,31 +376,6 @@
         "MIS"
       ],
       "summary": "As part of our Finance Shared Services team, you’ll support the regional business by delivering high-quality, process-driven finance operations. This role is hands-on and varied, covering key transactional activities across invoicing, reconciliations, accounting support, reporting and MIS, while partnering with internal teams, clients, and suppliers to resolve queries and meet tight deadlines. It’s a great opportunity for a recent graduate or early-career finance professional to build a strong foundation in end-to-end shared services finance. This is a fully remote role, suited to someone with 1+ years’ experience in a similar finance operations role. Key Responsibilities Accounts Payable (AP) processing: check invoices, obtain acceptance, ",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
-      "id": "him:https://himalayas.app/companies/precision-for-medicine/jobs/financial-analyst",
-      "title": "Financial Analyst",
-      "company": "Precision for Medicine",
-      "location": "Remote · India eligible",
-      "date": "2026-10-23",
-      "type": "Finance Analyst / FP&A",
-      "level": "Experience unconfirmed",
-      "experience": "Not stated; verify with employer",
-      "fresher_confirmed": false,
-      "fit_score": 54,
-      "url": "https://himalayas.app/companies/precision-for-medicine/jobs/financial-analyst?utm_source=api",
-      "skills": [
-        "Excel",
-        "Accounting",
-        "Financial reporting",
-        "Accounts payable",
-        "Accounts receivable"
-      ],
-      "summary": "Global trials for oncology, rare diseases and other complex diseases face unique challenges. Precision partners with our clients to meet them head-on through our extensive footprint across the globe. We succeed by pairing personalized clinical services with translational medicine excellence, making us the first fully integrated clinical research organization created expressly to help advance the promises of precision medicine. Modern biomarker-informed therapeutic and diagnostic development programs involve a complex operational and data ecosystem. Multiple data streams flow from sites, central labs, and specialty labs. At Precision, we understand that data isn't enough. Clients need information, or data with context, to make decisions that",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -551,6 +505,31 @@
       "match_group": "Possible matches"
     },
     {
+      "id": "him:https://himalayas.app/companies/precision-for-medicine/jobs/financial-analyst",
+      "title": "Financial Analyst",
+      "company": "Precision for Medicine",
+      "location": "Remote · India eligible",
+      "date": "2026-10-23",
+      "type": "Finance Analyst / FP&A",
+      "level": "Experience unconfirmed",
+      "experience": "Not stated; verify with employer",
+      "fresher_confirmed": false,
+      "fit_score": 48,
+      "url": "https://himalayas.app/companies/precision-for-medicine/jobs/financial-analyst?utm_source=api",
+      "skills": [
+        "Excel",
+        "Accounting",
+        "Financial reporting",
+        "Accounts payable",
+        "Accounts receivable"
+      ],
+      "summary": "Global trials for oncology, rare diseases and other complex diseases face unique challenges. Precision partners with our clients to meet them head-on through our extensive footprint across the globe. We succeed by pairing personalized clinical services with translational medicine excellence, making us the first fully integrated clinical research organization created expressly to help advance the promises of precision medicine. Modern biomarker-informed therapeutic and diagnostic development programs involve a complex operational and data ecosystem. Multiple data streams flow from sites, central labs, and specialty labs. At Precision, we understand that data isn't enough. Clients need information, or data with context, to make decisions that",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
       "id": "him:https://himalayas.app/companies/altisource/jobs/analyst-accounts-payable",
       "title": "Analyst, Accounts Payable",
       "company": "Altisource",
@@ -605,7 +584,7 @@
     "configured": 52,
     "successful": 46,
     "failed": 6,
-    "with_matches": 18
+    "with_matches": 17
   },
   "sources": [
     {
@@ -752,7 +731,7 @@
     {
       "source": "Himalayas/finance/p1",
       "status": "ok",
-      "matches": 4
+      "matches": 3
     },
     {
       "source": "Himalayas/finance/p2",
@@ -787,7 +766,7 @@
     {
       "source": "Himalayas/accounts payable/p2",
       "status": "ok",
-      "matches": 1
+      "matches": 2
     },
     {
       "source": "Himalayas/accounts payable/p3",
@@ -812,12 +791,12 @@
     {
       "source": "Himalayas/audit/p1",
       "status": "ok",
-      "matches": 3
+      "matches": 4
     },
     {
       "source": "Himalayas/audit/p2",
       "status": "ok",
-      "matches": 1
+      "matches": 0
     },
     {
       "source": "Himalayas/audit/p3",
@@ -842,12 +821,12 @@
     {
       "source": "Himalayas/tax/p2",
       "status": "ok",
-      "matches": 1
+      "matches": 2
     },
     {
       "source": "Himalayas/tax/p3",
       "status": "ok",
-      "matches": 3
+      "matches": 2
     },
     {
       "source": "Remotive/global",
