@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-01T17:09:49.997104+00:00",
+  "updated_at": "2026-11-01T21:13:49.638957+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 27,
+  "total": 28,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/adm-group/jobs/finance-administrator-entry-level-remote-mumbai",
@@ -165,6 +165,29 @@
         "QuickBooks"
       ],
       "summary": "This is a remote position. Title: Accounting Associate Location: India (Australia Shift) Company: Credible CFO (www.crediblecfo.com) Salary: ₹20,000 - ₹25,000 per month Shift: Australia Shift (Aligned with Australian business hours) About Us: Credible CFO is a leading financial services provider committed to delivering top-tier accounting and financial solutions globally. We are expanding our team and seeking a dedicated Accounting Associate to join us. Responsibilities: - Prepare, review, and maintain financial records, reports, and statements. - Assist in budget preparation and financial forecasting. - Reconcile bank statements and balance sheets. - Manage accounts payable and receivable for timely payments and collections. - Assist in mo",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/centene-corporation/jobs/accountant-ii",
+      "title": "Accountant II",
+      "company": "Centene Corporation",
+      "location": "Remote · India eligible",
+      "date": "2026-11-01",
+      "type": "Accounting / AP-AR",
+      "level": "0–2 years",
+      "experience": "Minimum 2 years mentioned",
+      "fresher_confirmed": false,
+      "fit_score": 72,
+      "url": "https://himalayas.app/companies/centene-corporation/jobs/accountant-ii?utm_source=api",
+      "skills": [
+        "Accounting",
+        "Forecasting",
+        "Audit"
+      ],
+      "summary": "Position Purpose: With the Corporate Finance and Accounting team,you will be preparing monthly and quarterly journal entries, stock compensation accounting and forecasting, reconciling General Ledger accounts, supporting SEC reporting; and analyzing financial data. Key Details: Remote role Prepare monthly and quarterly journal entries Stock compensation accounting and forecasting Support SEC reporting team Reconcile general ledger accounts Analyze financial data Provide audit assistance on financial, regulatory, and health plan audits Performs other duties as assigned Complies with all policies and standards Preferred Skills: Experience leveraging AI tools for accounting and reporting processes. Experience with stock compensation accounting",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -811,12 +834,12 @@
     {
       "source": "Himalayas/finance/p1",
       "status": "ok",
-      "matches": 2
+      "matches": 1
     },
     {
       "source": "Himalayas/finance/p2",
       "status": "ok",
-      "matches": 1
+      "matches": 2
     },
     {
       "source": "Himalayas/finance/p3",
@@ -826,12 +849,12 @@
     {
       "source": "Himalayas/accounting/p1",
       "status": "ok",
-      "matches": 5
+      "matches": 4
     },
     {
       "source": "Himalayas/accounting/p2",
       "status": "ok",
-      "matches": 4
+      "matches": 5
     },
     {
       "source": "Himalayas/accounting/p3",
@@ -846,12 +869,12 @@
     {
       "source": "Himalayas/accounts payable/p2",
       "status": "ok",
-      "matches": 3
+      "matches": 2
     },
     {
       "source": "Himalayas/accounts payable/p3",
       "status": "ok",
-      "matches": 5
+      "matches": 6
     },
     {
       "source": "Himalayas/financial analyst/p1",
@@ -866,7 +889,7 @@
     {
       "source": "Himalayas/financial analyst/p3",
       "status": "ok",
-      "matches": 1
+      "matches": 2
     },
     {
       "source": "Himalayas/audit/p1",
@@ -876,7 +899,7 @@
     {
       "source": "Himalayas/audit/p2",
       "status": "ok",
-      "matches": 2
+      "matches": 3
     },
     {
       "source": "Himalayas/audit/p3",
