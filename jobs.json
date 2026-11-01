@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-01T10:35:39.387470+00:00",
+  "updated_at": "2026-11-01T17:09:49.997104+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 23,
+  "total": 27,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/adm-group/jobs/finance-administrator-entry-level-remote-mumbai",
@@ -145,23 +145,79 @@
       "match_group": "Possible matches"
     },
     {
-      "id": "him:https://himalayas.app/companies/centene-corporation/jobs/accountant-ii",
-      "title": "Accountant II",
-      "company": "Centene Corporation",
+      "id": "him:https://himalayas.app/companies/credible-cfo/jobs/accounting-associate",
+      "title": "Accounting Associate",
+      "company": "Credible CFO",
       "location": "Remote · India eligible",
-      "date": "2026-10-30",
+      "date": "2026-11-01",
+      "type": "Accounting / AP-AR",
+      "level": "0–2 years",
+      "experience": "Minimum 1 years mentioned",
+      "fresher_confirmed": false,
+      "fit_score": 72,
+      "url": "https://himalayas.app/companies/credible-cfo/jobs/accounting-associate?utm_source=api",
+      "skills": [
+        "Tally",
+        "Accounting",
+        "Financial reporting",
+        "Forecasting",
+        "Accounts payable",
+        "QuickBooks"
+      ],
+      "summary": "This is a remote position. Title: Accounting Associate Location: India (Australia Shift) Company: Credible CFO (www.crediblecfo.com) Salary: ₹20,000 - ₹25,000 per month Shift: Australia Shift (Aligned with Australian business hours) About Us: Credible CFO is a leading financial services provider committed to delivering top-tier accounting and financial solutions globally. We are expanding our team and seeking a dedicated Accounting Associate to join us. Responsibilities: - Prepare, review, and maintain financial records, reports, and statements. - Assist in budget preparation and financial forecasting. - Reconcile bank statements and balance sheets. - Manage accounts payable and receivable for timely payments and collections. - Assist in mo",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/hyre/jobs/accounts-receivable-specialist",
+      "title": "Accounts Receivable Specialist",
+      "company": "Hyre",
+      "location": "Remote · India eligible",
+      "date": "2026-11-01",
       "type": "Accounting / AP-AR",
       "level": "0–2 years",
       "experience": "Minimum 2 years mentioned",
       "fresher_confirmed": false,
       "fit_score": 72,
-      "url": "https://himalayas.app/companies/centene-corporation/jobs/accountant-ii?utm_source=api",
+      "url": "https://himalayas.app/companies/hyre/jobs/accounts-receivable-specialist?utm_source=api",
       "skills": [
         "Accounting",
-        "Forecasting",
-        "Audit"
+        "Financial reporting",
+        "Accounts receivable",
+        "QuickBooks"
       ],
-      "summary": "Position Purpose: With the Corporate Finance and Accounting team,you will be preparing monthly and quarterly journal entries, stock compensation accounting and forecasting, reconciling General Ledger accounts, supporting SEC reporting; and analyzing financial data. Key Details: Remote role Prepare monthly and quarterly journal entries Stock compensation accounting and forecasting Support SEC reporting team Reconcile general ledger accounts Analyze financial data Provide audit assistance on financial, regulatory, and health plan audits Performs other duties as assigned Complies with all policies and standards Preferred Skills: Experience leveraging AI tools for accounting and reporting processes. Experience with stock compensation accounting",
+      "summary": "Accounts Receivable Specialist Work Type: Full-time. Schedule: Standard U.S. business hours. Location: 100% Remote. Role Overview We are looking for an experienced Accounts Receivable Specialist to manage the full A/R process, including invoicing, collections, and maintaining relationships with both customers and vendors. The ideal candidate brings a proven track record of communicating effectively, staying organized, and working independently in a remote environment. In this role, you will ensure the accuracy of the end-to-end accounts receivable cycle while providing vital support to the broader finance and accounting teams. Key Responsibilities A/R Cycle Management: Manage the end-to-end accounts receivable cycle, including invoice gener",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/growthax/jobs/accountant",
+      "title": "Accountant",
+      "company": "GrowthAX",
+      "location": "Remote · India eligible",
+      "date": "2026-11-01",
+      "type": "Accounting / AP-AR",
+      "level": "0–2 years",
+      "experience": "Minimum 1 years mentioned",
+      "fresher_confirmed": false,
+      "fit_score": 72,
+      "url": "https://himalayas.app/companies/growthax/jobs/accountant?utm_source=api",
+      "skills": [
+        "Excel",
+        "GST",
+        "TDS",
+        "Accounting",
+        "Reconciliation",
+        "Forecasting",
+        "Budgeting",
+        "Audit",
+        "Payroll"
+      ],
+      "summary": "This is a remote position. We are seeking a detail-oriented and proactive Accountant to manage our financial operations, ensure compliance with statutory requirements, and support the business in making data-driven financial decisions. This role will involve end-to-end accounting responsibilities with a focus on Zoho Books, taxation, payroll, and reconciliation, tailored to the needs of a manufacturing environment. Key Responsibilities Zoho Books Management – Maintain and update all financial records in Zoho Books, ensuring accuracy and timely reporting. Expense Management & Bookkeeping – Track, record, and classify expenses with complete supporting documentation. Payroll Management & Processing – Manage monthly payroll, including statutory",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -405,11 +461,33 @@
       "match_group": "Possible matches"
     },
     {
+      "id": "him:https://himalayas.app/companies/strada/jobs/workday-payroll-analyst",
+      "title": "Workday Payroll Analyst",
+      "company": "Strada",
+      "location": "Remote · India eligible",
+      "date": "2026-10-29",
+      "type": "Finance Operations",
+      "level": "Experience unconfirmed",
+      "experience": "Not stated; verify with employer",
+      "fresher_confirmed": false,
+      "fit_score": 54,
+      "url": "https://himalayas.app/companies/strada/jobs/workday-payroll-analyst?utm_source=api",
+      "skills": [
+        "Audit",
+        "Payroll"
+      ],
+      "summary": "Join us on a journey of endless possibilities At Strada , possibility isn’t just a promise – it’s the foundation of everything we do. We believe in unlocking potential for every colleague, creating a journey of growth, discovery, and impact. With the support, resources, and opportunities we provide, you’ll build a fulfilling future – working on meaningful projects that span industries and regions, contributing to outcomes that matter. Strada is a people, payroll, and technology leader simplifying international workforce management. Operating in 180+ countries, we design and deliver people-first solutions powered by cloud-based technology – helping organizations grow and enabling workforces to perform at their best. Learn more at To learn mo",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
       "id": "him:https://himalayas.app/companies/kognitiv-inc/jobs/ar-ap-accounting-analyst",
       "title": "AR / AP Accounting Analyst",
       "company": "Kognitiv Inc.",
       "location": "Remote · India eligible",
-      "date": "2026-10-29",
+      "date": "2026-11-01",
       "type": "Accounting / AP-AR",
       "level": "Experience unconfirmed",
       "experience": "Not stated; verify with employer",
@@ -432,22 +510,50 @@
       "match_group": "Possible matches"
     },
     {
-      "id": "him:https://himalayas.app/companies/strada/jobs/workday-payroll-analyst",
-      "title": "Workday Payroll Analyst",
-      "company": "Strada",
+      "id": "him:https://himalayas.app/companies/menafoods/jobs/accountant-and-data-entry-specialist",
+      "title": "Accountant and Data Entry Specialist",
+      "company": "MENAFoods",
       "location": "Remote · India eligible",
-      "date": "2026-10-29",
-      "type": "Finance Operations",
+      "date": "2026-11-01",
+      "type": "Accounting / AP-AR",
       "level": "Experience unconfirmed",
       "experience": "Not stated; verify with employer",
       "fresher_confirmed": false,
       "fit_score": 54,
-      "url": "https://himalayas.app/companies/strada/jobs/workday-payroll-analyst?utm_source=api",
+      "url": "https://himalayas.app/companies/menafoods/jobs/accountant-and-data-entry-specialist?utm_source=api",
       "skills": [
-        "Audit",
-        "Payroll"
+        "Excel",
+        "Accounting",
+        "Accounts payable",
+        "Accounts receivable"
       ],
-      "summary": "Join us on a journey of endless possibilities At Strada , possibility isn’t just a promise – it’s the foundation of everything we do. We believe in unlocking potential for every colleague, creating a journey of growth, discovery, and impact. With the support, resources, and opportunities we provide, you’ll build a fulfilling future – working on meaningful projects that span industries and regions, contributing to outcomes that matter. Strada is a people, payroll, and technology leader simplifying international workforce management. Operating in 180+ countries, we design and deliver people-first solutions powered by cloud-based technology – helping organizations grow and enabling workforces to perform at their best. Learn more at To learn mo",
+      "summary": "This is a remote position. ​About MENAFoods MENAFoods is a leading on-demand grocery delivery service, revolutionizing the industry with its commitment to providing convenient and efficient shopping experiences. As our company continues to expand, we are seeking a dedicated and detail-oriented Accountant and Data Entry Specialist to join our remote team. Responsibilities 1. ​F inancial Record Management: Maintain and update financial records, including accounts payable, accounts receivable, and general ledger entries, ensuring accuracy and completeness. 2. Data Entry: Accurately enter financial data into our systems, adhering to established procedures and timelines. 3. Financial Analysis: Assist in preparing financial reports and analysis a",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/contour-education/jobs/financial-analyst-india",
+      "title": "Financial Analyst, India",
+      "company": "Contour Education",
+      "location": "Remote · India eligible",
+      "date": "2026-11-01",
+      "type": "Finance Analyst / FP&A",
+      "level": "Experience unconfirmed",
+      "experience": "Not stated; verify with employer",
+      "fresher_confirmed": false,
+      "fit_score": 54,
+      "url": "https://himalayas.app/companies/contour-education/jobs/financial-analyst-india?utm_source=api",
+      "skills": [
+        "Excel",
+        "Power BI",
+        "Accounting",
+        "Forecasting",
+        "Budgeting",
+        "MIS"
+      ],
+      "summary": "This is a remote position. Financial Analyst, India Remote (India) | Full-Time Also searched as: Finance Analyst, FP&A Analyst, MIS Analyst, Business Analyst What would you tell a leadership team about their own business that they have not thought to ask? On a typical day you might reconcile the weekly scorecard numbers back to Xero and HubSpot before the leadership review in the morning, work through month-end variances with the Financial Controller and draft the commentary after lunch, and send a short written note on why a revenue line moved and what you would do about it before the end of day. About Contour We started in 2020 with a handful of students and a belief that great education should not be out of reach. Today we operate across",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -553,12 +659,12 @@
       "match_group": "Possible matches"
     }
   ],
-  "sources_checked": 46,
+  "sources_checked": 47,
   "source_summary": {
-    "configured": 52,
-    "successful": 46,
+    "configured": 53,
+    "successful": 47,
     "failed": 6,
-    "with_matches": 18
+    "with_matches": 21
   },
   "sources": [
     {
@@ -720,47 +826,47 @@
     {
       "source": "Himalayas/accounting/p1",
       "status": "ok",
-      "matches": 3
+      "matches": 5
     },
     {
       "source": "Himalayas/accounting/p2",
       "status": "ok",
-      "matches": 6
+      "matches": 4
     },
     {
       "source": "Himalayas/accounting/p3",
       "status": "ok",
-      "matches": 2
+      "matches": 4
     },
     {
       "source": "Himalayas/accounts payable/p1",
       "status": "ok",
-      "matches": 5
+      "matches": 6
     },
     {
       "source": "Himalayas/accounts payable/p2",
       "status": "ok",
-      "matches": 2
+      "matches": 3
     },
     {
       "source": "Himalayas/accounts payable/p3",
       "status": "ok",
-      "matches": 4
+      "matches": 5
     },
     {
       "source": "Himalayas/financial analyst/p1",
       "status": "ok",
-      "matches": 4
+      "matches": 5
     },
     {
       "source": "Himalayas/financial analyst/p2",
       "status": "ok",
-      "matches": 3
+      "matches": 2
     },
     {
       "source": "Himalayas/financial analyst/p3",
       "status": "ok",
-      "matches": 0
+      "matches": 1
     },
     {
       "source": "Himalayas/audit/p1",
@@ -770,7 +876,7 @@
     {
       "source": "Himalayas/audit/p2",
       "status": "ok",
-      "matches": 0
+      "matches": 2
     },
     {
       "source": "Himalayas/audit/p3",
@@ -780,10 +886,15 @@
     {
       "source": "Himalayas/bookkeeper/p1",
       "status": "ok",
-      "matches": 5
+      "matches": 7
     },
     {
       "source": "Himalayas/bookkeeper/p2",
+      "status": "ok",
+      "matches": 1
+    },
+    {
+      "source": "Himalayas/bookkeeper/p3",
       "status": "ok",
       "matches": 0
     },
@@ -800,7 +911,7 @@
     {
       "source": "Himalayas/tax/p3",
       "status": "ok",
-      "matches": 2
+      "matches": 3
     },
     {
       "source": "Remotive/global",
