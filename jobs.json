@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T18:29:35.179994+00:00",
+  "updated_at": "2026-11-03T01:38:43.801888+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
   "total": 25,
   "jobs": [
@@ -391,30 +391,6 @@
       "match_group": "Possible matches"
     },
     {
-      "id": "him:https://himalayas.app/companies/anywhere-real-estate-inc/jobs/analyst-i-accounts-payable",
-      "title": "Analyst I Accounts Payable",
-      "company": "Anywhere Real Estate Inc.",
-      "location": "Remote · India eligible",
-      "date": "2026-10-26",
-      "type": "Accounting / AP-AR",
-      "level": "Experience unconfirmed",
-      "experience": "Not stated; verify with employer",
-      "fresher_confirmed": false,
-      "fit_score": 54,
-      "url": "https://himalayas.app/companies/anywhere-real-estate-inc/jobs/analyst-i-accounts-payable?utm_source=api",
-      "skills": [
-        "Excel",
-        "Accounting",
-        "Accounts payable",
-        "Audit"
-      ],
-      "summary": "Purpose: The primary function of the Accounts Payable Analyst is to accurately audit supplier invoices in order to make timely payment to the supplier and timely billing to the client. This position may also include work related to reconciling account ageing’s with suppliers, coordinating activities with other accounting teams, and ad hoc project work. Your Role & Accountabilities: Audit invoices to client policy, supplier contracts, tax authority requirements and supporting documents to ensure accurate client invoicing. Assess Value Added Tax, Goods and Services tax and other tax requirements when appropriate Escalate questions and issues as needed for prompt resolution Communicate to suppliers as needed for corrected paperwork and/or fail",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
       "id": "him:https://himalayas.app/companies/shorelight-llc/jobs/student-accounts-specialist",
       "title": "Student Accounts Specialist",
       "company": "Shorelight, LLC",
@@ -583,6 +559,30 @@
         "Accounts receivable"
       ],
       "summary": "Global trials for oncology, rare diseases and other complex diseases face unique challenges. Precision partners with our clients to meet them head-on through our extensive footprint across the globe. We succeed by pairing personalized clinical services with translational medicine excellence, making us the first fully integrated clinical research organization created expressly to help advance the promises of precision medicine. Modern biomarker-informed therapeutic and diagnostic development programs involve a complex operational and data ecosystem. Multiple data streams flow from sites, central labs, and specialty labs. At Precision, we understand that data isn't enough. Clients need information, or data with context, to make decisions that",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/anywhere-real-estate-inc/jobs/analyst-i-accounts-payable",
+      "title": "Analyst I Accounts Payable",
+      "company": "Anywhere Real Estate Inc.",
+      "location": "Remote · India eligible",
+      "date": "2026-10-26",
+      "type": "Accounting / AP-AR",
+      "level": "Experience unconfirmed",
+      "experience": "Not stated; verify with employer",
+      "fresher_confirmed": false,
+      "fit_score": 48,
+      "url": "https://himalayas.app/companies/anywhere-real-estate-inc/jobs/analyst-i-accounts-payable?utm_source=api",
+      "skills": [
+        "Excel",
+        "Accounting",
+        "Accounts payable",
+        "Audit"
+      ],
+      "summary": "Purpose: The primary function of the Accounts Payable Analyst is to accurately audit supplier invoices in order to make timely payment to the supplier and timely billing to the client. This position may also include work related to reconciling account ageing’s with suppliers, coordinating activities with other accounting teams, and ad hoc project work. Your Role & Accountabilities: Audit invoices to client policy, supplier contracts, tax authority requirements and supporting documents to ensure accurate client invoicing. Assess Value Added Tax, Goods and Services tax and other tax requirements when appropriate Escalate questions and issues as needed for prompt resolution Communicate to suppliers as needed for corrected paperwork and/or fail",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -763,12 +763,12 @@
     {
       "source": "Himalayas/finance/p1",
       "status": "ok",
-      "matches": 2
+      "matches": 1
     },
     {
       "source": "Himalayas/finance/p2",
       "status": "ok",
-      "matches": 1
+      "matches": 2
     },
     {
       "source": "Himalayas/finance/p3",
@@ -778,17 +778,17 @@
     {
       "source": "Himalayas/accounting/p1",
       "status": "ok",
-      "matches": 5
+      "matches": 4
     },
     {
       "source": "Himalayas/accounting/p2",
       "status": "ok",
-      "matches": 4
+      "matches": 5
     },
     {
       "source": "Himalayas/accounting/p3",
       "status": "ok",
-      "matches": 4
+      "matches": 3
     },
     {
       "source": "Himalayas/accounts payable/p1",
@@ -808,7 +808,7 @@
     {
       "source": "Himalayas/financial analyst/p1",
       "status": "ok",
-      "matches": 5
+      "matches": 4
     },
     {
       "source": "Himalayas/financial analyst/p2",
@@ -818,7 +818,7 @@
     {
       "source": "Himalayas/financial analyst/p3",
       "status": "ok",
-      "matches": 1
+      "matches": 2
     },
     {
       "source": "Himalayas/audit/p1",
