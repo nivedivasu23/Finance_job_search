@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T23:28:28.735101+00:00",
+  "updated_at": "2026-11-04T06:36:21.864796+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
   "total": 25,
   "jobs": [
@@ -69,29 +69,6 @@
       "source": "Greenhouse",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Bengaluru",
-      "match_group": "Possible matches"
-    },
-    {
-      "id": "him:https://himalayas.app/companies/shorelight-llc/jobs/finance-systems-administrator",
-      "title": "Finance Systems Administrator",
-      "company": "Shorelight, LLC",
-      "location": "Remote · India eligible",
-      "date": "2026-10-27",
-      "type": "Finance Analyst / FP&A",
-      "level": "0–2 years",
-      "experience": "Minimum 1 years mentioned",
-      "fresher_confirmed": false,
-      "fit_score": 72,
-      "url": "https://himalayas.app/companies/shorelight-llc/jobs/finance-systems-administrator?utm_source=api",
-      "skills": [
-        "Accounting",
-        "Audit",
-        "ERP"
-      ],
-      "summary": "About Us Shorelight is reinventing the international education experience for students worldwide. Based in Boston, the company works directly with top-ranked, nonprofit American universities to build innovative programs and high-touch, technology-driven services that help talented students thrive and become global citizens. Job Overview The Finance Systems Administrator will help maintain and support our NetSuite ERP environment. This role will report to the Senior Director of FP&A and will sit at the intersection of Finance and IT, ensuring our financial systems run smoothly and support accurate, timely reporting. You'll work closely with FP&A, Accounting, IT, and cross-functional stakeholders to configure, maintain, and support NetSuite a",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
       "match_group": "Possible matches"
     },
     {
@@ -366,6 +343,29 @@
       "match_group": "Possible matches"
     },
     {
+      "id": "him:https://himalayas.app/companies/shorelight-llc/jobs/finance-systems-administrator",
+      "title": "Finance Systems Administrator",
+      "company": "Shorelight, LLC",
+      "location": "Remote · India eligible",
+      "date": "2026-10-27",
+      "type": "Finance Analyst / FP&A",
+      "level": "0–2 years",
+      "experience": "Minimum 1 years mentioned",
+      "fresher_confirmed": false,
+      "fit_score": 66,
+      "url": "https://himalayas.app/companies/shorelight-llc/jobs/finance-systems-administrator?utm_source=api",
+      "skills": [
+        "Accounting",
+        "Audit",
+        "ERP"
+      ],
+      "summary": "About Us Shorelight is reinventing the international education experience for students worldwide. Based in Boston, the company works directly with top-ranked, nonprofit American universities to build innovative programs and high-touch, technology-driven services that help talented students thrive and become global citizens. Job Overview The Finance Systems Administrator will help maintain and support our NetSuite ERP environment. This role will report to the Senior Director of FP&A and will sit at the intersection of Finance and IT, ensuring our financial systems run smoothly and support accurate, timely reporting. You'll work closely with FP&A, Accounting, IT, and cross-functional stakeholders to configure, maintain, and support NetSuite a",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
       "id": "him:https://himalayas.app/companies/adm-group/jobs/accounts-and-finance-operations-executive-remote-ahmedabad-4725437999",
       "title": "Accounts and Finance Operations Executive (Remote - Ahmedabad)",
       "company": "adm Group",
@@ -385,31 +385,6 @@
         "MIS"
       ],
       "summary": "As part of our Finance Shared Services team, you’ll support the regional business by delivering high-quality, process-driven finance operations. This role is hands-on and varied, covering key transactional activities across invoicing, reconciliations, accounting support, reporting and MIS, while partnering with internal teams, clients, and suppliers to resolve queries and meet tight deadlines. It’s a great opportunity for a recent graduate or early-career finance professional to build a strong foundation in end-to-end shared services finance. This is a fully remote role, suited to someone with 1+ years’ experience in a similar finance operations role. Key Responsibilities Accounts Payable (AP) processing: check invoices, obtain acceptance, ",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
-      "id": "him:https://himalayas.app/companies/shorelight-llc/jobs/student-accounts-specialist",
-      "title": "Student Accounts Specialist",
-      "company": "Shorelight, LLC",
-      "location": "Remote · India eligible",
-      "date": "2026-10-27",
-      "type": "Accounting / AP-AR",
-      "level": "Experience unconfirmed",
-      "experience": "Not stated; verify with employer",
-      "fresher_confirmed": false,
-      "fit_score": 54,
-      "url": "https://himalayas.app/companies/shorelight-llc/jobs/student-accounts-specialist?utm_source=api",
-      "skills": [
-        "Excel",
-        "Accounting",
-        "Reconciliation",
-        "Accounts payable",
-        "Audit"
-      ],
-      "summary": "A bout Us Shorelight is reinventing the international education experience for students worldwide. Based in Boston, the company works directly with top-ranked, nonprofit American universities to build innovative programs and high-touch, technology-driven services that help talented students thrive and become global citizens. Job Overview The Student Accounts Specialist supports the financial operations and integrity of student accounts across all partnerships, serving as the primary point of contact for student and campus account inquiries. The role combines hands-on account servicing with staff-level accounting responsibility — including month-end close, reconciliation, and receivables analysis — and identifies opportunities to strengthen ",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -583,6 +558,31 @@
         "Audit"
       ],
       "summary": "Purpose: The primary function of the Accounts Payable Analyst is to accurately audit supplier invoices in order to make timely payment to the supplier and timely billing to the client. This position may also include work related to reconciling account ageing’s with suppliers, coordinating activities with other accounting teams, and ad hoc project work. Your Role & Accountabilities: Audit invoices to client policy, supplier contracts, tax authority requirements and supporting documents to ensure accurate client invoicing. Assess Value Added Tax, Goods and Services tax and other tax requirements when appropriate Escalate questions and issues as needed for prompt resolution Communicate to suppliers as needed for corrected paperwork and/or fail",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/shorelight-llc/jobs/student-accounts-specialist",
+      "title": "Student Accounts Specialist",
+      "company": "Shorelight, LLC",
+      "location": "Remote · India eligible",
+      "date": "2026-10-27",
+      "type": "Accounting / AP-AR",
+      "level": "Experience unconfirmed",
+      "experience": "Not stated; verify with employer",
+      "fresher_confirmed": false,
+      "fit_score": 48,
+      "url": "https://himalayas.app/companies/shorelight-llc/jobs/student-accounts-specialist?utm_source=api",
+      "skills": [
+        "Excel",
+        "Accounting",
+        "Reconciliation",
+        "Accounts payable",
+        "Audit"
+      ],
+      "summary": "A bout Us Shorelight is reinventing the international education experience for students worldwide. Based in Boston, the company works directly with top-ranked, nonprofit American universities to build innovative programs and high-touch, technology-driven services that help talented students thrive and become global citizens. Job Overview The Student Accounts Specialist supports the financial operations and integrity of student accounts across all partnerships, serving as the primary point of contact for student and campus account inquiries. The role combines hands-on account servicing with staff-level accounting responsibility — including month-end close, reconciliation, and receivables analysis — and identifies opportunities to strengthen ",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -778,12 +778,12 @@
     {
       "source": "Himalayas/accounting/p1",
       "status": "ok",
-      "matches": 4
+      "matches": 3
     },
     {
       "source": "Himalayas/accounting/p2",
       "status": "ok",
-      "matches": 5
+      "matches": 6
     },
     {
       "source": "Himalayas/accounting/p3",
@@ -813,12 +813,12 @@
     {
       "source": "Himalayas/financial analyst/p2",
       "status": "ok",
-      "matches": 2
+      "matches": 3
     },
     {
       "source": "Himalayas/financial analyst/p3",
       "status": "ok",
-      "matches": 2
+      "matches": 1
     },
     {
       "source": "Himalayas/audit/p1",
