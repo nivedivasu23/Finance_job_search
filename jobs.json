@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T02:31:41.404394+00:00",
+  "updated_at": "2026-11-05T11:05:08.618733+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
   "total": 25,
   "jobs": [
@@ -689,7 +689,7 @@
       "source": "lever/brex",
       "status": "failed",
       "matches": 0,
-      "error": "The read operation timed out"
+      "error": "HTTP Error 404: Not Found"
     },
     {
       "source": "lever/airwallex",
@@ -888,7 +888,7 @@
   ],
   "source_errors": [
     "lever/wise: HTTP Error 404: Not Found",
-    "lever/brex: The read operation timed out",
+    "lever/brex: HTTP Error 404: Not Found",
     "lever/airwallex: HTTP Error 404: Not Found",
     "ashby/retool: HTTP Error 404: Not Found",
     "ashby/remote: HTTP Error 404: Not Found",
