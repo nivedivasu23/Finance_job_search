@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T21:56:13.905316+00:00",
+  "updated_at": "2026-11-05T02:31:41.404394+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
   "total": 25,
   "jobs": [
@@ -689,7 +689,7 @@
       "source": "lever/brex",
       "status": "failed",
       "matches": 0,
-      "error": "HTTP Error 404: Not Found"
+      "error": "The read operation timed out"
     },
     {
       "source": "lever/airwallex",
@@ -848,12 +848,12 @@
     {
       "source": "Himalayas/tax/p1",
       "status": "ok",
-      "matches": 3
+      "matches": 2
     },
     {
       "source": "Himalayas/tax/p2",
       "status": "ok",
-      "matches": 2
+      "matches": 3
     },
     {
       "source": "Himalayas/tax/p3",
@@ -888,7 +888,7 @@
   ],
   "source_errors": [
     "lever/wise: HTTP Error 404: Not Found",
-    "lever/brex: HTTP Error 404: Not Found",
+    "lever/brex: The read operation timed out",
     "lever/airwallex: HTTP Error 404: Not Found",
     "ashby/retool: HTTP Error 404: Not Found",
     "ashby/remote: HTTP Error 404: Not Found",
