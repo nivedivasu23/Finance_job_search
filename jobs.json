@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-05T18:48:12.384922+00:00",
+  "updated_at": "2026-11-06T00:22:50.226556+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 25,
+  "total": 24,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/adm-group/jobs/finance-administrator-entry-level-remote-mumbai",
@@ -175,30 +175,6 @@
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
-      "id": "gh:stripe:8104748",
-      "title": "Credit Risk Operations Associate",
-      "company": "stripe",
-      "location": "Bangalore",
-      "date": "2026-08-07",
-      "type": "Finance Operations",
-      "level": "0–2 years",
-      "experience": "Minimum 2 years mentioned",
-      "fresher_confirmed": false,
-      "fit_score": 70,
-      "url": "https://stripe.com/jobs/search?gh_jid=8104748",
-      "skills": [
-        "Excel",
-        "Accounting",
-        "Forecasting",
-        "Financial statements"
-      ],
-      "summary": "<h2>Who we are</h2> <h3>About Stripe</h3> <p><span style=\"font-weight: 400;\">Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career.</span></p> <h3>About the team</h3> <p><span style=\"font-weight: 400;\">Stripe was built with simplicity in mind. We strive to deliver frictionless experiences for all of our user",
-      "source": "Greenhouse",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Bengaluru",
       "match_group": "Possible matches"
     },
     {
@@ -391,28 +367,6 @@
       "match_group": "Possible matches"
     },
     {
-      "id": "him:https://himalayas.app/companies/strada/jobs/workday-payroll-analyst",
-      "title": "Workday Payroll Analyst",
-      "company": "Strada",
-      "location": "Remote · India eligible",
-      "date": "2026-10-29",
-      "type": "Finance Operations",
-      "level": "Experience unconfirmed",
-      "experience": "Not stated; verify with employer",
-      "fresher_confirmed": false,
-      "fit_score": 54,
-      "url": "https://himalayas.app/companies/strada/jobs/workday-payroll-analyst?utm_source=api",
-      "skills": [
-        "Audit",
-        "Payroll"
-      ],
-      "summary": "Join us on a journey of endless possibilities At Strada , possibility isn’t just a promise – it’s the foundation of everything we do. We believe in unlocking potential for every colleague, creating a journey of growth, discovery, and impact. With the support, resources, and opportunities we provide, you’ll build a fulfilling future – working on meaningful projects that span industries and regions, contributing to outcomes that matter. Strada is a people, payroll, and technology leader simplifying international workforce management. Operating in 180+ countries, we design and deliver people-first solutions powered by cloud-based technology – helping organizations grow and enabling workforces to perform at their best. Learn more at To learn mo",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
       "id": "him:https://himalayas.app/companies/kognitiv-inc/jobs/ar-ap-accounting-analyst",
       "title": "AR / AP Accounting Analyst",
       "company": "Kognitiv Inc.",
@@ -589,6 +543,28 @@
       "match_group": "Possible matches"
     },
     {
+      "id": "him:https://himalayas.app/companies/strada/jobs/workday-payroll-analyst",
+      "title": "Workday Payroll Analyst",
+      "company": "Strada",
+      "location": "Remote · India eligible",
+      "date": "2026-10-29",
+      "type": "Finance Operations",
+      "level": "Experience unconfirmed",
+      "experience": "Not stated; verify with employer",
+      "fresher_confirmed": false,
+      "fit_score": 48,
+      "url": "https://himalayas.app/companies/strada/jobs/workday-payroll-analyst?utm_source=api",
+      "skills": [
+        "Audit",
+        "Payroll"
+      ],
+      "summary": "Join us on a journey of endless possibilities At Strada , possibility isn’t just a promise – it’s the foundation of everything we do. We believe in unlocking potential for every colleague, creating a journey of growth, discovery, and impact. With the support, resources, and opportunities we provide, you’ll build a fulfilling future – working on meaningful projects that span industries and regions, contributing to outcomes that matter. Strada is a people, payroll, and technology leader simplifying international workforce management. Operating in 180+ countries, we design and deliver people-first solutions powered by cloud-based technology – helping organizations grow and enabling workforces to perform at their best. Learn more at To learn mo",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
       "id": "him:https://himalayas.app/companies/altisource/jobs/analyst-accounts-payable",
       "title": "Analyst, Accounts Payable",
       "company": "Altisource",
@@ -611,18 +587,18 @@
       "match_group": "Possible matches"
     }
   ],
-  "sources_checked": 46,
+  "sources_checked": 45,
   "source_summary": {
     "configured": 52,
-    "successful": 46,
-    "failed": 6,
-    "with_matches": 20
+    "successful": 45,
+    "failed": 7,
+    "with_matches": 19
   },
   "sources": [
     {
       "source": "greenhouse/stripe",
       "status": "ok",
-      "matches": 1
+      "matches": 0
     },
     {
       "source": "greenhouse/groww",
@@ -676,8 +652,9 @@
     },
     {
       "source": "lever/porter",
-      "status": "ok",
-      "matches": 0
+      "status": "failed",
+      "matches": 0,
+      "error": "The read operation timed out"
     },
     {
       "source": "lever/wise",
@@ -689,7 +666,7 @@
       "source": "lever/brex",
       "status": "failed",
       "matches": 0,
-      "error": "The read operation timed out"
+      "error": "HTTP Error 404: Not Found"
     },
     {
       "source": "lever/airwallex",
@@ -887,8 +864,9 @@
     }
   ],
   "source_errors": [
+    "lever/porter: The read operation timed out",
     "lever/wise: HTTP Error 404: Not Found",
-    "lever/brex: The read operation timed out",
+    "lever/brex: HTTP Error 404: Not Found",
     "lever/airwallex: HTTP Error 404: Not Found",
     "ashby/retool: HTTP Error 404: Not Found",
     "ashby/remote: HTTP Error 404: Not Found",
