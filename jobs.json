@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T07:58:16.371173+00:00",
+  "updated_at": "2026-11-06T15:58:35.204110+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
   "total": 23,
   "jobs": [
@@ -560,11 +560,11 @@
       "match_group": "Possible matches"
     }
   ],
-  "sources_checked": 46,
+  "sources_checked": 45,
   "source_summary": {
     "configured": 52,
-    "successful": 46,
-    "failed": 6,
+    "successful": 45,
+    "failed": 7,
     "with_matches": 19
   },
   "sources": [
@@ -620,8 +620,9 @@
     },
     {
       "source": "lever/meesho",
-      "status": "ok",
-      "matches": 0
+      "status": "failed",
+      "matches": 0,
+      "error": "The read operation timed out"
     },
     {
       "source": "lever/porter",
@@ -836,6 +837,7 @@
     }
   ],
   "source_errors": [
+    "lever/meesho: The read operation timed out",
     "lever/wise: HTTP Error 404: Not Found",
     "lever/brex: HTTP Error 404: Not Found",
     "lever/airwallex: HTTP Error 404: Not Found",
