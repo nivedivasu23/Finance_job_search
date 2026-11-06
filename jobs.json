@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-06T00:22:50.226556+00:00",
+  "updated_at": "2026-11-06T07:58:16.371173+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 24,
+  "total": 23,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/adm-group/jobs/finance-administrator-entry-level-remote-mumbai",
@@ -367,33 +367,6 @@
       "match_group": "Possible matches"
     },
     {
-      "id": "him:https://himalayas.app/companies/kognitiv-inc/jobs/ar-ap-accounting-analyst",
-      "title": "AR / AP Accounting Analyst",
-      "company": "Kognitiv Inc.",
-      "location": "Remote · India eligible",
-      "date": "2026-11-01",
-      "type": "Accounting / AP-AR",
-      "level": "Experience unconfirmed",
-      "experience": "Not stated; verify with employer",
-      "fresher_confirmed": false,
-      "fit_score": 54,
-      "url": "https://himalayas.app/companies/kognitiv-inc/jobs/ar-ap-accounting-analyst?utm_source=api",
-      "skills": [
-        "Excel",
-        "SAP",
-        "Accounting",
-        "Reconciliation",
-        "Accounts payable",
-        "Audit",
-        "ERP"
-      ],
-      "summary": "At Kognitiv Inc. , we’re redefining what it means to be a Workday partner. As one of the fastest-growing companies in the ecosystem, we bring deep expertise, innovative thinking, and a people-first mindset to everything we do. We’re not just building better Workday solutions—we’re building a company where talented people thrive. Ready to do your best work? Join us. Working hours: 9:00 a.m. to 6:00 p.m. U.S. Eastern Time. This is a night shift locally, with full overlap with U.S. clients and the finance team, including during training. What You'll Do Own Global AR and Collections Generate accurate customer invoices on schedule, checking terms against contracts, purchase orders, and non-standard agreements. Maintain invoicing schedules and gl",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
       "id": "him:https://himalayas.app/companies/menafoods/jobs/accountant-and-data-entry-specialist",
       "title": "Accountant and Data Entry Specialist",
       "company": "MENAFoods",
@@ -587,11 +560,11 @@
       "match_group": "Possible matches"
     }
   ],
-  "sources_checked": 45,
+  "sources_checked": 46,
   "source_summary": {
     "configured": 52,
-    "successful": 45,
-    "failed": 7,
+    "successful": 46,
+    "failed": 6,
     "with_matches": 19
   },
   "sources": [
@@ -652,9 +625,8 @@
     },
     {
       "source": "lever/porter",
-      "status": "failed",
-      "matches": 0,
-      "error": "The read operation timed out"
+      "status": "ok",
+      "matches": 0
     },
     {
       "source": "lever/wise",
@@ -755,7 +727,7 @@
     {
       "source": "Himalayas/accounting/p1",
       "status": "ok",
-      "matches": 3
+      "matches": 2
     },
     {
       "source": "Himalayas/accounting/p2",
@@ -775,12 +747,12 @@
     {
       "source": "Himalayas/accounts payable/p2",
       "status": "ok",
-      "matches": 3
+      "matches": 2
     },
     {
       "source": "Himalayas/accounts payable/p3",
       "status": "ok",
-      "matches": 5
+      "matches": 6
     },
     {
       "source": "Himalayas/financial analyst/p1",
@@ -795,7 +767,7 @@
     {
       "source": "Himalayas/financial analyst/p3",
       "status": "ok",
-      "matches": 2
+      "matches": 1
     },
     {
       "source": "Himalayas/audit/p1",
@@ -864,7 +836,6 @@
     }
   ],
   "source_errors": [
-    "lever/porter: The read operation timed out",
     "lever/wise: HTTP Error 404: Not Found",
     "lever/brex: HTTP Error 404: Not Found",
     "lever/airwallex: HTTP Error 404: Not Found",
