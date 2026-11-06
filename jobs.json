@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T15:58:35.204110+00:00",
+  "updated_at": "2026-11-06T21:34:26.911851+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
   "total": 23,
   "jobs": [
@@ -560,12 +560,12 @@
       "match_group": "Possible matches"
     }
   ],
-  "sources_checked": 45,
+  "sources_checked": 46,
   "source_summary": {
     "configured": 52,
-    "successful": 45,
-    "failed": 7,
-    "with_matches": 19
+    "successful": 46,
+    "failed": 6,
+    "with_matches": 17
   },
   "sources": [
     {
@@ -620,9 +620,8 @@
     },
     {
       "source": "lever/meesho",
-      "status": "failed",
-      "matches": 0,
-      "error": "The read operation timed out"
+      "status": "ok",
+      "matches": 0
     },
     {
       "source": "lever/porter",
@@ -713,12 +712,12 @@
     {
       "source": "Himalayas/finance/p1",
       "status": "ok",
-      "matches": 1
+      "matches": 0
     },
     {
       "source": "Himalayas/finance/p2",
       "status": "ok",
-      "matches": 2
+      "matches": 3
     },
     {
       "source": "Himalayas/finance/p3",
@@ -763,22 +762,22 @@
     {
       "source": "Himalayas/financial analyst/p2",
       "status": "ok",
-      "matches": 3
+      "matches": 4
     },
     {
       "source": "Himalayas/financial analyst/p3",
       "status": "ok",
-      "matches": 1
+      "matches": 0
     },
     {
       "source": "Himalayas/audit/p1",
       "status": "ok",
-      "matches": 3
+      "matches": 2
     },
     {
       "source": "Himalayas/audit/p2",
       "status": "ok",
-      "matches": 3
+      "matches": 4
     },
     {
       "source": "Himalayas/audit/p3",
@@ -837,7 +836,6 @@
     }
   ],
   "source_errors": [
-    "lever/meesho: The read operation timed out",
     "lever/wise: HTTP Error 404: Not Found",
     "lever/brex: HTTP Error 404: Not Found",
     "lever/airwallex: HTTP Error 404: Not Found",
