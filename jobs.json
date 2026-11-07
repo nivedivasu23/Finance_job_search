@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T01:59:02.314022+00:00",
+  "updated_at": "2026-11-07T08:52:29.572906+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
   "total": 23,
   "jobs": [
@@ -98,30 +98,6 @@
       "match_group": "Possible matches"
     },
     {
-      "id": "him:https://himalayas.app/companies/hyre/jobs/accounts-receivable-specialist",
-      "title": "Accounts Receivable Specialist",
-      "company": "Hyre",
-      "location": "Remote · India eligible",
-      "date": "2026-11-01",
-      "type": "Accounting / AP-AR",
-      "level": "0–2 years",
-      "experience": "Minimum 2 years mentioned",
-      "fresher_confirmed": false,
-      "fit_score": 72,
-      "url": "https://himalayas.app/companies/hyre/jobs/accounts-receivable-specialist?utm_source=api",
-      "skills": [
-        "Accounting",
-        "Financial reporting",
-        "Accounts receivable",
-        "QuickBooks"
-      ],
-      "summary": "Accounts Receivable Specialist Work Type: Full-time. Schedule: Standard U.S. business hours. Location: 100% Remote. Role Overview We are looking for an experienced Accounts Receivable Specialist to manage the full A/R process, including invoicing, collections, and maintaining relationships with both customers and vendors. The ideal candidate brings a proven track record of communicating effectively, staying organized, and working independently in a remote environment. In this role, you will ensure the accuracy of the end-to-end accounts receivable cycle while providing vital support to the broader finance and accounting teams. Key Responsibilities A/R Cycle Management: Manage the end-to-end accounts receivable cycle, including invoice gener",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
       "id": "him:https://himalayas.app/companies/growthax/jobs/accountant",
       "title": "Accountant",
       "company": "GrowthAX",
@@ -145,6 +121,32 @@
         "Payroll"
       ],
       "summary": "This is a remote position. We are seeking a detail-oriented and proactive Accountant to manage our financial operations, ensure compliance with statutory requirements, and support the business in making data-driven financial decisions. This role will involve end-to-end accounting responsibilities with a focus on Zoho Books, taxation, payroll, and reconciliation, tailored to the needs of a manufacturing environment. Key Responsibilities Zoho Books Management – Maintain and update all financial records in Zoho Books, ensuring accuracy and timely reporting. Expense Management & Bookkeeping – Track, record, and classify expenses with complete supporting documentation. Payroll Management & Processing – Manage monthly payroll, including statutory",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/global-reporting-initiative/jobs/financial-accountant",
+      "title": "Financial Accountant",
+      "company": "Global Reporting Initiative",
+      "location": "Remote · India eligible",
+      "date": "2026-11-07",
+      "type": "Finance Analyst / FP&A",
+      "level": "0–2 years",
+      "experience": "Minimum 2 years mentioned",
+      "fresher_confirmed": false,
+      "fit_score": 72,
+      "url": "https://himalayas.app/companies/global-reporting-initiative/jobs/financial-accountant?utm_source=api",
+      "skills": [
+        "Excel",
+        "Accounting",
+        "Reconciliation",
+        "Financial reporting",
+        "Accounts payable",
+        "Accounts receivable"
+      ],
+      "summary": "About GRI GRI is the independent global standard setter for sustainability impact reporting providing the world’s most widely used sustainability reporting standards. GRI works with businesses, regulators, investors, civil society organizations, and other stakeholders to advance transparency, accountability, and sustainable development. Through such multi-stakeholder processes, GRI develops standards that reflect global best practice and public interest. With staff in more than 20 countries, we combine global perspective with local relevance, supporting long-term value creation for organizations and society. About the role In this role, you will assist the Finance Senior Manager in timely and accurate production of all financial information",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -712,12 +714,12 @@
     {
       "source": "Himalayas/finance/p1",
       "status": "ok",
-      "matches": 1
+      "matches": 0
     },
     {
       "source": "Himalayas/finance/p2",
       "status": "ok",
-      "matches": 2
+      "matches": 3
     },
     {
       "source": "Himalayas/finance/p3",
@@ -747,12 +749,12 @@
     {
       "source": "Himalayas/accounts payable/p2",
       "status": "ok",
-      "matches": 2
+      "matches": 3
     },
     {
       "source": "Himalayas/accounts payable/p3",
       "status": "ok",
-      "matches": 6
+      "matches": 5
     },
     {
       "source": "Himalayas/financial analyst/p1",
@@ -762,7 +764,7 @@
     {
       "source": "Himalayas/financial analyst/p2",
       "status": "ok",
-      "matches": 4
+      "matches": 3
     },
     {
       "source": "Himalayas/financial analyst/p3",
@@ -772,17 +774,17 @@
     {
       "source": "Himalayas/audit/p1",
       "status": "ok",
-      "matches": 2
+      "matches": 1
     },
     {
       "source": "Himalayas/audit/p2",
       "status": "ok",
-      "matches": 4
+      "matches": 3
     },
     {
       "source": "Himalayas/audit/p3",
       "status": "ok",
-      "matches": 0
+      "matches": 2
     },
     {
       "source": "Himalayas/bookkeeper/p1",
