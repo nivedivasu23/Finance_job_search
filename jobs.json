@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-07T15:43:08.900821+00:00",
+  "updated_at": "2026-11-07T20:17:13.114784+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 23,
+  "total": 24,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/adm-group/jobs/finance-administrator-entry-level-remote-mumbai",
@@ -419,6 +419,29 @@
       "match_group": "Possible matches"
     },
     {
+      "id": "him:https://himalayas.app/companies/hyperguest/jobs/billing-collections-specialist",
+      "title": "Billing & Collections Specialist",
+      "company": "HyperGuest",
+      "location": "Remote · India eligible",
+      "date": "2026-11-07",
+      "type": "Accounting / AP-AR",
+      "level": "Experience unconfirmed",
+      "experience": "Not stated; verify with employer",
+      "fresher_confirmed": false,
+      "fit_score": 54,
+      "url": "https://himalayas.app/companies/hyperguest/jobs/billing-collections-specialist?utm_source=api",
+      "skills": [
+        "Excel",
+        "Accounting",
+        "Accounts receivable"
+      ],
+      "summary": "Description HyperGuest is looking for a Billing & Collections Specialist to support the Finance department in streamlining the billing and collection process. We are seeking for a person who is passionate about working with numbers, self-motivation, with excellent analytical skills to take responsibility for all global billing and collection operations. Responsibilities Take ownership of the monthly accounts receivable process, including invoicing and payments. Communicate, negotiate, and provide support to global business customers. Collaborate with cross-functional departments and work with internal back-office platforms. Review invoices and payments on accounts and demonstrate good judgment in resolving discrepancies and cleansing data P",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
       "id": "him:https://himalayas.app/companies/precision-medicine-group/jobs/financial-analyst",
       "title": "Financial Analyst",
       "company": "Precision Medicine Group",
@@ -567,7 +590,7 @@
     "configured": 52,
     "successful": 46,
     "failed": 6,
-    "with_matches": 18
+    "with_matches": 19
   },
   "sources": [
     {
@@ -714,7 +737,7 @@
     {
       "source": "Himalayas/finance/p1",
       "status": "ok",
-      "matches": 0
+      "matches": 1
     },
     {
       "source": "Himalayas/finance/p2",
