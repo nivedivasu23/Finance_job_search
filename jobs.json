@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T15:19:22.951567+00:00",
+  "updated_at": "2026-11-08T20:31:54.972500+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
   "total": 24,
   "jobs": [
@@ -585,11 +585,11 @@
       "match_group": "Possible matches"
     }
   ],
-  "sources_checked": 46,
+  "sources_checked": 44,
   "source_summary": {
     "configured": 52,
-    "successful": 46,
-    "failed": 6,
+    "successful": 44,
+    "failed": 8,
     "with_matches": 18
   },
   "sources": [
@@ -841,13 +841,15 @@
     },
     {
       "source": "Jobicy/finance",
-      "status": "ok",
-      "matches": 0
+      "status": "failed",
+      "matches": 0,
+      "error": "The read operation timed out"
     },
     {
       "source": "Jobicy/accounting",
-      "status": "ok",
-      "matches": 0
+      "status": "failed",
+      "matches": 0,
+      "error": "The read operation timed out"
     },
     {
       "source": "Jobicy/payroll",
@@ -866,7 +868,9 @@
     "lever/airwallex: HTTP Error 404: Not Found",
     "ashby/retool: HTTP Error 404: Not Found",
     "ashby/remote: HTTP Error 404: Not Found",
-    "ashby/brex: HTTP Error 404: Not Found"
+    "ashby/brex: HTTP Error 404: Not Found",
+    "Jobicy/finance: The read operation timed out",
+    "Jobicy/accounting: The read operation timed out"
   ],
   "disclaimer": "Coverage is partial. Remote eligibility and fresher requirements must be confirmed with the employer."
 }
