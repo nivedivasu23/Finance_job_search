@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T07:27:21.247957+00:00",
+  "updated_at": "2026-11-08T15:19:22.951567+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
   "total": 24,
   "jobs": [
@@ -590,7 +590,7 @@
     "configured": 52,
     "successful": 46,
     "failed": 6,
-    "with_matches": 19
+    "with_matches": 18
   },
   "sources": [
     {
@@ -747,17 +747,17 @@
     {
       "source": "Himalayas/finance/p3",
       "status": "ok",
-      "matches": 1
+      "matches": 0
     },
     {
       "source": "Himalayas/accounting/p1",
       "status": "ok",
-      "matches": 2
+      "matches": 1
     },
     {
       "source": "Himalayas/accounting/p2",
       "status": "ok",
-      "matches": 5
+      "matches": 6
     },
     {
       "source": "Himalayas/accounting/p3",
@@ -802,12 +802,12 @@
     {
       "source": "Himalayas/audit/p2",
       "status": "ok",
-      "matches": 3
+      "matches": 2
     },
     {
       "source": "Himalayas/audit/p3",
       "status": "ok",
-      "matches": 2
+      "matches": 3
     },
     {
       "source": "Himalayas/bookkeeper/p1",
@@ -822,12 +822,12 @@
     {
       "source": "Himalayas/tax/p1",
       "status": "ok",
-      "matches": 2
+      "matches": 1
     },
     {
       "source": "Himalayas/tax/p2",
       "status": "ok",
-      "matches": 3
+      "matches": 4
     },
     {
       "source": "Himalayas/tax/p3",
