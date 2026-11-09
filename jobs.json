@@ -1,30 +1,8 @@
 {
-  "updated_at": "2026-11-08T20:31:54.972500+00:00",
+  "updated_at": "2026-11-09T00:57:40.565020+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
   "total": 24,
   "jobs": [
-    {
-      "id": "him:https://himalayas.app/companies/adm-group/jobs/finance-administrator-entry-level-remote-mumbai",
-      "title": "Finance Administrator - Entry level (Remote - Mumbai)",
-      "company": "adm Group",
-      "location": "Remote · India eligible",
-      "date": "2026-10-09",
-      "type": "Finance Analyst / FP&A",
-      "level": "Fresher / Intern",
-      "experience": "Not stated; verify with employer",
-      "fresher_confirmed": true,
-      "fit_score": 86,
-      "url": "https://himalayas.app/companies/adm-group/jobs/finance-administrator-entry-level-remote-mumbai?utm_source=api",
-      "skills": [
-        "Excel",
-        "Accounting"
-      ],
-      "summary": "We’re looking for a highly skilled, detail-oriented Administrator to join our dynamic team; in this role, you’ll play a key part in ensuring the compliance and accuracy of procurement activities, supporting order and invoice processes end-to-end, and maintaining effective communication with both internal and external stakeholders. You’ll thrive if you enjoy working in a fast-paced environment, take pride in getting the details right, and naturally look for ways to improve processes, with the core purpose of the role being to ensure robust procurement compliance by verifying documentation, resolving discrepancies, supporting invoice processing and order closure, and enabling smooth stakeholder communication through strong process management ",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Best matches"
-    },
     {
       "id": "him:https://himalayas.app/companies/sprinto/jobs/finance-intern-remote",
       "title": "Finance Intern - Remote",
@@ -53,78 +31,26 @@
       "match_group": "Best matches"
     },
     {
-      "id": "gh:groww:5000706101",
-      "title": "Finance Content Creator",
-      "company": "groww",
-      "location": "Bengaluru, India",
+      "id": "him:https://himalayas.app/companies/adm-group/jobs/finance-administrator-entry-level-remote-mumbai",
+      "title": "Finance Administrator - Entry level (Remote - Mumbai)",
+      "company": "adm Group",
+      "location": "Remote · India eligible",
       "date": "2026-10-09",
       "type": "Finance Analyst / FP&A",
-      "level": "0–2 years",
-      "experience": "Minimum 1 years mentioned",
-      "fresher_confirmed": false,
-      "fit_score": 76,
-      "url": "https://job-boards.eu.greenhouse.io/groww/jobs/5000706101",
-      "skills": [],
-      "summary": "<div><strong>About Groww:</strong></div> <div>We are a passionate group of people focused on making financial services accessible to every Indian through a multi-product platform. Each day, we help millions of customers take charge of their financial journey. Customer obsession is in our DNA. Every product, every design, every algorithm down to the tiniest detail is executed keeping the customers’ needs and convenience in mind. Our people are our greatest strength. Everyone at Groww is driven by ownership, customer-centricity, integrity and the passion to constantly challenge the status quo.</div> <div> </div> <div>Are you as passionate about defying conventions and creating something extraordinary as we are? Let’s chat.</div> <div> </div> ",
-      "source": "Greenhouse",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Bengaluru",
-      "match_group": "Possible matches"
-    },
-    {
-      "id": "him:https://himalayas.app/companies/credible-cfo/jobs/accounting-associate",
-      "title": "Accounting Associate",
-      "company": "Credible CFO",
-      "location": "Remote · India eligible",
-      "date": "2026-11-01",
-      "type": "Accounting / AP-AR",
-      "level": "0–2 years",
-      "experience": "Minimum 1 years mentioned",
-      "fresher_confirmed": false,
-      "fit_score": 72,
-      "url": "https://himalayas.app/companies/credible-cfo/jobs/accounting-associate?utm_source=api",
-      "skills": [
-        "Tally",
-        "Accounting",
-        "Financial reporting",
-        "Forecasting",
-        "Accounts payable",
-        "QuickBooks"
-      ],
-      "summary": "This is a remote position. Title: Accounting Associate Location: India (Australia Shift) Company: Credible CFO (www.crediblecfo.com) Salary: ₹20,000 - ₹25,000 per month Shift: Australia Shift (Aligned with Australian business hours) About Us: Credible CFO is a leading financial services provider committed to delivering top-tier accounting and financial solutions globally. We are expanding our team and seeking a dedicated Accounting Associate to join us. Responsibilities: - Prepare, review, and maintain financial records, reports, and statements. - Assist in budget preparation and financial forecasting. - Reconcile bank statements and balance sheets. - Manage accounts payable and receivable for timely payments and collections. - Assist in mo",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
-      "id": "him:https://himalayas.app/companies/growthax/jobs/accountant",
-      "title": "Accountant",
-      "company": "GrowthAX",
-      "location": "Remote · India eligible",
-      "date": "2026-11-01",
-      "type": "Accounting / AP-AR",
-      "level": "0–2 years",
-      "experience": "Minimum 1 years mentioned",
-      "fresher_confirmed": false,
-      "fit_score": 72,
-      "url": "https://himalayas.app/companies/growthax/jobs/accountant?utm_source=api",
+      "level": "Fresher / Intern",
+      "experience": "Not stated; verify with employer",
+      "fresher_confirmed": true,
+      "fit_score": 80,
+      "url": "https://himalayas.app/companies/adm-group/jobs/finance-administrator-entry-level-remote-mumbai?utm_source=api",
       "skills": [
         "Excel",
-        "GST",
-        "TDS",
-        "Accounting",
-        "Reconciliation",
-        "Forecasting",
-        "Budgeting",
-        "Audit",
-        "Payroll"
+        "Accounting"
       ],
-      "summary": "This is a remote position. We are seeking a detail-oriented and proactive Accountant to manage our financial operations, ensure compliance with statutory requirements, and support the business in making data-driven financial decisions. This role will involve end-to-end accounting responsibilities with a focus on Zoho Books, taxation, payroll, and reconciliation, tailored to the needs of a manufacturing environment. Key Responsibilities Zoho Books Management – Maintain and update all financial records in Zoho Books, ensuring accuracy and timely reporting. Expense Management & Bookkeeping – Track, record, and classify expenses with complete supporting documentation. Payroll Management & Processing – Manage monthly payroll, including statutory",
+      "summary": "We’re looking for a highly skilled, detail-oriented Administrator to join our dynamic team; in this role, you’ll play a key part in ensuring the compliance and accuracy of procurement activities, supporting order and invoice processes end-to-end, and maintaining effective communication with both internal and external stakeholders. You’ll thrive if you enjoy working in a fast-paced environment, take pride in getting the details right, and naturally look for ways to improve processes, with the core purpose of the role being to ensure robust procurement compliance by verifying documentation, resolving discrepancies, supporting invoice processing and order closure, and enabling smooth stakeholder communication through strong process management ",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
+      "match_group": "Best matches"
     },
     {
       "id": "him:https://himalayas.app/companies/global-reporting-initiative/jobs/financial-accountant",
@@ -150,6 +76,25 @@
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "gh:groww:5000706101",
+      "title": "Finance Content Creator",
+      "company": "groww",
+      "location": "Bengaluru, India",
+      "date": "2026-10-09",
+      "type": "Finance Analyst / FP&A",
+      "level": "0–2 years",
+      "experience": "Minimum 1 years mentioned",
+      "fresher_confirmed": false,
+      "fit_score": 70,
+      "url": "https://job-boards.eu.greenhouse.io/groww/jobs/5000706101",
+      "skills": [],
+      "summary": "<div><strong>About Groww:</strong></div> <div>We are a passionate group of people focused on making financial services accessible to every Indian through a multi-product platform. Each day, we help millions of customers take charge of their financial journey. Customer obsession is in our DNA. Every product, every design, every algorithm down to the tiniest detail is executed keeping the customers’ needs and convenience in mind. Our people are our greatest strength. Everyone at Groww is driven by ownership, customer-centricity, integrity and the passion to constantly challenge the status quo.</div> <div> </div> <div>Are you as passionate about defying conventions and creating something extraordinary as we are? Let’s chat.</div> <div> </div> ",
+      "source": "Greenhouse",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Bengaluru",
       "match_group": "Possible matches"
     },
     {
@@ -344,6 +289,61 @@
       "match_group": "Possible matches"
     },
     {
+      "id": "him:https://himalayas.app/companies/credible-cfo/jobs/accounting-associate",
+      "title": "Accounting Associate",
+      "company": "Credible CFO",
+      "location": "Remote · India eligible",
+      "date": "2026-11-01",
+      "type": "Accounting / AP-AR",
+      "level": "0–2 years",
+      "experience": "Minimum 1 years mentioned",
+      "fresher_confirmed": false,
+      "fit_score": 66,
+      "url": "https://himalayas.app/companies/credible-cfo/jobs/accounting-associate?utm_source=api",
+      "skills": [
+        "Tally",
+        "Accounting",
+        "Financial reporting",
+        "Forecasting",
+        "Accounts payable",
+        "QuickBooks"
+      ],
+      "summary": "This is a remote position. Title: Accounting Associate Location: India (Australia Shift) Company: Credible CFO (www.crediblecfo.com) Salary: ₹20,000 - ₹25,000 per month Shift: Australia Shift (Aligned with Australian business hours) About Us: Credible CFO is a leading financial services provider committed to delivering top-tier accounting and financial solutions globally. We are expanding our team and seeking a dedicated Accounting Associate to join us. Responsibilities: - Prepare, review, and maintain financial records, reports, and statements. - Assist in budget preparation and financial forecasting. - Reconcile bank statements and balance sheets. - Manage accounts payable and receivable for timely payments and collections. - Assist in mo",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/growthax/jobs/accountant",
+      "title": "Accountant",
+      "company": "GrowthAX",
+      "location": "Remote · India eligible",
+      "date": "2026-11-01",
+      "type": "Accounting / AP-AR",
+      "level": "0–2 years",
+      "experience": "Minimum 1 years mentioned",
+      "fresher_confirmed": false,
+      "fit_score": 66,
+      "url": "https://himalayas.app/companies/growthax/jobs/accountant?utm_source=api",
+      "skills": [
+        "Excel",
+        "GST",
+        "TDS",
+        "Accounting",
+        "Reconciliation",
+        "Forecasting",
+        "Budgeting",
+        "Audit",
+        "Payroll"
+      ],
+      "summary": "This is a remote position. We are seeking a detail-oriented and proactive Accountant to manage our financial operations, ensure compliance with statutory requirements, and support the business in making data-driven financial decisions. This role will involve end-to-end accounting responsibilities with a focus on Zoho Books, taxation, payroll, and reconciliation, tailored to the needs of a manufacturing environment. Key Responsibilities Zoho Books Management – Maintain and update all financial records in Zoho Books, ensuring accuracy and timely reporting. Expense Management & Bookkeeping – Track, record, and classify expenses with complete supporting documentation. Payroll Management & Processing – Manage monthly payroll, including statutory",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
       "id": "him:https://himalayas.app/companies/adm-group/jobs/accounts-and-finance-operations-executive-remote-ahmedabad-4725437999",
       "title": "Accounts and Finance Operations Executive (Remote - Ahmedabad)",
       "company": "adm Group",
@@ -363,56 +363,6 @@
         "MIS"
       ],
       "summary": "As part of our Finance Shared Services team, you’ll support the regional business by delivering high-quality, process-driven finance operations. This role is hands-on and varied, covering key transactional activities across invoicing, reconciliations, accounting support, reporting and MIS, while partnering with internal teams, clients, and suppliers to resolve queries and meet tight deadlines. It’s a great opportunity for a recent graduate or early-career finance professional to build a strong foundation in end-to-end shared services finance. This is a fully remote role, suited to someone with 1+ years’ experience in a similar finance operations role. Key Responsibilities Accounts Payable (AP) processing: check invoices, obtain acceptance, ",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
-      "id": "him:https://himalayas.app/companies/menafoods/jobs/accountant-and-data-entry-specialist",
-      "title": "Accountant and Data Entry Specialist",
-      "company": "MENAFoods",
-      "location": "Remote · India eligible",
-      "date": "2026-11-01",
-      "type": "Accounting / AP-AR",
-      "level": "Experience unconfirmed",
-      "experience": "Not stated; verify with employer",
-      "fresher_confirmed": false,
-      "fit_score": 54,
-      "url": "https://himalayas.app/companies/menafoods/jobs/accountant-and-data-entry-specialist?utm_source=api",
-      "skills": [
-        "Excel",
-        "Accounting",
-        "Accounts payable",
-        "Accounts receivable"
-      ],
-      "summary": "This is a remote position. ​About MENAFoods MENAFoods is a leading on-demand grocery delivery service, revolutionizing the industry with its commitment to providing convenient and efficient shopping experiences. As our company continues to expand, we are seeking a dedicated and detail-oriented Accountant and Data Entry Specialist to join our remote team. Responsibilities 1. ​F inancial Record Management: Maintain and update financial records, including accounts payable, accounts receivable, and general ledger entries, ensuring accuracy and completeness. 2. Data Entry: Accurately enter financial data into our systems, adhering to established procedures and timelines. 3. Financial Analysis: Assist in preparing financial reports and analysis a",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
-      "id": "him:https://himalayas.app/companies/contour-education/jobs/financial-analyst-india",
-      "title": "Financial Analyst, India",
-      "company": "Contour Education",
-      "location": "Remote · India eligible",
-      "date": "2026-11-01",
-      "type": "Finance Analyst / FP&A",
-      "level": "Experience unconfirmed",
-      "experience": "Not stated; verify with employer",
-      "fresher_confirmed": false,
-      "fit_score": 54,
-      "url": "https://himalayas.app/companies/contour-education/jobs/financial-analyst-india?utm_source=api",
-      "skills": [
-        "Excel",
-        "Power BI",
-        "Accounting",
-        "Forecasting",
-        "Budgeting",
-        "MIS"
-      ],
-      "summary": "This is a remote position. Financial Analyst, India Remote (India) | Full-Time Also searched as: Finance Analyst, FP&A Analyst, MIS Analyst, Business Analyst What would you tell a leadership team about their own business that they have not thought to ask? On a typical day you might reconcile the weekly scorecard numbers back to Xero and HubSpot before the leadership review in the morning, work through month-end variances with the Financial Controller and draft the commentary after lunch, and send a short written note on why a revenue line moved and what you would do about it before the end of day. About Contour We started in 2020 with a handful of students and a belief that great education should not be out of reach. Today we operate across",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -563,6 +513,56 @@
       "match_group": "Possible matches"
     },
     {
+      "id": "him:https://himalayas.app/companies/menafoods/jobs/accountant-and-data-entry-specialist",
+      "title": "Accountant and Data Entry Specialist",
+      "company": "MENAFoods",
+      "location": "Remote · India eligible",
+      "date": "2026-11-01",
+      "type": "Accounting / AP-AR",
+      "level": "Experience unconfirmed",
+      "experience": "Not stated; verify with employer",
+      "fresher_confirmed": false,
+      "fit_score": 48,
+      "url": "https://himalayas.app/companies/menafoods/jobs/accountant-and-data-entry-specialist?utm_source=api",
+      "skills": [
+        "Excel",
+        "Accounting",
+        "Accounts payable",
+        "Accounts receivable"
+      ],
+      "summary": "This is a remote position. ​About MENAFoods MENAFoods is a leading on-demand grocery delivery service, revolutionizing the industry with its commitment to providing convenient and efficient shopping experiences. As our company continues to expand, we are seeking a dedicated and detail-oriented Accountant and Data Entry Specialist to join our remote team. Responsibilities 1. ​F inancial Record Management: Maintain and update financial records, including accounts payable, accounts receivable, and general ledger entries, ensuring accuracy and completeness. 2. Data Entry: Accurately enter financial data into our systems, adhering to established procedures and timelines. 3. Financial Analysis: Assist in preparing financial reports and analysis a",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/contour-education/jobs/financial-analyst-india",
+      "title": "Financial Analyst, India",
+      "company": "Contour Education",
+      "location": "Remote · India eligible",
+      "date": "2026-11-01",
+      "type": "Finance Analyst / FP&A",
+      "level": "Experience unconfirmed",
+      "experience": "Not stated; verify with employer",
+      "fresher_confirmed": false,
+      "fit_score": 48,
+      "url": "https://himalayas.app/companies/contour-education/jobs/financial-analyst-india?utm_source=api",
+      "skills": [
+        "Excel",
+        "Power BI",
+        "Accounting",
+        "Forecasting",
+        "Budgeting",
+        "MIS"
+      ],
+      "summary": "This is a remote position. Financial Analyst, India Remote (India) | Full-Time Also searched as: Finance Analyst, FP&A Analyst, MIS Analyst, Business Analyst What would you tell a leadership team about their own business that they have not thought to ask? On a typical day you might reconcile the weekly scorecard numbers back to Xero and HubSpot before the leadership review in the morning, work through month-end variances with the Financial Controller and draft the commentary after lunch, and send a short written note on why a revenue line moved and what you would do about it before the end of day. About Contour We started in 2020 with a handful of students and a belief that great education should not be out of reach. Today we operate across",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
       "id": "him:https://himalayas.app/companies/altisource/jobs/analyst-accounts-payable",
       "title": "Analyst, Accounts Payable",
       "company": "Altisource",
@@ -585,11 +585,11 @@
       "match_group": "Possible matches"
     }
   ],
-  "sources_checked": 44,
+  "sources_checked": 46,
   "source_summary": {
     "configured": 52,
-    "successful": 44,
-    "failed": 8,
+    "successful": 46,
+    "failed": 6,
     "with_matches": 18
   },
   "sources": [
@@ -782,12 +782,12 @@
     {
       "source": "Himalayas/financial analyst/p1",
       "status": "ok",
-      "matches": 3
+      "matches": 2
     },
     {
       "source": "Himalayas/financial analyst/p2",
       "status": "ok",
-      "matches": 3
+      "matches": 4
     },
     {
       "source": "Himalayas/financial analyst/p3",
@@ -841,15 +841,13 @@
     },
     {
       "source": "Jobicy/finance",
-      "status": "failed",
-      "matches": 0,
-      "error": "The read operation timed out"
+      "status": "ok",
+      "matches": 0
     },
     {
       "source": "Jobicy/accounting",
-      "status": "failed",
-      "matches": 0,
-      "error": "The read operation timed out"
+      "status": "ok",
+      "matches": 0
     },
     {
       "source": "Jobicy/payroll",
@@ -868,9 +866,7 @@
     "lever/airwallex: HTTP Error 404: Not Found",
     "ashby/retool: HTTP Error 404: Not Found",
     "ashby/remote: HTTP Error 404: Not Found",
-    "ashby/brex: HTTP Error 404: Not Found",
-    "Jobicy/finance: The read operation timed out",
-    "Jobicy/accounting: The read operation timed out"
+    "ashby/brex: HTTP Error 404: Not Found"
   ],
   "disclaimer": "Coverage is partial. Remote eligibility and fresher requirements must be confirmed with the employer."
 }
