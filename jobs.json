@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-10T02:12:24.497772+00:00",
+  "updated_at": "2026-11-10T09:58:15.790948+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 23,
+  "total": 24,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/sprinto/jobs/finance-intern-remote",
@@ -115,6 +115,27 @@
         "Accounting"
       ],
       "summary": "Contract Processor Schedule: 45 hours/week | EST hours with 1 weekend day (e.g., Tuesday - Saturday or Sunday - Thursday) Location: 100% Remote Apply here: Were looking for a highly organized and detail-oriented Contract Processor to join our remote team. The ideal candidate will have a strong background in accounting and contract administration, with experience working in large corporate environments. Qualifications: 2+ years of relevant accounting experience Prior experience working at a Fortune 500 company Bachelors degree in Business Administration, Finance, or related field B2/C1 English proficiency Proven experience in contract processing or administrative roles Strong attention to detail and data accuracy Excellent time management an",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/operationsarmy/jobs/accounting-contract-processor-new-delhi-remote",
+      "title": "Accounting Contract Processor (New Delhi | Remote)",
+      "company": "OperationsArmy",
+      "location": "Remote · India eligible",
+      "date": "2026-11-10",
+      "type": "Accounting / AP-AR",
+      "level": "0–2 years",
+      "experience": "Minimum 2 years mentioned",
+      "fresher_confirmed": false,
+      "fit_score": 72,
+      "url": "https://himalayas.app/companies/operationsarmy/jobs/accounting-contract-processor-new-delhi-remote?utm_source=api",
+      "skills": [
+        "Accounting"
+      ],
+      "summary": "Accounting Contract Processor (New Delhi) 100% Remote Apply here: Were looking for a highly organized and detail-oriented Accounting Contract Processor to join our remote team. The ideal candidate will have a strong background in accounting and contract administration, with experience working in large corporate environments. Qualifications: 2+ years of relevant accounting experience Prior experience working at a Fortune 500 company Bachelors degree in Business Administration, Finance, or related field B2/C1 English proficiency Proven experience in contract processing or administrative roles Strong attention to detail and data accuracy Excellent time management and organizational skills Proficiency with Google Sheets Responsibilities: Review",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -723,12 +744,12 @@
     {
       "source": "Himalayas/accounting/p1",
       "status": "ok",
-      "matches": 3
+      "matches": 4
     },
     {
       "source": "Himalayas/accounting/p2",
       "status": "ok",
-      "matches": 2
+      "matches": 1
     },
     {
       "source": "Himalayas/accounting/p3",
@@ -743,7 +764,7 @@
     {
       "source": "Himalayas/accounts payable/p2",
       "status": "ok",
-      "matches": 3
+      "matches": 4
     },
     {
       "source": "Himalayas/accounts payable/p3",
