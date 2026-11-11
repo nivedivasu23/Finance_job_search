@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T15:20:04.903510+00:00",
+  "updated_at": "2026-11-11T22:45:28.803545+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
   "total": 24,
   "jobs": [
@@ -575,12 +575,12 @@
       "match_group": "Possible matches"
     }
   ],
-  "sources_checked": 45,
+  "sources_checked": 46,
   "source_summary": {
     "configured": 52,
-    "successful": 45,
-    "failed": 7,
-    "with_matches": 19
+    "successful": 46,
+    "failed": 6,
+    "with_matches": 20
   },
   "sources": [
     {
@@ -640,9 +640,8 @@
     },
     {
       "source": "lever/porter",
-      "status": "failed",
-      "matches": 0,
-      "error": "The read operation timed out"
+      "status": "ok",
+      "matches": 0
     },
     {
       "source": "lever/wise",
@@ -733,12 +732,12 @@
     {
       "source": "Himalayas/finance/p2",
       "status": "ok",
-      "matches": 2
+      "matches": 1
     },
     {
       "source": "Himalayas/finance/p3",
       "status": "ok",
-      "matches": 1
+      "matches": 2
     },
     {
       "source": "Himalayas/accounting/p1",
@@ -748,22 +747,22 @@
     {
       "source": "Himalayas/accounting/p2",
       "status": "ok",
-      "matches": 3
+      "matches": 1
     },
     {
       "source": "Himalayas/accounting/p3",
       "status": "ok",
-      "matches": 4
+      "matches": 6
     },
     {
       "source": "Himalayas/accounts payable/p1",
       "status": "ok",
-      "matches": 7
+      "matches": 6
     },
     {
       "source": "Himalayas/accounts payable/p2",
       "status": "ok",
-      "matches": 2
+      "matches": 4
     },
     {
       "source": "Himalayas/accounts payable/p3",
@@ -773,7 +772,7 @@
     {
       "source": "Himalayas/financial analyst/p1",
       "status": "ok",
-      "matches": 2
+      "matches": 1
     },
     {
       "source": "Himalayas/financial analyst/p2",
@@ -783,7 +782,7 @@
     {
       "source": "Himalayas/financial analyst/p3",
       "status": "ok",
-      "matches": 0
+      "matches": 1
     },
     {
       "source": "Himalayas/audit/p1",
@@ -852,7 +851,6 @@
     }
   ],
   "source_errors": [
-    "lever/porter: The read operation timed out",
     "lever/wise: HTTP Error 404: Not Found",
     "lever/brex: HTTP Error 404: Not Found",
     "lever/airwallex: HTTP Error 404: Not Found",
