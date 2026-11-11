@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T23:27:49.630144+00:00",
+  "updated_at": "2026-11-11T06:37:01.538618+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
   "total": 24,
   "jobs": [
@@ -51,32 +51,6 @@
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
       "match_group": "Best matches"
-    },
-    {
-      "id": "him:https://himalayas.app/companies/global-reporting-initiative/jobs/financial-accountant",
-      "title": "Financial Accountant",
-      "company": "Global Reporting Initiative",
-      "location": "Remote · India eligible",
-      "date": "2026-11-07",
-      "type": "Finance Analyst / FP&A",
-      "level": "0–2 years",
-      "experience": "Minimum 2 years mentioned",
-      "fresher_confirmed": false,
-      "fit_score": 72,
-      "url": "https://himalayas.app/companies/global-reporting-initiative/jobs/financial-accountant?utm_source=api",
-      "skills": [
-        "Excel",
-        "Accounting",
-        "Reconciliation",
-        "Financial reporting",
-        "Accounts payable",
-        "Accounts receivable"
-      ],
-      "summary": "About GRI GRI is the independent global standard setter for sustainability impact reporting providing the world’s most widely used sustainability reporting standards. GRI works with businesses, regulators, investors, civil society organizations, and other stakeholders to advance transparency, accountability, and sustainable development. Through such multi-stakeholder processes, GRI develops standards that reflect global best practice and public interest. With staff in more than 20 countries, we combine global perspective with local relevance, supporting long-term value creation for organizations and society. About the role In this role, you will assist the Finance Senior Manager in timely and accurate production of all financial information",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
     },
     {
       "id": "him:https://himalayas.app/companies/operationsarmy/jobs/accounting-contract-processor-delhi-remote",
@@ -384,6 +358,33 @@
       "match_group": "Possible matches"
     },
     {
+      "id": "him:https://himalayas.app/companies/ziff-davis/jobs/accounts-payable-specialist-uk-shift",
+      "title": "Accounts Payable Specialist - UK Shift",
+      "company": "Ziff Davis",
+      "location": "Remote · India eligible",
+      "date": "2026-11-10",
+      "type": "Accounting / AP-AR",
+      "level": "Experience unconfirmed",
+      "experience": "Not stated; verify with employer",
+      "fresher_confirmed": false,
+      "fit_score": 54,
+      "url": "https://himalayas.app/companies/ziff-davis/jobs/accounts-payable-specialist-uk-shift?utm_source=api",
+      "skills": [
+        "Excel",
+        "SAP",
+        "Accounting",
+        "Reconciliation",
+        "Accounts payable",
+        "Audit",
+        "ERP"
+      ],
+      "summary": "The Opportunity: We are looking for a detail-oriented and collaborative Accounts Payable Specialist to join our Finance team. In this role, you will manage end-to-end invoice processing, vendor onboarding and relations, payment disbursements, and month-end close support across multiple business units and subsidiaries. Key Responsibilities Invoice Processing & Allocation: Review, code, and enter invoices into Oracle Fusion accurately; allocate shared expenses across relevant business units, departments, and subsidiaries. Approval & Workflow Management: Partner across departments (Engineering, Sales, Operations, Technology, Legal) to route invoices, secure timely approvals, and resolve billing discrepancies. Payment Execution: Prepare and pro",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
       "id": "him:https://himalayas.app/companies/precision-medicine-group/jobs/financial-analyst",
       "title": "Financial Analyst",
       "company": "Precision Medicine Group",
@@ -582,7 +583,7 @@
     "configured": 52,
     "successful": 46,
     "failed": 6,
-    "with_matches": 19
+    "with_matches": 17
   },
   "sources": [
     {
@@ -744,12 +745,12 @@
     {
       "source": "Himalayas/accounting/p1",
       "status": "ok",
-      "matches": 4
+      "matches": 3
     },
     {
       "source": "Himalayas/accounting/p2",
       "status": "ok",
-      "matches": 1
+      "matches": 2
     },
     {
       "source": "Himalayas/accounting/p3",
@@ -779,27 +780,27 @@
     {
       "source": "Himalayas/financial analyst/p2",
       "status": "ok",
-      "matches": 4
+      "matches": 5
     },
     {
       "source": "Himalayas/financial analyst/p3",
       "status": "ok",
-      "matches": 1
+      "matches": 0
     },
     {
       "source": "Himalayas/audit/p1",
       "status": "ok",
-      "matches": 1
+      "matches": 0
     },
     {
       "source": "Himalayas/audit/p2",
       "status": "ok",
-      "matches": 2
+      "matches": 3
     },
     {
       "source": "Himalayas/audit/p3",
       "status": "ok",
-      "matches": 3
+      "matches": 2
     },
     {
       "source": "Himalayas/bookkeeper/p1",
@@ -814,7 +815,7 @@
     {
       "source": "Himalayas/tax/p1",
       "status": "ok",
-      "matches": 1
+      "matches": 2
     },
     {
       "source": "Himalayas/tax/p2",
