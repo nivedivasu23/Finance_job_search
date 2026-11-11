@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T06:37:01.538618+00:00",
+  "updated_at": "2026-11-11T15:20:04.903510+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
   "total": 24,
   "jobs": [
@@ -157,31 +157,6 @@
       "match_group": "Possible matches"
     },
     {
-      "id": "him:https://himalayas.app/companies/masalto/jobs/accounts-payable-specialist-36802949",
-      "title": "Accounts Payable Specialist",
-      "company": "MasAlto",
-      "location": "Remote · India eligible",
-      "date": "2026-10-23",
-      "type": "Accounting / AP-AR",
-      "level": "0–2 years",
-      "experience": "Minimum 2 years mentioned",
-      "fresher_confirmed": false,
-      "fit_score": 66,
-      "url": "https://himalayas.app/companies/masalto/jobs/accounts-payable-specialist-36802949?utm_source=api",
-      "skills": [
-        "Excel",
-        "Accounting",
-        "Reconciliation",
-        "Accounts payable",
-        "QuickBooks"
-      ],
-      "summary": "Location: (Remote) Department: Accounting Freelancer full time Hours: Monday to Friday, 8 am to 5 pm Montreal time Working From Home About Us For over 15 years, Corporate Stays has been a trusted leader in providing exceptional temporary housing solutions in Canada and Panama. We specialize in premium, fully furnished residences designed for professionals, families, and individuals in transition. Our team works closely with each client to identify the ideal property based on location, size, amenities, and budget. Each Corporate Stays property is designed and furnished by our sister company Casa Suarez, following five-star hospitality standards to provide guests with the comfort of a real home. With a network of more than 10,000 apartments a",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
       "id": "him:https://himalayas.app/companies/globalization-partners/jobs/payroll-billing-specialist",
       "title": "Payroll & Billing Specialist",
       "company": "Globalization Partners",
@@ -330,6 +305,28 @@
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "gh:stripe:8364868",
+      "title": "Finance and Strategy Data Analyst",
+      "company": "stripe",
+      "location": "Bengaluru",
+      "date": "2026-11-11",
+      "type": "Finance Analyst / FP&A",
+      "level": "Experience unconfirmed",
+      "experience": "Not stated; verify with employer",
+      "fresher_confirmed": false,
+      "fit_score": 64,
+      "url": "https://stripe.com/jobs/search?gh_jid=8364868",
+      "skills": [
+        "Accounting",
+        "Forecasting"
+      ],
+      "summary": "<h2><strong>Who we are</strong></h2> <h3><strong>About Stripe</strong></h3> <p>Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career.</p> <h3><strong>About the team</strong></h3> <p>We are building an elite team to drive financial insight and strategy at Stripe. The Corporate Finance & Strategy team brings u",
+      "source": "Greenhouse",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Bengaluru",
       "match_group": "Possible matches"
     },
     {
@@ -578,18 +575,18 @@
       "match_group": "Possible matches"
     }
   ],
-  "sources_checked": 46,
+  "sources_checked": 45,
   "source_summary": {
     "configured": 52,
-    "successful": 46,
-    "failed": 6,
-    "with_matches": 17
+    "successful": 45,
+    "failed": 7,
+    "with_matches": 19
   },
   "sources": [
     {
       "source": "greenhouse/stripe",
       "status": "ok",
-      "matches": 0
+      "matches": 1
     },
     {
       "source": "greenhouse/groww",
@@ -643,8 +640,9 @@
     },
     {
       "source": "lever/porter",
-      "status": "ok",
-      "matches": 0
+      "status": "failed",
+      "matches": 0,
+      "error": "The read operation timed out"
     },
     {
       "source": "lever/wise",
@@ -735,12 +733,12 @@
     {
       "source": "Himalayas/finance/p2",
       "status": "ok",
-      "matches": 3
+      "matches": 2
     },
     {
       "source": "Himalayas/finance/p3",
       "status": "ok",
-      "matches": 0
+      "matches": 1
     },
     {
       "source": "Himalayas/accounting/p1",
@@ -750,22 +748,22 @@
     {
       "source": "Himalayas/accounting/p2",
       "status": "ok",
-      "matches": 2
+      "matches": 3
     },
     {
       "source": "Himalayas/accounting/p3",
       "status": "ok",
-      "matches": 6
+      "matches": 4
     },
     {
       "source": "Himalayas/accounts payable/p1",
       "status": "ok",
-      "matches": 6
+      "matches": 7
     },
     {
       "source": "Himalayas/accounts payable/p2",
       "status": "ok",
-      "matches": 4
+      "matches": 2
     },
     {
       "source": "Himalayas/accounts payable/p3",
@@ -775,12 +773,12 @@
     {
       "source": "Himalayas/financial analyst/p1",
       "status": "ok",
-      "matches": 1
+      "matches": 2
     },
     {
       "source": "Himalayas/financial analyst/p2",
       "status": "ok",
-      "matches": 5
+      "matches": 3
     },
     {
       "source": "Himalayas/financial analyst/p3",
@@ -805,7 +803,7 @@
     {
       "source": "Himalayas/bookkeeper/p1",
       "status": "ok",
-      "matches": 5
+      "matches": 4
     },
     {
       "source": "Himalayas/bookkeeper/p2",
@@ -854,6 +852,7 @@
     }
   ],
   "source_errors": [
+    "lever/porter: The read operation timed out",
     "lever/wise: HTTP Error 404: Not Found",
     "lever/brex: HTTP Error 404: Not Found",
     "lever/airwallex: HTTP Error 404: Not Found",
