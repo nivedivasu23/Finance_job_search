@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T22:45:28.803545+00:00",
+  "updated_at": "2026-11-12T03:51:45.973543+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
   "total": 24,
   "jobs": [
@@ -132,28 +132,6 @@
       "source": "Greenhouse",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Bengaluru",
-      "match_group": "Possible matches"
-    },
-    {
-      "id": "him:https://himalayas.app/companies/safebooks-global-pvt-ltd/jobs/virtual-assistant-admin-client-coordination-us-accounting-domain",
-      "title": "Virtual Assistant (Admin & Client Coordination) (US Accounting Domain)",
-      "company": "Safebooks Global Pvt Ltd",
-      "location": "Remote · India eligible",
-      "date": "2026-10-12",
-      "type": "Accounting / AP-AR",
-      "level": "0–2 years",
-      "experience": "Minimum 1 years mentioned",
-      "fresher_confirmed": false,
-      "fit_score": 66,
-      "url": "https://himalayas.app/companies/safebooks-global-pvt-ltd/jobs/virtual-assistant-admin-client-coordination-us-accounting-domain?utm_source=api",
-      "skills": [
-        "Accounting",
-        "Payroll"
-      ],
-      "summary": "We have an urgent hiring requirement for Virtual Assistant (Admin & Client Coordination) (US Accounting Domain) Job Title: Virtual Assistant (Admin & Client Coordination) Company: Safebooks Global Location: Ahmedabad Type: Full-Time (5:30pm to 2:30am IST ) for US About Safebooks Global Safebooks Global is a US-focused accounting outsourcing firm that supports CPAs, EAs, and accounting firms with bookkeeping, payroll, and tax support services. We help clients streamline their operations by providing reliable offshore support. Role Summary We are seeking a detail-oriented and proactive Virtual Assistant to handle day-to-day admin tasks and assist in client communication. This role will be key in supporting our US-based clients by ensuring smo",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
       "match_group": "Possible matches"
     },
     {
@@ -349,6 +327,28 @@
         "MIS"
       ],
       "summary": "As part of our Finance Shared Services team, you’ll support the regional business by delivering high-quality, process-driven finance operations. This role is hands-on and varied, covering key transactional activities across invoicing, reconciliations, accounting support, reporting and MIS, while partnering with internal teams, clients, and suppliers to resolve queries and meet tight deadlines. It’s a great opportunity for a recent graduate or early-career finance professional to build a strong foundation in end-to-end shared services finance. This is a fully remote role, suited to someone with 1+ years’ experience in a similar finance operations role. Key Responsibilities Accounts Payable (AP) processing: check invoices, obtain acceptance, ",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/safebooks-global-pvt-ltd/jobs/virtual-assistant-admin-client-coordination-us-accounting-domain",
+      "title": "Virtual Assistant (Admin & Client Coordination) (US Accounting Domain)",
+      "company": "Safebooks Global Pvt Ltd",
+      "location": "Remote · India eligible",
+      "date": "2026-10-12",
+      "type": "Accounting / AP-AR",
+      "level": "0–2 years",
+      "experience": "Minimum 1 years mentioned",
+      "fresher_confirmed": false,
+      "fit_score": 60,
+      "url": "https://himalayas.app/companies/safebooks-global-pvt-ltd/jobs/virtual-assistant-admin-client-coordination-us-accounting-domain?utm_source=api",
+      "skills": [
+        "Accounting",
+        "Payroll"
+      ],
+      "summary": "We have an urgent hiring requirement for Virtual Assistant (Admin & Client Coordination) (US Accounting Domain) Job Title: Virtual Assistant (Admin & Client Coordination) Company: Safebooks Global Location: Ahmedabad Type: Full-Time (5:30pm to 2:30am IST ) for US About Safebooks Global Safebooks Global is a US-focused accounting outsourcing firm that supports CPAs, EAs, and accounting firms with bookkeeping, payroll, and tax support services. We help clients streamline their operations by providing reliable offshore support. Role Summary We are seeking a detail-oriented and proactive Virtual Assistant to handle day-to-day admin tasks and assist in client communication. This role will be key in supporting our US-based clients by ensuring smo",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
