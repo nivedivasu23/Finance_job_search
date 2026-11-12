@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T12:51:08.612589+00:00",
+  "updated_at": "2026-11-12T20:53:00.828483+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
   "total": 24,
   "jobs": [
@@ -580,7 +580,7 @@
     "configured": 52,
     "successful": 46,
     "failed": 6,
-    "with_matches": 20
+    "with_matches": 18
   },
   "sources": [
     {
@@ -732,27 +732,27 @@
     {
       "source": "Himalayas/finance/p2",
       "status": "ok",
-      "matches": 1
+      "matches": 0
     },
     {
       "source": "Himalayas/finance/p3",
       "status": "ok",
-      "matches": 2
+      "matches": 3
     },
     {
       "source": "Himalayas/accounting/p1",
       "status": "ok",
-      "matches": 3
+      "matches": 2
     },
     {
       "source": "Himalayas/accounting/p2",
       "status": "ok",
-      "matches": 1
+      "matches": 2
     },
     {
       "source": "Himalayas/accounting/p3",
       "status": "ok",
-      "matches": 5
+      "matches": 4
     },
     {
       "source": "Himalayas/accounts payable/p1",
@@ -772,12 +772,12 @@
     {
       "source": "Himalayas/financial analyst/p1",
       "status": "ok",
-      "matches": 1
+      "matches": 0
     },
     {
       "source": "Himalayas/financial analyst/p2",
       "status": "ok",
-      "matches": 2
+      "matches": 3
     },
     {
       "source": "Himalayas/financial analyst/p3",
