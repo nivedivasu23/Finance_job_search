@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-13T17:49:03.824527+00:00",
+  "updated_at": "2026-11-13T23:38:33.368811+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 25,
+  "total": 26,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/sprinto/jobs/finance-intern-remote",
@@ -110,6 +110,32 @@
         "Accounting"
       ],
       "summary": "Accounting Contract Processor (New Delhi) 100% Remote Apply here: Were looking for a highly organized and detail-oriented Accounting Contract Processor to join our remote team. The ideal candidate will have a strong background in accounting and contract administration, with experience working in large corporate environments. Qualifications: 2+ years of relevant accounting experience Prior experience working at a Fortune 500 company Bachelors degree in Business Administration, Finance, or related field B2/C1 English proficiency Proven experience in contract processing or administrative roles Strong attention to detail and data accuracy Excellent time management and organizational skills Proficiency with Google Sheets Responsibilities: Review",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/astreya/jobs/accounting-analyst-iii",
+      "title": "Accounting Analyst III",
+      "company": "Astreya",
+      "location": "Remote · India eligible",
+      "date": "2026-11-13",
+      "type": "Accounting / AP-AR",
+      "level": "0–2 years",
+      "experience": "Minimum 2 years mentioned",
+      "fresher_confirmed": false,
+      "fit_score": 72,
+      "url": "https://himalayas.app/companies/astreya/jobs/accounting-analyst-iii?utm_source=api",
+      "skills": [
+        "Excel",
+        "Accounting",
+        "Reconciliation",
+        "Financial reporting",
+        "Accounts receivable",
+        "ERP"
+      ],
+      "summary": "ROLE SUMMARY: We are seeking a detail-oriented Revenue Accountant to support our revenue recognition and financial reporting functions. In this role, you will own day-to-day global revenue accounting processes, help ensure accurate compliance with US GAAP (specifically ASC 606), and provide data-driven support for month-end close. This is a strong opportunity for an experienced accounting professional to build deeper expertise in revenue accounting within a global finance environment, working closely with both India-based operations and US finance teams. KEY RESPONSIBILITIES Revenue Processing & and Close Support the end-to-end revenue recognition process, ensuring adherence to ASC 606 standards. Prepare and post journal entries for revenue",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -601,7 +627,7 @@
     "configured": 52,
     "successful": 46,
     "failed": 6,
-    "with_matches": 19
+    "with_matches": 21
   },
   "sources": [
     {
@@ -748,12 +774,12 @@
     {
       "source": "Himalayas/finance/p1",
       "status": "ok",
-      "matches": 0
+      "matches": 1
     },
     {
       "source": "Himalayas/finance/p2",
       "status": "ok",
-      "matches": 2
+      "matches": 1
     },
     {
       "source": "Himalayas/finance/p3",
@@ -763,7 +789,7 @@
     {
       "source": "Himalayas/accounting/p1",
       "status": "ok",
-      "matches": 3
+      "matches": 4
     },
     {
       "source": "Himalayas/accounting/p2",
@@ -773,7 +799,7 @@
     {
       "source": "Himalayas/accounting/p3",
       "status": "ok",
-      "matches": 4
+      "matches": 5
     },
     {
       "source": "Himalayas/accounts payable/p1",
@@ -793,7 +819,7 @@
     {
       "source": "Himalayas/financial analyst/p1",
       "status": "ok",
-      "matches": 0
+      "matches": 1
     },
     {
       "source": "Himalayas/financial analyst/p2",
