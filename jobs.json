@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-14T06:36:10.692178+00:00",
+  "updated_at": "2026-11-14T14:14:17.345320+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 27,
+  "total": 29,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/sprinto/jobs/finance-intern-remote",
@@ -189,6 +189,32 @@
         "Financial statements"
       ],
       "summary": "About Refold AI Refold AI is the AI integration platform built for agents, made for modern SaaS companies that need to ship enterprise integrations at scale. We're reimagining integrations with AI agents that work like business consultants and integration engineers, building them 10x faster, in hours instead of days. The payoff: integrations stop being a bottleneck that costs you deals and burns margin, and become a growth engine. You win the enterprise deals that hinge on them, onboard faster, and scale without an army of consultants. We've grown rapidly, reaching seven-figure ARR and 30+ paying customers, powering the product and professional services teams at modern SaaS companies, from Incorta, Kantata, and Coupa to Highradius, Naehas, ",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/entrepreneur-cooperative/jobs/accountant",
+      "title": "Accountant",
+      "company": "Entrepreneur Cooperative",
+      "location": "Remote · India eligible",
+      "date": "2026-11-14",
+      "type": "Accounting / AP-AR",
+      "level": "0–2 years",
+      "experience": "Minimum 1 years mentioned",
+      "fresher_confirmed": false,
+      "fit_score": 72,
+      "url": "https://himalayas.app/companies/entrepreneur-cooperative/jobs/accountant?utm_source=api",
+      "skills": [
+        "Excel",
+        "Accounting",
+        "Accounts payable",
+        "Accounts receivable",
+        "QuickBooks",
+        "Financial statements"
+      ],
+      "summary": "★ PLEASE SUBMIT YOUR CV IN ENGLISH ★ Accountant Location: Remote - Colombia Work Arrangement: This is a fully remote (telecommute) position. Employment Type: Independent Contractor (ongoing) Industry: Accounting & Advisory Compensation: Competitive Schedule: To be confirmed Start Date: December 14, 2026 Experience: 1-3 years in full-cycle accounting English Proficiency: Professional proficiency in English required About the Company Our client is a U.S.-based accounting and advisory firm that supports established small and midsize businesses. It provides bookkeeping and foundational accounting, business-plan development, and fractional CFO support so owners have clear visibility into performance and can make better-informed decisions. The fi",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -484,6 +510,27 @@
       "match_group": "Possible matches"
     },
     {
+      "id": "him:https://himalayas.app/companies/clearsulting/jobs/commercial-analyst-treasury",
+      "title": "Commercial Analyst, Treasury",
+      "company": "Clearsulting",
+      "location": "Remote · India eligible",
+      "date": "2026-11-14",
+      "type": "Finance Analyst / FP&A",
+      "level": "Experience unconfirmed",
+      "experience": "Not stated; verify with employer",
+      "fresher_confirmed": false,
+      "fit_score": 54,
+      "url": "https://himalayas.app/companies/clearsulting/jobs/commercial-analyst-treasury?utm_source=api",
+      "skills": [
+        "Payroll"
+      ],
+      "summary": "Who We Are: Clearsulting is a global consulting company with the motivation to deliver positive change through digital finance. Our team consists of finance specialists that bring experience and technical capabilities across the spectrum of finance, including financial close, digital reporting, risk advisory, treasury and more. Clearsulting stands by its culture, shaped by our five Core Values: GRIT, Growth Mindset, Joy, Accountability, and Teamwork. Our unwavering dedication to these principles has garnered national recognition for our strong leadership, innovative approach, and outstanding workplace environment. Below are some of the awards and accolades that honor our commitment to excellence: Sunday Times Best Places to Work Award (2025",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
       "id": "him:https://himalayas.app/companies/precision-medicine-group/jobs/financial-analyst",
       "title": "Financial Analyst",
       "company": "Precision Medicine Group",
@@ -731,7 +778,7 @@
       "source": "lever/brex",
       "status": "failed",
       "matches": 0,
-      "error": "The read operation timed out"
+      "error": "HTTP Error 404: Not Found"
     },
     {
       "source": "lever/airwallex",
@@ -805,22 +852,22 @@
     {
       "source": "Himalayas/finance/p1",
       "status": "ok",
-      "matches": 1
+      "matches": 2
     },
     {
       "source": "Himalayas/finance/p2",
       "status": "ok",
-      "matches": 1
+      "matches": 2
     },
     {
       "source": "Himalayas/finance/p3",
       "status": "ok",
-      "matches": 3
+      "matches": 2
     },
     {
       "source": "Himalayas/accounting/p1",
       "status": "ok",
-      "matches": 4
+      "matches": 5
     },
     {
       "source": "Himalayas/accounting/p2",
@@ -835,7 +882,7 @@
     {
       "source": "Himalayas/accounts payable/p1",
       "status": "ok",
-      "matches": 5
+      "matches": 7
     },
     {
       "source": "Himalayas/accounts payable/p2",
@@ -850,7 +897,7 @@
     {
       "source": "Himalayas/financial analyst/p1",
       "status": "ok",
-      "matches": 2
+      "matches": 3
     },
     {
       "source": "Himalayas/financial analyst/p2",
@@ -880,7 +927,7 @@
     {
       "source": "Himalayas/bookkeeper/p1",
       "status": "ok",
-      "matches": 4
+      "matches": 5
     },
     {
       "source": "Himalayas/bookkeeper/p2",
@@ -930,7 +977,7 @@
   ],
   "source_errors": [
     "lever/wise: HTTP Error 404: Not Found",
-    "lever/brex: The read operation timed out",
+    "lever/brex: HTTP Error 404: Not Found",
     "lever/airwallex: HTTP Error 404: Not Found",
     "ashby/retool: HTTP Error 404: Not Found",
     "ashby/remote: HTTP Error 404: Not Found",
