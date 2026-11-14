@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-13T23:38:33.368811+00:00",
+  "updated_at": "2026-11-14T06:36:10.692178+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 26,
+  "total": 27,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/sprinto/jobs/finance-intern-remote",
@@ -158,6 +158,37 @@
         "Audit"
       ],
       "summary": "Engagement Manager – CPA SOC 2, Remote, India At Prescient Security , we are on a mission to simplify security and compliance. Our core values are: • Bring Order to Chaos Be Accountable & See it Through • 1000% With You • Support & Collaborate • Think Outside the Box Summary: Do you have a passion for cybersecurity and compliance, along with a sharp eye for detail? At Prescient Security , we are looking for CPAs who are driven to help organizations strengthen their control environments and successfully navigate SOC 2 compliance. Join our team and contribute to delivering high-quality assurance services to growing companies. Essential Duties and Responsibilities: Review SOC 2/ SOC 1 control testing results for completeness, accuracy and reli",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/refold-ai/jobs/strategic-finance-associate",
+      "title": "Strategic Finance Associate",
+      "company": "Refold AI",
+      "location": "Remote · India eligible",
+      "date": "2026-11-14",
+      "type": "Finance Analyst / FP&A",
+      "level": "0–2 years",
+      "experience": "Minimum 1 years mentioned",
+      "fresher_confirmed": false,
+      "fit_score": 72,
+      "url": "https://himalayas.app/companies/refold-ai/jobs/strategic-finance-associate?utm_source=api",
+      "skills": [
+        "Excel",
+        "GST",
+        "TDS",
+        "Accounting",
+        "Financial reporting",
+        "Accounts payable",
+        "Accounts receivable",
+        "Audit",
+        "ERP",
+        "MIS",
+        "Financial statements"
+      ],
+      "summary": "About Refold AI Refold AI is the AI integration platform built for agents, made for modern SaaS companies that need to ship enterprise integrations at scale. We're reimagining integrations with AI agents that work like business consultants and integration engineers, building them 10x faster, in hours instead of days. The payoff: integrations stop being a bottleneck that costs you deals and burns margin, and become a growth engine. You win the enterprise deals that hinge on them, onboard faster, and scale without an army of consultants. We've grown rapidly, reaching seven-figure ARR and 30+ paying customers, powering the product and professional services teams at modern SaaS companies, from Incorta, Kantata, and Coupa to Highradius, Naehas, ",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -700,7 +731,7 @@
       "source": "lever/brex",
       "status": "failed",
       "matches": 0,
-      "error": "HTTP Error 404: Not Found"
+      "error": "The read operation timed out"
     },
     {
       "source": "lever/airwallex",
@@ -819,7 +850,7 @@
     {
       "source": "Himalayas/financial analyst/p1",
       "status": "ok",
-      "matches": 1
+      "matches": 2
     },
     {
       "source": "Himalayas/financial analyst/p2",
@@ -899,7 +930,7 @@
   ],
   "source_errors": [
     "lever/wise: HTTP Error 404: Not Found",
-    "lever/brex: HTTP Error 404: Not Found",
+    "lever/brex: The read operation timed out",
     "lever/airwallex: HTTP Error 404: Not Found",
     "ashby/retool: HTTP Error 404: Not Found",
     "ashby/remote: HTTP Error 404: Not Found",
