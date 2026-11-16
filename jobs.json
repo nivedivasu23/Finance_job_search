@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-15T22:54:57.437061+00:00",
+  "updated_at": "2026-11-16T02:48:26.375838+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 28,
+  "total": 29,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/sprinto/jobs/finance-intern-remote",
@@ -189,6 +189,27 @@
         "Financial statements"
       ],
       "summary": "★ PLEASE SUBMIT YOUR CV IN ENGLISH ★ Accountant Location: Remote - Colombia Work Arrangement: This is a fully remote (telecommute) position. Employment Type: Independent Contractor (ongoing) Industry: Accounting & Advisory Compensation: Competitive Schedule: To be confirmed Start Date: December 14, 2026 Experience: 1-3 years in full-cycle accounting English Proficiency: Professional proficiency in English required About the Company Our client is a U.S.-based accounting and advisory firm that supports established small and midsize businesses. It provides bookkeeping and foundational accounting, business-plan development, and fractional CFO support so owners have clear visibility into performance and can make better-informed decisions. The fi",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/mediaradar/jobs/billing-specialist",
+      "title": "Billing Specialist",
+      "company": "MediaRadar",
+      "location": "Remote · India eligible",
+      "date": "2026-11-16",
+      "type": "Accounting / AP-AR",
+      "level": "0–2 years",
+      "experience": "Minimum 2 years mentioned",
+      "fresher_confirmed": false,
+      "fit_score": 72,
+      "url": "https://himalayas.app/companies/mediaradar/jobs/billing-specialist?utm_source=api",
+      "skills": [
+        "GST"
+      ],
+      "summary": "Billing Specialist Location: West Bengal, Maharashtra, Gujarat (Remote) About MediaRadar MediaRadar equips marketing, sales and analytics leaders with the intelligence they need to stay ahead. Our platform delivers always-on, AI-enabled Creative, Competitive, Commercial and Market Intelligence—spanning ad strategy, media spend, creative assets and brand messaging across 30+ media channels and five million brands. With deep insights into more than 35 million ad and campaign assets and $280 billion in media spend, MediaRadar provides a single, interoperable source of truth that plugs seamlessly into enterprise analytics and AI systems. The result: faster, cleaner and more actionable intelligence that drives competitive advantage. About the Ro",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -916,7 +937,7 @@
     {
       "source": "Himalayas/tax/p2",
       "status": "ok",
-      "matches": 1
+      "matches": 2
     },
     {
       "source": "Himalayas/tax/p3",
