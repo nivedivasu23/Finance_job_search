@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-16T02:48:26.375838+00:00",
+  "updated_at": "2026-11-16T11:35:18.089707+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 29,
+  "total": 30,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/sprinto/jobs/finance-intern-remote",
@@ -189,6 +189,32 @@
         "Financial statements"
       ],
       "summary": "★ PLEASE SUBMIT YOUR CV IN ENGLISH ★ Accountant Location: Remote - Colombia Work Arrangement: This is a fully remote (telecommute) position. Employment Type: Independent Contractor (ongoing) Industry: Accounting & Advisory Compensation: Competitive Schedule: To be confirmed Start Date: December 14, 2026 Experience: 1-3 years in full-cycle accounting English Proficiency: Professional proficiency in English required About the Company Our client is a U.S.-based accounting and advisory firm that supports established small and midsize businesses. It provides bookkeeping and foundational accounting, business-plan development, and fractional CFO support so owners have clear visibility into performance and can make better-informed decisions. The fi",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/entrepreneur-cooperative/jobs/accountant-part-time-2864113754",
+      "title": "Accountant - Part time",
+      "company": "Entrepreneur Cooperative",
+      "location": "Remote · India eligible",
+      "date": "2026-11-16",
+      "type": "Accounting / AP-AR",
+      "level": "0–2 years",
+      "experience": "Minimum 1 years mentioned",
+      "fresher_confirmed": false,
+      "fit_score": 72,
+      "url": "https://himalayas.app/companies/entrepreneur-cooperative/jobs/accountant-part-time-2864113754?utm_source=api",
+      "skills": [
+        "Excel",
+        "Accounting",
+        "Accounts payable",
+        "Accounts receivable",
+        "QuickBooks",
+        "Financial statements"
+      ],
+      "summary": "★ PLEASE SUBMIT YOUR CV IN ENGLISH ★ Accountant Location: Remote - Colombia Work Arrangement: This is a fully remote (telecommute) position. Employment Type: Independent Contractor (ongoing) - Part time Industry: Accounting & Advisory Compensation: Competitive Schedule: To be confirmed Start Date: December 14, 2026 Experience: 1-3 years in full-cycle accounting English Proficiency: Professional proficiency in English required About the Company Our client is a U.S.-based accounting and advisory firm that supports established small and midsize businesses. It provides bookkeeping and foundational accounting, business-plan development, and fractional CFO support so owners have clear visibility into performance and can make better-informed decis",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -857,12 +883,12 @@
     {
       "source": "Himalayas/finance/p3",
       "status": "ok",
-      "matches": 2
+      "matches": 1
     },
     {
       "source": "Himalayas/accounting/p1",
       "status": "ok",
-      "matches": 4
+      "matches": 6
     },
     {
       "source": "Himalayas/accounting/p2",
@@ -877,7 +903,7 @@
     {
       "source": "Himalayas/accounts payable/p1",
       "status": "ok",
-      "matches": 6
+      "matches": 8
     },
     {
       "source": "Himalayas/accounts payable/p2",
@@ -892,7 +918,7 @@
     {
       "source": "Himalayas/financial analyst/p1",
       "status": "ok",
-      "matches": 2
+      "matches": 3
     },
     {
       "source": "Himalayas/financial analyst/p2",
@@ -922,7 +948,7 @@
     {
       "source": "Himalayas/bookkeeper/p1",
       "status": "ok",
-      "matches": 5
+      "matches": 7
     },
     {
       "source": "Himalayas/bookkeeper/p2",
