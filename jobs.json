@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-16T11:35:18.089707+00:00",
+  "updated_at": "2026-11-16T22:14:21.615860+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 30,
+  "total": 29,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/sprinto/jobs/finance-intern-remote",
@@ -673,32 +673,6 @@
       "match_group": "Possible matches"
     },
     {
-      "id": "him:https://himalayas.app/companies/contour-education/jobs/financial-analyst-india",
-      "title": "Financial Analyst, India",
-      "company": "Contour Education",
-      "location": "Remote · India eligible",
-      "date": "2026-11-01",
-      "type": "Finance Analyst / FP&A",
-      "level": "Experience unconfirmed",
-      "experience": "Not stated; verify with employer",
-      "fresher_confirmed": false,
-      "fit_score": 48,
-      "url": "https://himalayas.app/companies/contour-education/jobs/financial-analyst-india?utm_source=api",
-      "skills": [
-        "Excel",
-        "Power BI",
-        "Accounting",
-        "Forecasting",
-        "Budgeting",
-        "MIS"
-      ],
-      "summary": "This is a remote position. Financial Analyst, India Remote (India) | Full-Time Also searched as: Finance Analyst, FP&A Analyst, MIS Analyst, Business Analyst What would you tell a leadership team about their own business that they have not thought to ask? On a typical day you might reconcile the weekly scorecard numbers back to Xero and HubSpot before the leadership review in the morning, work through month-end variances with the Financial Controller and draft the commentary after lunch, and send a short written note on why a revenue line moved and what you would do about it before the end of day. About Contour We started in 2020 with a handful of students and a belief that great education should not be out of reach. Today we operate across",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
       "id": "him:https://himalayas.app/companies/altisource/jobs/analyst-accounts-payable",
       "title": "Analyst, Accounts Payable",
       "company": "Altisource",
@@ -721,12 +695,12 @@
       "match_group": "Possible matches"
     }
   ],
-  "sources_checked": 46,
+  "sources_checked": 43,
   "source_summary": {
-    "configured": 52,
-    "successful": 46,
-    "failed": 6,
-    "with_matches": 21
+    "configured": 50,
+    "successful": 43,
+    "failed": 7,
+    "with_matches": 18
   },
   "sources": [
     {
@@ -917,18 +891,9 @@
     },
     {
       "source": "Himalayas/financial analyst/p1",
-      "status": "ok",
-      "matches": 3
-    },
-    {
-      "source": "Himalayas/financial analyst/p2",
-      "status": "ok",
-      "matches": 3
-    },
-    {
-      "source": "Himalayas/financial analyst/p3",
-      "status": "ok",
-      "matches": 1
+      "status": "failed",
+      "matches": 0,
+      "error": "IncompleteRead(61731 bytes read)"
     },
     {
       "source": "Himalayas/audit/p1",
@@ -1002,7 +967,8 @@
     "lever/airwallex: HTTP Error 404: Not Found",
     "ashby/retool: HTTP Error 404: Not Found",
     "ashby/remote: HTTP Error 404: Not Found",
-    "ashby/brex: HTTP Error 404: Not Found"
+    "ashby/brex: HTTP Error 404: Not Found",
+    "Himalayas/financial analyst/p1: IncompleteRead(61731 bytes read)"
   ],
   "disclaimer": "Coverage is partial. Remote eligibility and fresher requirements must be confirmed with the employer."
 }
