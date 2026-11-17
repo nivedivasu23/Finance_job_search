@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-17T04:35:58.731074+00:00",
+  "updated_at": "2026-11-17T14:33:47.109378+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 30,
+  "total": 29,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/sprinto/jobs/finance-intern-remote",
@@ -531,27 +531,6 @@
       "match_group": "Possible matches"
     },
     {
-      "id": "him:https://himalayas.app/companies/clearsulting/jobs/commercial-analyst-treasury",
-      "title": "Commercial Analyst, Treasury",
-      "company": "Clearsulting",
-      "location": "Remote · India eligible",
-      "date": "2026-11-14",
-      "type": "Finance Analyst / FP&A",
-      "level": "Experience unconfirmed",
-      "experience": "Not stated; verify with employer",
-      "fresher_confirmed": false,
-      "fit_score": 54,
-      "url": "https://himalayas.app/companies/clearsulting/jobs/commercial-analyst-treasury?utm_source=api",
-      "skills": [
-        "Payroll"
-      ],
-      "summary": "Who We Are: Clearsulting is a global consulting company with the motivation to deliver positive change through digital finance. Our team consists of finance specialists that bring experience and technical capabilities across the spectrum of finance, including financial close, digital reporting, risk advisory, treasury and more. Clearsulting stands by its culture, shaped by our five Core Values: GRIT, Growth Mindset, Joy, Accountability, and Teamwork. Our unwavering dedication to these principles has garnered national recognition for our strong leadership, innovative approach, and outstanding workplace environment. Below are some of the awards and accolades that honor our commitment to excellence: Sunday Times Best Places to Work Award (2025",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
       "id": "him:https://himalayas.app/companies/precision-medicine-group/jobs/financial-analyst",
       "title": "Financial Analyst",
       "company": "Precision Medicine Group",
@@ -873,7 +852,7 @@
     {
       "source": "Himalayas/finance/p1",
       "status": "ok",
-      "matches": 2
+      "matches": 1
     },
     {
       "source": "Himalayas/finance/p2",
@@ -883,7 +862,7 @@
     {
       "source": "Himalayas/finance/p3",
       "status": "ok",
-      "matches": 2
+      "matches": 3
     },
     {
       "source": "Himalayas/accounting/p1",
