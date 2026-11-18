@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-18T04:29:11.709269+00:00",
+  "updated_at": "2026-11-18T14:10:02.849886+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 29,
+  "total": 30,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/sprinto/jobs/finance-intern-remote",
@@ -504,6 +504,28 @@
       "match_group": "Possible matches"
     },
     {
+      "id": "him:https://himalayas.app/companies/strada/jobs/oracle-payroll-delivery-specialist",
+      "title": "Oracle Payroll Delivery Specialist",
+      "company": "Strada",
+      "location": "Remote · India eligible",
+      "date": "2026-11-18",
+      "type": "Finance Operations",
+      "level": "Experience unconfirmed",
+      "experience": "Not stated; verify with employer",
+      "fresher_confirmed": false,
+      "fit_score": 54,
+      "url": "https://himalayas.app/companies/strada/jobs/oracle-payroll-delivery-specialist?utm_source=api",
+      "skills": [
+        "Excel",
+        "Payroll"
+      ],
+      "summary": "Join us on a journey of endless possibilities At Strada , possibility isn’t just a promise – it’s the foundation of everything we do. We believe in unlocking potential for every colleague, creating a journey of growth, discovery, and impact. With the support, resources, and opportunities we provide, you’ll build a fulfilling future – working on meaningful projects that span industries and regions, contributing to outcomes that matter. Strada is a people, payroll, and technology leader simplifying international workforce management. Operating in 180+ countries, we design and deliver people-first solutions powered by cloud-based technology – helping organizations grow and enabling workforces to perform at their best. Learn more at Main Respon",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
       "id": "him:https://himalayas.app/companies/precision-medicine-group/jobs/financial-analyst",
       "title": "Financial Analyst",
       "company": "Precision Medicine Group",
@@ -700,11 +722,11 @@
       "match_group": "Possible matches"
     }
   ],
-  "sources_checked": 46,
+  "sources_checked": 45,
   "source_summary": {
     "configured": 52,
-    "successful": 46,
-    "failed": 6,
+    "successful": 45,
+    "failed": 7,
     "with_matches": 21
   },
   "sources": [
@@ -760,8 +782,9 @@
     },
     {
       "source": "lever/meesho",
-      "status": "ok",
-      "matches": 0
+      "status": "failed",
+      "matches": 0,
+      "error": "The read operation timed out"
     },
     {
       "source": "lever/porter",
@@ -877,7 +900,7 @@
     {
       "source": "Himalayas/accounting/p3",
       "status": "ok",
-      "matches": 4
+      "matches": 5
     },
     {
       "source": "Himalayas/accounts payable/p1",
@@ -912,7 +935,7 @@
     {
       "source": "Himalayas/audit/p1",
       "status": "ok",
-      "matches": 1
+      "matches": 2
     },
     {
       "source": "Himalayas/audit/p2",
@@ -976,6 +999,7 @@
     }
   ],
   "source_errors": [
+    "lever/meesho: The read operation timed out",
     "lever/wise: HTTP Error 404: Not Found",
     "lever/brex: HTTP Error 404: Not Found",
     "lever/airwallex: HTTP Error 404: Not Found",
