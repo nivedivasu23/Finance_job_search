@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T22:57:00.931731+00:00",
+  "updated_at": "2026-11-18T04:29:11.709269+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
   "total": 29,
   "jobs": [
@@ -51,27 +51,6 @@
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
       "match_group": "Best matches"
-    },
-    {
-      "id": "him:https://himalayas.app/companies/operationsarmy/jobs/accounting-contract-processor-new-delhi-remote",
-      "title": "Accounting Contract Processor (New Delhi | Remote)",
-      "company": "OperationsArmy",
-      "location": "Remote · India eligible",
-      "date": "2026-11-10",
-      "type": "Accounting / AP-AR",
-      "level": "0–2 years",
-      "experience": "Minimum 2 years mentioned",
-      "fresher_confirmed": false,
-      "fit_score": 72,
-      "url": "https://himalayas.app/companies/operationsarmy/jobs/accounting-contract-processor-new-delhi-remote?utm_source=api",
-      "skills": [
-        "Accounting"
-      ],
-      "summary": "Accounting Contract Processor (New Delhi) 100% Remote Apply here: Were looking for a highly organized and detail-oriented Accounting Contract Processor to join our remote team. The ideal candidate will have a strong background in accounting and contract administration, with experience working in large corporate environments. Qualifications: 2+ years of relevant accounting experience Prior experience working at a Fortune 500 company Bachelors degree in Business Administration, Finance, or related field B2/C1 English proficiency Proven experience in contract processing or administrative roles Strong attention to detail and data accuracy Excellent time management and organizational skills Proficiency with Google Sheets Responsibilities: Review",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
     },
     {
       "id": "him:https://himalayas.app/companies/prescient-security/jobs/certified-public-accountant",
@@ -412,6 +391,27 @@
       "match_group": "Possible matches"
     },
     {
+      "id": "him:https://himalayas.app/companies/operationsarmy/jobs/accounting-contract-processor-new-delhi-remote",
+      "title": "Accounting Contract Processor (New Delhi | Remote)",
+      "company": "OperationsArmy",
+      "location": "Remote · India eligible",
+      "date": "2026-11-10",
+      "type": "Accounting / AP-AR",
+      "level": "0–2 years",
+      "experience": "Minimum 2 years mentioned",
+      "fresher_confirmed": false,
+      "fit_score": 66,
+      "url": "https://himalayas.app/companies/operationsarmy/jobs/accounting-contract-processor-new-delhi-remote?utm_source=api",
+      "skills": [
+        "Accounting"
+      ],
+      "summary": "Accounting Contract Processor (New Delhi) 100% Remote Apply here: Were looking for a highly organized and detail-oriented Accounting Contract Processor to join our remote team. The ideal candidate will have a strong background in accounting and contract administration, with experience working in large corporate environments. Qualifications: 2+ years of relevant accounting experience Prior experience working at a Fortune 500 company Bachelors degree in Business Administration, Finance, or related field B2/C1 English proficiency Proven experience in contract processing or administrative roles Strong attention to detail and data accuracy Excellent time management and organizational skills Proficiency with Google Sheets Responsibilities: Review",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
       "id": "gh:stripe:8364868",
       "title": "Finance and Strategy Data Analyst",
       "company": "stripe",
@@ -475,33 +475,6 @@
         "Payroll"
       ],
       "summary": "We have an urgent hiring requirement for Virtual Assistant (Admin & Client Coordination) (US Accounting Domain) Job Title: Virtual Assistant (Admin & Client Coordination) Company: Safebooks Global Location: Ahmedabad Type: Full-Time (5:30pm to 2:30am IST ) for US About Safebooks Global Safebooks Global is a US-focused accounting outsourcing firm that supports CPAs, EAs, and accounting firms with bookkeeping, payroll, and tax support services. We help clients streamline their operations by providing reliable offshore support. Role Summary We are seeking a detail-oriented and proactive Virtual Assistant to handle day-to-day admin tasks and assist in client communication. This role will be key in supporting our US-based clients by ensuring smo",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
-      "id": "him:https://himalayas.app/companies/ziff-davis/jobs/accounts-payable-specialist-uk-shift",
-      "title": "Accounts Payable Specialist - UK Shift",
-      "company": "Ziff Davis",
-      "location": "Remote · India eligible",
-      "date": "2026-11-10",
-      "type": "Accounting / AP-AR",
-      "level": "Experience unconfirmed",
-      "experience": "Not stated; verify with employer",
-      "fresher_confirmed": false,
-      "fit_score": 54,
-      "url": "https://himalayas.app/companies/ziff-davis/jobs/accounts-payable-specialist-uk-shift?utm_source=api",
-      "skills": [
-        "Excel",
-        "SAP",
-        "Accounting",
-        "Reconciliation",
-        "Accounts payable",
-        "Audit",
-        "ERP"
-      ],
-      "summary": "The Opportunity: We are looking for a detail-oriented and collaborative Accounts Payable Specialist to join our Finance team. In this role, you will manage end-to-end invoice processing, vendor onboarding and relations, payment disbursements, and month-end close support across multiple business units and subsidiaries. Key Responsibilities Invoice Processing & Allocation: Review, code, and enter invoices into Oracle Fusion accurately; allocate shared expenses across relevant business units, departments, and subsidiaries. Approval & Workflow Management: Partner across departments (Engineering, Sales, Operations, Technology, Legal) to route invoices, secure timely approvals, and resolve billing discrepancies. Payment Execution: Prepare and pro",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -672,6 +645,33 @@
         "MIS"
       ],
       "summary": "This is a remote position. Financial Analyst, India Remote (India) | Full-Time Also searched as: Finance Analyst, FP&A Analyst, MIS Analyst, Business Analyst What would you tell a leadership team about their own business that they have not thought to ask? On a typical day you might reconcile the weekly scorecard numbers back to Xero and HubSpot before the leadership review in the morning, work through month-end variances with the Financial Controller and draft the commentary after lunch, and send a short written note on why a revenue line moved and what you would do about it before the end of day. About Contour We started in 2020 with a handful of students and a belief that great education should not be out of reach. Today we operate across",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/ziff-davis/jobs/accounts-payable-specialist-uk-shift",
+      "title": "Accounts Payable Specialist - UK Shift",
+      "company": "Ziff Davis",
+      "location": "Remote · India eligible",
+      "date": "2026-11-10",
+      "type": "Accounting / AP-AR",
+      "level": "Experience unconfirmed",
+      "experience": "Not stated; verify with employer",
+      "fresher_confirmed": false,
+      "fit_score": 48,
+      "url": "https://himalayas.app/companies/ziff-davis/jobs/accounts-payable-specialist-uk-shift?utm_source=api",
+      "skills": [
+        "Excel",
+        "SAP",
+        "Accounting",
+        "Reconciliation",
+        "Accounts payable",
+        "Audit",
+        "ERP"
+      ],
+      "summary": "The Opportunity: We are looking for a detail-oriented and collaborative Accounts Payable Specialist to join our Finance team. In this role, you will manage end-to-end invoice processing, vendor onboarding and relations, payment disbursements, and month-end close support across multiple business units and subsidiaries. Key Responsibilities Invoice Processing & Allocation: Review, code, and enter invoices into Oracle Fusion accurately; allocate shared expenses across relevant business units, departments, and subsidiaries. Approval & Workflow Management: Partner across departments (Engineering, Sales, Operations, Technology, Legal) to route invoices, secure timely approvals, and resolve billing discrepancies. Payment Execution: Prepare and pro",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -862,17 +862,17 @@
     {
       "source": "Himalayas/finance/p3",
       "status": "ok",
-      "matches": 3
+      "matches": 1
     },
     {
       "source": "Himalayas/accounting/p1",
       "status": "ok",
-      "matches": 6
+      "matches": 5
     },
     {
       "source": "Himalayas/accounting/p2",
       "status": "ok",
-      "matches": 2
+      "matches": 3
     },
     {
       "source": "Himalayas/accounting/p3",
@@ -912,12 +912,12 @@
     {
       "source": "Himalayas/audit/p1",
       "status": "ok",
-      "matches": 2
+      "matches": 1
     },
     {
       "source": "Himalayas/audit/p2",
       "status": "ok",
-      "matches": 2
+      "matches": 3
     },
     {
       "source": "Himalayas/audit/p3",
