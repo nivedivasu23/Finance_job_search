@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-19T03:36:36.631728+00:00",
+  "updated_at": "2026-11-19T13:22:43.533118+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 30,
+  "total": 32,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/sprinto/jobs/finance-intern-remote",
@@ -173,6 +173,27 @@
         "GST"
       ],
       "summary": "Billing Specialist Location: West Bengal, Maharashtra, Gujarat (Remote) About MediaRadar MediaRadar equips marketing, sales and analytics leaders with the intelligence they need to stay ahead. Our platform delivers always-on, AI-enabled Creative, Competitive, Commercial and Market Intelligence—spanning ad strategy, media spend, creative assets and brand messaging across 30+ media channels and five million brands. With deep insights into more than 35 million ad and campaign assets and $280 billion in media spend, MediaRadar provides a single, interoperable source of truth that plugs seamlessly into enterprise analytics and AI systems. The result: faster, cleaner and more actionable intelligence that drives competitive advantage. About the Ro",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/avalara/jobs/indirect-tax-researcher",
+      "title": "Indirect Tax Researcher",
+      "company": "Avalara",
+      "location": "Remote · India eligible",
+      "date": "2026-11-19",
+      "type": "Audit / Tax",
+      "level": "0–2 years",
+      "experience": "Minimum 2 years mentioned",
+      "fresher_confirmed": false,
+      "fit_score": 72,
+      "url": "https://himalayas.app/companies/avalara/jobs/indirect-tax-researcher?utm_source=api",
+      "skills": [
+        "Accounting"
+      ],
+      "summary": "What You'll Do We are looking for a Researcher to join the Property Tax Content team, focusing on researching and maintaining property tax jurisdiction, assessor, collector, and depreciation content, and supporting the team's shift toward AI-enabled compliance research. This role involves developing foundational property tax research expertise, strong attention to detail, and contributing to the accuracy and reliability of the content that powers the team's AI-enabled workflows. What Your Responsibilities Will Be Research, monitor, translate, and interpret assessor and collector notices, depreciation schedule updates, and jurisdiction rule changes; evaluate content accuracy and make sound decisions on property tax content updates and action",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -526,6 +547,31 @@
       "match_group": "Possible matches"
     },
     {
+      "id": "him:https://himalayas.app/companies/mm-enterprises/jobs/accounting-assistant",
+      "title": "Accounting Assistant",
+      "company": "MM Enterprises",
+      "location": "Remote · India eligible",
+      "date": "2026-11-19",
+      "type": "Accounting / AP-AR",
+      "level": "Experience unconfirmed",
+      "experience": "Not stated; verify with employer",
+      "fresher_confirmed": false,
+      "fit_score": 54,
+      "url": "https://himalayas.app/companies/mm-enterprises/jobs/accounting-assistant?utm_source=api",
+      "skills": [
+        "Excel",
+        "Reconciliation",
+        "Accounts payable",
+        "Audit",
+        "Payroll"
+      ],
+      "summary": "We’re looking for an Accounts Assistant to take full responsibility for all bank and Inter-company reconciliations within the AGS EMEA Group. You will be an ambitious individual with a desire to start your career in a high performing corporate finance department. Responsibilities: To complete weekly bank reconciliations for designated AGS EMEA entities in various currencies. To ensure all reconciling items are investigated fully and cleared before current month end or detailed explanation on why outstanding provided for month end reconciliation. With the help and assistance of Senior Accountants to continually try to improve processes and tighten controls. To take responsible to follow up on any open items either with various teams includin",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
       "id": "him:https://himalayas.app/companies/precision-medicine-group/jobs/financial-analyst",
       "title": "Financial Analyst",
       "company": "Precision Medicine Group",
@@ -722,11 +768,11 @@
       "match_group": "Possible matches"
     }
   ],
-  "sources_checked": 46,
+  "sources_checked": 44,
   "source_summary": {
     "configured": 52,
-    "successful": 46,
-    "failed": 6,
+    "successful": 44,
+    "failed": 8,
     "with_matches": 21
   },
   "sources": [
@@ -889,7 +935,7 @@
     {
       "source": "Himalayas/accounting/p1",
       "status": "ok",
-      "matches": 5
+      "matches": 6
     },
     {
       "source": "Himalayas/accounting/p2",
@@ -899,12 +945,12 @@
     {
       "source": "Himalayas/accounting/p3",
       "status": "ok",
-      "matches": 5
+      "matches": 4
     },
     {
       "source": "Himalayas/accounts payable/p1",
       "status": "ok",
-      "matches": 8
+      "matches": 9
     },
     {
       "source": "Himalayas/accounts payable/p2",
@@ -939,12 +985,12 @@
     {
       "source": "Himalayas/audit/p2",
       "status": "ok",
-      "matches": 3
+      "matches": 2
     },
     {
       "source": "Himalayas/audit/p3",
       "status": "ok",
-      "matches": 2
+      "matches": 3
     },
     {
       "source": "Himalayas/bookkeeper/p1",
@@ -959,7 +1005,7 @@
     {
       "source": "Himalayas/tax/p1",
       "status": "ok",
-      "matches": 2
+      "matches": 3
     },
     {
       "source": "Himalayas/tax/p2",
@@ -983,8 +1029,9 @@
     },
     {
       "source": "Jobicy/accounting",
-      "status": "ok",
-      "matches": 0
+      "status": "failed",
+      "matches": 0,
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "source": "Jobicy/payroll",
@@ -993,8 +1040,9 @@
     },
     {
       "source": "Jobicy/audit",
-      "status": "ok",
-      "matches": 0
+      "status": "failed",
+      "matches": 0,
+      "error": "HTTP Error 429: Too Many Requests"
     }
   ],
   "source_errors": [
@@ -1003,7 +1051,9 @@
     "lever/airwallex: HTTP Error 404: Not Found",
     "ashby/retool: HTTP Error 404: Not Found",
     "ashby/remote: HTTP Error 404: Not Found",
-    "ashby/brex: HTTP Error 404: Not Found"
+    "ashby/brex: HTTP Error 404: Not Found",
+    "Jobicy/accounting: HTTP Error 429: Too Many Requests",
+    "Jobicy/audit: HTTP Error 429: Too Many Requests"
   ],
   "disclaimer": "Coverage is partial. Remote eligibility and fresher requirements must be confirmed with the employer."
 }
