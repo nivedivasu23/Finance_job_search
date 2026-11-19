@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T22:03:24.944154+00:00",
+  "updated_at": "2026-11-19T03:36:36.631728+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
   "total": 30,
   "jobs": [
@@ -412,28 +412,6 @@
       "match_group": "Possible matches"
     },
     {
-      "id": "gh:stripe:8364868",
-      "title": "Finance and Strategy Data Analyst",
-      "company": "stripe",
-      "location": "Bengaluru",
-      "date": "2026-11-11",
-      "type": "Finance Analyst / FP&A",
-      "level": "Experience unconfirmed",
-      "experience": "Not stated; verify with employer",
-      "fresher_confirmed": false,
-      "fit_score": 64,
-      "url": "https://stripe.com/jobs/search?gh_jid=8364868",
-      "skills": [
-        "Accounting",
-        "Forecasting"
-      ],
-      "summary": "<h2><strong>Who we are</strong></h2> <h3><strong>About Stripe</strong></h3> <p>Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career.</p> <h3><strong>About the team</strong></h3> <p>We are building an elite team to drive financial insight and strategy at Stripe. The Corporate Finance & Strategy team brings u",
-      "source": "Greenhouse",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Bengaluru",
-      "match_group": "Possible matches"
-    },
-    {
       "id": "him:https://himalayas.app/companies/adm-group/jobs/accounts-and-finance-operations-executive-remote-ahmedabad-4725437999",
       "title": "Accounts and Finance Operations Executive (Remote - Ahmedabad)",
       "company": "adm Group",
@@ -478,6 +456,28 @@
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "gh:stripe:8364868",
+      "title": "Finance and Strategy Data Analyst",
+      "company": "stripe",
+      "location": "Bengaluru",
+      "date": "2026-11-11",
+      "type": "Finance Analyst / FP&A",
+      "level": "Experience unconfirmed",
+      "experience": "Not stated; verify with employer",
+      "fresher_confirmed": false,
+      "fit_score": 58,
+      "url": "https://stripe.com/jobs/search?gh_jid=8364868",
+      "skills": [
+        "Accounting",
+        "Forecasting"
+      ],
+      "summary": "<h2><strong>Who we are</strong></h2> <h3><strong>About Stripe</strong></h3> <p>Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career.</p> <h3><strong>About the team</strong></h3> <p>We are building an elite team to drive financial insight and strategy at Stripe. The Corporate Finance & Strategy team brings u",
+      "source": "Greenhouse",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Bengaluru",
       "match_group": "Possible matches"
     },
     {
@@ -794,7 +794,7 @@
       "source": "lever/wise",
       "status": "failed",
       "matches": 0,
-      "error": "The read operation timed out"
+      "error": "HTTP Error 404: Not Found"
     },
     {
       "source": "lever/brex",
@@ -998,7 +998,7 @@
     }
   ],
   "source_errors": [
-    "lever/wise: The read operation timed out",
+    "lever/wise: HTTP Error 404: Not Found",
     "lever/brex: HTTP Error 404: Not Found",
     "lever/airwallex: HTTP Error 404: Not Found",
     "ashby/retool: HTTP Error 404: Not Found",
