@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T22:13:39.574349+00:00",
+  "updated_at": "2026-11-20T03:29:24.511039+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
   "total": 32,
   "jobs": [
@@ -208,29 +208,6 @@
       "match_group": "Possible matches"
     },
     {
-      "id": "him:https://himalayas.app/companies/growe-talents/jobs/finance-specialist",
-      "title": "Finance Specialist",
-      "company": "Growe Talents",
-      "location": "Remote · India eligible",
-      "date": "2026-11-19",
-      "type": "Finance Analyst / FP&A",
-      "level": "0–2 years",
-      "experience": "Minimum 1 years mentioned",
-      "fresher_confirmed": false,
-      "fit_score": 72,
-      "url": "https://himalayas.app/companies/growe-talents/jobs/finance-specialist?utm_source=api",
-      "skills": [
-        "Accounting",
-        "Financial reporting",
-        "Audit"
-      ],
-      "summary": "Our client, Jugabet, is a brand and gaming platform accessible to players in Latin America. With a strong regional focus and localized strategies, Jugabet is quickly becoming a key player in the market. Perfect for those who aim to: Review payment requests to ensure alignment with approved budgets and plans; Process requests in 1C; Regularly reconcile actual expenses with approved budgets; Confirm the accuracy and transparency of submitted services for audits; Ensure the correct entry of financial data into the system and glossary; Monitor budget balances across channels and partners; Identify and resolve discrepancies in financial data; Collaborate with departments to address financial issues efficiently. Experience you’ll need to bring: 1",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
       "id": "him:https://himalayas.app/companies/globalization-partners/jobs/payroll-billing-specialist",
       "title": "Payroll & Billing Specialist",
       "company": "Globalization Partners",
@@ -299,6 +276,29 @@
         "MIS"
       ],
       "summary": "As part of our Finance Shared Services team, you’ll support the regional business by delivering high-quality, process-driven finance operations. This role is hands-on and varied, covering key transactional activities across invoicing, reconciliations, accounting support, reporting and MIS, while partnering with internal teams, clients, and suppliers to resolve queries and meet tight deadlines. It’s a great opportunity for a recent graduate or early-career finance professional to build a strong foundation in end-to-end shared services finance. This is a fully remote role, suited to someone with 1+ years’ experience in a similar finance operations role. Key Responsibilities Accounts Payable (AP) processing: check invoices, obtain acceptance, ",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/growe-talents/jobs/finance-specialist",
+      "title": "Finance Specialist",
+      "company": "Growe Talents",
+      "location": "Remote · India eligible",
+      "date": "2026-11-19",
+      "type": "Finance Analyst / FP&A",
+      "level": "0–2 years",
+      "experience": "Minimum 1 years mentioned",
+      "fresher_confirmed": false,
+      "fit_score": 72,
+      "url": "https://himalayas.app/companies/growe-talents/jobs/finance-specialist?utm_source=api",
+      "skills": [
+        "Accounting",
+        "Financial reporting",
+        "Audit"
+      ],
+      "summary": "Our client, Jugabet, is a brand and gaming platform accessible to players in Latin America. With a strong regional focus and localized strategies, Jugabet is quickly becoming a key player in the market. Perfect for those who aim to: Review payment requests to ensure alignment with approved budgets and plans; Process requests in 1C; Regularly reconcile actual expenses with approved budgets; Confirm the accuracy and transparency of submitted services for audits; Ensure the correct entry of financial data into the system and glossary; Monitor budget balances across channels and partners; Identify and resolve discrepancies in financial data; Collaborate with departments to address financial issues efficiently. Experience you’ll need to bring: 1",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -773,7 +773,7 @@
     "configured": 52,
     "successful": 46,
     "failed": 6,
-    "with_matches": 20
+    "with_matches": 19
   },
   "sources": [
     {
@@ -920,12 +920,12 @@
     {
       "source": "Himalayas/finance/p1",
       "status": "ok",
-      "matches": 1
+      "matches": 0
     },
     {
       "source": "Himalayas/finance/p2",
       "status": "ok",
-      "matches": 2
+      "matches": 3
     },
     {
       "source": "Himalayas/finance/p3",
@@ -945,7 +945,7 @@
     {
       "source": "Himalayas/accounting/p3",
       "status": "ok",
-      "matches": 4
+      "matches": 3
     },
     {
       "source": "Himalayas/accounts payable/p1",
