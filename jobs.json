@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T03:29:24.511039+00:00",
+  "updated_at": "2026-11-20T13:03:08.304186+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
   "total": 32,
   "jobs": [
@@ -550,31 +550,6 @@
       "match_group": "Possible matches"
     },
     {
-      "id": "him:https://himalayas.app/companies/shorelight-llc/jobs/student-accounts-specialist",
-      "title": "Student Accounts Specialist",
-      "company": "Shorelight, LLC",
-      "location": "Remote · India eligible",
-      "date": "2026-11-19",
-      "type": "Accounting / AP-AR",
-      "level": "Experience unconfirmed",
-      "experience": "Not stated; verify with employer",
-      "fresher_confirmed": false,
-      "fit_score": 54,
-      "url": "https://himalayas.app/companies/shorelight-llc/jobs/student-accounts-specialist?utm_source=api",
-      "skills": [
-        "Excel",
-        "Accounting",
-        "Reconciliation",
-        "Accounts payable",
-        "Audit"
-      ],
-      "summary": "A bout Us Shorelight is reinventing the international education experience for students worldwide. Based in Boston, the company works directly with top-ranked, nonprofit American universities to build innovative programs and high-touch, technology-driven services that help talented students thrive and become global citizens. Job Overview The Student Accounts Specialist supports the financial operations and integrity of student accounts across all partnerships, serving as the primary point of contact for student and campus account inquiries. The role combines hands-on account servicing with staff-level accounting responsibility — including month-end close, reconciliation, and receivables analysis — and identifies opportunities to strengthen ",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
       "id": "him:https://himalayas.app/companies/ziff-davis/jobs/accounts-payable-specialist-uk-shift",
       "title": "Accounts Payable Specialist - UK Shift",
       "company": "Ziff Davis",
@@ -596,6 +571,31 @@
         "ERP"
       ],
       "summary": "The Opportunity: We are looking for a detail-oriented and collaborative Accounts Payable Specialist to join our Finance team. In this role, you will manage end-to-end invoice processing, vendor onboarding and relations, payment disbursements, and month-end close support across multiple business units and subsidiaries. Key Responsibilities Invoice Processing & Allocation: Review, code, and enter invoices into Oracle Fusion accurately; allocate shared expenses across relevant business units, departments, and subsidiaries. Approval & Workflow Management: Partner across departments (Engineering, Sales, Operations, Technology, Legal) to route invoices, secure timely approvals, and resolve billing discrepancies. Payment Execution: Prepare and pro",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/shorelight-llc/jobs/student-accounts-specialist",
+      "title": "Student Accounts Specialist",
+      "company": "Shorelight, LLC",
+      "location": "Remote · India eligible",
+      "date": "2026-11-19",
+      "type": "Accounting / AP-AR",
+      "level": "Experience unconfirmed",
+      "experience": "Not stated; verify with employer",
+      "fresher_confirmed": false,
+      "fit_score": 54,
+      "url": "https://himalayas.app/companies/shorelight-llc/jobs/student-accounts-specialist?utm_source=api",
+      "skills": [
+        "Excel",
+        "Accounting",
+        "Reconciliation",
+        "Accounts payable",
+        "Audit"
+      ],
+      "summary": "A bout Us Shorelight is reinventing the international education experience for students worldwide. Based in Boston, the company works directly with top-ranked, nonprofit American universities to build innovative programs and high-touch, technology-driven services that help talented students thrive and become global citizens. Job Overview The Student Accounts Specialist supports the financial operations and integrity of student accounts across all partnerships, serving as the primary point of contact for student and campus account inquiries. The role combines hands-on account servicing with staff-level accounting responsibility — including month-end close, reconciliation, and receivables analysis — and identifies opportunities to strengthen ",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -925,12 +925,12 @@
     {
       "source": "Himalayas/finance/p2",
       "status": "ok",
-      "matches": 3
+      "matches": 2
     },
     {
       "source": "Himalayas/finance/p3",
       "status": "ok",
-      "matches": 1
+      "matches": 2
     },
     {
       "source": "Himalayas/accounting/p1",
@@ -945,7 +945,7 @@
     {
       "source": "Himalayas/accounting/p3",
       "status": "ok",
-      "matches": 3
+      "matches": 2
     },
     {
       "source": "Himalayas/accounts payable/p1",
