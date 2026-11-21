@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-21T11:16:37.711370+00:00",
+  "updated_at": "2026-11-21T18:05:48.080253+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 29,
+  "total": 30,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/adm-group/jobs/finance-administrator-entry-level-remote-mumbai",
@@ -694,13 +694,35 @@
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
       "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/altisource/jobs/analyst-accounts-payable",
+      "title": "Analyst, Accounts Payable",
+      "company": "Altisource",
+      "location": "Remote · India eligible",
+      "date": "2026-11-21",
+      "type": "Accounting / AP-AR",
+      "level": "Experience unconfirmed",
+      "experience": "Not stated; verify with employer",
+      "fresher_confirmed": false,
+      "fit_score": 54,
+      "url": "https://himalayas.app/companies/altisource/jobs/analyst-accounts-payable?utm_source=api",
+      "skills": [
+        "Accounts payable",
+        "Audit"
+      ],
+      "summary": "· Receiving and verifying invoices from vendors and suppliers. · Understand India vendor withholding Tax percentage and deductions. . Processing payments to vendors as per company policies. · Reconciling payable reports each month to confirm that all amounts paid were accurate · Solving payment or invoice discrepancies and documentation. · Experience on preparing monthly/annual schedules to Balance sheet. · Able to manage the Internal/External/Sox Audit. B. Com/MBA- Finance with 2 or more Years of Experience in Accounts Payable. WORKING AT ALTISOURCE ADVANTAGES Prosperity Competitive salary based on your experience and skills – we believe the top talent deserves the top rupee Good Health Comprehensive insurance plans ;- Medical insurance fo",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
     }
   ],
-  "sources_checked": 45,
+  "sources_checked": 46,
   "source_summary": {
     "configured": 52,
-    "successful": 45,
-    "failed": 7,
+    "successful": 46,
+    "failed": 6,
     "with_matches": 21
   },
   "sources": [
@@ -888,7 +910,7 @@
     {
       "source": "Himalayas/accounts payable/p3",
       "status": "ok",
-      "matches": 2
+      "matches": 3
     },
     {
       "source": "Himalayas/financial analyst/p1",
@@ -967,9 +989,8 @@
     },
     {
       "source": "Jobicy/audit",
-      "status": "failed",
-      "matches": 0,
-      "error": "HTTP Error 429: Too Many Requests"
+      "status": "ok",
+      "matches": 0
     }
   ],
   "source_errors": [
@@ -978,8 +999,7 @@
     "lever/airwallex: HTTP Error 404: Not Found",
     "ashby/retool: HTTP Error 404: Not Found",
     "ashby/remote: HTTP Error 404: Not Found",
-    "ashby/brex: HTTP Error 404: Not Found",
-    "Jobicy/audit: HTTP Error 429: Too Many Requests"
+    "ashby/brex: HTTP Error 404: Not Found"
   ],
   "disclaimer": "Coverage is partial. Remote eligibility and fresher requirements must be confirmed with the employer."
 }
