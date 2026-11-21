@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-21T18:05:48.080253+00:00",
+  "updated_at": "2026-11-21T23:25:57.897122+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 30,
+  "total": 34,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/adm-group/jobs/finance-administrator-entry-level-remote-mumbai",
@@ -20,6 +20,33 @@
         "Accounting"
       ],
       "summary": "We’re looking for a highly skilled, detail-oriented Administrator to join our dynamic team; in this role, you’ll play a key part in ensuring the compliance and accuracy of procurement activities, supporting order and invoice processes end-to-end, and maintaining effective communication with both internal and external stakeholders. You’ll thrive if you enjoy working in a fast-paced environment, take pride in getting the details right, and naturally look for ways to improve processes, with the core purpose of the role being to ensure robust procurement compliance by verifying documentation, resolving discrepancies, supporting invoice processing and order closure, and enabling smooth stakeholder communication through strong process management ",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Best matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/sprinto/jobs/finance-intern-remote",
+      "title": "Finance Intern - Remote",
+      "company": "Sprinto",
+      "location": "Remote · India eligible",
+      "date": "2026-11-21",
+      "type": "Internship / Trainee",
+      "level": "Fresher / Intern",
+      "experience": "Not stated; verify with employer",
+      "fresher_confirmed": true,
+      "fit_score": 92,
+      "url": "https://himalayas.app/companies/sprinto/jobs/finance-intern-remote?utm_source=api",
+      "skills": [
+        "Accounting",
+        "Forecasting",
+        "Budgeting",
+        "Accounts payable",
+        "Accounts receivable",
+        "Audit",
+        "QuickBooks"
+      ],
+      "summary": "Sprinto is an Autonomous Trust Platform that centralizes trust requirements across security frameworks, vendors, and customers. Sprinto autonomously executes tasks needed to maintain trust across compliance, audits, risk management, vendor risk, privacy, and AI governance, enabling organizations to maintain a strong, reliable trust posture without draining operational bandwidth and resources on repetitive tasks. Backed by top-tier investors such as Accel, Elevation, and Blume Ventures, we’ve raised $31.8M in funding to fuel our mission. Trusted by over 4,000 organizations across 75 countries , Sprinto helps organizations stay audit-ready, manage real-time risks, and scale fearlessly. With 300+ native integrations and AI-driven automation, S",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -371,6 +398,33 @@
       "match_group": "Possible matches"
     },
     {
+      "id": "him:https://himalayas.app/companies/enterprise-management-solutions-inc/jobs/accounts-payables-specialist",
+      "title": "Accounts Payables Specialist",
+      "company": "Enterprise Management Solutions, Inc.",
+      "location": "Remote · India eligible",
+      "date": "2026-11-21",
+      "type": "Accounting / AP-AR",
+      "level": "0–2 years",
+      "experience": "Minimum 2 years mentioned",
+      "fresher_confirmed": false,
+      "fit_score": 72,
+      "url": "https://himalayas.app/companies/enterprise-management-solutions-inc/jobs/accounts-payables-specialist?utm_source=api",
+      "skills": [
+        "Excel",
+        "Accounting",
+        "Reconciliation",
+        "Accounts payable",
+        "Audit",
+        "Payroll",
+        "QuickBooks"
+      ],
+      "summary": "This an India-based position; DISCLOSURES The specific statements shown in each section of this job description are not intended to be all-inclusive. They represent typical elements and criteria considered necessary to perform the job successfully. The job’s responsibilities/tasks may be modified and/or expanded over time. Company will inform the personnel member when changes in the respective job description are made. ABOUT ENTERPRISE MANAGEMENT SOLUTIONS, LLC Enterprise Management is a full-spectrum consulting and management firm specializing in back-office operations, financial infrastructure, and executive oversight for health and human services organizations. We provide strategic support to affiliated companies through contractual part",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
       "id": "gh:groww:5000706101",
       "title": "Finance Content Creator",
       "company": "groww",
@@ -716,13 +770,63 @@
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
       "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/precision-for-medicine/jobs/financial-analyst",
+      "title": "Financial Analyst",
+      "company": "Precision for Medicine",
+      "location": "Remote · India eligible",
+      "date": "2026-11-21",
+      "type": "Finance Analyst / FP&A",
+      "level": "Experience unconfirmed",
+      "experience": "Not stated; verify with employer",
+      "fresher_confirmed": false,
+      "fit_score": 54,
+      "url": "https://himalayas.app/companies/precision-for-medicine/jobs/financial-analyst?utm_source=api",
+      "skills": [
+        "Excel",
+        "Accounting",
+        "Financial reporting",
+        "Accounts payable",
+        "Accounts receivable"
+      ],
+      "summary": "Global trials for oncology, rare diseases and other complex diseases face unique challenges. Precision partners with our clients to meet them head-on through our extensive footprint across the globe. We succeed by pairing personalized clinical services with translational medicine excellence, making us the first fully integrated clinical research organization created expressly to help advance the promises of precision medicine. Modern biomarker-informed therapeutic and diagnostic development programs involve a complex operational and data ecosystem. Multiple data streams flow from sites, central labs, and specialty labs. At Precision, we understand that data isn't enough. Clients need information, or data with context, to make decisions that",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/precision-medicine-group/jobs/financial-analyst",
+      "title": "Financial Analyst",
+      "company": "Precision Medicine Group",
+      "location": "Remote · India eligible",
+      "date": "2026-11-21",
+      "type": "Finance Analyst / FP&A",
+      "level": "Experience unconfirmed",
+      "experience": "Not stated; verify with employer",
+      "fresher_confirmed": false,
+      "fit_score": 54,
+      "url": "https://himalayas.app/companies/precision-medicine-group/jobs/financial-analyst?utm_source=api",
+      "skills": [
+        "Excel",
+        "Accounting",
+        "Financial reporting",
+        "Accounts payable",
+        "Accounts receivable"
+      ],
+      "summary": "Global trials for oncology, rare diseases and other complex diseases face unique challenges. Precision partners with our clients to meet them head-on through our extensive footprint across the globe. We succeed by pairing personalized clinical services with translational medicine excellence, making us the first fully integrated clinical research organization created expressly to help advance the promises of precision medicine. Modern biomarker-informed therapeutic and diagnostic development programs involve a complex operational and data ecosystem. Multiple data streams flow from sites, central labs, and specialty labs. At Precision, we understand that data isn't enough. Clients need information, or data with context, to make decisions that",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
     }
   ],
-  "sources_checked": 46,
+  "sources_checked": 44,
   "source_summary": {
     "configured": 52,
-    "successful": 46,
-    "failed": 6,
+    "successful": 44,
+    "failed": 8,
     "with_matches": 21
   },
   "sources": [
@@ -885,7 +989,7 @@
     {
       "source": "Himalayas/accounting/p1",
       "status": "ok",
-      "matches": 5
+      "matches": 6
     },
     {
       "source": "Himalayas/accounting/p2",
@@ -900,7 +1004,7 @@
     {
       "source": "Himalayas/accounts payable/p1",
       "status": "ok",
-      "matches": 9
+      "matches": 10
     },
     {
       "source": "Himalayas/accounts payable/p2",
@@ -910,7 +1014,7 @@
     {
       "source": "Himalayas/accounts payable/p3",
       "status": "ok",
-      "matches": 3
+      "matches": 6
     },
     {
       "source": "Himalayas/financial analyst/p1",
@@ -920,12 +1024,12 @@
     {
       "source": "Himalayas/financial analyst/p2",
       "status": "ok",
-      "matches": 3
+      "matches": 2
     },
     {
       "source": "Himalayas/financial analyst/p3",
       "status": "ok",
-      "matches": 1
+      "matches": 2
     },
     {
       "source": "Himalayas/audit/p1",
@@ -979,8 +1083,9 @@
     },
     {
       "source": "Jobicy/accounting",
-      "status": "ok",
-      "matches": 0
+      "status": "failed",
+      "matches": 0,
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "source": "Jobicy/payroll",
@@ -989,8 +1094,9 @@
     },
     {
       "source": "Jobicy/audit",
-      "status": "ok",
-      "matches": 0
+      "status": "failed",
+      "matches": 0,
+      "error": "HTTP Error 429: Too Many Requests"
     }
   ],
   "source_errors": [
@@ -999,7 +1105,9 @@
     "lever/airwallex: HTTP Error 404: Not Found",
     "ashby/retool: HTTP Error 404: Not Found",
     "ashby/remote: HTTP Error 404: Not Found",
-    "ashby/brex: HTTP Error 404: Not Found"
+    "ashby/brex: HTTP Error 404: Not Found",
+    "Jobicy/accounting: HTTP Error 429: Too Many Requests",
+    "Jobicy/audit: HTTP Error 429: Too Many Requests"
   ],
   "disclaimer": "Coverage is partial. Remote eligibility and fresher requirements must be confirmed with the employer."
 }
