@@ -1,35 +1,8 @@
 {
-  "updated_at": "2026-11-20T21:13:30.975007+00:00",
+  "updated_at": "2026-11-21T02:28:12.766684+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 33,
+  "total": 30,
   "jobs": [
-    {
-      "id": "him:https://himalayas.app/companies/sprinto/jobs/finance-intern-remote",
-      "title": "Finance Intern - Remote",
-      "company": "Sprinto",
-      "location": "Remote · India eligible",
-      "date": "2026-11-19",
-      "type": "Internship / Trainee",
-      "level": "Fresher / Intern",
-      "experience": "Not stated; verify with employer",
-      "fresher_confirmed": true,
-      "fit_score": 92,
-      "url": "https://himalayas.app/companies/sprinto/jobs/finance-intern-remote?utm_source=api",
-      "skills": [
-        "Accounting",
-        "Forecasting",
-        "Budgeting",
-        "Accounts payable",
-        "Accounts receivable",
-        "Audit",
-        "QuickBooks"
-      ],
-      "summary": "Sprinto is an Autonomous Trust Platform that centralizes trust requirements across security frameworks, vendors, and customers. Sprinto autonomously executes tasks needed to maintain trust across compliance, audits, risk management, vendor risk, privacy, and AI governance, enabling organizations to maintain a strong, reliable trust posture without draining operational bandwidth and resources on repetitive tasks. Backed by top-tier investors such as Accel, Elevation, and Blume Ventures, we’ve raised $31.8M in funding to fuel our mission. Trusted by over 4,000 organizations across 75 countries , Sprinto helps organizations stay audit-ready, manage real-time risks, and scale fearlessly. With 300+ native integrations and AI-driven automation, S",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Best matches"
-    },
     {
       "id": "him:https://himalayas.app/companies/adm-group/jobs/finance-administrator-entry-level-remote-mumbai",
       "title": "Finance Administrator - Entry level (Remote - Mumbai)",
@@ -626,53 +599,6 @@
       "match_group": "Possible matches"
     },
     {
-      "id": "him:https://himalayas.app/companies/altisource/jobs/analyst-accounts-payable",
-      "title": "Analyst, Accounts Payable",
-      "company": "Altisource",
-      "location": "Remote · India eligible",
-      "date": "2026-11-19",
-      "type": "Accounting / AP-AR",
-      "level": "Experience unconfirmed",
-      "experience": "Not stated; verify with employer",
-      "fresher_confirmed": false,
-      "fit_score": 54,
-      "url": "https://himalayas.app/companies/altisource/jobs/analyst-accounts-payable?utm_source=api",
-      "skills": [
-        "Accounts payable",
-        "Audit"
-      ],
-      "summary": "· Receiving and verifying invoices from vendors and suppliers. · Understand India vendor withholding Tax percentage and deductions. . Processing payments to vendors as per company policies. · Reconciling payable reports each month to confirm that all amounts paid were accurate · Solving payment or invoice discrepancies and documentation. · Experience on preparing monthly/annual schedules to Balance sheet. · Able to manage the Internal/External/Sox Audit. B. Com/MBA- Finance with 2 or more Years of Experience in Accounts Payable. WORKING AT ALTISOURCE ADVANTAGES Prosperity Competitive salary based on your experience and skills – we believe the top talent deserves the top rupee Good Health Comprehensive insurance plans ;- Medical insurance fo",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
-      "id": "him:https://himalayas.app/companies/precision-for-medicine/jobs/financial-analyst",
-      "title": "Financial Analyst",
-      "company": "Precision for Medicine",
-      "location": "Remote · India eligible",
-      "date": "2026-11-19",
-      "type": "Finance Analyst / FP&A",
-      "level": "Experience unconfirmed",
-      "experience": "Not stated; verify with employer",
-      "fresher_confirmed": false,
-      "fit_score": 54,
-      "url": "https://himalayas.app/companies/precision-for-medicine/jobs/financial-analyst?utm_source=api",
-      "skills": [
-        "Excel",
-        "Accounting",
-        "Financial reporting",
-        "Accounts payable",
-        "Accounts receivable"
-      ],
-      "summary": "Global trials for oncology, rare diseases and other complex diseases face unique challenges. Precision partners with our clients to meet them head-on through our extensive footprint across the globe. We succeed by pairing personalized clinical services with translational medicine excellence, making us the first fully integrated clinical research organization created expressly to help advance the promises of precision medicine. Modern biomarker-informed therapeutic and diagnostic development programs involve a complex operational and data ecosystem. Multiple data streams flow from sites, central labs, and specialty labs. At Precision, we understand that data isn't enough. Clients need information, or data with context, to make decisions that",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
       "id": "him:https://himalayas.app/companies/precision-medicine-group/jobs/financial-analyst",
       "title": "Financial Analyst",
       "company": "Precision Medicine Group",
@@ -795,11 +721,11 @@
       "match_group": "Possible matches"
     }
   ],
-  "sources_checked": 43,
+  "sources_checked": 45,
   "source_summary": {
     "configured": 52,
-    "successful": 43,
-    "failed": 9,
+    "successful": 45,
+    "failed": 7,
     "with_matches": 21
   },
   "sources": [
@@ -987,7 +913,7 @@
     {
       "source": "Himalayas/accounts payable/p3",
       "status": "ok",
-      "matches": 6
+      "matches": 3
     },
     {
       "source": "Himalayas/financial analyst/p1",
@@ -1051,26 +977,24 @@
     },
     {
       "source": "Jobicy/finance",
-      "status": "failed",
-      "matches": 0,
-      "error": "The read operation timed out"
-    },
-    {
-      "source": "Jobicy/accounting",
       "status": "ok",
       "matches": 0
     },
     {
-      "source": "Jobicy/payroll",
+      "source": "Jobicy/accounting",
       "status": "failed",
       "matches": 0,
-      "error": "The read operation timed out"
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "source": "Jobicy/payroll",
+      "status": "ok",
+      "matches": 0
     },
     {
       "source": "Jobicy/audit",
-      "status": "failed",
-      "matches": 0,
-      "error": "The read operation timed out"
+      "status": "ok",
+      "matches": 0
     }
   ],
   "source_errors": [
@@ -1080,9 +1004,7 @@
     "ashby/retool: HTTP Error 404: Not Found",
     "ashby/remote: HTTP Error 404: Not Found",
     "ashby/brex: HTTP Error 404: Not Found",
-    "Jobicy/finance: The read operation timed out",
-    "Jobicy/payroll: The read operation timed out",
-    "Jobicy/audit: The read operation timed out"
+    "Jobicy/accounting: HTTP Error 429: Too Many Requests"
   ],
   "disclaimer": "Coverage is partial. Remote eligibility and fresher requirements must be confirmed with the employer."
 }
