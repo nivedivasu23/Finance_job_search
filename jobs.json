@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-21T02:28:12.766684+00:00",
+  "updated_at": "2026-11-21T11:16:37.711370+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 30,
+  "total": 29,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/adm-group/jobs/finance-administrator-entry-level-remote-mumbai",
@@ -599,31 +599,6 @@
       "match_group": "Possible matches"
     },
     {
-      "id": "him:https://himalayas.app/companies/precision-medicine-group/jobs/financial-analyst",
-      "title": "Financial Analyst",
-      "company": "Precision Medicine Group",
-      "location": "Remote · India eligible",
-      "date": "2026-11-19",
-      "type": "Finance Analyst / FP&A",
-      "level": "Experience unconfirmed",
-      "experience": "Not stated; verify with employer",
-      "fresher_confirmed": false,
-      "fit_score": 54,
-      "url": "https://himalayas.app/companies/precision-medicine-group/jobs/financial-analyst?utm_source=api",
-      "skills": [
-        "Excel",
-        "Accounting",
-        "Financial reporting",
-        "Accounts payable",
-        "Accounts receivable"
-      ],
-      "summary": "Global trials for oncology, rare diseases and other complex diseases face unique challenges. Precision partners with our clients to meet them head-on through our extensive footprint across the globe. We succeed by pairing personalized clinical services with translational medicine excellence, making us the first fully integrated clinical research organization created expressly to help advance the promises of precision medicine. Modern biomarker-informed therapeutic and diagnostic development programs involve a complex operational and data ecosystem. Multiple data streams flow from sites, central labs, and specialty labs. At Precision, we understand that data isn't enough. Clients need information, or data with context, to make decisions that",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
       "id": "him:https://himalayas.app/companies/contour-education/jobs/financial-analyst-india",
       "title": "Financial Analyst, India",
       "company": "Contour Education",
@@ -888,17 +863,17 @@
     {
       "source": "Himalayas/accounting/p1",
       "status": "ok",
-      "matches": 7
+      "matches": 5
     },
     {
       "source": "Himalayas/accounting/p2",
       "status": "ok",
-      "matches": 3
+      "matches": 4
     },
     {
       "source": "Himalayas/accounting/p3",
       "status": "ok",
-      "matches": 1
+      "matches": 2
     },
     {
       "source": "Himalayas/accounts payable/p1",
@@ -913,7 +888,7 @@
     {
       "source": "Himalayas/accounts payable/p3",
       "status": "ok",
-      "matches": 3
+      "matches": 2
     },
     {
       "source": "Himalayas/financial analyst/p1",
@@ -958,12 +933,12 @@
     {
       "source": "Himalayas/tax/p1",
       "status": "ok",
-      "matches": 3
+      "matches": 2
     },
     {
       "source": "Himalayas/tax/p2",
       "status": "ok",
-      "matches": 1
+      "matches": 2
     },
     {
       "source": "Himalayas/tax/p3",
@@ -982,9 +957,8 @@
     },
     {
       "source": "Jobicy/accounting",
-      "status": "failed",
-      "matches": 0,
-      "error": "HTTP Error 429: Too Many Requests"
+      "status": "ok",
+      "matches": 0
     },
     {
       "source": "Jobicy/payroll",
@@ -993,8 +967,9 @@
     },
     {
       "source": "Jobicy/audit",
-      "status": "ok",
-      "matches": 0
+      "status": "failed",
+      "matches": 0,
+      "error": "HTTP Error 429: Too Many Requests"
     }
   ],
   "source_errors": [
@@ -1004,7 +979,7 @@
     "ashby/retool: HTTP Error 404: Not Found",
     "ashby/remote: HTTP Error 404: Not Found",
     "ashby/brex: HTTP Error 404: Not Found",
-    "Jobicy/accounting: HTTP Error 429: Too Many Requests"
+    "Jobicy/audit: HTTP Error 429: Too Many Requests"
   ],
   "disclaimer": "Coverage is partial. Remote eligibility and fresher requirements must be confirmed with the employer."
 }
