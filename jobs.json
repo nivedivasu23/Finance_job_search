@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-22T15:26:15.874208+00:00",
+  "updated_at": "2026-11-22T21:52:52.900952+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 33,
+  "total": 34,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/adm-group/jobs/finance-administrator-entry-level-remote-mumbai",
@@ -363,6 +363,31 @@
         "QuickBooks"
       ],
       "summary": "This an India-based position; DISCLOSURES The specific statements shown in each section of this job description are not intended to be all-inclusive. They represent typical elements and criteria considered necessary to perform the job successfully. The job’s responsibilities/tasks may be modified and/or expanded over time. Company will inform the personnel member when changes in the respective job description are made. ABOUT ENTERPRISE MANAGEMENT SOLUTIONS, LLC Enterprise Management is a full-spectrum consulting and management firm specializing in back-office operations, financial infrastructure, and executive oversight for health and human services organizations. We provide strategic support to affiliated companies through contractual part",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
+      "id": "him:https://himalayas.app/companies/adm-group/jobs/accounts-and-finance-operations-executive-remote-ahmedabad-4725437999",
+      "title": "Accounts and Finance Operations Executive (Remote - Ahmedabad)",
+      "company": "adm Group",
+      "location": "Remote · India eligible",
+      "date": "2026-11-22",
+      "type": "Finance Analyst / FP&A",
+      "level": "0–2 years",
+      "experience": "Minimum 1 years mentioned",
+      "fresher_confirmed": false,
+      "fit_score": 72,
+      "url": "https://himalayas.app/companies/adm-group/jobs/accounts-and-finance-operations-executive-remote-ahmedabad-4725437999?utm_source=api",
+      "skills": [
+        "Excel",
+        "Accounting",
+        "Accounts payable",
+        "Accounts receivable",
+        "MIS"
+      ],
+      "summary": "As part of our Finance Shared Services team, you’ll support the regional business by delivering high-quality, process-driven finance operations. This role is hands-on and varied, covering key transactional activities across invoicing, reconciliations, accounting support, reporting and MIS, while partnering with internal teams, clients, and suppliers to resolve queries and meet tight deadlines. It’s a great opportunity for a recent graduate or early-career finance professional to build a strong foundation in end-to-end shared services finance. This is a fully remote role, suited to someone with 1+ years’ experience in a similar finance operations role. Key Responsibilities Accounts Payable (AP) processing: check invoices, obtain acceptance, ",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -797,11 +822,11 @@
       "match_group": "Possible matches"
     }
   ],
-  "sources_checked": 46,
+  "sources_checked": 44,
   "source_summary": {
     "configured": 52,
-    "successful": 46,
-    "failed": 6,
+    "successful": 44,
+    "failed": 8,
     "with_matches": 21
   },
   "sources": [
@@ -989,7 +1014,7 @@
     {
       "source": "Himalayas/accounts payable/p3",
       "status": "ok",
-      "matches": 5
+      "matches": 6
     },
     {
       "source": "Himalayas/financial analyst/p1",
@@ -1058,8 +1083,9 @@
     },
     {
       "source": "Jobicy/accounting",
-      "status": "ok",
-      "matches": 0
+      "status": "failed",
+      "matches": 0,
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "source": "Jobicy/payroll",
@@ -1068,8 +1094,9 @@
     },
     {
       "source": "Jobicy/audit",
-      "status": "ok",
-      "matches": 0
+      "status": "failed",
+      "matches": 0,
+      "error": "HTTP Error 429: Too Many Requests"
     }
   ],
   "source_errors": [
@@ -1078,7 +1105,9 @@
     "lever/airwallex: HTTP Error 404: Not Found",
     "ashby/retool: HTTP Error 404: Not Found",
     "ashby/remote: HTTP Error 404: Not Found",
-    "ashby/brex: HTTP Error 404: Not Found"
+    "ashby/brex: HTTP Error 404: Not Found",
+    "Jobicy/accounting: HTTP Error 429: Too Many Requests",
+    "Jobicy/audit: HTTP Error 429: Too Many Requests"
   ],
   "disclaimer": "Coverage is partial. Remote eligibility and fresher requirements must be confirmed with the employer."
 }
