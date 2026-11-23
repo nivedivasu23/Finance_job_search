@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T02:52:27.543750+00:00",
+  "updated_at": "2026-11-23T13:01:50.637644+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
   "total": 34,
   "jobs": [
@@ -822,11 +822,11 @@
       "match_group": "Possible matches"
     }
   ],
-  "sources_checked": 44,
+  "sources_checked": 46,
   "source_summary": {
     "configured": 52,
-    "successful": 44,
-    "failed": 8,
+    "successful": 46,
+    "failed": 6,
     "with_matches": 21
   },
   "sources": [
@@ -1083,9 +1083,8 @@
     },
     {
       "source": "Jobicy/accounting",
-      "status": "failed",
-      "matches": 0,
-      "error": "HTTP Error 429: Too Many Requests"
+      "status": "ok",
+      "matches": 0
     },
     {
       "source": "Jobicy/payroll",
@@ -1094,9 +1093,8 @@
     },
     {
       "source": "Jobicy/audit",
-      "status": "failed",
-      "matches": 0,
-      "error": "HTTP Error 429: Too Many Requests"
+      "status": "ok",
+      "matches": 0
     }
   ],
   "source_errors": [
@@ -1105,9 +1103,7 @@
     "lever/airwallex: HTTP Error 404: Not Found",
     "ashby/retool: HTTP Error 404: Not Found",
     "ashby/remote: HTTP Error 404: Not Found",
-    "ashby/brex: HTTP Error 404: Not Found",
-    "Jobicy/accounting: HTTP Error 429: Too Many Requests",
-    "Jobicy/audit: HTTP Error 429: Too Many Requests"
+    "ashby/brex: HTTP Error 404: Not Found"
   ],
   "disclaimer": "Coverage is partial. Remote eligibility and fresher requirements must be confirmed with the employer."
 }
