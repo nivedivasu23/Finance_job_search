@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-24T21:20:08.549158+00:00",
+  "updated_at": "2026-11-25T04:55:51.583427+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 34,
+  "total": 33,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/adm-group/jobs/finance-administrator-entry-level-remote-mumbai",
@@ -53,6 +53,33 @@
       "match_group": "Best matches"
     },
     {
+      "id": "him:https://himalayas.app/companies/sage/jobs/accounts-payable-executive-finance",
+      "title": "Accounts Payable Executive – Finance",
+      "company": "Sage",
+      "location": "Remote · India eligible",
+      "date": "2026-11-19",
+      "type": "Finance Analyst / FP&A",
+      "level": "0–2 years",
+      "experience": "Minimum 1 years mentioned",
+      "fresher_confirmed": false,
+      "fit_score": 72,
+      "url": "https://himalayas.app/companies/sage/jobs/accounts-payable-executive-finance?utm_source=api",
+      "skills": [
+        "Excel",
+        "Accounting",
+        "Reconciliation",
+        "Financial reporting",
+        "Accounts payable",
+        "IFRS",
+        "ERP"
+      ],
+      "summary": "The Accounts Payable Executive – Finance role is part of Sage ’s Global Services Finance Accounts Payable Team . The team is responsible for supporting the wider Finance function by ensuring the accurate processing of supplier invoices, timely payments, and effective management of accounts payable activities. The role plays a critical part in maintaining strong supplier relationships, ensuring compliance with internal controls, and supporting the organization’s financial operations through efficient and accurate transaction processing. Key Responsibilities Execute and support established Accounts Payable processes, controls, and procedures to ensure compliance with company policies and financial standards. Accurately process supplier invoic",
+      "source": "Himalayas",
+      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
+      "work_mode": "Remote · India eligible",
+      "match_group": "Possible matches"
+    },
+    {
       "id": "him:https://himalayas.app/companies/entrepreneur-cooperative/jobs/accountant",
       "title": "Accountant",
       "company": "Entrepreneur Cooperative",
@@ -95,33 +122,6 @@
         "Audit"
       ],
       "summary": "Engagement Manager – CPA SOC 2, Remote, India At Prescient Security , we are on a mission to simplify security and compliance. Our core values are: • Bring Order to Chaos Be Accountable & See it Through • 1000% With You • Support & Collaborate • Think Outside the Box Summary: Do you have a passion for cybersecurity and compliance, along with a sharp eye for detail? At Prescient Security , we are looking for CPAs who are driven to help organizations strengthen their control environments and successfully navigate SOC 2 compliance. Join our team and contribute to delivering high-quality assurance services to growing companies. Essential Duties and Responsibilities: Review SOC 2/ SOC 1 control testing results for completeness, accuracy and reli",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
-      "id": "him:https://himalayas.app/companies/sage/jobs/accounts-payable-executive-finance",
-      "title": "Accounts Payable Executive – Finance",
-      "company": "Sage",
-      "location": "Remote · India eligible",
-      "date": "2026-11-19",
-      "type": "Finance Analyst / FP&A",
-      "level": "0–2 years",
-      "experience": "Minimum 1 years mentioned",
-      "fresher_confirmed": false,
-      "fit_score": 72,
-      "url": "https://himalayas.app/companies/sage/jobs/accounts-payable-executive-finance?utm_source=api",
-      "skills": [
-        "Excel",
-        "Accounting",
-        "Reconciliation",
-        "Financial reporting",
-        "Accounts payable",
-        "IFRS",
-        "ERP"
-      ],
-      "summary": "The Accounts Payable Executive – Finance role is part of Sage ’s Global Services Finance Accounts Payable Team . The team is responsible for supporting the wider Finance function by ensuring the accurate processing of supplier invoices, timely payments, and effective management of accounts payable activities. The role plays a critical part in maintaining strong supplier relationships, ensuring compliance with internal controls, and supporting the organization’s financial operations through efficient and accurate transaction processing. Key Responsibilities Execute and support established Accounts Payable processes, controls, and procedures to ensure compliance with company policies and financial standards. Accurately process supplier invoic",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -310,33 +310,6 @@
         "Payroll"
       ],
       "summary": "We have an urgent hiring requirement for Virtual Assistant (Admin & Client Coordination) (US Accounting Domain) Job Title: Virtual Assistant (Admin & Client Coordination) Company: Safebooks Global Location: Ahmedabad Type: Full-Time (5:30pm to 2:30am IST ) for US About Safebooks Global Safebooks Global is a US-focused accounting outsourcing firm that supports CPAs, EAs, and accounting firms with bookkeeping, payroll, and tax support services. We help clients streamline their operations by providing reliable offshore support. Role Summary We are seeking a detail-oriented and proactive Virtual Assistant to handle day-to-day admin tasks and assist in client communication. This role will be key in supporting our US-based clients by ensuring smo",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
-      "id": "him:https://himalayas.app/companies/enterprise-management-solutions-inc/jobs/accounts-payables-specialist",
-      "title": "Accounts Payables Specialist",
-      "company": "Enterprise Management Solutions, Inc.",
-      "location": "Remote · India eligible",
-      "date": "2026-11-21",
-      "type": "Accounting / AP-AR",
-      "level": "0–2 years",
-      "experience": "Minimum 2 years mentioned",
-      "fresher_confirmed": false,
-      "fit_score": 72,
-      "url": "https://himalayas.app/companies/enterprise-management-solutions-inc/jobs/accounts-payables-specialist?utm_source=api",
-      "skills": [
-        "Excel",
-        "Accounting",
-        "Reconciliation",
-        "Accounts payable",
-        "Audit",
-        "Payroll",
-        "QuickBooks"
-      ],
-      "summary": "This an India-based position; DISCLOSURES The specific statements shown in each section of this job description are not intended to be all-inclusive. They represent typical elements and criteria considered necessary to perform the job successfully. The job’s responsibilities/tasks may be modified and/or expanded over time. Company will inform the personnel member when changes in the respective job description are made. ABOUT ENTERPRISE MANAGEMENT SOLUTIONS, LLC Enterprise Management is a full-spectrum consulting and management firm specializing in back-office operations, financial infrastructure, and executive oversight for health and human services organizations. We provide strategic support to affiliated companies through contractual part",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -979,7 +952,7 @@
     {
       "source": "Himalayas/finance/p2",
       "status": "ok",
-      "matches": 1
+      "matches": 2
     },
     {
       "source": "Himalayas/finance/p3",
@@ -989,7 +962,7 @@
     {
       "source": "Himalayas/accounting/p1",
       "status": "ok",
-      "matches": 6
+      "matches": 5
     },
     {
       "source": "Himalayas/accounting/p2",
@@ -1004,7 +977,7 @@
     {
       "source": "Himalayas/accounts payable/p1",
       "status": "ok",
-      "matches": 10
+      "matches": 9
     },
     {
       "source": "Himalayas/accounts payable/p2",
