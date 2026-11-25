@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-25T04:55:51.583427+00:00",
+  "updated_at": "2026-11-25T15:43:13.824339+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
-  "total": 33,
+  "total": 31,
   "jobs": [
     {
       "id": "him:https://himalayas.app/companies/adm-group/jobs/finance-administrator-entry-level-remote-mumbai",
@@ -151,32 +151,6 @@
       "match_group": "Possible matches"
     },
     {
-      "id": "him:https://himalayas.app/companies/credible-cfo/jobs/accounting-associate",
-      "title": "Accounting Associate",
-      "company": "Credible CFO",
-      "location": "Remote · India eligible",
-      "date": "2026-11-19",
-      "type": "Accounting / AP-AR",
-      "level": "0–2 years",
-      "experience": "Minimum 1 years mentioned",
-      "fresher_confirmed": false,
-      "fit_score": 72,
-      "url": "https://himalayas.app/companies/credible-cfo/jobs/accounting-associate?utm_source=api",
-      "skills": [
-        "Tally",
-        "Accounting",
-        "Financial reporting",
-        "Forecasting",
-        "Accounts payable",
-        "QuickBooks"
-      ],
-      "summary": "This is a remote position. Title: Accounting Associate Location: India (Australia Shift) Company: Credible CFO (www.crediblecfo.com) Salary: ₹20,000 - ₹25,000 per month Shift: Australia Shift (Aligned with Australian business hours) About Us: Credible CFO is a leading financial services provider committed to delivering top-tier accounting and financial solutions globally. We are expanding our team and seeking a dedicated Accounting Associate to join us. Responsibilities: - Prepare, review, and maintain financial records, reports, and statements. - Assist in budget preparation and financial forecasting. - Reconcile bank statements and balance sheets. - Manage accounts payable and receivable for timely payments and collections. - Assist in mo",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
       "id": "him:https://himalayas.app/companies/shorelight-llc/jobs/finance-systems-administrator",
       "title": "Finance Systems Administrator",
       "company": "Shorelight, LLC",
@@ -246,27 +220,6 @@
         "Payroll"
       ],
       "summary": "This is a remote position. We are seeking a detail-oriented and proactive Accountant to manage our financial operations, ensure compliance with statutory requirements, and support the business in making data-driven financial decisions. This role will involve end-to-end accounting responsibilities with a focus on Zoho Books, taxation, payroll, and reconciliation, tailored to the needs of a manufacturing environment. Key Responsibilities Zoho Books Management – Maintain and update all financial records in Zoho Books, ensuring accuracy and timely reporting. Expense Management & Bookkeeping – Track, record, and classify expenses with complete supporting documentation. Payroll Management & Processing – Manage monthly payroll, including statutory",
-      "source": "Himalayas",
-      "source_note": "Source listing; verify eligibility and whether vacancy remains open",
-      "work_mode": "Remote · India eligible",
-      "match_group": "Possible matches"
-    },
-    {
-      "id": "him:https://himalayas.app/companies/avalara/jobs/indirect-tax-researcher",
-      "title": "Indirect Tax Researcher",
-      "company": "Avalara",
-      "location": "Remote · India eligible",
-      "date": "2026-11-19",
-      "type": "Audit / Tax",
-      "level": "0–2 years",
-      "experience": "Minimum 2 years mentioned",
-      "fresher_confirmed": false,
-      "fit_score": 72,
-      "url": "https://himalayas.app/companies/avalara/jobs/indirect-tax-researcher?utm_source=api",
-      "skills": [
-        "Accounting"
-      ],
-      "summary": "What You'll Do We are looking for a Researcher to join the Property Tax Content team, focusing on researching and maintaining property tax jurisdiction, assessor, collector, and depreciation content, and supporting the team's shift toward AI-enabled compliance research. This role involves developing foundational property tax research expertise, strong attention to detail, and contributing to the accuracy and reliability of the content that powers the team's AI-enabled workflows. What Your Responsibilities Will Be Research, monitor, translate, and interpret assessor and collector notices, depreciation schedule updates, and jurisdiction rule changes; evaluate content accuracy and make sound decisions on property tax content updates and action",
       "source": "Himalayas",
       "source_note": "Source listing; verify eligibility and whether vacancy remains open",
       "work_mode": "Remote · India eligible",
@@ -982,7 +935,7 @@
     {
       "source": "Himalayas/accounts payable/p2",
       "status": "ok",
-      "matches": 5
+      "matches": 4
     },
     {
       "source": "Himalayas/accounts payable/p3",
@@ -1012,7 +965,7 @@
     {
       "source": "Himalayas/audit/p2",
       "status": "ok",
-      "matches": 2
+      "matches": 1
     },
     {
       "source": "Himalayas/audit/p3",
@@ -1022,7 +975,7 @@
     {
       "source": "Himalayas/bookkeeper/p1",
       "status": "ok",
-      "matches": 8
+      "matches": 7
     },
     {
       "source": "Himalayas/bookkeeper/p2",
@@ -1032,7 +985,7 @@
     {
       "source": "Himalayas/tax/p1",
       "status": "ok",
-      "matches": 3
+      "matches": 2
     },
     {
       "source": "Himalayas/tax/p2",
