@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T00:29:23.692835+00:00",
+  "updated_at": "2026-11-26T09:38:25.541750+00:00",
   "source": "Public employer feeds, Himalayas, Remotive and Jobicy",
   "total": 28,
   "jobs": [
@@ -844,12 +844,12 @@
     {
       "source": "Himalayas/accounting/p1",
       "status": "ok",
-      "matches": 5
+      "matches": 4
     },
     {
       "source": "Himalayas/accounting/p2",
       "status": "ok",
-      "matches": 4
+      "matches": 5
     },
     {
       "source": "Himalayas/accounting/p3",
